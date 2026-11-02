@@ -5,7 +5,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-cli-side-conversations-ephemeral-forks-session-branching-patterns"
 tags: ["codex-cli", "side-conversations", "session-branching", "fork", "ephemeral-fork", "tui", "workflow-patterns", "slash-commands", "thread-management"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-11-02T01:03:22Z
+last_modified_at: 2026-11-02T03:11:03Z
 ---
 # Codex CLI Side Conversations: Ephemeral Forks, Session Branching, and the /side vs /fork Decision Tree
 

@@ -1,7 +1,7 @@
 ---
 title: "The 2026 Agentic Coding Landscape: Antigravity Is Live, Kiro Survives a Security Crisis, and Codex Finishes a Sprint"
 date: 2026-11-03T09:00:00+00:00
-last_modified_at: 2026-11-02T01:03:22Z
+last_modified_at: 2026-11-02T03:11:03Z
 parent: "Articles"
 nav_order: 1213
 tags:
@@ -90,11 +90,11 @@ Three stable releases shipped in October: v0.164.0, v0.165.0, and v0.166.0.
 
 **v0.166.0** (29 October) brought queue resume (failed or cancelled sessions can be restarted from the queue without losing context), keyboard transcript navigation, GPT-6.1 Terra as a new reasoning model in the catalogue, GCP Vertex AI provider via a configuration wizard, and per-chat MCP server leases (each conversation gets its own MCP context rather than sharing a persistent connection)[^7].
 
-**v0.165.0** (28 October) added GCP Vertex AI as a first-party cloud provider alongside Amazon Bedrock, GPT-6.1 Terra (Google's Terra architecture model available via Vertex), and Memory v2 — a redesigned session compaction system that preserves more context across long coding sessions[^7].
+**v0.165.0** (27 October) added GCP Vertex AI as a first-party cloud provider alongside Amazon Bedrock, GPT-6.1 Terra (OpenAI's next-tier reasoning model in the GPT-6.1 family, also available via Vertex), and Memory v2 — a redesigned session compaction system that preserves more context across long coding sessions[^7].
 
 **v0.164.0** (23 October) introduced `/presets` for switching between named configuration profiles, image previews in the TUI, enterprise MCP authentication overhaul with single sign-on via account grant reuse, and Amazon Bedrock graduating from alpha to stable[^8].
 
-The sprint narrative had a self-inflicted complication: on 28 October, OpenAI cut Pro plan Codex allowances without announcement. Community backlash was immediate and sharp. The cut was reversed within 24 hours, but the trust damage persisted through the sprint's close. The scorecard article covering the sprint noted this as the defining operational failure of the period — three solid releases undercut by reactive change management[^9].
+The sprint narrative had a self-inflicted complication: on 30 October, OpenAI cut Pro plan Codex allowances without announcement. Community backlash was immediate and sharp. The cut was reversed within 24 hours, but the trust damage persisted through the sprint's close. The scorecard article covering the sprint noted this as the defining operational failure of the period — three solid releases undercut by reactive change management[^9].
 
 ---
 

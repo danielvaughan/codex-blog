@@ -1,7 +1,7 @@
 ---
 title: "Skill Harnessing Patterns: What a Ten-Pattern Reference Architecture Reveals About Your Codex CLI Agent Plugins Strategy"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-11-02T01:03:22Z
+last_modified_at: 2026-11-02T03:11:03Z
 tags: ["codex-cli", "agent-plugins", "skill-architecture", "reference-architecture", "MCP", "plugin-governance"]
 ---
 

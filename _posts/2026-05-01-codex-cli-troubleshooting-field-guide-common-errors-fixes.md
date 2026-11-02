@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-codex-cli-troubleshooting-field-guide-common-errors-fixes"
 tags: ["troubleshooting", "errors", "sandbox", "authentication", "MCP", "rate-limits", "compaction", "diagnostics"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-11-02T01:03:22Z
+last_modified_at: 2026-11-02T03:11:03Z
 ---
 # Codex CLI Troubleshooting Field Guide: Diagnosing and Fixing the Most Common Errors
 
