@@ -1,7 +1,7 @@
 ---
 title: "The Codex Skill Flywheel: How Defined Skills Compound Agent Capability Over Time"
 date: 2026-10-22T13:00:00+00:00
-last_modified_at: 2026-11-02T03:11:03Z
+last_modified_at: 2026-11-02T10:07:07Z
 parent: "Articles"
 nav_order: 1198
 tags:
