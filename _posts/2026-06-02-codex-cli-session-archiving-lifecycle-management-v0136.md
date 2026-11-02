@@ -5,7 +5,7 @@ timestamp: 2026-06-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-02-codex-cli-session-archiving-lifecycle-management-v0136"
 tags: ["codex-cli", "session-management", "archiving", "v0.136", "session-lifecycle", "housekeeping", "rollout-jsonl"]
 date: 2026-06-02T09:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 ---
 # Codex CLI Session Archiving: Lifecycle Management, Storage Architecture, and Housekeeping Workflows in v0.136
 

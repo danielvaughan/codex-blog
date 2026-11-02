@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-codex-remote-ssh-app-server-architecture"
 tags: ["remote-development", "ssh", "app-server", "websocket", "codex-cli", "architecture", "security"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 ---
 # Remote SSH and the App-Server Architecture: Running Codex Against Distant Machines
 

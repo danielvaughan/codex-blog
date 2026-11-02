@@ -1,10 +1,35 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 2 November 2026 (Tenth Hourly Automated Pass)
+
+*Hourly KB review — 0 new articles written this pass. Library: 2,085 articles, 123 premium. Substack drafts: 286.*
+
+**Done this pass:**
+- Corrected README.md content counts to match actual repo state: articles 2,085 (was 2,087), premium-articles 123 (was 134), drafts 24 (was 27), notes 1,150 (was 1,167), resources 16 (was 22), announcements 20 (was 27), linkedin-takes 4 (was 6)
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-11-01-28-days-of-shipping-end-of-sprint-scorecard-openai-codex.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-29-guardian-v2-vs-gpt61-sol-regression-constraint-enforcement-system-level-fix.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-28-codex-v0165-stable-gcp-vertex-gpt61-terra-memory-v2.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-28-codex-v0166-enterprise-otel-sprint-managed-config-pem-identities-network-diagnostics.png` — placeholder (carry forward)
+- `sketchnotes/articles/2026-10-27-codex-v0166-alpha1-gpt61-terra-safety-recourse-session-reliability.png` — placeholder (carry forward)
+
+**Remaining backlog items:**
+- **Substack post #90 promotion check** — `2026-03-30-codex-app-server-tui-architecture-shift.md` does not yet have `copy_edited: true`; manual review required before promoting
+- **`/presets` as a Team Coordination Layer** — standalone depth piece; carry forward
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+
 ---
 
 ## Article Triage — 2 November 2026 (First Hourly Automated Pass)

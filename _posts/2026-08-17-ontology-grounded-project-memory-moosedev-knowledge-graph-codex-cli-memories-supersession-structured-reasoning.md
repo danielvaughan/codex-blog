@@ -1,7 +1,7 @@
 ---
 title: "Ontology-Grounded Project Memory and the Structured Reasoning Gap: What MOOSEDev Reveals About Codex CLI's Flat Memory Model"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 tags: ["codex-cli", "memories", "knowledge-graph", "ontology", "MCP", "MOOSEDev", "supersession", "structured-reasoning", "AGENTS.md", "project-memory"]
 ---
 

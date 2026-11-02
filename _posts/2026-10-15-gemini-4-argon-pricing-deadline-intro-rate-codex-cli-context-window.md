@@ -3,7 +3,7 @@ title: "Gemini 4 Argon's Pricing Deadline Is a Strategic Signal, Not Just a Disc
 parent: "Articles"
 nav_order: 1182
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 tags:
   - gemini
   - google

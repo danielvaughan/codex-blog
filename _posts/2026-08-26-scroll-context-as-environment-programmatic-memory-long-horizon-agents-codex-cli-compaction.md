@@ -1,7 +1,7 @@
 ---
 title: "Scroll: What Treating Context as an Executable Environment Tells Us About Codex CLI's Compaction Limits"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 tags: ["context-management", "compaction", "long-horizon", "memory", "arXiv", "configuration", "hooks"]
 ---
 

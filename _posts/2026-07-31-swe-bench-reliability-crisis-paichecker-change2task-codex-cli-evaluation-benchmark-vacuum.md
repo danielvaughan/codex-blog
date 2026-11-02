@@ -1,7 +1,7 @@
 ---
 title: "The SWE-bench Reliability Crisis: PAIChecker, Change2Task, and What the Benchmark Vacuum Means for Codex CLI Evaluation"
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 tags: ["codex-cli", "swe-bench", "benchmarks", "evaluation", "PAIChecker", "Change2Task", "coding-agents", "GPT-5.6"]
 ---
 

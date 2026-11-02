@@ -1,7 +1,7 @@
 ---
 title: "3,100 Opinions on Code Review in an AI World: What the Causal Theory Means for Your Codex CLI Review Stack"
 date: 2026-07-10T09:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 tags: ["code-review", "causal-theory", "codex-cli", "auto-review", "guardian", "AGENTS.md", "agentic-PR", "review-bottleneck", "practitioner-research"]
 ---
 

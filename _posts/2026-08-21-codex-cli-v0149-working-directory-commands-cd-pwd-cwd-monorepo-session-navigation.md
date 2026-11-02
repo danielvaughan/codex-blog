@@ -1,7 +1,7 @@
 ---
 title: "Working Directory Commands in Codex CLI v0.149.0: /cd, /pwd, /cwd, and the End of Session Restarts"
 date: 2026-08-21T09:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 tags: ["codex-cli", "v0.149.0", "working-directory", "slash-commands", "/cd", "/pwd", "/cwd", "monorepo", "TUI", "session-management", "sandbox", "AGENTS.md"]
 ---
 

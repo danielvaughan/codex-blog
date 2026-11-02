@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1113
 title: "Repository Planning Graphs: How Microsoft's ICLR 2026 Architecture Beats Claude Code on Whole-Codebase Generation — and What It Means for Codex CLI"
 date: 2026-09-03T11:00:00+00:00
-last_modified_at: 2026-11-02T10:24:31Z
+last_modified_at: 2026-11-02T23:04:36Z
 tags: ["codex-cli", "repository-generation", "research", "iclr-2026", "mcp", "planning", "codebase-architecture", "zerorepo"]
 ---
 
