@@ -1,7 +1,7 @@
 ---
 title: "Behavioral State Decay: Why Your Coding Agent Forgets Mid-Task — and How Proactive Memory Patterns Fix It in Codex CLI"
 date: 2026-07-12T09:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 tags: ["codex-cli", "behavioral-state-decay", "context-compaction", "AGENTS.md", "long-horizon-agents", "proactive-memory", "PostToolUse-hooks"]
 ---
 

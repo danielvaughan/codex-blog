@@ -6,7 +6,7 @@ timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-feature-flag-lifecycle-management-openfeature-stale-cleanup-ci-enforcement"
 tags: ["codex-cli", "feature-flags", "openfeature", "launchdarkly", "unleash", "stale-flags", "technical-debt", "ci", "hooks", "agents-md"]
 date: 2026-05-18T09:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 ---
 # Codex CLI for Feature Flag Lifecycle Management: OpenFeature Migration, Stale Flag Detection, and CI Enforcement
 

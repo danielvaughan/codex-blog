@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-codex-cli-mcp-elicitations-human-in-the-loop-structured-input"
 tags: ["mcp", "elicitations", "codex-cli", "human-in-the-loop", "approval-policy", "guardian", "security", "v0.129"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 ---
 # MCP Elicitations in Codex CLI: Human-in-the-Loop Structured Input for Agent Workflows
 

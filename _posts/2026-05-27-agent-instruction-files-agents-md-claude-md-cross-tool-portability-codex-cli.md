@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-agent-instruction-files-agents-md-claude-md-cross-tool-portability-codex-cli"
 tags: ["codex-cli", "agents-md", "claude-md", "gemini-md", "cursorrules", "copilot-instructions", "cross-tool", "instruction-portability", "agentic-ai-foundation"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 ---
 # Agent Instruction Files: AGENTS.md, CLAUDE.md, and Cross-Tool Portability with Codex CLI
 

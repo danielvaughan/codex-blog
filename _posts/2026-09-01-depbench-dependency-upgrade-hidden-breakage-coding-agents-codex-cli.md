@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1089
 title: "Update from Hell: What DEPBENCH Reveals About Coding Agents and Hidden Dependency Breakage"
 date: 2026-09-01T15:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 tags: ["codex-cli", "benchmarks", "dependency-management", "agents-md", "harness-engineering", "testing", "research"]
 ---
 

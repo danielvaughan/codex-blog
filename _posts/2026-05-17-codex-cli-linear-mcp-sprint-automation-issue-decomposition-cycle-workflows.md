@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-linear-mcp-sprint-automation-issue-decomposition-cycle-workflows"
 tags: ["codex-cli", "linear", "mcp", "sprint-planning", "issue-decomposition", "cycle-management", "project-management", "automation"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 ---
 # Codex CLI with Linear MCP: Sprint Automation, Issue Decomposition, and Cycle-Driven Development
 

@@ -3,7 +3,7 @@ title: "Decision-Impact Scoring for Codex Queue: Encoding Task Interdependency B
 parent: "Articles"
 nav_order: 1163
 date: 2026-09-21T15:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 tags: ["codex-cli", "multi-agent", "codex-queue", "task-management", "agents-md", "decision-impact", "orchestration", "workflow"]
 ---
 

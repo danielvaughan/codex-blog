@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-codex-cli-trpc-v11-type-safe-api-development-tanstack-mcp-agent-workflows"
 tags: ["codex-cli", "trpc", "trpc-v11", "tanstack", "type-safe-apis", "mcp", "agent-workflows", "typescript", "full-stack"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 ---
 # Codex CLI for tRPC v11 Development: Type-Safe APIs, TanStack Integration, and MCP-Bridged Agent Workflows
 

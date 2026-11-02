@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-scored-improvement-loops-eval-driven-iterative-problem-solving"
 tags: ["codex-cli", "evaluation", "scored-loops", "LLM-as-judge", "optimisation", "advanced-workflows", "GPT-5.5"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 ---
 # Scored Improvement Loops with Codex CLI: Eval-Driven Iterative Problem-Solving
 

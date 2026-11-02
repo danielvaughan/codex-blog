@@ -3,7 +3,7 @@ title: "GitOps for AI Agents on Google Cloud: ArgoCD, Config Sync and GKE"
 parent: "Articles"
 nav_order: 1159
 date: 2026-09-15T08:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 tags: ["codex-cli", "gitops", "gke", "argocd", "config-sync", "enterprise", "ci-cd", "agentic", "infrastructure", "google-cloud"]
 ---
 

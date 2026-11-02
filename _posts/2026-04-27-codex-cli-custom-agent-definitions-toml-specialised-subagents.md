@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-custom-agent-definitions-toml-specialised-subagents"
 tags: ["codex-cli", "custom-agents", "subagents", "toml", "multi-agent", "configuration", "orchestration"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-11-01T19:04:49Z
+last_modified_at: 2026-11-02T01:03:22Z
 ---
 # Codex CLI Custom Agent Definitions: Building Specialised Subagents with TOML Configuration
 
