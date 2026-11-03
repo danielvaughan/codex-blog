@@ -1,7 +1,7 @@
 ---
 title: "AgentChaosBench: Why Runtime Fault Detection from Telemetry Remains Unsolved — and What It Means for Your Codex CLI Observability Stack"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-11-02T23:04:36Z
+last_modified_at: 2026-11-03T03:13:55Z
 tags: ["codex-cli", "observability", "fault-detection", "telemetry", "OTLP", "rollout-JSONL", "guardrail-bypass", "AgentChaosBench", "runtime-faults", "structured-traces"]
 ---
 

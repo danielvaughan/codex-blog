@@ -1,7 +1,7 @@
 ---
 title: "The 2026 Agentic Coding Landscape: Antigravity Is Live, Kiro Survives a Security Crisis, and Codex Finishes a Sprint"
 date: 2026-11-03T09:00:00+00:00
-last_modified_at: 2026-11-02T23:04:36Z
+last_modified_at: 2026-11-03T03:13:55Z
 parent: "Articles"
 nav_order: 1213
 tags:
@@ -26,7 +26,7 @@ copy_edited: true
 
 On 1 November 2026, Google retired its consumer Gemini CLI and discontinued the Jules brand entirely. What remains is Antigravity — the platform that launched at Google I/O 2026 in May and has spent six months absorbing everything Google built in the agentic coding space. The consolidation is complete, the transition window is closed, and the landscape is cleaner than it has been in over a year.
 
-Meanwhile, Kiro — AWS's spec-driven coding agent — patched a serious remote code execution vulnerability in July, updated its model stack to Claude Opus 4.8, and kept growing its user base quietly. And Codex CLI just closed its "28 Days of Shipping" sprint with v0.166.0 stable, having shipped three major versions in October against what the community openly acknowledged was a Claude Code adoption gap.
+Meanwhile, Kiro — AWS's spec-driven coding agent — patched a serious remote code execution vulnerability in July, updated its model stack to Claude Opus 5.5, and kept growing its user base quietly. And Codex CLI just closed its "28 Days of Shipping" sprint with v0.166.0 stable, having shipped three major versions in October against what the community openly acknowledged was a Claude Code adoption gap.
 
 This is the state of the field in November 2026.
 
@@ -62,7 +62,7 @@ The Go CLI does not expose the same hooks system maturity as Codex CLI's six-lif
 
 AWS's Kiro takes a philosophically different position to both Codex and Antigravity. Before writing a line of code, Kiro generates structured EARS-notation requirements, an architectural design document, and a dependency-sequenced task list — all stored as auditable markdown artefacts in `.kiro/specs/`[^4]. The code emerges from a specification, not directly from a prompt.
 
-Kiro upgraded its model stack to Claude Opus 4.8 with adaptive thinking on paid tiers, and claims a 4x throughput improvement on parallel Spec task execution compared to the single-spec model.
+Kiro upgraded its model stack to Claude Opus 5.5 with adaptive thinking on paid tiers, and claims a 4x throughput improvement on parallel Spec task execution compared to the single-spec model.
 
 ### The CVE-2026-10591 Incident
 
@@ -104,7 +104,7 @@ The sprint narrative had a self-inflicted complication: on 30 October, OpenAI cu
 |---|---|---|---|
 | Kernel-level sandbox | Yes (Landlock/Seatbelt) | No (cloud-managed) | No (process isolation only) |
 | Multi-agent parallelism | Good (worktrees + subagents) | Excellent (platform-native) | Good (parallel spec tasks) |
-| Model family | GPT-6.1 Sol/Terra, o3, GPT-4.1 | Gemini 3.5 Flash | Claude Opus 4.8 |
+| Model family | GPT-6.1 Sol/Terra, o3, GPT-4.1 | Gemini 3.5 Flash | Claude Opus 5.5 |
 | Open source | Yes (Apache 2.0) | No | No |
 | Spec-driven workflow | Manual (PLANS.md) | No | First-class |
 | CI/CD headless mode | `codex exec` (mature) | CLI flag | `--no-interactive` (v2.0+) |

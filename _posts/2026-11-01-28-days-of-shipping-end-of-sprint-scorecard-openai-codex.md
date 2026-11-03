@@ -1,7 +1,7 @@
 ---
 title: "28 Days of Shipping: The Final Scorecard"
 date: 2026-11-01T08:00:00+00:00
-last_modified_at: 2026-11-02T23:04:36Z
+last_modified_at: 2026-11-03T03:13:55Z
 parent: "Articles"
 nav_order: 1211
 tags:
@@ -83,7 +83,7 @@ v0.166.0 delivered `codex queue --resume` — the ability to list and resume all
 
 Keyboard-driven transcript selection completed the terminal-native UX story: word, line, and page navigation via `w`, `b`, `j`, `k`, `PgDn`, `PgUp`. For developers in tmux, Zellij, or SSH sessions, mouse selection is unreliable or unavailable. Full keyboard navigation is not a cosmetic improvement.
 
-The Bazel build migration to source-built V8 with native Windows support addressed what had become a systemic embarrassment: three consecutive major releases shipped Windows regressions. v0.164.0 shipped a Windows proxy authentication regression. v0.165.0 shipped a Windows VS Code 1.143 regression. v0.166.0 shipped a VS Code 1.143.1 launch regression on day one of stable, driven by the Electron version mismatch that the Bazel migration was designed to close. The fix — a structural migration, not another patch — suggests the regression cycle is now closed. One release is not enough to confirm that, but the architectural change is correct.
+The Bazel build migration to source-built V8 with native Windows support addressed what had become a systemic embarrassment: three consecutive major releases shipped Windows regressions. v0.164.0 shipped a Windows file deletion P0 and desktop crash regression. v0.165.0 shipped a Windows VS Code 1.143 regression. v0.166.0 shipped a VS Code 1.143.1 launch regression on day one of stable, driven by the Electron version mismatch that the Bazel migration was designed to close. The fix — a structural migration, not another patch — suggests the regression cycle is now closed. One release is not enough to confirm that, but the architectural change is correct.
 
 ---
 
