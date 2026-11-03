@@ -1,7 +1,7 @@
 ---
 title: "MOSAIC's 96.59% Attack Rate: How CLI Command Composition Exploits Bypass Every Instruction-Layer Defence in Codex CLI"
 date: 2026-09-05T09:00:00+00:00
-last_modified_at: 2026-11-03T17:06:55Z
+last_modified_at: 2026-11-03T23:07:49Z
 parent: "Articles"
 nav_order: 1132
 tags: ["security", "codex-cli", "prompt-injection", "sandbox", "hooks", "attack-surface", "supply-chain"]

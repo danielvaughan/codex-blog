@@ -6,7 +6,7 @@ timestamp: 2026-08-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-08-14-codex-cli-playwright-mcp-browser-automation-accessibility-snapshots-testing"
 tags: ["codex-cli", "playwright", "mcp", "browser-automation", "testing", "accessibility", "snapshots", "verification", "ci-cd"]
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-11-03T17:06:55Z
+last_modified_at: 2026-11-03T23:07:49Z
 ---
 # Codex CLI with Playwright MCP: Browser Automation Through Accessibility Snapshots
 
