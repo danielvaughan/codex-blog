@@ -1,7 +1,7 @@
 ---
 title: "Protocol Validity and the Benchmark Trust Gap: What HackDetect Reveals About Your Codex CLI Model Selection Strategy"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-11-03T10:26:55Z
+last_modified_at: 2026-11-03T17:06:55Z
 tags: ["codex-cli", "benchmarks", "protocol-validity", "HackDetect", "model-selection", "GPT-5.6", "evaluation", "agent-benchmarks", "SWE-bench", "mislead-gap"]
 ---
 

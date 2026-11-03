@@ -1,7 +1,7 @@
 ---
 title: "Ledger-Based Self-Orchestration: What a Shared Filesystem Workspace Does for Parallel Coding Agents"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-11-03T10:26:55Z
+last_modified_at: 2026-11-03T17:06:55Z
 tags: ["codex-cli", "multi-agent", "orchestration", "ledger", "manager-worker", "LiveCodeBench", "performance", "parallel-agents"]
 ---
 

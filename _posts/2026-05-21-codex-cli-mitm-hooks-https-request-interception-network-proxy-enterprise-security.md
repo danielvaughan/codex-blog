@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-mitm-hooks-https-request-interception-network-proxy-enterprise-security"
 tags: ["codex-cli", "security", "network-proxy", "mitm-hooks", "enterprise", "https-interception", "permission-profiles"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-11-03T10:26:55Z
+last_modified_at: 2026-11-03T17:06:55Z
 ---
 # Codex CLI MITM Hooks: HTTPS Request Interception, Header Mutation, and Network-Level Policy Enforcement
 

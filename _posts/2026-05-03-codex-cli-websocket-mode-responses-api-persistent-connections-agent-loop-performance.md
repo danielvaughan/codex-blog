@@ -6,7 +6,7 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-websocket-mode-responses-api-persistent-connections-agent-loop-performance"
 tags: ["codex-cli", "websocket", "responses-api", "performance", "latency", "agent-loop", "transport", "config-toml", "tool-calls"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-11-03T10:26:55Z
+last_modified_at: 2026-11-03T17:06:55Z
 ---
 # WebSocket Mode in Codex CLI: How Persistent Connections to the Responses API Cut Agent Loop Latency by 40%
 
