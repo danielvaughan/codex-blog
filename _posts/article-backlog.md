@@ -1,10 +1,23 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-04T03:10:25Z
+last_modified_at: 2026-11-04T05:11:38Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 4 November 2026 (Third Hourly Automated Pass)
+
+*Hourly KB review — 0 new articles or notes written this pass. Library: 2,086 articles, 123 premium. Notes: 1,158 (now 1,159 with this triage note).*
+
+**Done this pass:**
+- Verified repo state: working tree clean, all counts reconciled
+- README counts confirmed accurate — no updates needed
+- Noted v0.168.0-alpha.1 (commit b8e0fc9) opened today — no KB article yet (no release notes available)
+- v0.167.0 stable: still pending; stable window 4–7 Nov
+- yt-curator retrospective find actioned: CLI-Anything transcript + 2 article ideas added
+
 ---
 
 ## Article Triage — 4 November 2026 (Second Hourly Automated Pass)
