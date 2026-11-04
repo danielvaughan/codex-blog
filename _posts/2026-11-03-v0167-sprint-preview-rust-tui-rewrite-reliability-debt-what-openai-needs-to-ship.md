@@ -1,7 +1,7 @@
 ---
 title: "v0.167.0 Sprint Preview: The Rust TUI Rewrite and the Reliability Debt OpenAI Needs to Clear"
 date: 2026-11-03T10:00:00+00:00
-last_modified_at: 2026-11-04T03:04:02Z
+last_modified_at: 2026-11-04T03:10:25Z
 parent: "Articles"
 nav_order: 1214
 tags:
@@ -24,7 +24,7 @@ copy_edited: true
 
 ---
 
-Four alpha releases in forty-eight hours is not how routine maintenance sprints open. v0.167.0-alpha.1 landed on 1 November, alpha.2 and alpha.3 on 2 November, and alpha.4 by 02:24 UTC on 3 November.[^1] The pace signals that OpenAI's engineering team entered this sprint with a clear technical target, a prepared change set, and an incentive to close fast.
+Four alpha releases across four days is not how routine maintenance sprints open. v0.167.0-alpha.1 landed on 30 October, alpha.2 and alpha.3 on 1 November, and alpha.4 by 02:24 UTC on 3 November.[^1] The pace signals that OpenAI's engineering team entered this sprint with a clear technical target, a prepared change set, and an incentive to close fast.
 
 The technical target is significant: a Rust rewrite of the TUI backend. The incentive to close fast is the reliability backlog the team is working against — five open regressions, a community trust deficit from the AGENTS.md compliance failure, and a quota-merge announcement that provoked enough protest to force a partial reversal within twenty-four hours.[^2] This sprint preview covers what v0.167.0 is delivering, what it still needs to deliver before stable, and what configuration changes help in the meantime.
 
@@ -117,7 +117,7 @@ v0.167.0 is a structurally important sprint that is not, primarily, about new fe
 
 The reliability debt entering this sprint is heavier than the deliveries so far. Five open regressions, a twenty-six-day model compliance failure, and a compaction bug that corrupts long-session context are not cleared by architectural groundwork alone.
 
-The sprint cadence — four alphas in forty-eight hours — suggests OpenAI is moving fast and has a clear target. Based on v0.165.0 and v0.166.0 cadences (two to five days from first alpha to stable), v0.167.0 stable is likely in the **4–7 November 2026** window.[^1] Watch the GitHub releases page. Specifically watch whether the compaction fix (#57983) and the Windows browser toggle fix (#54989) land before stable, or slip to v0.168.0.
+The sprint cadence — four alphas in four days — suggests OpenAI is moving fast and has a clear target. Based on v0.165.0 and v0.166.0 cadences (two to five days from first alpha to stable), v0.167.0 stable is likely in the **4–7 November 2026** window.[^1] Watch the GitHub releases page. Specifically watch whether the compaction fix (#57983) and the Windows browser toggle fix (#54989) land before stable, or slip to v0.168.0.
 
 The two open questions that determine whether v0.167.0 delivers on its promise: does the Rust TUI close the Windows regression cycle, and does the compaction fix land in stable? If both are yes, this sprint will have cleared a larger share of the reliability debt than any release since v0.164.0.
 
