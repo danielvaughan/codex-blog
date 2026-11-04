@@ -1,7 +1,7 @@
 ---
 title: "Hooks as Checkpoints: Preventing Silent Failures in Multi-Step Codex Pipelines"
 date: 2026-10-21T14:00:00+00:00
-last_modified_at: 2026-11-04T01:04:13Z
+last_modified_at: 2026-11-04T03:04:02Z
 parent: "Articles"
 nav_order: 1198
 tags:
