@@ -5,7 +5,7 @@ timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codexmonitor-multi-workspace-orchestration-tauri-app-server-protocol"
 tags: ["codex-cli", "codexmonitor", "orchestration", "tauri", "app-server", "multi-agent", "worktree", "gui"]
 date: 2026-05-31T09:00:00+00:00
-last_modified_at: 2026-11-04T13:08:58Z
+last_modified_at: 2026-11-04T23:06:18Z
 ---
 # CodexMonitor: Multi-Workspace Agent Orchestration via the App-Server Protocol
 

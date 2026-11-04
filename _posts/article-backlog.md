@@ -1,10 +1,41 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-04T13:08:58Z
+last_modified_at: 2026-11-04T23:06:18Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 4 November 2026 (Sixth Hourly Automated Pass)
+
+*Hourly KB review — 0 new articles written this pass. Library: 2,087 articles, 123 premium. Notes: 1,161.*
+
+**Done this pass:**
+- Verified repo state: working tree clean, no commits since Pass 5
+- README notes count corrected: 1,160 → 1,161
+- v0.167.0 stable: still NOT released; latest stable remains v0.166.0 (29 Oct); alpha at v0.167.0-alpha.4 (3 Nov)
+- v0.168.0-alpha.1 feature details surfaced: `codex queue --resume` unloaded-thread resume enhancement, app-server race fixes, TUI reconnection recovery improvements
+- Note: `codex doctor --network-only` pre-dates alpha.1 — already in v0.166.0 alpha sprint (Oct 28)
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — 1 day
+- `sketchnotes/articles/2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.png` — 2 days
+- `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png` — 2 days
+- `sketchnotes/articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.png` — 4 days
+- `sketchnotes/articles/2026-11-01-28-days-of-shipping-end-of-sprint-scorecard-openai-codex.png` — 4 days
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — carry forward
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — carry forward
+- `sketchnotes/articles/2026-10-29-guardian-v2-vs-gpt61-sol-regression-constraint-enforcement-system-level-fix.png` — carry forward
+- `sketchnotes/articles/2026-10-28-codex-v0165-stable-gcp-vertex-gpt61-terra-memory-v2.png` — carry forward
+
+**Remaining backlog items:**
+- **v0.167.0 stable release article** — CRITICAL; still pending; watch overnight/tomorrow morning
+- **`codex queue --resume` standalone how-to** — KB gap since v0.166.0 stable; write and publish
+- **Substack post #90 promotion check** — `2026-03-30-codex-app-server-tui-architecture-shift.md` awaits `copy_edited: true`; manual review required
+- **`/presets` as a Team Coordination Layer** — standalone depth piece; carry forward
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+
 ---
 
 ## Article Triage — 4 November 2026 (Fourth Hourly Automated Pass)
