@@ -6,7 +6,7 @@ timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-codex-cli-monorepo-tooling-turborepo-nx-bazel-agent-workflows"
 tags: ["codex-cli", "monorepo", "turborepo", "nx", "bazel", "mcp", "agent-skills", "ci-cd"]
 date: 2026-05-24T09:00:00+00:00
-last_modified_at: 2026-11-04T05:11:38Z
+last_modified_at: 2026-11-04T13:08:58Z
 ---
 # Codex CLI and Monorepo Tooling: Turborepo, Nx, and Bazel Agent Workflows
 

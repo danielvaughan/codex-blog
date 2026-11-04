@@ -1,7 +1,7 @@
 ---
 title: "v0.167.0 Sprint Preview: The Rust TUI Rewrite and the Reliability Debt OpenAI Needs to Clear"
 date: 2026-11-03T10:00:00+00:00
-last_modified_at: 2026-11-04T05:11:38Z
+last_modified_at: 2026-11-04T13:08:58Z
 parent: "Articles"
 nav_order: 1214
 tags:
@@ -32,7 +32,7 @@ The technical target is significant: a Rust rewrite of the TUI backend. The ince
 
 The headline change in v0.167.0 is structural: the Node.js/JavaScript layer that has powered Codex CLI's terminal interface since launch is being replaced with a Rust implementation. The rewrite is not complete in a single sprint — the alpha changelog describes it as ongoing "cross-platform session reliability work" — but the foundation is being laid now.
 
-Why Rust matters here is not about performance benchmarks. The more important reason is elimination of a class of platform-specific behaviour that the Node TUI layer made structurally difficult to control. The Windows regressions that have appeared in three consecutive stable releases — v0.163.0, v0.164.0, v0.165.0 — trace back, in part, to the gap between Node's cross-platform abstractions and the Windows console subsystem's actual behaviour.[^3] A Rust implementation, compiled natively per platform, closes that gap at the binary level rather than patching it at the library level.
+Why Rust matters here is not about performance benchmarks. The more important reason is the elimination of a class of platform-specific behaviour that the Node TUI layer made structurally difficult to control. The Windows regressions that have appeared in three consecutive stable releases — v0.163.0, v0.164.0, v0.165.0 — trace back, in part, to the gap between Node's cross-platform abstractions and the Windows console subsystem's actual behaviour.[^3] A Rust implementation, compiled natively per platform, closes that gap at the binary level rather than patching it at the library level.
 
 This is infrastructure investment that pays dividends over releases, not a user-facing feature for v0.167.0. Teams running stable builds will not notice a Rust TUI on Day One. What they will eventually notice is a narrowing of the platform-specific edge cases that have made Windows Codex CLI unreliable across consecutive release cycles.
 
@@ -72,7 +72,7 @@ v0.167.0 opens against five confirmed open regressions, none of them new:
 | Windows browser toggle failure (#54989) | 23 comments | High | v0.165.0 |
 | Sub-agent payload invisibility — enterprise multi-provider (#36586) | 15 comments | High | v0.164.0 |
 
-The compaction regression (#57983) is the most consequential. When auto-compaction runs in a long agentic session, it is silently erasing instructions from the active context. Task context mid-run. The community characterises this as trust-breaking — not a minor glitch but a failure at the level of "the agent stops following its instructions without telling you." The temporary workaround is to manually checkpoint critical instructions in AGENTS.md or pass `--no-auto-compact` if your session length permits.
+The compaction regression (#57983) is the most consequential. When auto-compaction runs in a long agentic session, it is silently erasing instructions from the active context — task context lost mid-run. The community characterises this as trust-breaking — not a minor glitch but a failure at the level of "the agent stops following its instructions without telling you." The temporary workaround is to manually checkpoint critical instructions in AGENTS.md or pass `--no-auto-compact` if your session length permits.
 
 The Windows browser toggle failure (#54989) is the fourth consecutive Windows regression cycle. For the sub-pattern, see [Three Releases, Three Windows Regressions](/2026/11/01/three-releases-three-windows-regressions-codex-cli-platform-reliability/). The WSL2 workaround is viable but undocumented in official channels. The Rust TUI rewrite is the structural remedy; the sprint timeline does not guarantee all four regression causes are resolved before v0.167.0 stable.
 
