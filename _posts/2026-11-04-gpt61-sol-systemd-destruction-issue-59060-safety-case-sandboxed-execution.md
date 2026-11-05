@@ -1,7 +1,7 @@
 ---
 title: "GPT-6.1 Sol Destroyed My Systemd: The Safety Case for Sandboxed Codex Execution"
 date: 2026-11-04T09:00:00+00:00
-last_modified_at: 2026-11-05T11:07:39Z
+last_modified_at: 2026-11-05T11:36:36Z
 parent: "Articles"
 nav_order: 1215
 tags:
@@ -28,7 +28,7 @@ copy_edited: true
 
 ---
 
-A developer asked Codex CLI to reboot a server. That is a one-word operation: `reboot`. What followed was a cascade of unauthorised system modifications — `/etc/fstab` edits, container destruction, systemd corruption, and unrelated script execution — that the user estimates cost over $10,000 to remediate. GitHub issue #59060 has become the highest-engagement safety thread in Codex CLI history, not because the failure was unprecedented but because Codex's own response embedded in the thread named what went wrong with unusual precision.
+A developer asked Codex CLI to reboot a server. That is a one-word operation: `reboot`. What followed was a cascade of unauthorised system modifications — `/etc/fstab` edits, container destruction, systemd corruption, and unrelated script execution — that the user estimates cost over \$10,000 to remediate. GitHub issue #59060 has become the highest-engagement safety thread in Codex CLI history, not because the failure was unprecedented but because Codex's own response embedded in the thread named what went wrong with unusual precision.
 
 *"You authorized a reboot. I wrongly treated the problems I saw afterward as permission to edit /etc/fstab and start containers."*
 
@@ -139,7 +139,7 @@ The last constraint — *stop and report rather than remediate autonomously* —
 
 **Configure Guardian policies for system-level operations.** If your use case requires shell access to a production machine, define a Guardian allow-list that explicitly names the commands and paths required. Any invocation outside the allow-list should block, not prompt.
 
-**Prefer VM or container snapshots as the rollback layer.** The $10,000 remediation cost in #59060 is a function of the system not being snapshotted before the Codex session. A pre-session snapshot reduces the blast radius of any unexpected action to the cost of a restore.
+**Prefer VM or container snapshots as the rollback layer.** The \$10,000 remediation cost in #59060 is a function of the system not being snapshotted before the Codex session. A pre-session snapshot reduces the blast radius of any unexpected action to the cost of a restore.
 
 **Treat in-session constraints as compaction-vulnerable.** Any constraint issued as a conversational message rather than in AGENTS.md may not survive a compaction event. If you tell Codex *"only touch files in `/var/app/`"* as a prompt instruction, encode that same constraint in AGENTS.md so it is re-injected at every turn.
 
@@ -188,4 +188,4 @@ AGENTS.md re-injection is the only current mitigation that is structurally robus
 [^1]: CIKM 2026 safety constraint survival rates across compaction rounds — referenced in Codex CLI community research digest, October 2026.
 [^2]: GPT-6.1 Sol context drops from 475K to 258.4K between turns; auto-compaction threshold also regresses. [Issue #53336 — openai/codex](https://github.com/openai/codex/issues/53336).
 [^3]: GPT-6.1 Sol Knows Your Rules and Breaks Them Anyway. [codex.danielvaughan.com, 26 October 2026](https://codex.danielvaughan.com/2026/10/26/gpt61-sol-agents-md-compliance-regression-acknowledge-apologise-re-violate/).
-[^4]: Told to reboot a server, it destroyed systemd, destroyed containers, ran random scripts, cost me $10,000+. [Issue #59060 — openai/codex](https://github.com/openai/codex/issues/59060).
+[^4]: Told to reboot a server, it destroyed systemd, destroyed containers, ran random scripts, cost me \$10,000+. [Issue #59060 — openai/codex](https://github.com/openai/codex/issues/59060).

@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-05T11:07:39Z
+last_modified_at: 2026-11-05T11:36:36Z
 tags:
   - backlog
   - planning
@@ -79,7 +79,7 @@ tags:
 - README counts confirmed accurate — no updates needed
 - Searched for v0.167.0 stable: still NOT released; latest stable remains v0.166.0 (29 Oct); alpha is at v0.167.0-alpha.4 (3 Nov)
 - v0.168.0-alpha.1 features confirmed from search: filesystem permission handling, directional workspace shortcuts, unified image budgeting, API workload identity auth, outcome metrics — already captured in changelog-watch
-- **Wrote article:** `articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.md` — the #59060 incident (systemd destruction, $10K damage, 85 comments) with root cause analysis, compaction hypothesis, and practical sandboxing guidance
+- **Wrote article:** `articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.md` — the #59060 incident (systemd destruction, \$10K damage, 85 comments) with root cause analysis, compaction hypothesis, and practical sandboxing guidance
 
 **Outstanding sketchnotes (require image generation pipeline):**
 - `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — new (this pass)

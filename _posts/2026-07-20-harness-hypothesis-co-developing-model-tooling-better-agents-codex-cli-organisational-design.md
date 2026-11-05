@@ -1,7 +1,7 @@
 ---
 title: "The Harness Hypothesis: Why Co-Developing Model and Tooling Under One Team Produces Better Agents"
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-11-05T11:07:39Z
+last_modified_at: 2026-11-05T11:36:36Z
 tags: ["harness-engineering", "codex-cli", "organisational-design", "agent-architecture", "model-harness-fit", "claude-code"]
 ---
 
