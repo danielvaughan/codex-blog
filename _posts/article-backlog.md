@@ -1,10 +1,42 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-05T10:24:15Z
+last_modified_at: 2026-11-05T11:07:39Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 5 November 2026 (Pass 4, ~11:00 UTC)
+
+*Hourly KB review — 1 new article written this pass. Library: 2,090 articles, 123 premium. Notes: 1,181.*
+
+**Done this pass:**
+- **Wrote article:** `articles/2026-11-05-codex-doctor-network-only-fast-network-diagnostics-proxy-mcp-vertex-ai.md` — ops note for `codex doctor --network-only`; covers DNS/TCP/TLS checks, proxy auth probe, Vertex AI reachability, OTEL collector health, triage workflow
+- Discovered `v0.167.0-alpha.3.1` (hotfix, 4 Nov 19:05 UTC) — not noted in previous passes
+- Confirmed v0.166.0 still latest stable; v0.167.0 and v0.168.0 both in alpha
+- README counts verified accurate; notes updated: 1,180 → 1,181
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-05-codex-doctor-network-only-....png` — new (this pass)
+- `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — 1 day
+- `sketchnotes/articles/2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.png` — 2 days
+- `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png` — 2 days
+- `sketchnotes/articles/2026-11-01-28-days-of-shipping-end-of-sprint-scorecard-openai-codex.png` — 4 days
+- `sketchnotes/articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.png` — 4 days
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — carry forward
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — carry forward
+- `sketchnotes/articles/2026-10-29-guardian-v2-vs-gpt61-sol-regression-constraint-enforcement-system-level-fix.png` — carry forward
+- `sketchnotes/articles/2026-10-28-codex-v0165-stable-gcp-vertex-gpt61-terra-memory-v2.png` — carry forward
+
+**Remaining backlog items:**
+- **v0.167.0 stable release article** — CRITICAL; still pending; v0.167.0-alpha.5 + alpha.3.1 hotfix active; watch overnight
+- **`codex queue --resume` standalone how-to** — KB gap since v0.166.0 stable; write and publish
+- ~~**`codex doctor --network-only` ops note**~~ — **DONE (this pass)**
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+- **`/presets` as a Team Coordination Layer** — depth piece; carry forward
+- **Substack post #90 (`2026-03-30-codex-app-server-tui-architecture-shift.md`)** — awaits `copy_edited: true`; manual review required
+
 ---
 
 ## Article Triage — 4 November 2026 (Sixth Hourly Automated Pass)
