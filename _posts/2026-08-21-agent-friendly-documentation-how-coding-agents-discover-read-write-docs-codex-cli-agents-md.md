@@ -1,7 +1,7 @@
 ---
 title: "Agent-Friendly Documentation: What 557 Coding Sessions Reveal About How Agents Actually Use Your Docs — and What It Means for AGENTS.md"
 date: 2026-08-21T09:00:00+00:00
-last_modified_at: 2026-11-04T23:06:18Z
+last_modified_at: 2026-11-05T03:10:31Z
 tags: ["codex-cli", "agents-md", "documentation", "coding-agents", "instruction-files", "developer-experience", "empirical-study"]
 ---
 

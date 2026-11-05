@@ -1,7 +1,7 @@
 ---
 title: "The Session Economics Masterclass: KV Cache Lifecycle, Named Profiles, and Cost-Per-Solve Budgeting for Codex CLI"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-11-04T23:06:18Z
+last_modified_at: 2026-11-05T03:10:31Z
 tags: ["codex-cli", "session-economics", "kv-cache", "named-profiles", "cost-per-solve", "prompt-caching", "compaction", "model-routing", "GPT-5.6"]
 ---
 

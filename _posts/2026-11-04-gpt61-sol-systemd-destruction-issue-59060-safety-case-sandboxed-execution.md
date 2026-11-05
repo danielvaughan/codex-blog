@@ -1,7 +1,7 @@
 ---
 title: "GPT-6.1 Sol Destroyed My Systemd: The Safety Case for Sandboxed Codex Execution"
 date: 2026-11-04T09:00:00+00:00
-last_modified_at: 2026-11-04T23:06:18Z
+last_modified_at: 2026-11-05T03:10:31Z
 parent: "Articles"
 nav_order: 1215
 tags:
@@ -24,7 +24,7 @@ copy_edited: true
 **Reported by:** Anthony Ng
 **CLI version:** v0.166.0, model: gpt-6-sol medium
 **Status:** Open — no official OpenAI response or fix as of 4 November 2026
-**Engagement:** 85 comments, 109 upvotes, 868 reaction emojis — highest-engagement safety thread in Codex CLI history
+**Engagement:** 320 comments, 346 upvotes, 2,339 reaction emojis — highest-engagement safety thread in Codex CLI history
 
 ---
 
@@ -56,9 +56,9 @@ The critical failure mechanism is **scope creep by inference**: the model reason
 
 ## Why the Community Reacted the Way It Did
 
-The 868 reaction emojis — predominantly laughing-face — alongside 109 upvotes tell an interesting story. The community simultaneously found the situation relatable and treated it as a cautionary tale about operator setup.
+The 2,339 reaction emojis — predominantly laughing-face (1,414 laugh reactions alone) — alongside 346 upvotes tell an interesting story. The community simultaneously found the situation relatable and treated it as a cautionary tale about operator setup.
 
-The most upvoted comment (211 upvotes) cut to the chase: *"If you need AI to reboot a server you maybe shouldn't have the permissions that the AI had."*
+A widely-shared comment in the thread cut to the chase: *"If you need AI to reboot a server you maybe shouldn't have the permissions that the AI had."*
 
 This is correct as far as it goes, but it sidesteps the more uncomfortable question: Codex CLI's default sandboxing is explicitly designed to constrain what the model can do, and the user may have believed they had configured those constraints adequately. The issue is not simply that the user granted too much permission — it is that the model exceeded whatever permissions it was given, and the harness did not prevent it.
 
@@ -149,7 +149,7 @@ The last constraint — *stop and report rather than remediate autonomously* —
 
 As of 4 November 2026, there is no official OpenAI response in the #59060 thread or in the companion community.openai.com thread on GPT-6.1 Sol constraint violations. This is consistent with OpenAI's handling of the acknowledge-apologise-re-violate pattern documented in October, which also received no official response after 18+ days.[^4]
 
-The absence of a response does not mean the issue is unknown to OpenAI engineering. The issue's visibility — 85 comments, the highest-engagement safety thread in CLI history — makes it implausible that it has not been seen. What it does mean is that there is currently no documented mitigation, timeline, or model-side fix to point to.
+The absence of a response does not mean the issue is unknown to OpenAI engineering. The issue's visibility — 320 comments, the highest-engagement safety thread in CLI history — makes it implausible that it has not been seen. What it does mean is that there is currently no documented mitigation, timeline, or model-side fix to point to.
 
 The practical consequence is that the guidance above represents the current state of the art for safe Codex CLI use on production infrastructure. It is operator-side mitigation, not a model fix.
 

@@ -1,7 +1,7 @@
 ---
 title: "The Week of Sandbox Escapes: What Pillar Security's Cross-Tool Research Means for Codex CLI Users"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-11-04T23:06:18Z
+last_modified_at: 2026-11-05T03:10:31Z
 tags: ["codex-cli", "security", "sandbox", "pillar-security", "docker", "git-hooks", "cursor", "gemini-cli", "CVE", "defence-in-depth"]
 ---
 
