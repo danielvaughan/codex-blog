@@ -1,7 +1,7 @@
 ---
 title: "CatchBench: Auditing Agent Failures at PRE, LIVE, and POST — What It Means for Codex CLI Observability"
 date: 2026-08-30T14:00:00+00:00
-last_modified_at: 2026-11-05T11:36:36Z
+last_modified_at: 2026-11-05T15:06:52Z
 tags: ["observability", "agent-monitoring", "failure-detection", "codex-cli", "harness-engineering", "hooks", "rollout-jsonl"]
 ---
 

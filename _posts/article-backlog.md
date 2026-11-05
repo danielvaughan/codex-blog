@@ -1,11 +1,46 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-05T11:36:36Z
+last_modified_at: 2026-11-05T15:06:52Z
 tags:
   - backlog
   - planning
 ---
+
+## Article Triage — 5 November 2026 (Pass 5, ~15:00 UTC)
+
+*Hourly KB review — 1 new article written this pass. Library: 2,085 articles, 123 premium. Notes: 1,182.*
+
+**Done this pass:**
+- **Wrote article:** `articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.md` — standalone how-to for `codex queue --resume`; covers basic usage, overnight batch, post-restart recovery, Guardian and Terra interaction, related commands
+- Discovered `rust-v0.167.0-alpha.3.2` (hotfix, 5 Nov 13:16 UTC) — second patch on alpha.3.x line; v0.167.0 stable still not released
+- Guardian v3 evidence pipeline burst: 4 PRs (#59669–#59671, #59659) build out EvidenceSnapshot → EvidenceCursor → Housekeeper → guardian_denial_reconsideration; architecture now complete at capture/routing layer
+- `command_sessions_world_state` feature (PR #59633): Code Mode agents can now introspect up to 16 retained command sessions
+- Legacy Seatbelt network policy wrapper removed (PR #59632)
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.png` — new (this pass)
+- `sketchnotes/articles/2026-11-05-codex-doctor-network-only-....png` — same day
+- `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — 1 day
+- `sketchnotes/articles/2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.png` — 2 days
+- `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png` — 2 days
+- `sketchnotes/articles/2026-11-01-28-days-of-shipping-end-of-sprint-scorecard-openai-codex.png` — 4 days
+- `sketchnotes/articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.png` — 4 days
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — carry forward
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — carry forward
+- `sketchnotes/articles/2026-10-29-guardian-v2-vs-gpt61-sol-regression-constraint-enforcement-system-level-fix.png` — carry forward
+
+**Remaining backlog items:**
+- **v0.167.0 stable release article** — CRITICAL; still pending; alpha.3.2 hotfix (5 Nov) + alpha.5 active; watch overnight
+- ~~**`codex queue --resume` standalone how-to**~~ — **DONE (this pass)**
+- **Guardian v3 evidence pipeline article** — HIGH; 4 PRs today complete the capture/routing architecture; strong article candidate
+- **`command_sessions_world_state` explainer** — Medium; Code Mode introspection of retained command handles
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+- **`/presets` as a Team Coordination Layer** — depth piece; carry forward
+- **Substack post #90 (`2026-03-30-codex-app-server-tui-architecture-shift.md`)** — awaits `copy_edited: true`; manual review required
+
+---
+
 
 ## Article Triage — 5 November 2026 (Pass 4, ~11:00 UTC)
 

@@ -1,7 +1,7 @@
 ---
 title: "Sleeper Attacks on LLM Agents: What Plant-Persist-Trigger Reveals About Persistent State Poisoning — and How Codex CLI's Sandbox, Hook, and Memory Isolation Architecture Defends Against It"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-11-05T11:36:36Z
+last_modified_at: 2026-11-05T15:06:52Z
 tags: ["codex-cli", "security", "sleeper-attacks", "prompt-injection", "agent-state", "memory-poisoning", "sandbox", "hooks", "PreToolUse", "defence"]
 ---
 

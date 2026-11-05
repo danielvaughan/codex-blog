@@ -1,7 +1,7 @@
 ---
 title: "Compaction as Epistemic Failure: How Coding Agents Fabricate Results from Killed Processes — and How to Defend Your Codex CLI Workflows"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-11-05T11:36:36Z
+last_modified_at: 2026-11-05T15:06:52Z
 tags: ["codex-cli", "compaction", "epistemic-failure", "fabricated-results", "exit-code-143", "PostToolUse", "auto-compact", "context-management", "Slipstream", "long-horizon-agents"]
 ---
 

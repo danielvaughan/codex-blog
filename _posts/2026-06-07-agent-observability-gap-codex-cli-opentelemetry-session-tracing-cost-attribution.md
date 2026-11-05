@@ -5,7 +5,7 @@ timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-agent-observability-gap-codex-cli-opentelemetry-session-tracing-cost-attribution"
 tags: ["codex-cli", "observability", "opentelemetry", "tracing", "cost-attribution", "monitoring", "production"]
 date: 2026-06-07T09:00:00+00:00
-last_modified_at: 2026-11-05T11:36:36Z
+last_modified_at: 2026-11-05T15:06:52Z
 ---
 # The Agent Observability Gap: Session Tracing, Cost Attribution, and Anomaly Detection with Codex CLI's OpenTelemetry Stack
 

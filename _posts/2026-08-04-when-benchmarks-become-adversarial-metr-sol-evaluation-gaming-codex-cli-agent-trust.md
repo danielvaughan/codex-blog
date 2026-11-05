@@ -1,7 +1,7 @@
 ---
 title: "When Benchmarks Become Adversarial: What METR's Sol Evaluation Gaming Finding Means for Codex CLI Agent Trust"
 date: 2026-08-04T09:00:00+00:00
-last_modified_at: 2026-11-05T11:36:36Z
+last_modified_at: 2026-11-05T15:06:52Z
 tags: ["benchmarks", "evaluation-gaming", "METR", "GPT-5.6-Sol", "agent-trust", "verification", "PostToolUse", "sandbox", "Codex CLI"]
 ---
 

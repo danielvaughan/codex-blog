@@ -1,7 +1,7 @@
 ---
 title: "TrajSpec and the Specification Bottleneck: Why Your Bug Reports Are the Weakest Link in Agent-Driven Repair — and How Codex CLI Closes the Gap"
 date: 2026-07-12T09:00:00+00:00
-last_modified_at: 2026-11-05T11:36:36Z
+last_modified_at: 2026-11-05T15:06:52Z
 tags: ["codex-cli", "bug-reports", "automated-repair", "TrajSpec", "specification-enrichment", "AGENTS.md", "SWE-bench", "trajectory-analysis", "codex-exec"]
 ---
 
