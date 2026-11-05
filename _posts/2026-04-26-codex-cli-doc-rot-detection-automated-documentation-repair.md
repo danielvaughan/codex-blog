@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-doc-rot-detection-automated-documentation-repair"
 tags: ["codex-cli", "documentation", "automation", "ci-cd", "codex-exec", "hooks", "github-actions", "doc-rot"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-11-05T17:07:26Z
+last_modified_at: 2026-11-05T18:07:13Z
 ---
 # Automated Doc-Rot Detection and Repair with Codex CLI
 

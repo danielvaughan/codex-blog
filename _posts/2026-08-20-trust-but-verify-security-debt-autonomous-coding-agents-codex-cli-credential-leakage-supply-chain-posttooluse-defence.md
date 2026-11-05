@@ -1,7 +1,7 @@
 ---
 title: "Trust but Verify: What 4,022 Agent-Generated Pull Requests Reveal About Security Debt — and How to Defend Your Codex CLI Pipeline"
 date: 2026-08-20T09:00:00+00:00
-last_modified_at: 2026-11-05T17:07:26Z
+last_modified_at: 2026-11-05T18:07:13Z
 tags: ["codex-cli", "security-debt", "autonomous-coding-agents", "credential-leakage", "supply-chain-integrity", "PostToolUse-hooks", "PreToolUse-hooks", "sandbox", "secrets-redaction", "agent-PR-security"]
 ---
 

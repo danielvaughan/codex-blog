@@ -1,7 +1,7 @@
 ---
 title: "Developer Liability for Autonomous Agent Actions: What the Hugging Face Breach, CFAA, and AB 316 Mean for Your Codex CLI Configuration"
 date: 2026-08-02T09:00:00+00:00
-last_modified_at: 2026-11-05T17:07:26Z
+last_modified_at: 2026-11-05T18:07:13Z
 tags: ["codex-cli", "security", "legal", "liability", "CFAA", "AB-316", "EU-AI-Act", "audit-trail", "sandbox", "approval-policy", "PostToolUse", "compliance"]
 ---
 

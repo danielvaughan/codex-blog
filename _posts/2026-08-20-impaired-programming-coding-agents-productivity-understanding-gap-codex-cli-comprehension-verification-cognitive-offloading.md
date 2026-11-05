@@ -1,7 +1,7 @@
 ---
 title: "(Im)Paired Programming: The Productivity-Understanding Gap and What It Means for Your Codex CLI Workflow"
 date: 2026-08-20T09:00:00+00:00
-last_modified_at: 2026-11-05T17:07:26Z
+last_modified_at: 2026-11-05T18:07:13Z
 tags: ["codex-cli", "productivity", "developer-understanding", "cognitive-offloading", "comprehension", "agents-md", "hooks", "pair-programming", "deskilling"]
 ---
 

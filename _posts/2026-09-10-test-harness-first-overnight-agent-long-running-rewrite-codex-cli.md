@@ -3,7 +3,7 @@ title: "The Overnight Agent: What Checkly's Zero-Incident Rewrite Teaches Codex 
 parent: "Articles"
 nav_order: 1158
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-05T17:07:26Z
+last_modified_at: 2026-11-05T18:07:13Z
 tags: ["codex-cli", "long-running-agents", "test-harness", "agentic-rewrite", "production", "code-generation"]
 ---
 

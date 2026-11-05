@@ -1,7 +1,7 @@
 ---
 title: "The Role Specialization Model: What a Three-Tool Coordination Study Reveals About Your Codex CLI Multi-Agent Strategy"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-11-05T17:07:26Z
+last_modified_at: 2026-11-05T18:07:13Z
 tags: ["codex-cli", "multi-agent", "role-specialization", "subagents", "TOML", "coordination", "RSM", "ISO-25010", "agentic-software-engineering"]
 ---
 

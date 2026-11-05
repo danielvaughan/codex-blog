@@ -1,11 +1,21 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-05T17:07:26Z
+last_modified_at: 2026-11-05T18:07:13Z
 tags:
   - backlog
   - planning
 ---
+
+## Article Ideas — 5 November 2026 (article-rater pass)
+
+*Added by Andy (NanoClaw) article-rater skill — gaps identified from rating 3 new articles published 5 November.*
+
+| Priority | Title | Basis |
+|----------|-------|-------|
+| 🟠 High | **Guardian v3: Production Configuration Guide** | The Guardian v3 architecture deep-dive (5 Nov, composite 4.6) explains how the evidence pipeline works. Once v0.167.0 ships stable, a companion user guide covering `evidence_pipeline` configuration, `denial_reconsideration`, `auto_review.timeout_ms`, and Guardian v3 AGENTS.md patterns is needed. The architecture article creates the demand. |
+| 🟠 High | **`codex queue` Playbook: Full Async Session Management Reference** | `codex queue --resume` how-to now published (5 Nov, composite 3.6). No comprehensive guide to the full queue surface (`--add`, `--list`, `--resume`, `--pause`, `--thread`, queue-order management, overnight batch patterns, CI integration). The `--resume` article creates a natural anchor. |
+
 
 ## Article Triage — 5 November 2026 (Pass 5, ~15:00 UTC)
 

@@ -1,7 +1,7 @@
 ---
 title: "Self-Evolving Coding Agents: What a Five-Category Taxonomy Reveals About Codex CLI's Evolution Primitives — and Where the Gaps Remain"
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-11-05T17:07:26Z
+last_modified_at: 2026-11-05T18:07:13Z
 tags: ["self-evolving-agents", "codex-cli", "memories", "skills", "agent-plugins", "hooks", "taxonomy", "coding-agent-evolution"]
 ---
 
