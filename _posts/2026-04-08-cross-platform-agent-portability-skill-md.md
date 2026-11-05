@@ -2,7 +2,7 @@
 title: "Cross-Platform Agent Portability: One SKILL.md for Every Runtime"
 description: "The AI coding agent landscape has fragmented into over a dozen serious contenders."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-11-05T03:10:31Z
+last_modified_at: 2026-11-05T07:08:19Z
 tags:
   - ecosystem
   - skills
