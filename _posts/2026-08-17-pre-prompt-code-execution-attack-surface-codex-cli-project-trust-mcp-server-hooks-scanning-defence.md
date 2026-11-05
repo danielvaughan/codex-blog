@@ -1,7 +1,7 @@
 ---
 title: "Before the First Prompt: Pre-Prompt Code Execution Risks in Codex CLI and How to Defend Against Them"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-11-05T10:09:15Z
+last_modified_at: 2026-11-05T10:24:15Z
 tags: ["codex-cli", "security", "project-trust", "MCP", "hooks", "supply-chain", "pre-prompt-execution", "sandbox"]
 ---
 
