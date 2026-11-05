@@ -1,7 +1,7 @@
 ---
 title: "One Gate Is Not Enough: Why Composing Pre-Action Controls Matters for Your Codex CLI Hook Pipeline"
 date: 2026-08-20T09:00:00+00:00
-last_modified_at: 2026-11-05T15:06:52Z
+last_modified_at: 2026-11-05T17:07:26Z
 tags: ["codex-cli", "hooks", "PreToolUse", "PostToolUse", "guardian", "approval-mode", "sandbox", "pre-action-controls", "remediation-coupling", "governance", "security"]
 ---
 

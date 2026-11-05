@@ -1,7 +1,7 @@
 ---
 title: "Prime Agent's RLM Harness: Persistent REPL, Recursive Subagents, and What Codex CLI Is Missing"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-11-05T15:06:52Z
+last_modified_at: 2026-11-05T17:07:26Z
 tags: ["codex-cli", "agent-harness", "prime-agent", "rlm", "persistent-repl", "self-improvement", "arc-agi-3", "multi-agent", "long-horizon"]
 ---
 

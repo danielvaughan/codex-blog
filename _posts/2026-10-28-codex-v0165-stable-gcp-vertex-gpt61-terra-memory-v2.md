@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.165.0 Stable: GCP Vertex AI Built-In, GPT-6.1 Terra, Memory v2 Default"
 date: 2026-10-28T07:00:00+00:00
-last_modified_at: 2026-11-05T15:06:52Z
+last_modified_at: 2026-11-05T17:07:26Z
 parent: "Articles"
 nav_order: 1208
 tags:

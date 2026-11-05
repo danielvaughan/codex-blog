@@ -2,7 +2,7 @@
 title: "The Great Convergence: Why Every AI Coding Agent Now Runs the Same Pipeline"
 description: "I have been tracking over a dozen AI coding agents for months now — OpenAI Codex CLI, Anthropic Claude Code, Google Jules, Cursor, GitHub Copilot Agent."
 date: 2026-04-15T16:00:00+00:00
-last_modified_at: 2026-11-05T15:06:52Z
+last_modified_at: 2026-11-05T17:07:26Z
 tags:
   - architecture
   - convergence

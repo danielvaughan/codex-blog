@@ -1,7 +1,7 @@
 ---
 title: "Strategic Forgetting and Utility-Driven Memory Survival: What SF-AMS Reveals About Codex CLI's Memory Consolidation Gap"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-11-05T15:06:52Z
+last_modified_at: 2026-11-05T17:07:26Z
 tags: ["codex-cli", "memories", "strategic-forgetting", "sf-ams", "memory-consolidation", "hierarchical-retention", "utility-driven-survival", "memory-management"]
 ---
 

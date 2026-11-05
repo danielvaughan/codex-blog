@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-design-space-of-coding-agent-harnesses-codex-cli-claude-code-architectural-lessons"
 tags: ["codex-cli", "architecture", "agent-harness", "design-space", "claude-code", "research", "comparison"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-11-05T15:06:52Z
+last_modified_at: 2026-11-05T17:07:26Z
 ---
 # The Design Space of Coding Agent Harnesses: Seven Architectural Lessons from the Claude Code Analysis That Apply to Codex CLI
 

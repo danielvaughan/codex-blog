@@ -1,7 +1,7 @@
 ---
 title: "Correct Code, Vulnerable Dependencies: Why Your LLM Pins Dangerous Library Versions — and How Codex CLI's Hook and Governance Stack Stops Them Shipping"
 date: 2026-07-07T09:00:00+00:00
-last_modified_at: 2026-11-05T15:06:52Z
+last_modified_at: 2026-11-05T17:07:26Z
 tags: ["codex-cli", "supply-chain-security", "dependency-management", "PreToolUse-hooks", "CVE", "library-versions", "requirements-toml"]
 ---
 

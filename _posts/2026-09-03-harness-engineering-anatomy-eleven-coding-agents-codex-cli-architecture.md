@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1110
 title: "Harness Engineering: What a Source-Code Autopsy of Eleven Coding Agents Reveals About Codex CLI's Architecture"
 date: 2026-09-03T22:00:00+00:00
-last_modified_at: 2026-11-05T15:06:52Z
+last_modified_at: 2026-11-05T17:07:26Z
 tags: ["codex-cli", "harness-engineering", "architecture", "research", "safety", "orchestration", "mcp", "extensibility"]
 ---
 
