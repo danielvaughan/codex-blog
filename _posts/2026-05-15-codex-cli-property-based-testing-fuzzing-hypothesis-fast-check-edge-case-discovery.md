@@ -6,7 +6,7 @@ timestamp: 2026-05-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-15-codex-cli-property-based-testing-fuzzing-hypothesis-fast-check-edge-case-discovery"
 tags: ["codex-cli", "property-based-testing", "fuzzing", "hypothesis", "fast-check", "testing", "edge-cases", "quality-assurance"]
 date: 2026-05-15T09:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 ---
 # Property-Based Testing and Fuzzing with Codex CLI: Agent-Driven Edge-Case Discovery Using Hypothesis and fast-check
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-12-codex-cli-dynamic-model-routing-mid-session-switching"
 tags: ["model-routing", "/model", "/fast", "service-tier", "reasoning-effort", "cost-optimisation", "workflow", "config-toml"]
 date: 2026-04-12T09:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 ---
 # Dynamic Model Routing in Codex CLI: Mid-Session Switching, /fast Mode, and Service Tier Workflows
 

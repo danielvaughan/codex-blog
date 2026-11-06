@@ -1,10 +1,45 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 6 November 2026 (Pass 11, ~03:00 UTC)
+
+*Hourly KB review — 1 new article written this pass. Library: 2,091 articles, 123 premium. Notes: 1,171.*
+
+**Done this pass:**
+- **Wrote article:** `articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.md` — v0.167.0 stable release article (CRITICAL backlog item); covers Agent Command Center, multi-backend session switching, local image attachment previews, GCP Vertex AI wizard, inline patch review, Guardian elastic budgeting, bounded Code Mode output, managed network permissions, MCP per-chat leases, UX fixes
+- v0.167.0 stable released at 01:40 UTC — `prerelease: false`; sprint ran 29 Oct → 6 Nov (8 days, 6 hours)
+- v0.168.0 alpha sprint underway immediately post-stable; 13 PRs merged 01:00–03:00 UTC
+- TUI provider editing (#59779), multiple side chats (#59784), gateway credential export (#59787) are the user-visible v0.168.0 highlights so far
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.png` — new (this pass)
+- `sketchnotes/articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.png` — 1 day
+- `sketchnotes/articles/2026-11-05-codex-doctor-network-only-....png` — 1 day
+- `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — 2 days
+- `sketchnotes/articles/2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.png` — 3 days
+- `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png` — 3 days
+- `sketchnotes/articles/2026-11-01-28-days-of-shipping-end-of-sprint-scorecard-openai-codex.png` — 5 days
+- `sketchnotes/articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.png` — 5 days
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — carry forward
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — carry forward
+- `sketchnotes/articles/2026-10-29-guardian-v2-vs-gpt61-sol-regression-constraint-enforcement-system-level-fix.png` — carry forward
+
+**Remaining backlog items:**
+- ~~**v0.167.0 stable release article**~~ — **DONE (this pass)**
+- **Guardian v3 evidence pipeline article** — HIGH; architecture complete (5 Nov); article still pending
+- **Guardian v3: Production Configuration Guide** — HIGH; unblocked now that v0.167.0 stable shipped
+- **`codex queue` Playbook: Full Async Session Management Reference** — HIGH; `--resume` how-to published as anchor
+- **`command_sessions_world_state` explainer** — Medium; Code Mode introspection of retained command handles
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+- **`/presets` as a Team Coordination Layer** — depth piece; carry forward
+- **Provider Configuration Editing TUI Guide** — New; #59779 + #59776 together make a "setting up custom providers" article once v0.168.0 stabilises
+
 ---
 
 ## Article Ideas — 5 November 2026 (article-rater pass)

@@ -1,7 +1,7 @@
 ---
 title: "Cheap Code, Costly Judgment: What Governance Conversion Means for Your Codex CLI Configuration"
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 tags: ["codex-cli", "governance", "agentic-engineering", "requirements-toml", "approval-policy", "software-engineering", "research"]
 ---
 

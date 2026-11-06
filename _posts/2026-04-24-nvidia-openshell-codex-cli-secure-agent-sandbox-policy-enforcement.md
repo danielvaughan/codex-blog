@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-nvidia-openshell-codex-cli-secure-agent-sandbox-policy-enforcement"
 tags: ["codex-cli", "nvidia", "openshell", "sandbox", "security", "policy-as-code", "enterprise", "agent-governance"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 ---
 # NVIDIA OpenShell and Codex CLI: Kernel-Level Sandboxing for Autonomous Coding Agents
 

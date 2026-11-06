@@ -5,7 +5,7 @@ timestamp: 2026-06-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-06-ai-ready-code-health-codescene-research-codex-cli-agent-performance-quality-gates"
 tags: ["codex-cli", "code-health", "codescene", "mcp", "quality-gates", "technical-debt", "agentic-coding", "research"]
 date: 2026-06-06T09:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 ---
 # AI-Ready Code: How Code Health Determines Codex CLI Agent Performance
 

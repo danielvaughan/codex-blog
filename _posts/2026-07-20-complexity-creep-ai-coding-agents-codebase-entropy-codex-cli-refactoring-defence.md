@@ -1,7 +1,7 @@
 ---
 title: "Complexity Creep: Why AI Coding Agents Add More Than They Simplify"
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 tags: ["codex-cli", "complexity", "technical-debt", "refactoring", "code-quality", "AGENTS.md", "agentic-entropy"]
 ---
 

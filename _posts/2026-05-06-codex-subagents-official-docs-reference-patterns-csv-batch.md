@@ -2,7 +2,7 @@
 title: "The Official Codex Subagents Documentation — Architecture, Patterns, and CSV Batch Processing"
 description: "OpenAI's official subagents documentation page has matured into a comprehensive reference for multi-agent Codex workflows."
 date: 2026-05-06T00:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 category: reference
 tags:
   - subagents

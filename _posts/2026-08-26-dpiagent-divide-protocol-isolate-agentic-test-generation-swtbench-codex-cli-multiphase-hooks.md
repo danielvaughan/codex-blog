@@ -1,7 +1,7 @@
 ---
 title: "DPIAgent: Divide, Protocol, Isolate — What Agentic Test Generation Teaches Us About Multi-Phase Codex CLI Workflows"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 tags: ["codex-cli", "test-generation", "agentic-workflows", "hooks", "multi-phase", "swtbench", "agents-md", "goal-drift"]
 ---
 

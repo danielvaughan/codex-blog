@@ -5,7 +5,7 @@ timestamp: 2026-07-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-01-agent-ecosystem-impact-report-augmentation-dilution-180m-census-agentic-pr-rejection-codex-cli"
 tags: ["codex-cli", "ecosystem-impact", "augmentation-dilution", "180m-census", "agentic-prs", "contributor-diversity", "review-burden", "newcomer-onboarding", "AGENTS.md", "governance", "open-source", "premium"]
 date: 2026-07-01T09:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 ---
 # The Agent Ecosystem Impact Report: Augmentation, Dilution, and Rejection Across 180 Million Repositories
 

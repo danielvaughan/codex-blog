@@ -5,7 +5,7 @@ timestamp: 2026-05-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-27-codex-cli-dagger-container-use-programmable-pipelines-llm-agent-ci-cd"
 tags: ["codex-cli", "dagger", "container-use", "mcp", "ci-cd", "pipelines-as-code", "llm-integration", "agent-isolation"]
 date: 2026-05-27T09:00:00+00:00
-last_modified_at: 2026-11-05T18:07:13Z
+last_modified_at: 2026-11-06T03:06:39Z
 ---
 # Codex CLI with Dagger: Container-Use MCP, Programmable Pipelines, and LLM-Native CI/CD
 
