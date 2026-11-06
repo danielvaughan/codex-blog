@@ -2,7 +2,7 @@
 title: "Cross-Platform Agent Friction: The Five Pain Points Every CLI Tool Shares in April 2026"
 description: "Terminal-based AI coding agents have become the default tool for serious developers in 2026. Codex CLI, Claude Code, Gemini CLI, OpenCode, Kimi CLI, GitHub."
 date: 2026-04-09T09:00:00+00:00
-last_modified_at: 2026-11-06T03:14:02Z
+last_modified_at: 2026-11-06T07:10:22Z
 tags:
   - cross-platform
   - friction-points

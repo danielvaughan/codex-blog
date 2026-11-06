@@ -1,18 +1,19 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-06T03:14:02Z
+last_modified_at: 2026-11-06T07:10:22Z
 tags:
   - backlog
   - planning
 ---
 
-## Article Triage — 6 November 2026 (Pass 11, ~03:00 UTC)
+## Article Triage — 6 November 2026 (Pass 12, ~08:00 UTC)
 
-*Hourly KB review — 1 new article written this pass. Library: 2,091 articles, 123 premium. Notes: 1,171.*
+*Hourly KB review — 2 new articles written this pass. Library: 2,092 articles, 123 premium. Notes: 1,172.*
 
 **Done this pass:**
-- **Wrote article:** `articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.md` — v0.167.0 stable release article (CRITICAL backlog item); covers Agent Command Center, multi-backend session switching, local image attachment previews, GCP Vertex AI wizard, inline patch review, Guardian elastic budgeting, bounded Code Mode output, managed network permissions, MCP per-chat leases, UX fixes
+- **Wrote article:** `articles/2026-11-06-guardian-v3-production-configuration-guide-codex-cli.md` — Guardian v3 Production Configuration Guide; covers feature flag enabling, evidence pipeline context budgeting (v0.167.0 elastic budgeting), denial reconsideration, timeout config, granular approval surfaces, AGENTS.md managed network permissions, enterprise managed config reference, migration from v2
+- **Previous pass (Pass 11):** `articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.md` — v0.167.0 stable release article (CRITICAL backlog item); covers Agent Command Center, multi-backend session switching, local image attachment previews, GCP Vertex AI wizard, inline patch review, Guardian elastic budgeting, bounded Code Mode output, managed network permissions, MCP per-chat leases, UX fixes
 - v0.167.0 stable released at 01:40 UTC — `prerelease: false`; sprint ran 29 Oct → 6 Nov (8 days, 6 hours)
 - v0.168.0 alpha sprint underway immediately post-stable; 13 PRs merged 01:00–03:00 UTC
 - TUI provider editing (#59779), multiple side chats (#59784), gateway credential export (#59787) are the user-visible v0.168.0 highlights so far
@@ -31,9 +32,9 @@ tags:
 - `sketchnotes/articles/2026-10-29-guardian-v2-vs-gpt61-sol-regression-constraint-enforcement-system-level-fix.png` — carry forward
 
 **Remaining backlog items:**
-- ~~**v0.167.0 stable release article**~~ — **DONE (this pass)**
-- **Guardian v3 evidence pipeline article** — HIGH; architecture complete (5 Nov); article still pending
-- **Guardian v3: Production Configuration Guide** — HIGH; unblocked now that v0.167.0 stable shipped
+- ~~**v0.167.0 stable release article**~~ — **DONE (Pass 11)**
+- ~~**Guardian v3 evidence pipeline article**~~ — **DONE (Pass 6, 5 Nov)** — `articles/2026-11-05-guardian-v3-evidence-pipeline-snapshots-cursors-housekeeping.md`
+- ~~**Guardian v3: Production Configuration Guide**~~ — **DONE (this pass)** — `articles/2026-11-06-guardian-v3-production-configuration-guide-codex-cli.md`
 - **`codex queue` Playbook: Full Async Session Management Reference** — HIGH; `--resume` how-to published as anchor
 - **`command_sessions_world_state` explainer** — Medium; Code Mode introspection of retained command handles
 - **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward

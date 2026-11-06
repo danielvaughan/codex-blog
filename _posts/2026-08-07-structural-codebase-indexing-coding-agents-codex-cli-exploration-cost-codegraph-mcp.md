@@ -1,7 +1,7 @@
 ---
 title: "Code Isn't Memory: What Structural Codebase Indexing Means for Your Codex CLI Exploration Costs"
 date: 2026-08-07T09:00:00+00:00
-last_modified_at: 2026-11-06T03:14:02Z
+last_modified_at: 2026-11-06T07:10:22Z
 tags: ["codex-cli", "codebase-indexing", "code-graph", "MCP", "exploration", "tree-sitter", "cost-optimisation"]
 ---
 
