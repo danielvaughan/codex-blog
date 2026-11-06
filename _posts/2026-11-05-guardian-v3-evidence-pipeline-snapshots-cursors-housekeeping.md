@@ -1,7 +1,7 @@
 ---
 title: "Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping in Codex CLI"
 date: 2026-11-05T17:00:00+00:00
-last_modified_at: 2026-11-06T10:26:25Z
+last_modified_at: 2026-11-06T11:39:39Z
 parent: "Articles"
 nav_order: 1218
 tags:
@@ -17,6 +17,8 @@ copy_edited: true
 ---
 
 # Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping in Codex CLI
+
+![Sketchnote diagram for: Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping in Codex CLI](/sketchnotes/articles/2026-11-05-guardian-v3-evidence-pipeline-snapshots-cursors-housekeeping.png)
 
 **Merged:** Four PRs on 5 November 2026 — #59669, #59670, #59671, #59659
 **Affects:** Codex CLI v0.168.0 and later (PRs merged after v0.167.0 stable cutoff)
@@ -123,30 +125,20 @@ The intent is to handle cases where Guardian's first evaluation was produced und
 
 The four PRs together define a coherent pipeline:
 
-```
-Main runtime
-     |
-     v
-EvidenceSnapshot::capture()
-     |  (immutable; excludes generated context; rejects forked/reverted histories)
-     v
-Housekeeper
-     |  (validates routing; batches within budget; deferred cursor advance)
-     v
-Topic channels (local message board)
-     |
-     v
-EvidenceCursor (tail-first; per-item ACK; reads non-destructive)
-     |
-     v
-Guardian reviewer runtime
-     |
-     +-- Approve → main runtime proceeds
-     |
-     +-- Deny (first) → denial_reconsideration? → retry with original request
-     |                                            → approve or final deny
-     |
-     +-- Deny (final) → action blocked
+```mermaid
+flowchart TD
+    A[Main runtime] --> B["EvidenceSnapshot::capture()\nimmutable · excludes generated context\nrejects forked/reverted histories"]
+    B --> C["Housekeeper\nvalidates routing · batches within budget\ndeferred cursor advance"]
+    C --> D["Topic channels\nlocal message board"]
+    D --> E["EvidenceCursor\ntail-first · per-item ACK\nreads non-destructive"]
+    E --> F[Guardian reviewer runtime]
+    F -->|Approve| G[Main runtime proceeds]
+    F -->|"Deny (first)"| H{"denial_reconsideration?"}
+    H -->|enabled| I[Retry with original request]
+    I -->|Approve| G
+    I -->|"Final deny"| K[Action blocked]
+    H -->|disabled| K
+    F -->|"Deny (final)"| K
 ```
 
 This is a significant maturation from Guardian v2. The reviewer now operates against a durable, structured evidence stream rather than consuming a live history snapshot in a single pass. The pipeline has explicit delivery guarantees, budget awareness, and a failure-recovery path for terminal denials.

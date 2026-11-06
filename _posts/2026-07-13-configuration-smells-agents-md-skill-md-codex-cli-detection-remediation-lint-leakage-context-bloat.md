@@ -1,7 +1,7 @@
 ---
 title: "Configuration Smells Across AGENTS.md and SKILL.md: What 338 Files Reveal About How We Misconfigure Coding Agents"
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-11-06T10:26:25Z
+last_modified_at: 2026-11-06T11:39:39Z
 tags: ["codex-cli", "AGENTS.md", "SKILL.md", "configuration-smells", "code-quality", "lint-leakage", "context-bloat", "skills", "best-practices"]
 ---
 

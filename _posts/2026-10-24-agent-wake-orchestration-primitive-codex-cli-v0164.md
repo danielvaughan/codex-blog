@@ -2,7 +2,7 @@
 title: "Agent Wake: The Orchestration Primitive That Changes Multi-Session Workflows"
 parent: "Articles"
 date: 2026-10-24T08:00:00+00:00
-last_modified_at: 2026-11-06T10:26:25Z
+last_modified_at: 2026-11-06T11:39:39Z
 nav_order: 1202
 tags: ["codex-cli", "v0.164.0", "agent-wake", "multi-agent", "orchestration", "multi-environment", "feature-flags", "architecture"]
 copy_edited: true

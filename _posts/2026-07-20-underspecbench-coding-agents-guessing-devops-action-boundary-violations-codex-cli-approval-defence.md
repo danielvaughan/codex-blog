@@ -1,7 +1,7 @@
 ---
 title: "Coding Agents Are Guessing: What UnderSpecBench Reveals About DevOps Safety — and How Codex CLI's Approval Architecture Defends Against It"
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-11-06T10:26:25Z
+last_modified_at: 2026-11-06T11:39:39Z
 tags: ["codex-cli", "underspecbench", "devops-safety", "approval-policy", "action-boundary-violations", "production-safety", "agents-md", "coding-agent-research"]
 ---
 

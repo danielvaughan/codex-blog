@@ -1,7 +1,7 @@
 ---
 title: "SpecBox and the Sandbox Cold-Start Tax: Why Your MCP Tool Calls Stall — and What Speculative Prewarming Means for Codex CLI Agent Serving"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-11-06T10:26:25Z
+last_modified_at: 2026-11-06T11:39:39Z
 tags: ["codex-cli", "sandbox", "MCP", "cold-start", "speculative-execution", "SpecBox", "agent-serving", "performance", "latency", "prewarming"]
 ---
 
