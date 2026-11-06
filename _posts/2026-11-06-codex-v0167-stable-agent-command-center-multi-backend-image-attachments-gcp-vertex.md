@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.167.0 Stable: Agent Command Center, Multi-Backend Switching, Image Attachments, and GCP Vertex AI Wizard"
 date: 2026-11-06T01:40:00+00:00
-last_modified_at: 2026-11-06T03:06:39Z
+last_modified_at: 2026-11-06T03:14:02Z
 tags:
   - codex-cli
   - v0.167.0
@@ -30,7 +30,7 @@ copy_edited: false
 
 Codex CLI v0.167.0 reaches stable after one of the longest sprint windows in recent memory — eight days spanning a parallel alpha series and 100+ merged PRs. The release centres on five headline changes: a new **Agent Command Center** TUI for managing concurrent agent tasks, **multi-backend session switching** directly from the resume picker, **local image attachment previews** in the composer, an integrated **GCP Vertex AI setup wizard**, and **inline patch review** during approval prompts. Supporting these are substantial Guardian v3 context budgeting improvements, bounded Code Mode output with server-side truncation, managed network permission constraints for AGENTS.md, and a cluster of UX fixes across keyboard handling, network approval prompts, and realtime transcription.
 
-For detailed coverage of the Guardian v3 evidence pipeline work that dominated the alpha sprint, see [Guardian v3: Evidence Pipeline, Snapshots, Cursors, and Housekeeping](/2026/11/05/guardian-v3-evidence-pipeline-snapshots-cursors-housekeeping/).
+For coverage of the Guardian v3 evidence pipeline work that merged during the alpha sprint but landed after the v0.167.0 stable cut (and ships in v0.168.0), see [Guardian v3: Evidence Pipeline, Snapshots, Cursors, and Housekeeping](/2026/11/05/guardian-v3-evidence-pipeline-snapshots-cursors-housekeeping/).
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 Sol Ultrafast Preview: What 14× Inference Speed Means for Your Codex CLI Workflows"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-11-06T03:06:39Z
+last_modified_at: 2026-11-06T03:14:02Z
 tags: ["codex-cli", "gpt-5.6-sol", "ultrafast", "cerebras", "inference-speed", "model-routing", "named-profiles", "service-tier", "coding-agent-latency"]
 ---
 

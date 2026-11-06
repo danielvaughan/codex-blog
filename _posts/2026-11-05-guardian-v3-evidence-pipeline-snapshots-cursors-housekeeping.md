@@ -1,7 +1,7 @@
 ---
 title: "Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping in Codex CLI"
 date: 2026-11-05T17:00:00+00:00
-last_modified_at: 2026-11-06T03:06:39Z
+last_modified_at: 2026-11-06T03:14:02Z
 parent: "Articles"
 nav_order: 1218
 tags:
@@ -19,7 +19,7 @@ copy_edited: false
 # Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping in Codex CLI
 
 **Merged:** Four PRs on 5 November 2026 — #59669, #59670, #59671, #59659
-**Affects:** Codex CLI v0.167.0 and later (currently in alpha)
+**Affects:** Codex CLI v0.168.0 and later (PRs merged after v0.167.0 stable cutoff)
 **Authors:** felixxia-oai (evidence pipeline), jif (denial reconsideration)
 
 ---
@@ -163,7 +163,7 @@ For users running long autonomous sessions, the practical implications are:
 
 **Clearer denial semantics.** With denial reconsideration, a single denied action is no longer necessarily a workflow-stopper. If the denial was produced under degraded conditions, Codex will retry once before surfacing the block to the user.
 
-**Guardian v3 is still in alpha.** None of these properties are yet available in a stable release. v0.166.0 (29 October 2026) remains the current stable. Watch the v0.167.0 release for the first stable exposure of this pipeline.
+**Guardian v3 evidence pipeline is not in v0.167.0 stable.** The four PRs (#59659, #59669–#59671) were merged on 5 November 2026 — after the v0.167.0 stable cut (highest included PR: #58757). v0.167.0 (6 November 2026) is now stable but contains only the Guardian v3 elastic budgeting work (PRs #58123–#58454). Watch the v0.168.0 release for the first stable exposure of the evidence pipeline.
 
 ---
 
