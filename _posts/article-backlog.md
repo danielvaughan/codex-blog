@@ -1,10 +1,41 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-06T15:03:52Z
+last_modified_at: 2026-11-06T17:04:57Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 6 November 2026 (Pass 13, ~18:00 UTC)
+
+*Hourly KB review — 0 new articles written this pass. Library: 2,093 articles, 123 premium. Notes: 1,174.*
+
+**Done this pass:**
+- ~~**`codex queue` Playbook: Full Async Session Management Reference**~~ — **DONE (this pass)** — `articles/2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.md` — copy-edited and pushed
+- README updated: notes count corrected 1,173 → 1,174; codex queue Playbook added to Recent Articles
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.png` — new (this pass)
+- `sketchnotes/articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.png` — same day
+- `sketchnotes/articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.png` — 1 day
+- `sketchnotes/articles/2026-11-05-codex-doctor-network-only-....png` — 1 day
+- `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — 2 days
+- `sketchnotes/articles/2026-11-03-agentic-coding-landscape-2026-antigravity-kiro-codex-cli.png` — 3 days
+- `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png` — 3 days
+- `sketchnotes/articles/2026-11-01-28-days-of-shipping-end-of-sprint-scorecard-openai-codex.png` — 5 days
+- `sketchnotes/articles/2026-11-01-three-releases-three-windows-regressions-codex-cli-platform-reliability.png` — 5 days
+- `sketchnotes/articles/2026-10-31-codex-v0166-stable-queue-resume-keyboard-transcript-terra.png` — carry forward
+- `sketchnotes/articles/2026-10-31-openai-pro-codex-allowance-cut-migration-signal.png` — carry forward
+- `sketchnotes/articles/2026-10-29-guardian-v2-vs-gpt61-sol-regression-constraint-enforcement-system-level-fix.png` — carry forward
+
+**Remaining backlog items:**
+- ~~**`codex queue` Playbook: Full Async Session Management Reference**~~ — **DONE (this pass)**
+- **`command_sessions_world_state` explainer** — Medium; Code Mode introspection of retained command handles
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+- **`/presets` as a Team Coordination Layer** — depth piece; carry forward
+- **Provider Configuration Editing TUI Guide** — New; #59779 + #59776; await v0.168.0 stabilisation
+
 ---
 
 ## Article Triage — 6 November 2026 (Pass 12, ~08:00 UTC)

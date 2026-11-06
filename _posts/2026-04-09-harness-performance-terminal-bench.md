@@ -2,7 +2,7 @@
 title: "Harness Performance on Terminal-Bench: Why Scaffolding Matters More Than Model Choice"
 description: "Terminal-Bench 2.0 has become the definitive benchmark for evaluating AI coding agents in realistic terminal environments . Published at ICLR 2026, it tests."
 date: 2026-04-09T10:00:00+00:00
-last_modified_at: 2026-11-06T15:03:52Z
+last_modified_at: 2026-11-06T17:04:57Z
 tags:
   - terminal-bench
   - harness-engineering

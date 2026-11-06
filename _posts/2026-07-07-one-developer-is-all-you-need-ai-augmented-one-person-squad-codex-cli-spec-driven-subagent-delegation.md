@@ -1,7 +1,7 @@
 ---
 title: "One Developer Is All You Need: What a Brownfield Case Study Reveals About AI-Augmented Solo Delivery — and How to Wire the One-Person Squad in Codex CLI"
 date: 2026-07-07T09:00:00+00:00
-last_modified_at: 2026-11-06T15:03:52Z
+last_modified_at: 2026-11-06T17:04:57Z
 tags: ["codex-cli", "one-person-squad", "spec-driven-development", "subagent-delegation", "custom-agents", "brownfield", "productivity", "AGENTS.md"]
 ---
 
