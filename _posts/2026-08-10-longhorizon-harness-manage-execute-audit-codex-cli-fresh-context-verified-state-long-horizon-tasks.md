@@ -1,7 +1,7 @@
 ---
 title: "LongHorizon-Harness and the Manage-Execute-Audit Loop: Why Fresh-Context Execution with Verified State Beats Growing a Single Session — and How to Wire It into Codex CLI"
 date: 2026-08-10T09:00:00+00:00
-last_modified_at: 2026-11-06T13:05:30Z
+last_modified_at: 2026-11-06T15:03:52Z
 tags: ["codex-cli", "long-horizon", "context-drift", "verified-state", "manage-execute-audit", "subagents", "fresh-context", "harness-engineering", "terminal-bench"]
 ---
 

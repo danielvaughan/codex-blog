@@ -1,7 +1,7 @@
 ---
 title: "Refactoring Runaway: What 3,691 Agent Patches Reveal About Tangled Refactorings — and How to Defend Your Codex CLI Workflows"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-11-06T13:05:30Z
+last_modified_at: 2026-11-06T15:03:52Z
 tags: ["codex-cli", "refactoring", "tangled-changes", "coding-agents", "RefUntangle", "PreToolUse", "PostToolUse", "AGENTS.md", "scope-guard", "patch-quality"]
 ---
 

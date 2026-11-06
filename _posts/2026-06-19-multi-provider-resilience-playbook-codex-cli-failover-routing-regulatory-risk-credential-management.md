@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-multi-provider-resilience-playbook-codex-cli-failover-routing-regulatory-risk-credential-management"
 tags: ["codex-cli", "multi-provider", "resilience", "failover", "routing", "regulatory-risk", "gateway", "configuration", "premium"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-11-06T13:05:30Z
+last_modified_at: 2026-11-06T15:03:52Z
 ---
 # Multi-Provider Resilience Playbook: Failover, Routing, and Regulatory Risk Management for Codex CLI
 

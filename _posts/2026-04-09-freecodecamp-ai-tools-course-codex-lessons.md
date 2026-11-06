@@ -2,7 +2,7 @@
 title: "AI-Assisted Coding Tool Comparison: What the freeCodeCamp 85-Minute Course Teaches Practitioners"
 description: "On 1 April 2026 freeCodeCamp published a 1.5-hour video course titled AI Tools for Developers covering five AI development tools: GitHub Copilot, Claude."
 date: 2026-04-09T09:30:00+00:00
-last_modified_at: 2026-11-06T13:05:30Z
+last_modified_at: 2026-11-06T15:03:52Z
 tags:
   - freecodecamp
   - ai-assisted-coding

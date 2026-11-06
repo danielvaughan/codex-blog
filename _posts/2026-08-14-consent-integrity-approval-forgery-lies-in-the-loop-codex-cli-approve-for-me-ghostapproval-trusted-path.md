@@ -1,7 +1,7 @@
 ---
 title: "Consent Integrity and the Lies-in-the-Loop Attack: Why Your Approval Dialog Is Not a Security Boundary — and What Codex CLI's --approve-for-me Actually Defends"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-11-06T13:05:30Z
+last_modified_at: 2026-11-06T15:03:52Z
 tags: ["codex-cli", "security", "approval-policy", "consent-integrity", "WYSIWYS", "GhostApproval", "PreToolUse", "auto-review", "trusted-path", "LITL"]
 ---
 

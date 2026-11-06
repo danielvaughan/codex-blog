@@ -1,7 +1,7 @@
 ---
 title: "Rollout Token Budgets in Codex CLI: Cross-Thread Cost Governance for Multi-Agent Workflows"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-11-06T13:05:30Z
+last_modified_at: 2026-11-06T15:03:52Z
 tags: ["config.toml", "rollout-budget", "token-cost", "multi-agent", "multi_agent_v2", "cost-governance", "codex-cli", "v0.150.0"]
 ---
 

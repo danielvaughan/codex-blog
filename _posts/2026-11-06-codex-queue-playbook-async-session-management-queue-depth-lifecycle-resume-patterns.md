@@ -1,7 +1,7 @@
 ---
 title: "codex queue Playbook: Async Session Management, Queue Depth, Session Lifecycle, and Resume Patterns"
 date: 2026-11-06T10:00:00+00:00
-last_modified_at: 2026-11-06T13:05:30Z
+last_modified_at: 2026-11-06T15:03:52Z
 parent: "Articles"
 nav_order: 1221
 tags:
@@ -13,7 +13,7 @@ tags:
   - agentic-workflows
   - how-to
   - reference
-copy_edited: false
+copy_edited: true
 ---
 
 # codex queue Playbook: Async Session Management, Queue Depth, Session Lifecycle, and Resume Patterns
@@ -34,7 +34,7 @@ The Codex queue is a **persistent task buffer** — not a job scheduler. It hold
 The queue does not:
 - Execute tasks in parallel by default (parallelism requires explicit multi-session orchestration)
 - Expire threads automatically (queued threads persist until you close or purge them)
-- prioritise tasks by deadline or dependency (ordering is FIFO by default)
+- Prioritise tasks by deadline or dependency (ordering is FIFO by default)
 
 What the queue does provide is **durable pause-and-resume semantics**. A thread can be in progress, paused, waiting for input, or backgrounded — and in all cases the queue preserves its state across terminal closes, machine reboots, and network interruptions.
 

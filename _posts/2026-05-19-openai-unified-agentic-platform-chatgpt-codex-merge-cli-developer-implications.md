@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-openai-unified-agentic-platform-chatgpt-codex-merge-cli-developer-implications"
 tags: ["openai", "codex-cli", "chatgpt", "unified-platform", "strategy", "developer-experience", "agentic", "brockman", "ipo"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-11-06T13:05:30Z
+last_modified_at: 2026-11-06T15:03:52Z
 ---
 # OpenAI's Unified Agentic Platform: What the ChatGPT-Codex Merger Means for CLI Developers
 

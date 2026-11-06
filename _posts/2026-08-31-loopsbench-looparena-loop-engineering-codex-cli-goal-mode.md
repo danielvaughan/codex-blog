@@ -1,7 +1,7 @@
 ---
 title: "LoopsBench & LoopArena: The Shift from Harness Engineering to Loop Engineering — What the Numbers Mean for Codex CLI Operators"
 date: 2026-08-31T22:30:00+00:00
-last_modified_at: 2026-11-06T13:05:30Z
+last_modified_at: 2026-11-06T15:03:52Z
 tags: ["codex-cli", "benchmarks", "loop-engineering", "goal-mode", "harness-engineering", "long-horizon", "evaluation"]
 ---
 
