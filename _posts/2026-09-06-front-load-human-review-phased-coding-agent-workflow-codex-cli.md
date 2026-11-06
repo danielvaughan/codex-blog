@@ -1,6 +1,6 @@
 ---
 date: 2026-09-06T09:00:00+00:00
-last_modified_at: 2026-11-06T11:39:39Z
+last_modified_at: 2026-11-06T13:05:30Z
 title: "Front-Load or Fail: The Four-Phase Coding Agent Workflow and Its Codex CLI Implementation"
 parent: "Articles"
 nav_order: 1135

@@ -1,7 +1,7 @@
 ---
 title: "The Software Factory Mental Model: When One-Shot Prompts Become a Liability"
 date: 2026-10-21T13:00:00+00:00
-last_modified_at: 2026-11-06T11:39:39Z
+last_modified_at: 2026-11-06T13:05:30Z
 parent: "Articles"
 nav_order: 1197
 tags:

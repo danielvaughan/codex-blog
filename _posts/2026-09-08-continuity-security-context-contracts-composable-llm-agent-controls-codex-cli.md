@@ -3,7 +3,7 @@ title: "CONTINUITY: Why Composing Individually Sound Security Controls Still Fai
 parent: "Articles"
 nav_order: 1144
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-11-06T11:39:39Z
+last_modified_at: 2026-11-06T13:05:30Z
 tags: ["security", "hooks", "AGENTS.md", "approval-policy", "composition", "arXiv", "harness-engineering"]
 ---
 

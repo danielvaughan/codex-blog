@@ -1,7 +1,7 @@
 ---
 title: "What You Can See, You Can Steer: Codex CLI v0.148.0's /export, Cost Visibility, and codex exec fork"
 date: 2026-08-26T10:00:00+00:00
-last_modified_at: 2026-11-06T11:39:39Z
+last_modified_at: 2026-11-06T13:05:30Z
 tags: ["codex-cli", "v0.148.0", "session-management", "export", "cost-visibility", "forking", "workflow", "developer-experience"]
 ---
 
