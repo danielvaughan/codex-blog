@@ -1,7 +1,7 @@
 ---
 title: "Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping in Codex CLI"
 date: 2026-11-05T17:00:00+00:00
-last_modified_at: 2026-11-06T07:18:45Z
+last_modified_at: 2026-11-06T10:06:28Z
 parent: "Articles"
 nav_order: 1218
 tags:
@@ -13,7 +13,7 @@ tags:
   - evidence-pipeline
   - memory-v2
   - v0.167
-copy_edited: false
+copy_edited: true
 ---
 
 # Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping in Codex CLI
@@ -169,9 +169,9 @@ For users running long autonomous sessions, the practical implications are:
 
 ## Related Reading
 
-- [Inside the Black Box: Codex CLI v0.165.0's Observability Sprint](../2026-10-26-v0165-observability-sprint-tracing-streaming-tool-dispatch-guardian-v2) — Guardian v2 context
-- [Guardian v2 vs. GPT-6.1 Sol: Enforcing AGENTS.md at the System Level](../2026-10-29-guardian-v2-vs-gpt61-sol-regression-constraint-enforcement-system-level-fix)
-- [v0.167.0 Sprint Preview: The Rust TUI Rewrite and the Reliability Debt OpenAI Needs to Clear](../2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship)
+- [Inside the Black Box: Codex CLI v0.165.0's Observability Sprint](/2026/10/26/v0165-observability-sprint-tracing-streaming-tool-dispatch-guardian-v2/) — Guardian v2 context
+- [Guardian v2 vs. GPT-6.1 Sol: Enforcing AGENTS.md at the System Level](/2026/10/29/guardian-v2-vs-gpt61-sol-regression-constraint-enforcement-system-level-fix/)
+- [v0.167.0 Sprint Preview: The Rust TUI Rewrite and the Reliability Debt OpenAI Needs to Clear](/2026/11/03/v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship/)
 
 ---
 

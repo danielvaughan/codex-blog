@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-gh-skill-agent-skills-supply-chain-codex-cli"
 tags: ["gh-skill", "agent-skills", "supply-chain", "codex-cli", "github-cli", "provenance", "skills-management"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-11-06T07:18:45Z
+last_modified_at: 2026-11-06T10:06:28Z
 ---
 # gh skill: Supply-Chain-Secure Agent Skills from GitHub CLI to Codex CLI
 

@@ -2,7 +2,7 @@
 title: "Codex CLI Network Security: requirements.toml Enforcement, Landlock, and Air-Gapped Deployments"
 description: "Enterprise teams deploying Codex CLI face two distinct network security challenges. The first is operator enforcement: ensuring that individual developers."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-11-06T07:18:45Z
+last_modified_at: 2026-11-06T10:06:28Z
 tags:
   - security
   - network-security

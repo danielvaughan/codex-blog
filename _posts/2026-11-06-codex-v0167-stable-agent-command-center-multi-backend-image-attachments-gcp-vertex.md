@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.167.0 Stable: Agent Command Center, Multi-Backend Switching, Image Attachments, and GCP Vertex AI Wizard"
 date: 2026-11-06T01:40:00+00:00
-last_modified_at: 2026-11-06T07:18:45Z
+last_modified_at: 2026-11-06T10:06:28Z
 parent: "Articles"
 nav_order: 1219
 tags:
@@ -16,7 +16,7 @@ tags:
   - guardian
   - mcp
   - enterprise
-copy_edited: false
+copy_edited: true
 ---
 
 # Codex CLI v0.167.0 Stable: Agent Command Center, Multi-Backend Switching, Image Attachments, and GCP Vertex AI Wizard
@@ -26,7 +26,7 @@ copy_edited: false
 **Release date:** 6 November 2026, 01:40 UTC
 **Version:** v0.167.0 stable
 **Previous stable:** v0.166.0 (29 October 2026, 19:47 UTC)
-**Sprint duration:** 8 days, 6 hours (v0.166.0 stable to v0.167.0 stable — multiple alpha series including 0.167.x and 0.168.0-alpha)
+**Sprint duration:** 8 days, 6 hours (v0.166.0 stable to v0.167.0 stable — multiple alpha series including v0.167.x and v0.168.0-alpha)
 
 ---
 

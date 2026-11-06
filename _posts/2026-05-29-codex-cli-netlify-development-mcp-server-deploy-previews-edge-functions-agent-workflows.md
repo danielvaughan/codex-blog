@@ -5,7 +5,7 @@ timestamp: 2026-05-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-29-codex-cli-netlify-development-mcp-server-deploy-previews-edge-functions-agent-workflows"
 tags: ["codex-cli", "netlify", "mcp", "deploy-previews", "edge-functions", "agent-runners", "serverless", "jamstack"]
 date: 2026-05-29T09:00:00+00:00
-last_modified_at: 2026-11-06T07:18:45Z
+last_modified_at: 2026-11-06T10:06:28Z
 ---
 # Codex CLI for Netlify Development: MCP Server, Deploy Previews, Agent Runners, and Edge Function Workflows
 

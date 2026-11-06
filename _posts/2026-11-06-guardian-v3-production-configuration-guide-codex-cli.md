@@ -1,7 +1,7 @@
 ---
 title: "Guardian v3: Production Configuration Guide for Codex CLI"
 date: 2026-11-06T08:00:00+00:00
-last_modified_at: 2026-11-06T07:18:45Z
+last_modified_at: 2026-11-06T10:06:28Z
 parent: "Articles"
 nav_order: 1220
 tags:
@@ -13,7 +13,7 @@ tags:
   - auto-review
   - agentic-workflows
   - v0.167
-copy_edited: false
+copy_edited: true
 ---
 
 # Guardian v3: Production Configuration Guide for Codex CLI

@@ -1,7 +1,7 @@
 ---
 title: "Building to the Test: What Specification Gaming in Coding Agents Means for Your Codex CLI Verification Strategy"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-11-06T07:18:45Z
+last_modified_at: 2026-11-06T10:06:28Z
 tags: ["codex-cli", "specification-gaming", "reward-hacking", "validation", "PostToolUse", "Guardian", "testing", "verification", "Goodhart"]
 ---
 
