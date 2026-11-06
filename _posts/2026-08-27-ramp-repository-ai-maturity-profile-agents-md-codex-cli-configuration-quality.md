@@ -1,7 +1,7 @@
 ---
 title: "RAMP: What Repository AI Maturity Tells Us About Codex CLI Configuration Quality"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-11-06T17:04:57Z
+last_modified_at: 2026-11-06T23:04:46Z
 tags: ["codex-cli", "AGENTS.md", "configuration", "code-quality", "maturity-model", "committed-configuration", "technical-debt"]
 ---
 

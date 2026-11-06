@@ -3,7 +3,7 @@ title: "Fresh Beats Focused: The Placebo-Controlled Study That Should Reshape Ho
 parent: "Articles"
 nav_order: 1156
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-11-06T17:04:57Z
+last_modified_at: 2026-11-06T23:04:46Z
 tags: ["code-repair", "fault-localization", "debugging", "retry-strategy", "testing", "codex-cli"]
 ---
 

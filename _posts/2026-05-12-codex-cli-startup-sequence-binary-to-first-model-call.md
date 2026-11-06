@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-startup-sequence-binary-to-first-model-call"
 tags: ["codex-cli", "internals", "architecture", "startup", "configuration", "AGENTS.md", "MCP", "sandbox", "skills"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-11-06T17:04:57Z
+last_modified_at: 2026-11-06T23:04:46Z
 ---
 # What Happens When You Type `codex`: The Complete Startup Sequence from Binary to First Model Call
 

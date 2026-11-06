@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Incident Response: Automating On-Call with Agents"
 date: 2026-03-29T09:00:00+00:00
-last_modified_at: 2026-11-06T17:04:57Z
+last_modified_at: 2026-11-06T23:04:46Z
 description: "Wire PagerDuty/Datadog alerts into Codex CLI agentic workflows for AI-driven incident investigation and patch generation."
 tags:
   - ecosystem
