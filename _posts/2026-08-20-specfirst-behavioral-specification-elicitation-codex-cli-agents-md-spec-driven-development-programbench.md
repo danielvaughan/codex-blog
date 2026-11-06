@@ -1,7 +1,7 @@
 ---
 title: "SpecFirst and Behavioural Specification Elicitation: Why a Dedicated Discovery Phase Before Code Changes Your Codex CLI Outcomes"
 date: 2026-08-20T09:00:00+00:00
-last_modified_at: 2026-11-06T07:10:22Z
+last_modified_at: 2026-11-06T07:18:45Z
 tags: ["codex-cli", "specification-driven-development", "AGENTS.md", "SpecFirst", "ProgramBench", "behavioural-specification", "spec-agent", "two-phase-synthesis", "requirements-engineering"]
 ---
 

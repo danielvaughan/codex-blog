@@ -2,7 +2,7 @@
 title: "Fast Books: What AI-Enabled Publishing Can Learn from Fast Fashion and Fast Software"
 description: "In 1989, Zara opened its first store outside Spain. Its secret weapon was not design flair but supply-chain speed: a dress could move from sketch to shop."
 date: 2026-05-08T00:00:00+00:00
-last_modified_at: 2026-11-06T07:10:22Z
+last_modified_at: 2026-11-06T07:18:45Z
 author: Daniel Vaughan
 category: opinion
 tags:

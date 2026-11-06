@@ -1,7 +1,7 @@
 ---
 title: "WikiSkill: Compiling Agent Experience into Persistent Knowledge — What It Means for Your Codex CLI Skill Library"
 date: 2026-08-29T06:00:00+00:00
-last_modified_at: 2026-11-06T07:10:22Z
+last_modified_at: 2026-11-06T07:18:45Z
 tags: ["skill-evolution", "memories", "SKILL.md", "agent-plugins", "self-evolving-agents", "knowledge-base", "codeskill"]
 ---
 
