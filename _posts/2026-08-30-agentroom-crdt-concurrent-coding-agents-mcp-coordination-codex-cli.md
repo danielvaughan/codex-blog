@@ -1,7 +1,7 @@
 ---
 title: "AgentRoom: CRDT-Backed Concurrent Coding Agents — What 13.7× Abandonment Suppression Means for Your Codex CLI Multi-Agent Setup"
 date: 2026-08-30T06:00:00+00:00
-last_modified_at: 2026-11-07T10:10:24Z
+last_modified_at: 2026-11-07T10:25:45Z
 tags: ["codex-cli", "multi-agent", "CRDT", "MCP", "concurrency", "coordination", "shared-workspace", "benchmarks"]
 ---
 
