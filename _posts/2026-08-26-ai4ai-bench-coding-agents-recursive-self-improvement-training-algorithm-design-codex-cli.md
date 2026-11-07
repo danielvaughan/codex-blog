@@ -1,7 +1,7 @@
 ---
 title: "AI4AI-Bench: Can Coding Agents Improve AI Training Algorithms?"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-11-06T23:04:46Z
+last_modified_at: 2026-11-07T01:04:37Z
 tags: ["AI4AI-Bench", "recursive self-improvement", "coding agents", "training algorithm design", "Codex CLI", "reasoning effort", "algorithmic design", "LLM evaluation"]
 ---
 

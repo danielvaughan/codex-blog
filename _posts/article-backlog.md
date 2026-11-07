@@ -1,10 +1,34 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-06T23:04:46Z
+last_modified_at: 2026-11-07T01:04:37Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 7 November 2026 (Pass 15, ~07:00 UTC)
+
+*Hourly KB review — 0 new articles written this pass. Library: 2,093 articles, 123 premium. Notes: 1,174.*
+
+**Done this pass:**
+- Repo audit complete: working tree clean, README counts verified correct, no new content added since Pass 14 (~19:00 UTC Nov 6).
+- v0.168.0 alpha sprint ongoing (13 PRs merged post-v0.167.0 stable); no stable release yet — no new article warranted this pass.
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.png` — 1 day
+- `sketchnotes/articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.png` — 1 day
+- `sketchnotes/articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.png` — 2 days
+- `sketchnotes/articles/2026-11-05-codex-doctor-network-only-fast-network-diagnostics-proxy-mcp-vertex-ai.png` — 2 days
+- `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — 3 days
+- `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png` — 4 days
+
+**Remaining backlog items:**
+- **`command_sessions_world_state` explainer** — Medium; Code Mode introspection of retained command handles
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+- **`/presets` as a Team Coordination Layer** — depth piece; carry forward
+- **Provider Configuration Editing TUI Guide** — New; #59779 + #59776; await v0.168.0 stabilisation
+
 ---
 
 ## Article Triage — 6 November 2026 (Pass 14, ~19:00 UTC)
