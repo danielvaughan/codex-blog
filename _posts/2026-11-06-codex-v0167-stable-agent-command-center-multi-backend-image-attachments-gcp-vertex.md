@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.167.0 Stable: Agent Command Center, Multi-Backend Switching, Image Attachments, and GCP Vertex AI Wizard"
 date: 2026-11-06T01:40:00+00:00
-last_modified_at: 2026-11-07T03:06:04Z
+last_modified_at: 2026-11-07T03:13:12Z
 parent: "Articles"
 nav_order: 1219
 tags:
@@ -26,7 +26,7 @@ copy_edited: true
 **Release date:** 6 November 2026, 01:40 UTC
 **Version:** v0.167.0 stable
 **Previous stable:** v0.166.0 (29 October 2026, 19:47 UTC)
-**Sprint duration:** 8 days, 6 hours (v0.166.0 stable to v0.167.0 stable — multiple alpha series including v0.167.x and v0.168.0-alpha)
+**Sprint duration:** 7 days, 6 hours (v0.166.0 stable to v0.167.0 stable — multiple alpha series including v0.167.x and v0.168.0-alpha)
 
 ---
 
@@ -121,7 +121,6 @@ Key changes:
 | #58444 | Cap Guardian context entries before elastic allocation |
 | #58454 | Elastic budgeting for Guardian context preparation |
 | #58071 | Share the Guardian context delivery token limit |
-| #57857 | Validated elastic section budget configuration |
 
 The practical effect: Guardian review quality improves for long-running sessions with large context windows, where previously the context preparation layer could either over-allocate (hitting limits) or under-allocate (producing lower-quality review decisions). The elastic model adjusts allocation based on what is available after higher-priority context elements are placed.
 
