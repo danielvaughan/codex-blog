@@ -1,7 +1,7 @@
 ---
 title: "Codex Remote GA: Mobile Approvals, QR Pairing, and the Four-Plane Governance Model for Enterprise Agent Workflows"
 date: 2026-07-14T09:00:00+00:00
-last_modified_at: 2026-11-07T11:38:27Z
+last_modified_at: 2026-11-07T13:04:44Z
 tags: ["codex-cli", "codex-remote", "mobile-approvals", "qr-pairing", "enterprise", "governance", "remote-connections", "digitalocean", "security", "ssh"]
 ---
 

@@ -3,7 +3,7 @@ title: "Computer History: OpenAI's Accessibility-Based Memory Layer for Codex â€
 parent: "Articles"
 nav_order: 1124
 date: 2026-09-04T09:00:00+00:00
-last_modified_at: 2026-11-07T11:38:27Z
+last_modified_at: 2026-11-07T13:04:44Z
 tags: ["codex-cli", "computer-history", "memory", "macos", "security", "accessibility", "prompt-injection", "skills", "enterprise"]
 ---
 

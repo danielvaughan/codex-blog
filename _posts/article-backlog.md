@@ -1,10 +1,36 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-07T11:38:27Z
+last_modified_at: 2026-11-07T13:04:44Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 7 November 2026 (Pass 17, ~13:00 UTC)
+
+*Hourly KB review — 1 new note written this pass. Library: 2,093 articles, 123 premium. Notes: 1,176.*
+
+**Done this pass:**
+- **v0.169.0 runtime auth migration documented** — `notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md` — 14 PRs (#60046–#60122) covering the runtime authentication migration across all major subsystems (Guardian Decisions, remote-control, Analytics, budget, service-tier, security reminders, WebSocket), plus MCP network policy persistence, child agent model catalog inheritance, side-chat policy fix, and rollout trace hardening.
+- README notes count updated: 1,175 → 1,176.
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.png` — 1 day
+- `sketchnotes/articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.png` — 1 day
+- `sketchnotes/articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.png` — 2 days
+- `sketchnotes/articles/2026-11-05-codex-doctor-network-only-fast-network-diagnostics-proxy-mcp-vertex-ai.png` — 2 days
+- `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — 3 days
+- `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png` — 4 days
+
+**Remaining backlog items:**
+- **`command_sessions_world_state` explainer** — Medium; Code Mode introspection of retained command handles
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+- **`/presets` as a Team Coordination Layer** — depth piece; carry forward
+- **Provider Configuration Editing TUI Guide** — New; #59779 + #59776; await v0.169.0 stabilisation
+- **Non-interactive trust requirement explainer** — New; #60041; CI/CD users need to know about explicit project trust flag
+- **Runtime Auth Migration deep-dive** — New; the 8-PR auth overhaul in this pass warrants a full article for security-focused operators
+
 ---
 
 ## Article Triage — 7 November 2026 (Pass 16, ~08:00 UTC)

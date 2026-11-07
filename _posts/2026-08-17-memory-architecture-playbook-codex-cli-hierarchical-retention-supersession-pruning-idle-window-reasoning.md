@@ -1,7 +1,7 @@
 ---
 title: "The Memory Architecture Playbook: From Flat Text to Hierarchical Retention in Codex CLI"
 date: 2026-08-17T09:00:00+00:00
-last_modified_at: 2026-11-07T11:38:27Z
+last_modified_at: 2026-11-07T13:04:44Z
 tags: ["codex-cli", "memory", "architecture", "hierarchical-retention", "strategic-forgetting", "supersession", "AGENTS.md", "memory_summary.md", "premium"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Agentic Agile-V and the SCOPE-V Loop: Moving from Vibe Coding to Verified Engineering with Codex CLI"
 date: 2026-07-12T09:00:00+00:00
-last_modified_at: 2026-11-07T11:38:27Z
+last_modified_at: 2026-11-07T13:04:44Z
 tags: ["codex-cli", "agentic-agile-v", "scope-v", "verified-engineering", "process-control", "hooks", "AGENTS.md", "approval-modes", "acceptance-criteria"]
 ---
 

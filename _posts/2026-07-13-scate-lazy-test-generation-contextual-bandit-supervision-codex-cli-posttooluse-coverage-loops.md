@@ -1,7 +1,7 @@
 ---
 title: "Lazy Test Generation and the Supervision Gap: What SCATE's Contextual Bandit Approach Reveals About Coding Agent Coverage — and How to Wire Iterative Test Loops into Codex CLI"
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-11-07T11:38:27Z
+last_modified_at: 2026-11-07T13:04:44Z
 tags: ["codex-cli", "testing", "coverage", "PostToolUse", "hooks", "contextual-bandit", "lazy-generation", "SCATE", "agents.md", "cost-control"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Proprioceptive Dashboards: What VISTA Reveals About Self-Managed Context in LLM Agents — and How to Wire Equivalent Visibility into Codex CLI"
 date: 2026-07-08T09:00:00+00:00
-last_modified_at: 2026-11-07T11:38:27Z
+last_modified_at: 2026-11-07T13:04:44Z
 tags: ["context-management", "VISTA", "proprioceptive-dashboard", "LOCA-Bench", "compaction", "archive-recovery", "codex-cli", "long-horizon-agents"]
 ---
 

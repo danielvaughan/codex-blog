@@ -1,7 +1,7 @@
 ---
 title: "ScopeJudge and Pre-Execution Gating: Why Static Policies Fail at Scope Enforcement — and How Codex CLI's PreToolUse Hooks Already Solve the Hard Part"
 date: 2026-07-13T09:00:00+00:00
-last_modified_at: 2026-11-07T11:38:27Z
+last_modified_at: 2026-11-07T13:04:44Z
 tags: ["codex-cli", "scopejudge", "pre-execution-gating", "pretooluse", "approval-policy", "scope-enforcement", "security", "hooks", "guardian", "auto-review"]
 ---
 

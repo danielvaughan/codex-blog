@@ -2,7 +2,7 @@
 title: "The AGENTS.md Bloat Problem: When More Context Makes Agents Worse"
 description: "A rigorous 2026 study from ETH Zurich found that LLM-generated context files actively reduce agent task success rates."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-11-07T11:38:27Z
+last_modified_at: 2026-11-07T13:04:44Z
 tags:
   - workflow-patterns
   - agents-md
