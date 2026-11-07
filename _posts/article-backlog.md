@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-07T13:04:44Z
+last_modified_at: 2026-11-07T18:08:14Z
 tags:
   - backlog
   - planning
@@ -15478,3 +15478,38 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Sources: Command Safety Defence in Depth (4.4), Lockdown Mode and Prompt Injection Defence (4.6), Hope Is Not a Guardrail (#59, 5.0). NIST paper flagged but unprocessed.
    - Gap: NIST published agent identity tenets connecting to zero-trust runtime architectures. No article maps these tenets to Codex CLI implementation. Key sections: NIST identity tenets explained (ephemeral identity, bounded authority, attestation), how PEM client identities in Codex CLI implement or partially implement each tenet, Guardian v2 as an attestation layer, EU AI Act deployer obligations mapped to NIST framework, gaps and open items.
    - Priority: 🟡 Medium — governance and compliance audience, connects to existing security library.
+
+### 197 · v0.169.0 Stable: Combined v0.168.0–v0.169.0 Super-Sprint
+
+1. 📝 **v0.169.0 Stable: What Ships in the Combined v0.168.0–v0.169.0 Super-Sprint** — Identified 2026-11-07 by article-rater
+   - Sources: `notes/codex-v0169-alpha-sprint-tui-rendering-mcp-lazy-startup-noninteractive-trust.md` (Wave 1, PRs #60017–#60042), `notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md` (Wave 2, PRs #60046–#60122), v0.167.0 stable release guide (5.0 × Accuracy, 6 Nov). Ecosystem signals: Firecracker vuln disclosure, Cuttlefish iPhone app, AWS Kiro, Mistral Studio, Foundry Local.
+   - Gap: v0.168.0 did not ship stable — the first time OpenAI has absorbed a version into the next sprint without a stable release. The combined sprint covers TUI rendering refactor (10 PRs), MCP lazy startup (3 PRs), security hardening, full runtime auth migration across all subsystems (14 PRs), and rollout trace hardening. This is architecturally the most significant sprint since v0.167.0. No release guide exists yet. First-mover window opens at stable.
+   - Priority: 🔴 Critical — write immediately on stable tag. Same-day publication target.
+
+### 198 · Firecracker Sandbox Security: Isolation Failure for AI Agent Execution Platforms
+
+1. 📝 **Firecracker Sandbox Security: Isolation Failure and What It Means for AI Agent Execution Platforms** — Identified 2026-11-07 by article-rater
+   - Sources: Changelog-watch entry 7 November 2026 (Firecracker isolation bypass disclosure). Affected platforms: Vercel Sandbox, E2B, and any Firecracker-based AI agent execution platform.
+   - Gap: No article in the library covers Firecracker's architectural role in the agentic execution stack (hypervisor-level sandbox isolation for multi-tenant agent workloads). The isolation bypass vulnerability creates a first-mover window. Key sections: what Firecracker does (lightweight VM isolation for agent sandboxes), the vulnerability mechanism, affected platforms and mitigations, implications for AGENTS.md sandbox permission design, and alternatives (gVisor, WASM sandboxing).
+   - Priority: 🟠 High — time-sensitive security disclosure; first-mover window open.
+
+### 199 · Runtime Authentication Architecture in Codex CLI
+
+1. 📝 **Runtime Authentication Architecture in Codex CLI: Per-Request Auth and Why It Matters** — Identified 2026-11-07 by article-rater
+   - Sources: `notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md` (PRs #60046–#60122). 14 PRs systematically migrating Guardian, remote-control, Analytics, budget, service-tier, security reminders, and WebSocket to per-request runtime auth. `fail-fast on terminal denials` PR (#60096).
+   - Gap: The migration to per-request runtime authentication across all Codex CLI subsystems is architecturally significant (reduces token blast radius, enables independent auth-denial handling, decouples auth from startup performance). No article explains what this means for enterprise deployments: shared credential environments, service-account scoping, Guardian auth boundary implications, and the security posture improvement over cached/startup-time tokens.
+   - Priority: 🟠 High — security and enterprise audience; v0.169.0 stable is the natural publication window.
+
+### 200 · The Overeager Agent: Outcome-Based Authorisation as a Safety Failure Mode
+
+1. 📝 **The Overeager Agent: When Outcome-Based Authorisation Becomes a Safety Failure** — Identified 2026-11-07 by article-rater
+   - Sources: Qu et al. arXiv:2605.18583 (May 2026), OverEager-Gen benchmark, 500 scenarios, 5.4–27.7% overeager rates, 0.0%→17.1% Claude Code swing from removing consent declarations. GitHub #59060 ($10k+ viral incident, 548 upvotes). Now footnotes [^303][^304] in Toxic Flow article.
+   - Gap: The OverEager-Gen benchmark is a primary research result with direct practitioner implications: consent-declaration language in prompts is a primary safety control, not a courtesy. No standalone article synthesises the benchmark findings, the #59060 incident, and the Toxic Flow thesis into actionable prompt design guidance. Key sections: the benchmark methodology, the 17.1% swing explained, what "consent declarations" are and how to write them, authorise-actions-not-outcomes framework, ask-to-continue architecture as the enforcement layer.
+   - Priority: 🟡 Medium — safety and practitioner audience. Pairs naturally with premium #59 (Hope Is Not a Guardrail) and #07 (Codex Security).
+
+### 201 · MCP Lazy Startup: Deferred Server Initialisation for Large AGENTS.md Configurations
+
+1. 📝 **MCP Lazy Startup: Deferred Server Initialisation for Large AGENTS.md Configurations** — Identified 2026-11-07 by article-rater
+   - Sources: `notes/codex-v0169-alpha-sprint-tui-rendering-mcp-lazy-startup-noninteractive-trust.md`, PRs #60037–#60039. Opt-in deferred startup until first tool call.
+   - Gap: Teams with large AGENTS.md MCP configurations (10+ servers) face cold-start latency on session initialisation. The new lazy startup feature (#60037–#60039) defers server initialisation until the first tool call. No article covers MCP cold-start performance, the opt-in activation, error surfacing for failed deferred servers, or the AGENTS.md design implications (which servers to mark lazy vs eager). Practical performance guide for enterprise MCP configurations.
+   - Priority: 🟡 Medium — practical how-to; v0.169.0 stable is the natural publication window.

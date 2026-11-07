@@ -1,7 +1,7 @@
 ---
 title: "Skills That Don't Exist: What 15,000 Prompts Reveal About Hallucinated Skill Recommendation — and How to Defend Your Codex CLI Plugin Stack"
 date: 2026-07-15T09:00:00+00:00
-last_modified_at: 2026-11-07T13:04:44Z
+last_modified_at: 2026-11-07T18:08:14Z
 tags: ["codex-cli", "security", "supply-chain", "skill-hallucination", "plugin-marketplace", "slopsquatting", "plugin-verification", "enterprise-configuration"]
 ---
 
