@@ -1,7 +1,7 @@
 ---
 title: "Least-Privilege Post-Training for Terminal and MCP Agents: What arXiv:2608.18351 Tells Us About Codex CLI's Security Boundary"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-11-07T03:13:12Z
+last_modified_at: 2026-11-07T10:10:24Z
 tags: ["codex-cli", "security", "least-privilege", "MCP", "post-training", "sandboxing", "PreToolUse", "hooks", "GRPO"]
 ---
 

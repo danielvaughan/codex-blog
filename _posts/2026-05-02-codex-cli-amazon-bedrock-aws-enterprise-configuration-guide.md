@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-codex-cli-amazon-bedrock-aws-enterprise-configuration-guide"
 tags: ["codex-cli", "amazon-bedrock", "aws", "enterprise", "sigv4", "configuration", "bedrock-mantle"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-11-07T03:13:12Z
+last_modified_at: 2026-11-07T10:10:24Z
 ---
 # Codex CLI on Amazon Bedrock: Enterprise Configuration, SigV4 Authentication, and AWS-Native Workflows
 

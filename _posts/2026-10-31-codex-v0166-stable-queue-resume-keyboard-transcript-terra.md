@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.166.0 Stable: codex queue --resume, Keyboard Transcript Navigation, and GPT-6.1 Terra"
 date: 2026-10-31T09:00:00+00:00
-last_modified_at: 2026-11-07T03:13:12Z
+last_modified_at: 2026-11-07T10:10:24Z
 tags:
   - codex-cli
   - v0.166.0

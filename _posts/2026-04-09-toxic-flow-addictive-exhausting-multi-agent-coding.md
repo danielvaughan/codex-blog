@@ -2,7 +2,7 @@
 title: "Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding"
 description: "You know the feeling. Four agents are running. One is refactoring the API layer, another is writing tests, a third is updating documentation, and a fourth."
 date: 2026-04-09T14:50:00+00:00
-last_modified_at: 2026-11-07T03:13:12Z
+last_modified_at: 2026-11-07T10:10:24Z
 featured: true
 classes: wide
 categories: articles
@@ -19,6 +19,7 @@ tags:
 type: Technical Article
 timestamp: 2026-04-09T15:50:00+01:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-09-toxic-flow-addictive-exhausting-multi-agent-coding"
+copy_edited: true
 ---
 
 # Toxic Flow: The Addictive, Exhausting Reality of Multi-Agent Coding
