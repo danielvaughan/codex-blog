@@ -1,7 +1,7 @@
 ---
 title: "codex queue Playbook: Async Session Management, Queue Depth, Session Lifecycle, and Resume Patterns"
 date: 2026-11-06T10:00:00+00:00
-last_modified_at: 2026-11-07T10:25:45Z
+last_modified_at: 2026-11-07T11:38:27Z
 parent: "Articles"
 nav_order: 1221
 tags:
@@ -44,11 +44,17 @@ What the queue does provide is **durable pause-and-resume semantics**. A thread 
 
 Every Codex session that enters the queue passes through a defined set of states. Understanding these states is essential for operational confidence.
 
-```
-QUEUED ──► LOADED ──► RUNNING ──► PAUSED ──► RESUMED ──► COMPLETED
-                          │                       ▲
-                          └───── WAITING ──────────┘
-                                (needs input)
+```mermaid
+stateDiagram-v2
+    [*] --> QUEUED
+    QUEUED --> LOADED
+    LOADED --> RUNNING
+    RUNNING --> PAUSED
+    PAUSED --> RESUMED
+    RESUMED --> COMPLETED
+    COMPLETED --> [*]
+    RUNNING --> WAITING : needs input
+    WAITING --> RESUMED
 ```
 
 ### State Definitions
@@ -164,7 +170,7 @@ For tasks that run for many hours — large refactors, test suite analysis, docu
 
 Best practice: prefix long-horizon task prompts with explicit checkpoint instructions.
 
-```
+```bash
 codex run "Refactor the auth module to use the new session tokens.
 When you reach a decision point where you need to choose between
 two valid approaches, pause and ask — do not proceed unilaterally."
