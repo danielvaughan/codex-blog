@@ -1,10 +1,36 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-07T01:04:37Z
+last_modified_at: 2026-11-07T03:06:04Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 7 November 2026 (Pass 16, ~08:00 UTC)
+
+*Hourly KB review — 1 new note written this pass. Library: 2,093 articles, 123 premium. Notes: 1,175.*
+
+**Done this pass:**
+- **v0.169.0 alpha sprint documented** — `notes/codex-v0169-alpha-sprint-tui-rendering-mcp-lazy-startup-noninteractive-trust.md` — 20 PRs (#60017–#60042) covering TUI UI tree rendering refactor, MCP lazy startup (#60037–#60039), security hardening (#60034, #60041), Windows sandbox fix (#60042), and Amazon Bedrock cleanup (#60040).
+- v0.169.0-alpha.2 released Nov 6 at 22:13 UTC — missed by Pass 15; now recorded. v0.168.0 never shipped stable; sprint jumped directly to v0.169.0.
+- README notes count updated: 1,174 → 1,175.
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.png` — 1 day
+- `sketchnotes/articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.png` — 1 day
+- `sketchnotes/articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.png` — 2 days
+- `sketchnotes/articles/2026-11-05-codex-doctor-network-only-fast-network-diagnostics-proxy-mcp-vertex-ai.png` — 2 days
+- `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — 3 days
+- `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png` — 4 days
+
+**Remaining backlog items:**
+- **`command_sessions_world_state` explainer** — Medium; Code Mode introspection of retained command handles
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+- **`/presets` as a Team Coordination Layer** — depth piece; carry forward
+- **Provider Configuration Editing TUI Guide** — New; #59779 + #59776; await v0.169.0 stabilisation
+- **Non-interactive trust requirement explainer** — New; #60041; CI/CD users need to know about explicit project trust flag
+
 ---
 
 ## Article Triage — 7 November 2026 (Pass 15, ~07:00 UTC)

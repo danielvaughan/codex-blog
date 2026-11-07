@@ -1,7 +1,7 @@
 ---
 title: "ProcCtrlBench: Beyond Pass Rates — Measuring Process-Level Defects and Control Preservation in Codex CLI"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-11-07T01:04:37Z
+last_modified_at: 2026-11-07T03:06:04Z
 tags: ["codex-cli", "evaluation", "benchmarking", "process-quality", "control-preservation", "execution-defects", "reliability"]
 ---
 

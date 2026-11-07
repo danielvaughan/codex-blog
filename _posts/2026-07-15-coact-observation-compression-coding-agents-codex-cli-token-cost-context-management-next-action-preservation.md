@@ -1,7 +1,7 @@
 ---
 title: "CoACT and Observation Compression: Cutting Coding Agent Token Costs by a Third Without Losing Effectiveness — and What It Means for Codex CLI Context Management"
 date: 2026-07-15T09:00:00+00:00
-last_modified_at: 2026-11-07T01:04:37Z
+last_modified_at: 2026-11-07T03:06:04Z
 tags: ["codex-cli", "observation-compression", "token-cost", "context-management", "CoACT", "SWE-bench", "next-action-preservation", "compaction", "tool-output"]
 ---
 
