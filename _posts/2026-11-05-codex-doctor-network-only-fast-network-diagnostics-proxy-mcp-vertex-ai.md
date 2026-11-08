@@ -1,7 +1,7 @@
 ---
 title: "`codex doctor --network-only`: Fast Network Diagnostics for Proxy, MCP, and Vertex AI Issues"
 date: 2026-11-05T10:00:00+00:00
-last_modified_at: 2026-11-08T05:14:46Z
+last_modified_at: 2026-11-08T05:18:56Z
 parent: "Articles"
 nav_order: 1216
 tags: ["codex-cli", "diagnostics", "troubleshooting", "networking", "proxy", "mcp", "vertex-ai", "v0.166"]
@@ -9,6 +9,8 @@ copy_edited: true
 ---
 
 # `codex doctor --network-only`: Fast Network Diagnostics for Proxy, MCP, and Vertex AI Issues
+
+![Sketchnote diagram for: `codex doctor --network-only`: Fast Network Diagnostics for Proxy, MCP, and Vertex AI Issues](/sketchnotes/articles/2026-11-05-codex-doctor-network-only-fast-network-diagnostics-proxy-mcp-vertex-ai.png)
 
 
 Shipped in v0.166.0 (stable 29 October 2026), the `--network-only` flag for `codex doctor` runs a targeted subset of diagnostics — DNS, TCP/TLS, proxy detection, and OTEL collector health — without touching environment, configuration, or model checks. It is the fastest way to confirm whether a connectivity problem is real before reaching for logs or restarting infrastructure.

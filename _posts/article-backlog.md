@@ -1,10 +1,27 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-08T05:14:46Z
+last_modified_at: 2026-11-08T05:18:56Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 8 November 2026 (Pass 2, ~05:00 UTC)
+
+*Hourly KB review — sketchnote batch run. Library: 2,095 articles, 134 premium. Notes: 1,177.*
+
+**Done this pass:**
+- ✅ **6 outstanding sketchnotes generated** via Gemini image generation pipeline. All articles updated with absolute-path embeds:
+  - `sketchnotes/articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.png`
+  - `sketchnotes/articles/2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.png`
+  - `sketchnotes/articles/2026-11-05-codex-doctor-network-only-fast-network-diagnostics-proxy-mcp-vertex-ai.png`
+  - `sketchnotes/articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.png`
+  - `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png`
+  - `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png`
+
+**Outstanding sketchnotes:** None — all current articles have sketchnotes.
+
 ---
 
 ## Article Triage — 8 November 2026 (Pass 1, ~00:00 UTC)

@@ -1,7 +1,7 @@
 ---
 title: "codex queue --resume: How to Resume Unloaded Threads Without Opening Them First"
 date: 2026-11-05T15:00:00+00:00
-last_modified_at: 2026-11-08T05:14:46Z
+last_modified_at: 2026-11-08T05:18:56Z
 parent: "Articles"
 nav_order: 1217
 tags:
@@ -16,6 +16,8 @@ copy_edited: true
 ---
 
 # codex queue --resume: How to Resume Unloaded Threads Without Opening Them First
+
+![Sketchnote diagram for: codex queue --resume: How to Resume Unloaded Threads Without Opening Them First](/sketchnotes/articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.png)
 
 **Introduced:** Codex CLI v0.166.0 (29 October 2026)
 **Availability:** All platforms — macOS, Linux, Windows (v0.166.0+)

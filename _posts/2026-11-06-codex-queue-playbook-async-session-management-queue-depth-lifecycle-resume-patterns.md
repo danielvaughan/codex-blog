@@ -1,7 +1,7 @@
 ---
 title: "codex queue Playbook: Async Session Management, Queue Depth, Session Lifecycle, and Resume Patterns"
 date: 2026-11-06T10:00:00+00:00
-last_modified_at: 2026-11-08T05:14:46Z
+last_modified_at: 2026-11-08T05:18:56Z
 parent: "Articles"
 nav_order: 1221
 tags:
@@ -17,6 +17,8 @@ copy_edited: true
 ---
 
 # codex queue Playbook: Async Session Management, Queue Depth, Session Lifecycle, and Resume Patterns
+
+![Sketchnote diagram for: codex queue Playbook: Async Session Management, Queue Depth, Session Lifecycle, and Resume Patterns](/sketchnotes/articles/2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.png)
 
 **Applies to:** Codex CLI v0.166.0+ (stable, 29 October 2026)
 **Related:** [`codex queue --resume` how-to](/2026/11/05/codex-queue-resume-unloaded-threads-how-to/) · [v0.166.0 stable release notes](/2026/10/31/codex-v0166-stable-queue-resume-keyboard-transcript-terra/)
