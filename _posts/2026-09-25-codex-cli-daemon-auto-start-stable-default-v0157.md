@@ -3,7 +3,7 @@ title: "Daemon Auto-Start Is Now the Stable Default in Codex CLI v0.157.0"
 parent: "Articles"
 nav_order: 1167
 date: 2026-09-25T13:00:00+00:00
-last_modified_at: 2026-11-07T18:08:14Z
+last_modified_at: 2026-11-08T01:05:00Z
 tags: ["codex-cli", "daemon", "exec-server", "v0.157.0", "architecture", "always-on", "session-management", "background-server"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-05-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-17-codex-cli-api-first-development-openapi-spec-generation-mock-servers-sdk-automation"
 tags: ["codex-cli", "openapi", "api-first", "mock-server", "sdk-generation", "speakeasy", "prism", "codex-exec"]
 date: 2026-05-17T09:00:00+00:00
-last_modified_at: 2026-11-07T18:08:14Z
+last_modified_at: 2026-11-08T01:05:00Z
 ---
 # Codex CLI for API-First Development: OpenAPI Spec Generation, Mock Servers, and Client SDK Automation
 

@@ -1,10 +1,38 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-07T18:08:14Z
+last_modified_at: 2026-11-08T01:05:00Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 8 November 2026 (Pass 1, ~00:00 UTC)
+
+*Hourly KB review — 1 new note written this pass. Library: 2,095 articles, 134 premium. Notes: 1,177.*
+
+**Done this pass:**
+- **v0.169.0-alpha.3 sprint documented** — `notes/codex-v0169-alpha-sprint-incremental-exec-catalog-side-chat-persistence-ux-polish.md` — 9 PRs (#60152–#60186) covering incremental exec catalog infrastructure for Code Mode (#60157, #60163, #60177, #60173), side chat persistence with tab close controls (#60152), answer moderation display metadata (#60172), sidebar keyboard/mouse tab navigation (#60181), skill mention punctuation fix (#60180), and custom provider creation during sign-in (#60186).
+- rust-v0.169.0-alpha.3 released 2026-11-07T19:31Z — now recorded.
+- README notes count updated: 1,176 → 1,177.
+
+**Outstanding sketchnotes (require image generation pipeline):**
+- `sketchnotes/articles/2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.png` — 2 days
+- `sketchnotes/articles/2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.png` — 2 days
+- `sketchnotes/articles/2026-11-05-codex-queue-resume-unloaded-threads-how-to.png` — 3 days
+- `sketchnotes/articles/2026-11-05-codex-doctor-network-only-fast-network-diagnostics-proxy-mcp-vertex-ai.png` — 3 days
+- `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png` — 4 days
+- `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png` — 5 days
+
+**Remaining backlog items:**
+- **`command_sessions_world_state` explainer** — Medium; Code Mode introspection of retained command handles
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+- **`/presets` as a Team Coordination Layer** — depth piece; carry forward
+- **Provider Configuration Editing TUI Guide** — New; #59779 + #59776; await v0.169.0 stabilisation
+- **Non-interactive trust requirement explainer** — New; #60041; CI/CD users need to know about explicit project trust flag
+- **Runtime Auth Migration deep-dive** — New; the 8-PR auth overhaul in Pass 17 warrants a full article for security-focused operators
+- **Incremental Exec Catalog explainer** — New; #60157 + #60163 + #60177 together are article-worthy once v0.169.0 ships stable
+
 ---
 
 ## Article Triage — 7 November 2026 (Pass 17, ~13:00 UTC)

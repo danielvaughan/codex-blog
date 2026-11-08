@@ -3,7 +3,7 @@ title: "Amortised Topology Design for Codex Multi-Agent Systems: What Codebook A
 parent: "Articles"
 nav_order: 1152
 date: 2026-09-09T08:00:00+00:00
-last_modified_at: 2026-11-07T18:08:14Z
+last_modified_at: 2026-11-08T01:05:00Z
 tags: ["multi-agent", "topology", "codex-queue", "subagents", "orchestration", "multi_agent_v2", "performance", "token-efficiency"]
 ---
 
