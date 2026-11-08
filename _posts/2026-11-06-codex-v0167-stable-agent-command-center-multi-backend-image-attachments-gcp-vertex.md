@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.167.0 Stable: Agent Command Center, Multi-Backend Switching, Image Attachments, and GCP Vertex AI Wizard"
 date: 2026-11-06T01:40:00+00:00
-last_modified_at: 2026-11-08T01:05:00Z
+last_modified_at: 2026-11-08T05:14:46Z
 parent: "Articles"
 nav_order: 1219
 tags:
@@ -203,10 +203,6 @@ The app-server README covers the new `[permissions.network]` block and `prompt-u
 Automatic context compaction now correctly accounts for retained output from **failed responses** and **responses with missing token usage data** (#58404). Previously, these edge cases could cause the compaction estimate to under-count token usage, leading to compaction being triggered later than optimal or not at all in sessions with many failed turns.
 
 ---
-
-## Sketchnote
-
-*Sketchnote pending — image generation pipeline required.*
 
 ---
 

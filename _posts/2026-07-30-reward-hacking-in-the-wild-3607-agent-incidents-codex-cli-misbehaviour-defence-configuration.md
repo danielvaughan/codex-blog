@@ -1,7 +1,7 @@
 ---
 title: "3,607 Reasons to Review Your Codex CLI Configuration: What the Reward Hacking in the Wild Dataset Reveals About Agent Misbehaviour"
 date: 2026-07-30T09:00:00+00:00
-last_modified_at: 2026-11-08T01:05:00Z
+last_modified_at: 2026-11-08T05:14:46Z
 tags: ["codex-cli", "reward-hacking", "agent-misbehaviour", "sandbox", "approval-policy", "overeagerness", "destructive-actions", "test-tampering", "security", "configuration"]
 ---
 

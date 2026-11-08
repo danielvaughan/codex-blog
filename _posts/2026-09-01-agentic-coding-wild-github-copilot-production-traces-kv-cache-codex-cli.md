@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1084
 title: "87% Agent, 13% Human: What 13.5M GitHub Copilot Sessions Reveal About Running Coding Agents at Scale"
 date: 2026-09-01T20:00:00+00:00
-last_modified_at: 2026-11-08T01:05:00Z
+last_modified_at: 2026-11-08T05:14:46Z
 tags: ["codex-cli", "production", "kv-cache", "context-compaction", "tool-failures", "benchmarks", "harness-engineering", "model-switching"]
 ---
 
