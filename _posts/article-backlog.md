@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-08T05:18:56Z
+last_modified_at: 2026-11-08T07:09:08Z
 tags:
   - backlog
   - planning
@@ -20,7 +20,7 @@ tags:
   - `sketchnotes/articles/2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.png`
   - `sketchnotes/articles/2026-11-03-v0167-sprint-preview-rust-tui-rewrite-reliability-debt-what-openai-needs-to-ship.png`
 
-**Outstanding sketchnotes:** None — all current articles have sketchnotes.
+**Outstanding sketchnotes:** 1 missing — `sketchnotes/articles/2026-11-06-guardian-v3-production-configuration-guide-codex-cli.png` (article written 6 Nov, sketchnote not yet generated).
 
 ---
 
