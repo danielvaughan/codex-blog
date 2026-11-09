@@ -1,10 +1,21 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-09T17:06:41Z
+last_modified_at: 2026-11-09T19:05:39Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 9 November 2026 (Pass 4, ~19:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,094 articles, 134 premium. Notes: 1,180.*
+
+**Done this pass:**
+- ✅ **GPT-6.1 Sol decision framework sketchnote generated** — `sketchnotes/articles/2026-11-09-gpt61-sol-near-astra-performance-decision-framework-codex-cli.png` (919 KB). Absolute-path embed added to article after H1. Clears the outstanding sketchnote from Pass 3.
+
+**Outstanding sketchnotes:** None — all November articles now have sketchnote PNGs and embeds. ✅
+
 ---
 
 ## Article Triage — 9 November 2026 (Pass 3, ~17:00 UTC)

@@ -4,7 +4,7 @@ description: "Status: APPLIED — all article files have been updated with these
 type: Technical Article
 resource: "https://danielvaughan.github.io/codex-resources/articles/taxonomy"
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-11-09T17:06:41Z
+last_modified_at: 2026-11-09T19:05:39Z
 tags:
   - taxonomy
   - index
