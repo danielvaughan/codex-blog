@@ -5,7 +5,7 @@ timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-automated-test-maintenance-fixing-broken-tests-snapshot-updates-flaky-elimination"
 tags: ["codex-cli", "testing", "test-maintenance", "flaky-tests", "snapshots", "ci-cd", "jest", "vitest", "playwright", "codex-exec", "hooks", "agents-md"]
 date: 2026-05-31T09:00:00+00:00
-last_modified_at: 2026-11-09T13:07:52Z
+last_modified_at: 2026-11-09T15:06:47Z
 ---
 # Codex CLI for Automated Test Maintenance: Fixing Broken Tests, Updating Snapshots, and Eliminating Flaky Tests
 

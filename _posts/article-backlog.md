@@ -1,15 +1,26 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-09T13:07:52Z
+last_modified_at: 2026-11-09T15:06:47Z
 tags:
   - backlog
   - planning
 ---
 
-## Article Triage — 9 November 2026 (Hourly review, ~13:00 UTC)
+## Article Triage — 9 November 2026 (Pass 2, ~14:00 UTC)
 
-*Automated hourly KB review (Andy). Library: 2,095 articles, 134 premium. Notes: 1,179.*
+*Automated hourly KB review (Andy). Library: 2,094 articles, 134 premium. Notes: 1,179.*
+
+**Done this pass:**
+- ✅ **GPT-6.1 Sol decision framework written** — `articles/2026-11-09-gpt61-sol-near-astra-performance-decision-framework-codex-cli.md` (~1,620 words, premium). Clears the 🔴 Critical backlog item. Three-way decision framework (Astra/Sol/Luna), Bijan Bowen 3% finding, task classification matrix, session profile config patterns, upgrade path from pre-DevDay configs. Supersedes `2026-09-25-gpt-6-sol-luna-model-picker-three-tier-routing-codex-cli.md`.
+
+**Outstanding sketchnotes:** `2026-11-09-gpt61-sol-near-astra-performance-decision-framework-codex-cli.png` — new article, sketchnote pending image generation pipeline.
+
+---
+
+## Article Triage — 9 November 2026 (Pass 1, ~13:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,093 articles, 134 premium. Notes: 1,179.*
 
 **Done this pass:**
 - ✅ **Missing Guardian v3 sketchnote generated and embedded** — `sketchnotes/articles/2026-11-06-guardian-v3-production-configuration-guide-codex-cli.png` (894 KB). Absolute-path embed added to article after H1. Committed and pushed (`0ac786ac`).
@@ -1223,8 +1234,8 @@ Both Substack drafts have embedded sketchnote placeholder comments ready for ima
 1. ✅ **OpenAI DevDay 2026: What Was Announced and What It Means for Codex CLI** — Written 2026-10-08 → `2026-10-08-openai-devday-2026-recap-codex-cloud-agents-view-gpt61-sol-code-review-security-cloud.md`
    - Source: DevDay 2026 (29 September, San Francisco). Codex Cloud (remote task execution, laptop-closed), /agents view (parallel agent management from one CLI session), GPT-6.1 Sol as new default model (v0.159.1, \$2/\$10 per M tokens, 95% cheaper cached input), Code Review (GitHub/GitLab PR review), and Codex Security Cloud (scheduled automated repo scanning) all announced. The earlier June 2026 preparation article (`2026-06-10-openai-devday-2026-codex-cli-developer-guide-september-announcements-preparation.md`) covered predictions — this is the retrospective. Zero KB coverage of any of the five announced features. Best current discovery opportunity. Target: 2,000 words, free tier.
 
-2. 📝 **GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price — a Practical Decision Framework** — 🔴 Critical
-   - Source: DevDay 2026 keynote (29 September 2026) + Codex CLI v0.159.1 release. GPT-6.1 Sol is the new default model. Bijan Bowen (engineering blog, September 2026) finding: full test suite at GPT-6.1 Sol consumed only 3% of weekly token limit — changes cost assumptions for teams currently using Astra. Three-way decision tree (Astra / Sol / Luna) with task classification matrix. Updates and supersedes the GPT-6 Sol/Luna model picker article (`2026-09-25-gpt-6-sol-luna-model-picker-three-tier-routing-codex-cli.md`, 4.0). Target: 1,600 words, premium.
+2. ✅ **GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price — a Practical Decision Framework** — Written 2026-11-09 → `2026-11-09-gpt61-sol-near-astra-performance-decision-framework-codex-cli.md`
+   - Source: DevDay 2026 keynote (29 September 2026) + Codex CLI v0.159.1 release. GPT-6.1 Sol is the new default model. Bijan Bowen (engineering blog, September 2026) finding: full test suite at GPT-6.1 Sol consumed only 3% of weekly token limit — changes cost assumptions for teams currently using Astra. Three-way decision tree (Astra / Sol / Luna) with task classification matrix. Updates and supersedes the GPT-6 Sol/Luna model picker article (`2026-09-25-gpt-6-sol-luna-model-picker-three-tier-routing-codex-cli.md`, 4.0). ~1,620 words, premium.
 
 3. ✅ **Full Access Mode Is Deleting Home Directories — What Every Codex CLI User Must Know** — Written 2026-10-04 → `2026-10-04-full-access-mode-home-directory-deletion-practitioner-safety-guide-codex-cli.md`
    - Source: GitHub Issue #36937 + Issue #37419 (confused deputy via rollout JSONL, Git Bash, Windows/Linux). Misconfigured full-access mode causes silent home directory deletions. Existing article `2026-09-04-data-as-code-confused-deputy-rollout-jsonl-codex-cli.md` covers the technical root cause. This article is the practitioner safety guide: who is affected, immediate mitigation steps, `config.yaml` audit checklist, safe rollback procedure. HIGH URGENCY — practitioner safety window. Target: 1,200 words, free tier.

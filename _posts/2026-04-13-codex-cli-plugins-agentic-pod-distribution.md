@@ -2,7 +2,7 @@
 title: "From Manual Config to One-Click Pod: How Plugins Transform the Agentic Engineering Pod"
 description: "The Agentic Engineering Pod — three humans (Context Architect, Value Engineer, Quality Engineer) amplified by agent capabilities — is a powerful delivery."
 date: 2026-04-13T00:00:00+00:00
-last_modified_at: 2026-11-09T13:07:52Z
+last_modified_at: 2026-11-09T15:06:47Z
 category: enterprise
 tags:
   - codex-cli
