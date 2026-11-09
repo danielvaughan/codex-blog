@@ -6,7 +6,7 @@ timestamp: 2026-05-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-07-microsoft-apm-agent-package-manager-codex-cli-reproducible-agent-configuration"
 tags: ["apm", "agent-package-manager", "microsoft", "codex-cli", "configuration-management", "portability", "enterprise-governance", "mcp", "agent-skills"]
 date: 2026-05-07T09:00:00+00:00
-last_modified_at: 2026-11-09T21:05:46Z
+last_modified_at: 2026-11-09T23:05:37Z
 ---
 # Microsoft APM: The Package Manager for AI Agents and What It Means for Codex CLI Teams
 

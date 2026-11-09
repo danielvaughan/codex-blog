@@ -3,11 +3,13 @@ title: "Codex Cloud Thread Reliability: Three Fixes That Complete the State Mach
 parent: "Articles"
 nav_order: 1224
 date: 2026-11-09T11:00:00+00:00
-last_modified_at: 2026-11-09T21:05:46Z
+last_modified_at: 2026-11-09T23:05:37Z
 tags: ["codex-cli", "cloud", "reliability", "threads", "v0.169.0", "debugging", "transcripts"]
 ---
 
 # Codex Cloud Thread Reliability: Three Fixes That Complete the State Machine
+
+![Sketchnote diagram for: Codex Cloud Thread Reliability: Three Fixes That Complete the State Machine](/sketchnotes/articles/2026-11-09-codex-cloud-thread-reliability-duplicate-messages-stale-disconnect-itemless-failures.png)
 
 
 ---
