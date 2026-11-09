@@ -1,7 +1,7 @@
 ---
 title: "The Three Parallel-Work Primitives in Codex CLI: /agent, /fork, and /side"
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-11-09T19:05:39Z
+last_modified_at: 2026-11-09T21:05:46Z
 tags: ["codex-cli", "parallel-work", "/agent", "/fork", "/side", "concurrency", "developer-workflow", "multi-agent"]
 ---
 

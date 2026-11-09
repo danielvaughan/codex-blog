@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1097
 title: "Codex CLI v0.153.0-alpha.3 & alpha.4: Structured Async User Input, Remote Plugin Marketplaces, and Network Header Injection"
 date: 2026-09-02T12:00:00+00:00
-last_modified_at: 2026-11-09T19:05:39Z
+last_modified_at: 2026-11-09T21:05:46Z
 tags: ["codex-cli", "v0.153", "release", "async-user-input", "plugin-marketplace", "network", "configuration", "agent-ux"]
 ---
 

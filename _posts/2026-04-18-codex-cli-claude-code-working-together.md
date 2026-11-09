@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-codex-cli-claude-code-working-together"
 tags: ["codex-cli", "claude-code", "integration", "mcp", "plugin", "cross-tool", "workflow"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-11-09T19:05:39Z
+last_modified_at: 2026-11-09T21:05:46Z
 ---
 # How to Make Codex CLI and Claude Code Work Together
 

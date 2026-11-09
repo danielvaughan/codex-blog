@@ -1,7 +1,7 @@
 ---
 title: "BulkPR-Bench: Why Your Multi-Agent PR Queue Is a Governance Problem — and What Codex CLI Developers Should Do About It"
 date: 2026-08-07T09:00:00+00:00
-last_modified_at: 2026-11-09T19:05:39Z
+last_modified_at: 2026-11-09T21:05:46Z
 tags: ["codex-cli", "bulkpr-bench", "merge-queue", "multi-agent", "pull-request-governance", "pr-coordination", "benchmark", "github"]
 ---
 

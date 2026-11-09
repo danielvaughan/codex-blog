@@ -1,10 +1,34 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-09T19:05:39Z
+last_modified_at: 2026-11-09T21:05:46Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 9 November 2026 (Pass 5, ~21:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,098 articles, 134 premium. Notes: 1,180.*
+
+**Done this pass:**
+- ✅ **Non-interactive trust requirement explainer written** — `articles/2026-11-09-codex-ci-cd-non-interactive-trust-explicit-project-trust-flag.md` (~1,000 words). Covers PR #60041 breaking change: CI/CD pipelines must set `CODEX_TRUST=1` or `--trust-project` for non-interactive runs in v0.169.0+. Includes migration guide, security posture guidance, and Guardian interaction notes. Clears backlog item.
+- ✅ **Cloud Thread Reliability retrospective written** — `articles/2026-11-09-codex-cloud-thread-reliability-duplicate-messages-stale-disconnect-itemless-failures.md` (~950 words). Covers PRs #60320, #60327, #60335 as a coherent three-fix story: itemless failure visibility, stale disconnect suppression, and resume deduplication. Guidance for fleet monitoring and transcript processing workflows. Clears backlog item.
+- README article count updated: 2,096 → 2,098.
+
+**Outstanding sketchnotes:** Two new articles need sketchnotes (pending image generation pipeline):
+- `sketchnotes/articles/2026-11-09-codex-ci-cd-non-interactive-trust-explicit-project-trust-flag.png`
+- `sketchnotes/articles/2026-11-09-codex-cloud-thread-reliability-duplicate-messages-stale-disconnect-itemless-failures.png`
+
+**Remaining backlog items:**
+- **`command_sessions_world_state` explainer** — Medium; Code Mode introspection of retained command handles
+- **GCP Vertex AI + Codex CLI: Enterprise Migration Guide** — Premium candidate; carry forward
+- **`/presets` as a Team Coordination Layer** — depth piece; carry forward
+- **Provider Configuration Editing TUI Guide** — New; #59779 + #59776; await v0.169.0 stabilisation
+- **Runtime Auth Migration deep-dive** — New; the 8-PR auth overhaul warrants a full article for security-focused operators
+- **Incremental Exec Catalog explainer** — New; #60157 + #60163 + #60177 together are article-worthy once v0.169.0 ships stable
+- **Gateway OAuth + Model Catalog article** — New; #60414 is article-worthy for enterprise zero-trust deployments; await v0.169.0 stable
+
 ---
 
 ## Article Triage — 9 November 2026 (Pass 4, ~19:00 UTC)
