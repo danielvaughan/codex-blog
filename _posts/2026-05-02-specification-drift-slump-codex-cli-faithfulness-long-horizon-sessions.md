@@ -6,7 +6,7 @@ timestamp: 2026-05-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-02-specification-drift-slump-codex-cli-faithfulness-long-horizon-sessions"
 tags: ["codex-cli", "research", "long-horizon", "specification-drift", "SLUMP", "faithfulness", "plan-mode", "PLANS.md", "context-engineering", "best-practices"]
 date: 2026-05-02T09:00:00+00:00
-last_modified_at: 2026-11-09T10:07:03Z
+last_modified_at: 2026-11-09T11:39:17Z
 ---
 # Specification Drift and SLUMP: Why Codex CLI Loses Faithfulness in Long-Horizon Sessions and How to Fight Back
 
@@ -192,7 +192,7 @@ Whilst ProjectGuard is a research prototype, you can approximate its function in
 - **Memories** (native or MCP-based) to persist structural decisions across sessions [^8]
 - **PostToolUse hooks** that compare the current module graph against the specification
 
-```markdown
+```md
 <!-- AGENTS.md — specification anchor section -->
 ## Module Registry (do not modify without updating this section)
 

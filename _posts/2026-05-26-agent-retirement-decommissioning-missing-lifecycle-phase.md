@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-agent-retirement-decommissioning-missing-lifecycle-phase"
 tags: ["agent-lifecycle", "decommissioning", "governance", "codex-cli", "enterprise", "security"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-11-09T10:07:03Z
+last_modified_at: 2026-11-09T11:39:17Z
 ---
 # Agent Retirement and Decommissioning: The Missing Lifecycle Phase
 
@@ -154,7 +154,7 @@ Update AGENTS.md to reflect the retirement. Do not delete the section — mark i
 
 The agent's entry in your inventory should be updated to reflect retirement status, not deleted [^3]. Maintain the historical record for compliance and for future teams who might wonder why a particular integration no longer exists.
 
-```markdown
+```md
 ## Agent Inventory
 
 | Agent | Status | Deployed | Retired | Reason |

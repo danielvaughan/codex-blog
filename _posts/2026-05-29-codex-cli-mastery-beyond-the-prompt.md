@@ -2,7 +2,7 @@
 title: "Beyond the Prompt: Codex CLI Mastery"
 description: "Most developers treat Codex CLI as a chat box. The real value sits past the prompt, in AGENTS.md, skills, subagents, profiles, MCP servers and directory layout. This guide covers everything between installation and genuine mastery."
 date: 2026-05-29T08:00:00+00:00
-last_modified_at: 2026-11-09T10:07:03Z
+last_modified_at: 2026-11-09T11:39:17Z
 tags:
   - mastery
   - agents-md
@@ -63,7 +63,7 @@ AGENTS.md is the most important file in a Codex CLI project. It loads at session
 
 Codex walks the filesystem on every run, concatenating instruction files from root downward[^1]:
 
-```text
+```sh
 1. ~/.codex/AGENTS.override.md    <- highest-precedence global override
    OR ~/.codex/AGENTS.md          <- standard global defaults
 

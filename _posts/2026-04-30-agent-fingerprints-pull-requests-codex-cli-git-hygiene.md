@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-agent-fingerprints-pull-requests-codex-cli-git-hygiene"
 tags: ["codex-cli", "git", "pull-requests", "commit-messages", "research", "MSR-2026", "agent-fingerprints", "AGENTS.md", "hooks", "enterprise"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-11-09T10:07:03Z
+last_modified_at: 2026-11-09T11:39:17Z
 ---
 # Agent Fingerprints in Pull Requests: What MSR 2026 Research Reveals and How to Configure Codex CLI for Professional Git Hygiene
 
@@ -175,7 +175,7 @@ Even without explicit markers, tools like Coderbuds' open-source YAML rule engin
 
 The communication research found that PR description quality directly affects merge rates[^3]. Configure a PR template in your repository:
 
-```markdown
+```md
 <!-- .github/PULL_REQUEST_TEMPLATE.md -->
 ## What
 

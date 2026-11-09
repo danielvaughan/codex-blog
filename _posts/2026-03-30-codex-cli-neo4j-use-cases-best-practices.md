@@ -2,7 +2,7 @@
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
 description: "Graph databases and AI agents are a natural fit. An agent's core capability is traversal."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-11-09T10:07:03Z
+last_modified_at: 2026-11-09T11:39:17Z
 tags:
   - ecosystem
   - third-party
@@ -159,7 +159,7 @@ AGENTS.md is the right place to encode Neo4j-specific conventions that you want 
 
 ### A Full AGENTS.md Example
 
-```markdown
+```md
 # Neo4j Knowledge Graph Project
 
 ## Database
