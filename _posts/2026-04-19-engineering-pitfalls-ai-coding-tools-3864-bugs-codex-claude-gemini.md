@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-engineering-pitfalls-ai-coding-tools-3864-bugs-codex-claude-gemini"
 tags: ["codex-cli", "claude-code", "gemini-cli", "bugs", "reliability", "engineering", "research", "troubleshooting", "integration"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-11-09T13:07:32Z
+last_modified_at: 2026-11-09T13:07:52Z
 ---
 # Engineering Pitfalls in AI Coding Tools: What 3,864 Bugs Reveal About Codex, Claude Code, and Gemini CLI
 

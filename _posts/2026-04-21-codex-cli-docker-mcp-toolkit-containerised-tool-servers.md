@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-codex-cli-docker-mcp-toolkit-containerised-tool-servers"
 tags: ["mcp", "docker", "security", "configuration", "codex-cli", "tooling", "enterprise"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-11-09T13:07:32Z
+last_modified_at: 2026-11-09T13:07:52Z
 ---
 # Codex CLI and Docker MCP Toolkit: Secure Containerised Tool Servers at Scale
 

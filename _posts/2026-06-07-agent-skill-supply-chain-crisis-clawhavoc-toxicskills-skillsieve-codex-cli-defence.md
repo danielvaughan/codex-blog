@@ -5,7 +5,7 @@ timestamp: 2026-06-07T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-07-agent-skill-supply-chain-crisis-clawhavoc-toxicskills-skillsieve-codex-cli-defence"
 tags: ["codex-cli", "security", "supply-chain", "agent-skills", "clawhavoc", "toxicskills", "skillsieve", "malicious-skills", "marketplace-security", "skill-vetting"]
 date: 2026-06-07T09:00:00+00:00
-last_modified_at: 2026-11-09T13:07:32Z
+last_modified_at: 2026-11-09T13:07:52Z
 ---
 # The Agent Skill Supply Chain Crisis: ClawHavoc, ToxicSkills, SkillSieve, and Defending Your Codex CLI Skill Stack
 

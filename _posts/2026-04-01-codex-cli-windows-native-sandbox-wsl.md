@@ -2,7 +2,7 @@
 title: "Codex CLI on Windows: Native Sandbox, WSL Integration, and the Elevated Security Model"
 description: "Windows developers have long been second-class citizens in the agentic coding tool ecosystem. Most tools shipped with macOS and Linux support first, bolting."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-11-09T13:07:32Z
+last_modified_at: 2026-11-09T13:07:52Z
 tags:
   - getting-started
   - windows

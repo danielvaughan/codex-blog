@@ -6,7 +6,7 @@ timestamp: 2026-04-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-16-composable-ai-coding-stack-cursor-claude-code-codex"
 tags: ["composable-stack", "convergence", "orchestration", "cursor", "claude-code", "codex-cli", "industry-analysis"]
 date: 2026-04-16T09:00:00+00:00
-last_modified_at: 2026-11-09T13:07:32Z
+last_modified_at: 2026-11-09T13:07:52Z
 ---
 # The Composable AI Coding Stack: How Cursor, Claude Code, and Codex Became Three Layers
 

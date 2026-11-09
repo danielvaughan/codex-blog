@@ -6,7 +6,7 @@ timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-structured-logging-standardisation-pino-slog-audit-enforcement"
 tags: ["codex-cli", "structured-logging", "pino", "slog", "observability", "AGENTS.md", "codex-exec", "hooks", "skills", "CI"]
 date: 2026-05-18T09:00:00+00:00
-last_modified_at: 2026-11-09T13:07:32Z
+last_modified_at: 2026-11-09T13:07:52Z
 ---
 # Codex CLI for Structured Logging Standardisation: Auditing, Migration, and CI Enforcement
 

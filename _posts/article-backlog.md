@@ -1,10 +1,21 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-09T13:07:32Z
+last_modified_at: 2026-11-09T13:07:52Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 9 November 2026 (Hourly review, ~13:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,095 articles, 134 premium. Notes: 1,179.*
+
+**Done this pass:**
+- ✅ **Missing Guardian v3 sketchnote generated and embedded** — `sketchnotes/articles/2026-11-06-guardian-v3-production-configuration-guide-codex-cli.png` (894 KB). Absolute-path embed added to article after H1. Committed and pushed (`0ac786ac`).
+
+**Outstanding sketchnotes:** None — all November articles now have sketchnote PNGs and embeds. ✅
+
 ---
 
 ## Article Triage — 8 November 2026 (Pass 2, ~05:00 UTC)
