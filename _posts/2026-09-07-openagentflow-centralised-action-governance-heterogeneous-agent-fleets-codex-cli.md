@@ -3,7 +3,7 @@ title: "OpenAgentFlow: Centralised Action Governance for Heterogeneous Agent Fle
 parent: "Articles"
 nav_order: 1141
 date: 2026-09-07T08:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 tags: ["codex-cli", "multi-agent", "safety", "policy-enforcement", "agent-governance", "hooks", "sandbox"]
 ---
 

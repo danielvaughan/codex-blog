@@ -2,7 +2,7 @@
 title: "Codex Cloud Exec Best-of-N: Running Multiple Solution Attempts and Picking the Winner"
 description: "One of the quieter but most impactful features in Codex CLI's cloud offering is the --attempts flag on codex cloud exec. First shipped in the June 2025."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 tags:
   - cloud
   - codex-cloud

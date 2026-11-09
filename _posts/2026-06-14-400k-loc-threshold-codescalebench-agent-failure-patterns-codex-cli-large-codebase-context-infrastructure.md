@@ -5,7 +5,7 @@ timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-400k-loc-threshold-codescalebench-agent-failure-patterns-codex-cli-large-codebase-context-infrastructure"
 tags: ["codex-cli", "large-codebase", "CodeScaleBench", "context-engineering", "Sourcegraph", "MCP", "performance", "enterprise"]
 date: 2026-06-14T09:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 ---
 # The 400K LOC Threshold: What 1,281 Agent Runs Reveal About Codex CLI Performance in Large Codebases
 

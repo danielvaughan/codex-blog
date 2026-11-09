@@ -1,7 +1,7 @@
 ---
 title: "Guardian v3: Production Configuration Guide for Codex CLI"
 date: 2026-11-06T08:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 parent: "Articles"
 nav_order: 1220
 tags:
@@ -17,6 +17,8 @@ copy_edited: true
 ---
 
 # Guardian v3: Production Configuration Guide for Codex CLI
+
+![Sketchnote diagram for: Guardian v3: Production Configuration Guide for Codex CLI](/sketchnotes/articles/2026-11-06-guardian-v3-production-configuration-guide-codex-cli.png)
 
 **Applies to:** Codex CLI v0.167.0 and later (Guardian v3 feature flag; elastic budgeting in stable)
 **Prerequisite reading:** [Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping](/2026/11/05/guardian-v3-evidence-pipeline-snapshots-cursors-housekeeping/)

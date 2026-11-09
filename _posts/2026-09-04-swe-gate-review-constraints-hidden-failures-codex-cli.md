@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1121
 title: "SWE-Gate: Why 34% of Your Agent's 'Fixed' Patches Are Wrong — and How to Catch Them in Codex CLI"
 date: 2026-09-04T20:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 tags: ["codex-cli", "benchmarks", "code-review", "testing", "hooks", "agents"]
 ---
 

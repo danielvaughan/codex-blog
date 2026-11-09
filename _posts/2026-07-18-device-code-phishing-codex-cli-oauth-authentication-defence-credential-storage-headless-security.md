@@ -1,7 +1,7 @@
 ---
 title: "Device Code Phishing and Your Codex CLI: What the 37x Surge in OAuth Abuse Means for Developer Authentication Security"
 date: 2026-07-18T09:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 tags: ["codex-cli", "security", "device-code-phishing", "oauth", "authentication", "credential-management", "headless-auth"]
 ---
 

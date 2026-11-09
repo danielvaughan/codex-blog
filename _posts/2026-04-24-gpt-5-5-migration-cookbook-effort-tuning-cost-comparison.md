@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-gpt-5-5-migration-cookbook-effort-tuning-cost-comparison"
 tags: ["codex-cli", "gpt-5.5", "migration", "effort-tuning", "cost-optimisation", "model-selection", "reasoning", "configuration"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 ---
 # GPT-5.5 Migration Cookbook: Effort Tuning, Cost Comparison, Prompt Adjustments
 

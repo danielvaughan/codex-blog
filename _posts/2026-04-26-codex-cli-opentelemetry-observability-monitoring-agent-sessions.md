@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-opentelemetry-observability-monitoring-agent-sessions"
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "tracing", "OTLP", "Grafana", "production", "token-tracking"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 ---
 # Codex CLI OpenTelemetry Observability: Monitoring Agent Sessions, Token Spend, and Tool Decisions in Production
 

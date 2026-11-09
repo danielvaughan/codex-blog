@@ -1,7 +1,7 @@
 ---
 title: "The Building Block Economy: How Agent-Native Tools Are Reshaping What It Means to Build Software"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 tags: ["codex-cli", "agent-native", "composable-services", "mcp", "developer-role", "vercel", "convex", "architecture"]
 ---
 

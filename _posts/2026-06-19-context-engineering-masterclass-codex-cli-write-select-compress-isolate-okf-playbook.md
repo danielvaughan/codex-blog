@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-context-engineering-masterclass-codex-cli-write-select-compress-isolate-okf-playbook"
 tags: ["context-engineering", "codex-cli", "AGENTS.md", "OKF", "compaction", "subagents", "token-efficiency", "advanced"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 ---
 # Context Engineering Masterclass: The Write-Select-Compress-Isolate Playbook for Codex CLI
 

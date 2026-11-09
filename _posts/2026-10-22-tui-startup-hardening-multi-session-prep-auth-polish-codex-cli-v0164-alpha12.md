@@ -1,7 +1,7 @@
 ---
 title: "TUI Startup Hardening, Multi-Session Prep, and Auth Polish: Codex CLI v0.164.0-alpha.12"
 date: 2026-10-22T15:00:00+00:00
-last_modified_at: 2026-11-09T11:39:17Z
+last_modified_at: 2026-11-09T13:07:32Z
 parent: "Articles"
 nav_order: 1199
 tags:
