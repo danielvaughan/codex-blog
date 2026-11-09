@@ -1,7 +1,7 @@
 ---
 title: "codex queue --resume: How to Resume Unloaded Threads Without Opening Them First"
 date: 2026-11-05T15:00:00+00:00
-last_modified_at: 2026-11-08T07:09:08Z
+last_modified_at: 2026-11-09T10:07:03Z
 parent: "Articles"
 nav_order: 1217
 tags:
