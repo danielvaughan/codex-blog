@@ -4,7 +4,7 @@ type: Technical Article
 timestamp: 2026-07-24T00:00:00+00:00
 tags: ["migration", "cursor", "claude-code", "import", "mcp", "config-toml", "v0.145", "memories"]
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-11-10T13:08:53Z
+last_modified_at: 2026-11-10T18:09:56Z
 ---
 
 # The /import Expansion in v0.145: How Codex CLI Now Swallows Cursor and Claude Code Whole

@@ -1,7 +1,7 @@
 ---
 title: "From codex mcp-server to codex app-server: Migrating Your Integrations to Codex's Native Protocol"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-11-10T13:08:53Z
+last_modified_at: 2026-11-10T18:09:56Z
 tags: ["codex-cli", "app-server", "mcp", "json-rpc", "migration", "integration", "v0.150", "deprecation"]
 ---
 

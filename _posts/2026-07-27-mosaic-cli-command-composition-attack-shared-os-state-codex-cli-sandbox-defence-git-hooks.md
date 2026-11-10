@@ -5,7 +5,7 @@ timestamp: 2026-07-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-27-mosaic-cli-command-composition-attack-shared-os-state-codex-cli-sandbox-defence-git-hooks"
 tags: ["codex-cli", "security", "sandbox", "MOSAIC", "command-composition", "git-hooks", "Landlock", "seccomp", "Seatbelt", "defence"]
 date: 2026-07-27T09:00:00+00:00
-last_modified_at: 2026-11-10T13:08:53Z
+last_modified_at: 2026-11-10T18:09:56Z
 ---
 # MOSAIC and the Command-Composition Kill Chain: How Individually Benign CLI Commands Combine Through Shared OS State to Breach Coding Agents — and Where Codex CLI's Sandbox Draws the Line
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-transferring-chatgpt-conversations-to-codex-cli"
 tags: ["codex-cli", "chatgpt", "context-transfer", "workflow", "productivity"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-11-10T13:08:53Z
+last_modified_at: 2026-11-10T18:09:56Z
 ---
 # Transferring ChatGPT Conversations to Codex CLI
 
