@@ -3,7 +3,7 @@ title: "Codex CLI in CI/CD: The New Explicit Project Trust Requirement (#60041)"
 parent: "Articles"
 nav_order: 1223
 date: 2026-11-09T10:00:00+00:00
-last_modified_at: 2026-11-09T23:05:37Z
+last_modified_at: 2026-11-10T03:13:00Z
 tags: ["codex-cli", "ci-cd", "security", "non-interactive", "trust", "v0.169.0", "configuration"]
 ---
 
@@ -51,12 +51,14 @@ codex run --no-interactive --trust-project "run the test suite and report failur
 
 The flag is explicit and auditable in pipeline logs, making it the preferred approach for regulated environments where configuration-as-code and audit trails matter.
 
-### Persistent project trust (interactive session pre-registration)
+### Persistent project trust (config pre-registration)
 
-For teams that pre-warm Codex sessions interactively before handing off to CI, you can trust a project directory from an interactive session:
+For teams that pre-warm Codex sessions interactively before handing off to CI, you can pre-register trust for a project directory in your user-level config. Either answer `y` to the one-time trust prompt when you first open the project in an interactive session, or set the trust level directly in `~/.codex/config.toml`:
 
-```bash
-codex trust add /path/to/project
+```toml
+# ~/.codex/config.toml — pre-register project trust at user level
+[projects."/path/to/project"]
+trust_level = "trusted"
 ```
 
 Subsequent non-interactive invocations against that path will pass the check without a flag or environment variable. This approach is fragile in ephemeral CI environments where the workspace is recreated per run — use the flag or environment variable instead.

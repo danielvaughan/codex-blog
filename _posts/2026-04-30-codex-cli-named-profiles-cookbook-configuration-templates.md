@@ -6,7 +6,7 @@ timestamp: 2026-04-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-30-codex-cli-named-profiles-cookbook-configuration-templates"
 tags: ["codex-cli", "configuration", "profiles", "config.toml", "workflow", "productivity", "cost-optimisation"]
 date: 2026-04-30T09:00:00+00:00
-last_modified_at: 2026-11-09T23:05:37Z
+last_modified_at: 2026-11-10T03:13:00Z
 ---
 # Codex CLI Named Profiles: A Cookbook of Ready-to-Use Configuration Templates
 

@@ -1,7 +1,7 @@
 ---
 title: "The 272K Tripwire: How GPT-5.6's Context Window Cap Silently Doubles Your Codex CLI Bill"
 date: 2026-07-25T09:00:00+00:00
-last_modified_at: 2026-11-09T23:05:37Z
+last_modified_at: 2026-11-10T03:13:00Z
 tags: ["codex-cli", "gpt-5.6", "context-window", "pricing", "cost-control", "auto-compaction", "configuration"]
 ---
 

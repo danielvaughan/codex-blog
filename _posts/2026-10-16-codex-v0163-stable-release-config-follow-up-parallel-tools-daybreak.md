@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.163.0 Stable: /config Command, Follow-Up While Processing, and Parallel Read-Only Tools"
 date: 2026-10-16T08:00:00+00:00
-last_modified_at: 2026-11-09T23:05:37Z
+last_modified_at: 2026-11-10T03:13:00Z
 parent: "Articles"
 nav_order: 1185
 tags:
