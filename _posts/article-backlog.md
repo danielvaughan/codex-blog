@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-10T10:30:25Z
+last_modified_at: 2026-11-10T11:39:34Z
 tags:
   - backlog
   - planning
@@ -15628,7 +15628,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 ### 200 · The Overeager Agent: Outcome-Based Authorisation as a Safety Failure Mode
 
 1. 📝 **The Overeager Agent: When Outcome-Based Authorisation Becomes a Safety Failure** — Identified 2026-11-07 by article-rater
-   - Sources: Qu et al. arXiv:2605.18583 (May 2026), OverEager-Gen benchmark, 500 scenarios, 5.4–27.7% overeager rates, 0.0%→17.1% Claude Code swing from removing consent declarations. GitHub #59060 ($10k+ viral incident, 548 upvotes). Now footnotes [^303][^304] in Toxic Flow article.
+   - Sources: Qu et al. arXiv:2605.18583 (May 2026), OverEager-Gen benchmark, 500 scenarios, 5.4–27.7% overeager rates, 0.0%→17.1% Claude Code swing from removing consent declarations. GitHub #59060 (\$10k+ viral incident, 548 upvotes). Now footnotes [^303][^304] in Toxic Flow article.
    - Gap: The OverEager-Gen benchmark is a primary research result with direct practitioner implications: consent-declaration language in prompts is a primary safety control, not a courtesy. No standalone article synthesises the benchmark findings, the #59060 incident, and the Toxic Flow thesis into actionable prompt design guidance. Key sections: the benchmark methodology, the 17.1% swing explained, what "consent declarations" are and how to write them, authorise-actions-not-outcomes framework, ask-to-continue architecture as the enforcement layer.
    - Priority: 🟡 Medium — safety and practitioner audience. Pairs naturally with premium #59 (Hope Is Not a Guardrail) and #07 (Codex Security).
 

@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-openai-acquires-ona-gitpod-codex-cli-persistent-cloud-sandboxes-enterprise-agent-execution"
 tags: ["codex-cli", "openai", "ona", "gitpod", "cloud-development-environments", "sandbox", "persistent-sessions", "enterprise", "acquisition"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-11-10T10:30:25Z
+last_modified_at: 2026-11-10T11:39:34Z
 ---
 # OpenAI Acquires Ona (Formerly Gitpod): What Persistent Cloud Sandboxes Mean for Codex CLI Developers
 

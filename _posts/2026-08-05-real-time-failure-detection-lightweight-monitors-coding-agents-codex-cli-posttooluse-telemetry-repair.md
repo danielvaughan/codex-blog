@@ -1,7 +1,7 @@
 ---
 title: "Real-Time Failure Detection for Coding Agents: What Ultra-Lightweight Monitors Mean for Codex CLI Session Reliability"
 date: 2026-08-05T09:00:00+00:00
-last_modified_at: 2026-11-10T10:30:25Z
+last_modified_at: 2026-11-10T11:39:34Z
 tags: ["codex-cli", "failure-detection", "observability", "PostToolUse", "telemetry", "self-healing", "agent-reliability", "echo-state-network", "deterministic-verification"]
 ---
 

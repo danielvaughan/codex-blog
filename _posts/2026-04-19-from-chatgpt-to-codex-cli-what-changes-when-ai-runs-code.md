@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-from-chatgpt-to-codex-cli-what-changes-when-ai-runs-code"
 tags: ["codex-cli", "chatgpt", "migration", "agentic-coding", "sandbox", "autonomous-execution"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-11-10T10:30:25Z
+last_modified_at: 2026-11-10T11:39:34Z
 ---
 # From ChatGPT to Codex CLI: What Changes When Your AI Can Actually Run Code
 

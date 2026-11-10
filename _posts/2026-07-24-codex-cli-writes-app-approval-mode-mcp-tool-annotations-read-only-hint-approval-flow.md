@@ -1,7 +1,7 @@
 ---
 title: "The Writes Mode: How Codex CLI's Newest Approval Tier Uses MCP Annotations to Let Reads Fly and Gate Writes"
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-11-10T10:30:25Z
+last_modified_at: 2026-11-10T11:39:34Z
 tags: ["codex-cli", "approval-policy", "writes-mode", "mcp", "tool-annotations", "readOnlyHint", "security", "configuration"]
 ---
 

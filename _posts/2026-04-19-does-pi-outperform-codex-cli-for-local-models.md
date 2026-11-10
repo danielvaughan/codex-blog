@@ -1,7 +1,7 @@
 ---
 title: "Does Pi Outperform Codex CLI for Local Models? A Harness Comparison on the NVIDIA GB10"
 date: 2026-04-19T00:00:00+00:00
-last_modified_at: 2026-11-10T10:30:25Z
+last_modified_at: 2026-11-10T11:39:34Z
 tags:
   - codex-cli
   - pi
