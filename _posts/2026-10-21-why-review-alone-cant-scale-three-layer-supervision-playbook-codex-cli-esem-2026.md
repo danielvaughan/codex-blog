@@ -1,7 +1,7 @@
 ---
 title: "Why Review Alone Can't Scale: The Three-Layer Supervision Playbook"
 date: 2026-10-21T10:00:00+00:00
-last_modified_at: 2026-11-10T18:09:56Z
+last_modified_at: 2026-11-10T19:07:40Z
 parent: "Articles"
 nav_order: 1195
 tags:

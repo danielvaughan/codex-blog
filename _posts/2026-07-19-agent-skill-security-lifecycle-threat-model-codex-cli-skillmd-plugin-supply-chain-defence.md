@@ -1,7 +1,7 @@
 ---
 title: "Agent Skill Security: The Lifecycle Threat Model Every Codex CLI Developer Needs"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-11-10T18:09:56Z
+last_modified_at: 2026-11-10T19:07:40Z
 tags: ["codex-cli", "security", "skills", "SKILL.md", "supply-chain", "plugin-marketplace", "threat-model", "lifecycle-security"]
 ---
 
