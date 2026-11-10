@@ -1,6 +1,6 @@
 ---
 date: 2026-09-06T09:00:00+00:00
-last_modified_at: 2026-11-10T11:39:34Z
+last_modified_at: 2026-11-10T13:08:53Z
 title: "Agentic Cloud Engineering: How Graph, Loop, and Zero-Trust Harness Abstractions Make Bounded Autonomous Work Provable"
 parent: "Articles"
 nav_order: 1136

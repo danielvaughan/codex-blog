@@ -1,10 +1,28 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-10T11:39:34Z
+last_modified_at: 2026-11-10T13:08:53Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 10 November 2026 (Pass 2, ~13:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,097 articles, 123 premium. Notes: 1,197.*
+
+**Done this pass:**
+- ✅ **Token Spiral article written** — `articles/2026-11-10-token-spiral-gpt61-sol-weekly-quota-burn-codex-cli.md` (~1,400 words). Covers the Nov 10 usage quota crisis: 88.96% weekly allowance in one session, two root causes (Nov 5 billing regression + turns-squared cost dynamics), ccusage diagnostics, and five mitigations (Fast mode, Luna subagent routing, MCP pruning, output suppression, rollout_budget cap). Matching Substack draft written.
+- README article count updated: 2,096 → 2,097. Substack draft count updated: 286 → 287.
+
+**Remaining backlog items:**
+- **ch05-competing-tools.md** Stack Overflow 2026 survey data + benchmark table — Medium effort
+- **ch18-orchestration-patterns.md** `agent wake` section — Medium effort
+- **ch09-tui.md** v0.167.0 TUI improvements — Medium effort
+- **Outstanding sketchnote** for Token Spiral article — requires Gemini pipeline
+- Other P1 book chapters (8 items) — carry forward
+- Premium draft publication candidates (3) — carry forward
+
 ---
 
 ## Article Triage — 9 November 2026 (Pass 5, ~21:00 UTC)
