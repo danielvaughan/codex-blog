@@ -3,7 +3,7 @@ title: "GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price — a Practic
 parent: "Articles"
 nav_order: 1222
 date: 2026-11-09T09:00:00+00:00
-last_modified_at: 2026-11-10T03:13:00Z
+last_modified_at: 2026-11-10T10:10:30Z
 tags: ["codex-cli", "gpt-6", "sol", "astra", "luna", "model-selection", "cost-governance", "configuration", "decision-framework"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["codex-cli", "gpt-6", "sol", "astra", "luna", "model-selection", "cost-go
 
 ---
 
-GPT-6.1 Sol shipped as the new default model for Codex CLI in v0.159.1, released in the days following OpenAI DevDay 2026.[^1] The pricing tells the story: $2 per million input tokens and $10 per million output tokens — representing a 90 per cent reduction in cached input cost compared with Astra's standard tier ($0.10/M vs $1.00/M cached input).[^2] That single data point invalidates most of the model-selection advice written before September 2026.
+GPT-6.1 Sol shipped as the new default model for Codex CLI in v0.159.1, released in the days following OpenAI DevDay 2026.[^1] The pricing tells the story: $2 per million input tokens and $10 per million output tokens, with a cached input rate of $0.10/M — a 90 per cent reduction against Astra's $1.00/M cached input rate.[^2] That single data point invalidates most of the model-selection advice written before September 2026.
 
 This article replaces the earlier three-tier routing guide for GPT-6 Sol and Luna.[^3] The `.1` revision is not a minor patch. GPT-6.1 Sol delivers meaningfully higher benchmark performance than GPT-6 Sol on code-focused tasks while costing the same. The right question for most teams is no longer "when should I use Sol instead of Astra?" — it is "when does my workload actually justify Astra's cost?"
 

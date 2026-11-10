@@ -1,7 +1,7 @@
 ---
 title: "Paginated Thread History: How Codex CLI Finally Made Session Resume Scale"
 date: 2026-07-23T09:00:00+00:00
-last_modified_at: 2026-11-10T03:13:00Z
+last_modified_at: 2026-11-10T10:10:30Z
 tags: ["codex-cli", "session-management", "thread-history", "sqlite", "v0.145.0", "pagination", "resume", "search"]
 ---
 

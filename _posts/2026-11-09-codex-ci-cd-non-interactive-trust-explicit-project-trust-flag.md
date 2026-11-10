@@ -3,7 +3,7 @@ title: "Codex CLI in CI/CD: The New Explicit Project Trust Requirement (#60041)"
 parent: "Articles"
 nav_order: 1223
 date: 2026-11-09T10:00:00+00:00
-last_modified_at: 2026-11-10T03:13:00Z
+last_modified_at: 2026-11-10T10:10:30Z
 tags: ["codex-cli", "ci-cd", "security", "non-interactive", "trust", "v0.169.0", "configuration"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["codex-cli", "ci-cd", "security", "non-interactive", "trust", "v0.169.0",
 
 ---
 
-A breaking change landed quietly in the v0.169.0 alpha sprint. PR #60041 — merged 7 November 2026 — requires that any Codex CLI invocation running in non-interactive mode explicitly declare project trust before execution proceeds.[^1] For teams with Codex wired into CI/CD pipelines, this change will cause silent or erroring runs until a trust declaration is added.
+A breaking change landed quietly in the v0.169.0 alpha sprint. PR #60041 — merged 7 November 2026 — requires that any Codex CLI invocation running in non-interactive mode explicitly declare project trust before execution proceeds.[^1] For teams with Codex wired into CI/CD pipelines, this change will produce silent failures or error exits until a trust declaration is added.
 
 This article explains what changed, why it matters, and how to update your pipelines.
 
