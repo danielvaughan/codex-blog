@@ -6,7 +6,7 @@ timestamp: 2026-05-31T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-31-codex-cli-environment-management-turn-scoped-profiles-shell-policy-multi-env-workflows"
 tags: ["codex-cli", "configuration", "environment-management", "profiles", "mcp", "security", "workflow-patterns"]
 date: 2026-05-31T09:00:00+00:00
-last_modified_at: 2026-11-11T05:15:21Z
+last_modified_at: 2026-11-11T09:06:22Z
 ---
 # Codex CLI Environment Management: Turn-Scoped Selections, Profiles, Shell Policies, and Multi-Environment Workflows
 

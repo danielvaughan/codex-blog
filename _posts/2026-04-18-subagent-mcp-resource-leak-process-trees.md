@@ -6,7 +6,7 @@ timestamp: 2026-04-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-18-subagent-mcp-resource-leak-process-trees"
 tags: ["subagents", "mcp", "resource-leak", "debugging", "enterprise", "process-management"]
 date: 2026-04-18T09:00:00+00:00
-last_modified_at: 2026-11-11T05:15:21Z
+last_modified_at: 2026-11-11T09:06:22Z
 ---
 # The Subagent Resource Leak Problem: Why MCP Process Trees Accumulate and What McpConnectionManager::shutdown() Fixes
 

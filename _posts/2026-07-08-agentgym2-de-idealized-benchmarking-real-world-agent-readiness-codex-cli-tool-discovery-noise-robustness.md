@@ -1,7 +1,7 @@
 ---
 title: "De-Idealised Benchmarking: What AgentGym2 Reveals About Real-World Agent Readiness — and Where Codex CLI's Architecture Already Closes the Gaps"
 date: 2026-07-08T09:00:00+00:00
-last_modified_at: 2026-11-11T05:15:21Z
+last_modified_at: 2026-11-11T09:06:22Z
 tags: ["codex-cli", "agentgym2", "benchmarking", "tool-discovery", "MCP", "real-world-evaluation", "noise-robustness", "de-idealised"]
 ---
 

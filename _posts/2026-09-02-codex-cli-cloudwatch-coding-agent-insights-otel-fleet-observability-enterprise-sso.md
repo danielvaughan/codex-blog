@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1094
 title: "Codex CLI Fleet Observability: CloudWatch Coding Agent Insights, OTel Bearer Tokens, and Enterprise SSO Rollout"
 date: 2026-09-02T17:00:00+00:00
-last_modified_at: 2026-11-11T05:15:21Z
+last_modified_at: 2026-11-11T09:06:22Z
 tags: ["codex-cli", "observability", "opentelemetry", "cloudwatch", "amazon-bedrock", "enterprise", "sso", "metrics"]
 ---
 

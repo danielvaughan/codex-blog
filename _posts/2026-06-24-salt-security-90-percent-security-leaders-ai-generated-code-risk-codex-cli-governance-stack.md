@@ -5,7 +5,7 @@ timestamp: 2026-06-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-24-salt-security-90-percent-security-leaders-ai-generated-code-risk-codex-cli-governance-stack"
 tags: ["codex-cli", "security", "governance", "enterprise", "Salt Security", "AI-generated code", "requirements.toml", "hooks", "managed configuration"]
 date: 2026-06-24T09:00:00+00:00
-last_modified_at: 2026-11-11T05:15:21Z
+last_modified_at: 2026-11-11T09:06:22Z
 ---
 # Nine in Ten Security Leaders Fear AI-Generated Code — How Codex CLI's Governance Stack Addresses the Gap
 

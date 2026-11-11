@@ -1,10 +1,26 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T05:15:21Z
+last_modified_at: 2026-11-11T09:06:22Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 11 November 2026 (Pass 3, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,099 articles, 123 premium. Notes: 1,183.*
+
+**Done this pass:**
+- ✅ **ch09-approval-modes.md v0.167.0 TUI improvements section written** — New section "v0.167.0 Approval UX Improvements (November 2026)" inserted before the Summary, with four subsections: Inline Patch Review During Approval Prompts (#58281), Network Approval Prompt Lifecycle (#58350, #58351), Pending Approvals Prioritised in Subagent Picker (#58720), and PreToolUse Hook Ordering Fixed (#58368). ~600 words, four footnotes. Summary bullet added. Clears the medium-effort backlog item carried from Nov 10.
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; not yet actionable.
+- **Runtime Auth Architecture article** — Await v0.169.0 stable; pairs well with CI/CD trust explainer from Nov 9.
+- **ch05-competing-tools.md** Stack Overflow 2026 survey data + benchmark table (GPT-6.1 Sol Terminal-Bench score pending publication) — Medium effort; TODOs remain in source.
+- **Outstanding sketchnotes for Nov 10 articles** (Token Spiral, Quota Governance Playbook) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 11 November 2026 (Pass 2, ~hourly UTC)

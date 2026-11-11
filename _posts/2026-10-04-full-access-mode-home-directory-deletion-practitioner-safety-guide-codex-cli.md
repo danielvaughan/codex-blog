@@ -3,7 +3,7 @@ title: "Full Access Mode Is Deleting Home Directories — What Every Codex CLI U
 parent: "Articles"
 nav_order: 1173
 date: 2026-10-04T07:00:00+00:00
-last_modified_at: 2026-11-11T05:15:21Z
+last_modified_at: 2026-11-11T09:06:22Z
 tags: ["codex-cli", "security", "full-access-mode", "windows", "data-loss", "safety", "config", "practitioner-guide"]
 copy_edited: true
 ---
