@@ -1,24 +1,27 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T19:06:22Z
+last_modified_at: 2026-11-11T19:06:43Z
 tags:
   - backlog
   - planning
 ---
 
-## Article Triage — 11 November 2026 (Pass 7, ~hourly UTC)
+## Article Triage — 11 November 2026 (Pass 8, ~hourly UTC)
 
 *Automated hourly KB review (Andy). Library: 2,100 articles, 123 premium. Sketchnotes: 1,253.*
 
 **Done this pass:**
-- ✅ **README folder counts corrected** — 7 stale counts updated: articles (2,102→2,100), premium-articles (134→123), drafts (27→24), notes (1,201→1,184), resources (22→16), sketchnotes (1,256→1,253), announcements (27→20). Previous automated passes had been claiming "README matches" despite the discrepancy.
+- ✅ **Zero-citation backfill (backlog #206)** — Added formal footnotes to both zero-citation articles from the Nov 5 batch:
+  - `codex doctor --network-only`: inline `PR #57606` converted to `[^1]` footnote with full PR description and merge date.
+  - `codex queue --resume how-to`: added `[^1]` referencing v0.166.0 stable release notes and `[^2]` cross-referencing the Queue Management Playbook. Removes bare sources note from footer.
+  - Both articles rated 2.9 in the Nov 4–11 batch due to zero formal citations; citations now meet ops-note/how-to sourcing standard.
 
 **Health check:**
 - Article count: 2,100 ✅
 - Premium articles: 123 ✅
 - Sketchnotes: 1,253 ✅
-- Git status: clean after README fix
+- Git status: clean
 
 **Outstanding backlog items (carry forward):**
 - **v0.169.0 Stable combined article** — Awaiting stable tag; not yet actionable.

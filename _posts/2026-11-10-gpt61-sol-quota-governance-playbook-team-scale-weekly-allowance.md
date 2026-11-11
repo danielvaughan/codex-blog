@@ -3,7 +3,7 @@ title: "GPT-6.1 Sol Quota Governance Playbook: Protecting Weekly Allowances at T
 parent: "Articles"
 nav_order: 1226
 date: 2026-11-10T17:00:00+00:00
-last_modified_at: 2026-11-11T19:06:22Z
+last_modified_at: 2026-11-11T19:06:43Z
 tags: ["codex-cli", "gpt-6", "sol", "quota-management", "cost-governance", "teams", "agents-md", "guardian", "configuration", "enterprise"]
 ---
 

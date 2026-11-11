@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Permission Hardening: `--full-auto` Removed, `untrusted` Retired, Fail-Closed Sandboxes"
 date: 2026-08-31T09:00:00+00:00
-last_modified_at: 2026-11-11T19:06:22Z
+last_modified_at: 2026-11-11T19:06:43Z
 tags: ["codex-cli", "sandbox", "permissions", "security", "ci-cd", "v0.149.0", "v0.150.0", "migration"]
 ---
 

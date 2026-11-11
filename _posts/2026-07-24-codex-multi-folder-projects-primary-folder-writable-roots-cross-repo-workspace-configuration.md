@@ -5,7 +5,7 @@ type: Technical Article
 timestamp: 2026-07-24T00:00:00+00:00
 tags: ["codex", "multi-folder", "workspace", "writable-roots", "sandbox", "configuration", "monorepo", "cross-repo", "primary-folder", "codex-app"]
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-11-11T19:06:22Z
+last_modified_at: 2026-11-11T19:06:43Z
 ---
 
 # Multi-Folder Projects in Codex: How Primary Folders, Writable Roots, and Cross-Repo Workspaces Actually Work
