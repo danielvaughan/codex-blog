@@ -2,7 +2,7 @@
 title: "Codex CLI and Neo4j: Use Cases and Best Practices"
 description: "Graph databases and AI agents are a natural fit. An agent's core capability is traversal."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-11-11T03:17:25Z
+last_modified_at: 2026-11-11T03:19:22Z
 tags:
   - ecosystem
   - third-party
