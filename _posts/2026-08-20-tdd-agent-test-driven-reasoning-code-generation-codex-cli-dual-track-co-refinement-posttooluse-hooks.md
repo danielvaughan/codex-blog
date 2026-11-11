@@ -1,7 +1,7 @@
 ---
 title: "TDD-Agent and Dual-Track Co-Refinement: Why Tests as Evolving Reasoning Artefacts Change Your Codex CLI Workflow"
 date: 2026-08-20T09:00:00+00:00
-last_modified_at: 2026-11-11T15:05:37Z
+last_modified_at: 2026-11-11T17:05:10Z
 tags: ["codex-cli", "tdd", "test-driven-development", "tdd-agent", "dual-track-co-refinement", "posttooluse-hooks", "code-generation", "agents-md"]
 ---
 

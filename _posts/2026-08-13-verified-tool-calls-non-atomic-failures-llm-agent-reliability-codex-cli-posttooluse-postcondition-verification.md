@@ -1,7 +1,7 @@
 ---
 title: "Verified Tool Calls and Non-Atomic Failures: What a Postcondition Wrapper Teaches Us About Codex CLI's PostToolUse Hooks"
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-11-11T15:05:37Z
+last_modified_at: 2026-11-11T17:05:10Z
 tags: ["codex-cli", "PostToolUse", "hooks", "non-atomic-failures", "verified-tool-calls", "postcondition-verification", "idempotency", "reliability", "tool-calling"]
 ---
 
