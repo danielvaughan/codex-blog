@@ -1,7 +1,7 @@
 ---
 title: "Refine After Generation: What RECAP Reveals About Patch Verbosity in Coding Agents — and How to Defend Against It in Codex CLI"
 date: 2026-08-16T09:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 tags: ["codex-cli", "patch-verbosity", "RECAP", "automated-program-repair", "SWE-bench", "AGENTS.md", "PostToolUse-hooks", "diff-review", "patch-minimality", "DPO"]
 ---
 

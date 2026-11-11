@@ -1,7 +1,7 @@
 ---
 title: "The Devil Is in the Interface: What 11,700 Trajectories Reveal About How Tool Architecture Shapes Coding Agent Behaviour — and What It Means for Codex CLI"
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 tags: ["codex-cli", "tool-architecture", "agent-design", "CodeAct", "SWE-bench", "tool-surface", "MCP", "consistency", "token-efficiency"]
 ---
 

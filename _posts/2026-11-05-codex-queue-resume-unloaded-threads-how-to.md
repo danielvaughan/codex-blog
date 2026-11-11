@@ -1,7 +1,7 @@
 ---
 title: "codex queue --resume: How to Resume Unloaded Threads Without Opening Them First"
 date: 2026-11-05T15:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 parent: "Articles"
 nav_order: 1217
 tags:
@@ -24,7 +24,7 @@ copy_edited: true
 
 ---
 
-Before v0.166.0, the queue system had a gap. You could queue tasks, let them accumulate overnight, and trust that Codex was holding them. But resuming them meant opening each thread manually — loading it into memory, confirming the state, then resuming. For a handful of threads that was tolerable. For twenty or more it was a workflow bottleneck that undermined the point of queuing in the first place.
+Before v0.166.0, the queue system had a gap. You could queue tasks, let them accumulate overnight, and trust that Codex was holding them. But resuming them meant opening each thread manually — loading it into memory, confirming the state, then resuming. For a handful of threads that was tolerable. For twenty or more it was a workflow bottleneck that undermined the point of queuing in the first place.[^1]
 
 `codex queue --resume` closes that gap. It lists every paused or queued thread that is not currently loaded into memory, then resumes them in order — no manual thread selection required.
 
@@ -211,11 +211,15 @@ Set `timeout_ms = 0` to disable the deadline (preserves cancellation, retries, a
 
 ## Summary
 
-`codex queue --resume` is a single-command drain for the queue. It addresses the last workflow friction point in async session management: the need to manually open each queued thread before resuming it. Combined with `codex queue --list` for inspection and `--thread` for selective resume, it gives teams running production agentic workflows a complete async session control surface from the command line.
+`codex queue --resume` is a single-command drain for the queue. It addresses the last workflow friction point in async session management: the need to manually open each queued thread before resuming it. Combined with `codex queue --list` for inspection and `--thread` for selective resume, it gives teams running production agentic workflows a complete async session control surface from the command line.[^2]
 
 ---
 
 *Published: 5 November 2026*
 *Research date: 5 November 2026*
-*Sources: OpenAI Codex CLI v0.166.0 release notes, PR history, community usage reports*
 *Tags: v0.166.0, queue-resume, session-management, async, agentic-workflows, how-to*
+
+---
+
+[^1]: [Codex CLI v0.166.0 Stable: codex queue --resume, Keyboard Transcript Navigation, and GPT-6.1 Terra](/2026/10/31/codex-v0166-stable-queue-resume-keyboard-transcript-terra/) — v0.166.0 stable release notes covering `codex queue --resume` introduction; released 29 October 2026.
+[^2]: [Codex Queue Management Playbook: Async Session Management, Queue Depth, Lifecycle, and Resume Patterns](/2026/11/06/codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns/) — comprehensive guide to queue operations in production agentic workflows.

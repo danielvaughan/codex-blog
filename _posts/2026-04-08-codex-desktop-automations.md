@@ -2,7 +2,7 @@
 title: "Mastering the Codex Desktop App: Automations, Triggers and the Review Queue"
 description: "The Codex Desktop app, launched on 2 February 2026 for macOS, is not simply a GUI wrapper around the CLI. It is a purpose-built command centre for running."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 tags:
   - cloud
   - desktop-app

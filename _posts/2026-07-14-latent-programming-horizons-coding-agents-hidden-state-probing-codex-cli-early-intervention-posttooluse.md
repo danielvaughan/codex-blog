@@ -1,7 +1,7 @@
 ---
 title: "Latent Programming Horizons: What LLM Hidden States Reveal About Code Correctness — and Why Codex CLI's Hook Architecture Is Already Wired for Early Intervention"
 date: 2026-07-14T09:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 tags: ["codex-cli", "mechanistic-interpretability", "hidden-state-probing", "early-intervention", "PostToolUse-hooks", "rollout-budget", "coding-agents", "correctness-probing"]
 ---
 

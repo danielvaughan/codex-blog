@@ -1,7 +1,7 @@
 ---
 title: "Supervised vs Unsupervised Code: The Metric That Replaces 'Percentage Written by AI'"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 tags: ["codex-cli", "engineering-metrics", "code-quality", "supervision", "autonomous-agents", "productivity-measurement", "engineering-leadership"]
 ---
 

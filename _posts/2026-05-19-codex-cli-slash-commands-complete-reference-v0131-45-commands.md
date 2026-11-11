@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-slash-commands-complete-reference-v0131-45-commands"
 tags: ["codex-cli", "slash-commands", "tui", "reference", "v0.131", "keyboard-shortcuts", "workflow"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 ---
 # Codex CLI Slash Commands Complete Reference: All 45 Commands in v0.131
 

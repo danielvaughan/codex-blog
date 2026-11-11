@@ -6,7 +6,7 @@ timestamp: 2026-04-15T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-15-language-doesnt-matter-kent-beck-coding-agents"
 tags: ["kent-beck", "language-agnosticism", "cross-language", "agents-md", "portability", "augmented-coding"]
 date: 2026-04-15T09:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 ---
 # Language Doesn't Matter Anymore: What Kent Beck's Shift Means for Coding Agents
 

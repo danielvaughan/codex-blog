@@ -6,7 +6,7 @@ timestamp: 2026-04-23T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-23-contract-driven-api-development-codex-cli-specmatic-mcp"
 tags: ["mcp", "api-development", "contract-testing", "openapi", "specmatic", "codex-cli", "workflow-patterns", "testing"]
 date: 2026-04-23T09:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 ---
 # Contract-Driven API Development with Codex CLI: Using Specmatic MCP for Spec-First Full-Stack Builds
 

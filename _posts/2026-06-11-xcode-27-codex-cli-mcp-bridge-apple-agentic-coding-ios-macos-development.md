@@ -5,7 +5,7 @@ timestamp: 2026-06-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-11-xcode-27-codex-cli-mcp-bridge-apple-agentic-coding-ios-macos-development"
 tags: ["codex-cli", "xcode-27", "mcp", "apple", "ios", "macos", "agentic-coding", "wwdc-2026", "mcpbridge", "swift", "swiftui"]
 date: 2026-06-11T09:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 ---
 # Xcode 27 and Codex CLI: Connecting Apple's MCP Bridge for Agentic iOS and macOS Development
 

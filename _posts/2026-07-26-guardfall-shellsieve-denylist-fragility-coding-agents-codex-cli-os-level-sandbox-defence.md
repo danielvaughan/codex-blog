@@ -1,7 +1,7 @@
 ---
 title: "GuardFall and ShellSieve: Why Denylist-Based Security Is a Losing Strategy for Coding Agents — and How Codex CLI's OS-Level Sandbox Changes the Calculus"
 date: 2026-07-26T09:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 tags: ["security", "sandbox", "denylist", "GuardFall", "ShellSieve", "coding-agents", "codex-cli", "Bubblewrap", "Seatbelt", "seccomp"]
 ---
 

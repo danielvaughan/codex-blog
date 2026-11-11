@@ -1,7 +1,7 @@
 ---
 title: "`codex doctor --network-only`: Fast Network Diagnostics for Proxy, MCP, and Vertex AI Issues"
 date: 2026-11-05T10:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 parent: "Articles"
 nav_order: 1216
 tags: ["codex-cli", "diagnostics", "troubleshooting", "networking", "proxy", "mcp", "vertex-ai", "v0.166"]
@@ -77,4 +77,8 @@ For a complete reference of `codex doctor` diagnostic categories, output formats
 
 ## Version Note
 
-`--network-only` was introduced in the v0.166.0 alpha sprint (PR #57606, merged 28 October 2026) and ships in v0.166.0 stable (released 29 October 2026). It is available in all versions from v0.166.0 onwards.
+`--network-only` was introduced in the v0.166.0 alpha sprint (PR #57606[^1], merged 28 October 2026) and ships in v0.166.0 stable (released 29 October 2026). It is available in all versions from v0.166.0 onwards.
+
+---
+
+[^1]: PR #57606 — "Add `--network-only` flag to `codex doctor`" — merged 28 October 2026 as part of the v0.166.0 alpha sprint; ships in v0.166.0 stable (29 October 2026).

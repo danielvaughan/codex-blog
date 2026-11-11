@@ -2,7 +2,7 @@
 title: "Embedding AI Agents in SaaS: Codex CLI vs OpenCode vs Pi for Multi-Tenant Harnesses"
 description: "The conversation around AI coding agents has shifted decisively from which agent is smartest to which agent can I embed in my product. Kleinloogs Q2."
 date: 2026-04-07T08:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 tags:
   - competitive-landscape
   - competitor-tools

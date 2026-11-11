@@ -2,7 +2,7 @@
 title: "Codex CLI for .NET and C# Teams: Skills, AGENTS.md, NuGet Sandboxing and Azure OpenAI"
 description: "The .NET ecosystem has a richer Codex integration story than most developers realise. Between the official dotnet/skills catalogue published by the .NET."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-11-11T18:10:32Z
+last_modified_at: 2026-11-11T19:06:22Z
 tags:
   - language-guide
   - agents-md
