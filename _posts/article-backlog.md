@@ -1,10 +1,31 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T11:40:52Z
+last_modified_at: 2026-11-11T13:04:54Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 11 November 2026 (Pass 5, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,100 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- Nothing actionable found. Repo is clean and up to date with origin/main.
+
+**Health check:**
+- Article count: 2,100 ✅ (README matches actual file count)
+- Premium articles: 123 ✅
+- Sketchnotes: 1,253 ✅ (all image formats)
+- Git status: clean, nothing to commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; not yet actionable.
+- **Runtime Auth Architecture article** — Await v0.169.0 stable; pairs well with CI/CD trust explainer from Nov 9.
+- **Outstanding sketchnotes for Nov 10–11 articles** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 11 November 2026 (Pass 4, 09:00 morning briefing)

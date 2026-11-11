@@ -3,7 +3,7 @@ title: "Agentic Coding in the Wild: What 95 Trillion Tokens Reveal About Codex C
 parent: "Articles"
 nav_order: 1149
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-11-11T11:40:52Z
+last_modified_at: 2026-11-11T13:04:54Z
 tags: ["codex-cli", "production", "kv-cache", "context-compaction", "tool-execution", "workflow-archetypes", "performance", "agentic-infrastructure"]
 ---
 
