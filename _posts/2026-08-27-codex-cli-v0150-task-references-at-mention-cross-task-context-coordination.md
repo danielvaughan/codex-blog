@@ -1,7 +1,7 @@
 ---
 title: "Task References in Codex CLI v0.150.0: Cross-Task Context Without Copy-Paste"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-11-11T17:05:10Z
+last_modified_at: 2026-11-11T18:10:32Z
 tags: ["codex-cli", "v0.150.0", "agents", "multi-agent", "task-references", "cross-task", "tui", "codex_tui", "coordination"]
 ---
 

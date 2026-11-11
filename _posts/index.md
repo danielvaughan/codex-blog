@@ -1,8 +1,8 @@
 ---
 title: Articles Index
-description: "Last updated: 2026-08-17 Total articles rated: 1,855+"
-date: 2026-08-17T08:00:00+00:00
-last_modified_at: 2026-11-11T17:05:10Z
+description: "Last updated: 2026-11-11 Total articles rated: 2,100+"
+date: 2026-11-11T08:00:00+00:00
+last_modified_at: 2026-11-11T18:10:32Z
 tags:
   - index
   - articles
@@ -10,8 +10,8 @@ tags:
 
 # Articles Index
 
-**Last updated:** 2026-08-17
-**Total articles rated:** 1,855+
+**Last updated:** 2026-11-11
+**Total articles rated:** 2,100+
 
 > **Note:** For detailed per-article ratings of articles published after May 2026, see [`resources/article-ratings.md`](../resources/article-ratings.md), which contains the comprehensive batch-by-batch ratings index with notes and gap analysis.
 

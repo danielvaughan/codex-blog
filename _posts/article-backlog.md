@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T17:05:10Z
+last_modified_at: 2026-11-11T18:10:32Z
 tags:
   - backlog
   - planning
@@ -15803,3 +15803,32 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Sources: `notes/codex-v0169-alpha-sprint-tui-rendering-mcp-lazy-startup-noninteractive-trust.md`, PRs #60037–#60039. Opt-in deferred startup until first tool call.
    - Gap: Teams with large AGENTS.md MCP configurations (10+ servers) face cold-start latency on session initialisation. The new lazy startup feature (#60037–#60039) defers server initialisation until the first tool call. No article covers MCP cold-start performance, the opt-in activation, error surfacing for failed deferred servers, or the AGENTS.md design implications (which servers to mark lazy vs eager). Practical performance guide for enterprise MCP configurations.
    - Priority: 🟡 Medium — practical how-to; v0.169.0 stable is the natural publication window.
+
+### 202 · The Scope Creep Safety Pattern (Premium)
+
+1. 📝 **The Scope Creep Safety Pattern: When Agents Infer Permissions They Were Never Granted** — Identified 2026-11-11 by article-rater
+   - Sources: GPT-6.1 Sol Destroyed My Systemd (5.0, Issue #59060), Hope Is Not a Guardrail (#59, 5.0), OverEager-Gen benchmark (backlog #200, Qu et al. arXiv:2605.18583), CIKM 2026 safety constraint survival rates. "$10K+ remediation" incident as the hook.
+   - Gap: The library has the strongest possible evidence base for a premium article on scope-creep-by-inference as a named failure mode. Key sections: scope-creep taxonomy (goal-directed inference vs explicit instruction), compaction as a constraint-loss mechanism (CIKM 2026 10% survival rate), OverEager-Gen consent-declaration patterns, AGENTS.md stop-and-report constraint design, Guardian v3 enforcement as the structural fix, ask-to-continue architecture. Bridges "here is a threat model" (#07, #59) and "here is what happens when it fails" (#59060 incident).
+   - Priority: 🟠 High — unique synthesis of three independently high-scoring sources.
+
+### 203 · The Firecracker Defence Guide (Premium)
+
+1. 📝 **The Firecracker Defence Guide: Rethinking AI Agent Sandbox Assumptions After CVE-2026-122192** — Identified 2026-11-11 by article-rater
+   - Sources: Firecracker CVE-2026-122192 article (5.0), CVE-2026-5747 (April 2026), Vercel KVM zero-day (October 2026), Andronchik/Lokhmakov comparative sandbox study (July 2026), Hope Is Not a Guardrail (#59, 5.0).
+   - Gap: Premium-length treatment of AI agent execution platform security from the hardware isolation layer up. Key sections: what microVM sandboxing actually guarantees and where it ends, the two-stage Firecracker escape chain explained for practitioners, platform-by-platform risk table (E2B/Vercel/Fly.io/Bedrock AgentCore), when to prefer local native sandboxing (Landlock/Seatbelt) over cloud execution platforms, AGENTS.md model selection policies adapted for execution environment risk. The two 5.0 security articles (Hope Is Not a Guardrail and Firecracker CVE) together define hardware and software sandboxing layers — this synthesis is the capstone.
+   - Priority: 🟠 High — time-sensitive; Firecracker CVE is fresh; first-mover window open for the platform security angle.
+
+### 204 · Token Economics Update: GPT-6.1 Pricing Changes the ROI Calculation
+
+1. 📝 **Token Economics Update: How GPT-6.1 Pricing Rewrites the Coding Agent ROI Model** — Identified 2026-11-11 by article-rater
+   - Sources: The Token Spiral (4.5), GPT-6.1 Sol Quota Governance Playbook (4.3), Sol Near-Astra Decision Framework (4.8), Token Economics and ROI premium (#11, 4.3). Bijan Bowen 3% finding; turns-squared cost dynamics.
+   - Gap: The November 2026 articles collectively invalidate most of the ROI modelling from premium #11. This update recalculates: break-even analysis at Sol vs Astra pricing, turns-squared cost dynamics for long-horizon sessions, the 3% finding applied to team-scale cost projections, governance overhead as a cost category, and the new minimum viable governance stack (rollout_budget + Luna subagent routing + MCP scope). Premium audience: CTOs and engineering managers deciding whether to expand or restrict Codex CLI rollout.
+   - Priority: 🟡 Medium — high value but not time-critical; pairs naturally with premium #11.
+
+### 205 · The Cloud Execution Playbook (Premium)
+
+1. 📝 **The Cloud Execution Playbook: Running Agentic Workflows That Outlast Your Laptop** — Identified 2026-11-11 by article-rater
+   - Sources: Codex Cloud AGENTS.md Patterns That Travel (4.0), GPT-6.1 Sol Near-Astra Decision Framework (4.8), DevDay 2026 Recap (4.8), Persistent Cloud Sessions (4.0), Codex Cloud Operations Guide (backlog #190). Three structural differences: filesystem, secrets, session continuity.
+   - Gap: First premium article dedicated to cloud-first agentic workflows. Key sections: AGENTS.md patterns that work in containers (filesystem/secrets/cold-start), model selection for unattended long-horizon tasks (Sol vs Astra for overnight agents), cost governance for workloads that run while the laptop is closed, named session management and handoff across devices, secret injection via Codex Cloud dashboard. Audience: teams that have moved beyond local Codex CLI to Codex Cloud production use.
+   - Priority: 🟡 Medium — Codex Cloud is production-ready (DevDay confirmed); premium gap is real.
+

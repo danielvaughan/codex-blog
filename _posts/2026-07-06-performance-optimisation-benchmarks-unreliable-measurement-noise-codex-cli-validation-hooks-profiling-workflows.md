@@ -1,7 +1,7 @@
 ---
 title: "Performance-Optimisation Benchmarks Are Unreliable: What a 740-Task Audit Reveals About Measurement Noise — and How to Build Trustworthy Profiling Workflows in Codex CLI"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-11-11T17:05:10Z
+last_modified_at: 2026-11-11T18:10:32Z
 tags: ["codex-cli", "benchmarks", "performance-optimisation", "measurement-noise", "GSO", "SWE-Perf", "SWE-fficiency", "PostToolUse", "profiling", "validation"]
 ---
 
