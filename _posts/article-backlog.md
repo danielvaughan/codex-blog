@@ -1,10 +1,34 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T19:06:43Z
+last_modified_at: 2026-11-11T21:06:05Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 11 November 2026 (Pass 9, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,100 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **Substack drafts for 2 missing Nov 10–11 articles:**
+  - `2026-11-10-gpt61-sol-quota-governance-playbook-team-scale-weekly-allowance.md` → `substack-drafts/` created (1,136 words)
+  - `2026-11-11-codex-cloud-agents-md-patterns-that-travel.md` → `substack-drafts/` created (1,183 words)
+  - Both follow the Substack style guide: second-person voice, closing CTA with AI disclosure, citations converted to web links where possible.
+
+**Health check:**
+- Article count: 2,100 ✅
+- Premium articles: 123 ✅
+- Substack drafts: 2 new, now covering all Nov 10–11 articles
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; not yet actionable.
+- **Runtime Auth Architecture article** — Await v0.169.0 stable; pairs well with CI/CD trust explainer from Nov 9.
+- **Outstanding sketchnotes for Nov 10–11 articles** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 11 November 2026 (Pass 8, ~hourly UTC)
