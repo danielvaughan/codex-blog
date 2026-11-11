@@ -6,7 +6,7 @@ timestamp: 2026-05-10T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-10-autoloop-codex-cli-bounded-optimisation-loops-agent-agnostic-iterative-improvement"
 tags: ["codex-cli", "autoloop", "autoresearch", "/goal", "eval-driven", "optimisation", "iterative-improvement", "agent-tooling"]
 date: 2026-05-10T09:00:00+00:00
-last_modified_at: 2026-11-11T09:15:10Z
+last_modified_at: 2026-11-11T10:24:00Z
 ---
 # AutoLoop with Codex CLI: Bounded Optimisation Loops for Measurable Codebase Improvement
 

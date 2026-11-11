@@ -1,7 +1,7 @@
 ---
 title: "ToolMinimize: Why 81–88% of LLM Agent Tool Calls Over-Share Private Data — and What Codex CLI's PreToolUse Hook Can Do About It"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-11-11T09:15:10Z
+last_modified_at: 2026-11-11T10:24:00Z
 tags: ["security", "privacy", "MCP", "tool-calls", "PreToolUse", "hooks", "GDPR", "data-minimisation", "multi-agent"]
 ---
 

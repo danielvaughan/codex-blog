@@ -1,7 +1,7 @@
 ---
 title: "Cross-Lingual Token Arbitrage: Why Non-English Prompts Cost 3× More — and How to Wire a Preprocessing Middleware into Codex CLI"
 date: 2026-07-09T09:00:00+00:00
-last_modified_at: 2026-11-11T09:15:10Z
+last_modified_at: 2026-11-11T10:24:00Z
 tags: ["codex-cli", "tokenisation", "multilingual", "context-engineering", "prompt-compression", "middleware", "cost-optimisation"]
 ---
 
