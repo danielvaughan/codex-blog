@@ -3,7 +3,7 @@ title: "VS Code Extension Reliability Collapse: What the October 2026 Stuck-Prom
 parent: "Articles"
 nav_order: 1176
 date: 2026-10-10T07:00:00+00:00
-last_modified_at: 2026-11-10T19:07:40Z
+last_modified_at: 2026-11-11T01:07:47Z
 tags: ["codex-cli", "vs-code", "ide-integration", "reliability", "debugging", "architecture", "windows", "v0.162.0", "developer-experience"]
 copy_edited: true
 ---

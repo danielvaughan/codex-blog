@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-mcp-2026-07-28-spec-rc-stateless-protocol-codex-cli-migration-guide"
 tags: ["mcp", "codex-cli", "specification", "stateless", "migration", "protocol", "extensions"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-11-10T19:07:40Z
+last_modified_at: 2026-11-11T01:07:47Z
 ---
 # The MCP 2026-07-28 Specification RC: What Codex CLI Users Need to Know
 

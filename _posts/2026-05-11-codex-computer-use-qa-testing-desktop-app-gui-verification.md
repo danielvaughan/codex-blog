@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-computer-use-qa-testing-desktop-app-gui-verification"
 tags: ["codex-cli", "computer-use", "qa-testing", "desktop-automation", "macos", "gui-testing", "visual-regression"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-11-10T19:07:40Z
+last_modified_at: 2026-11-11T01:07:47Z
 ---
 # Codex Computer Use for QA Testing: Automated GUI Verification, Desktop App Testing, and Visual Bug Detection
 

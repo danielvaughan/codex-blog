@@ -1,10 +1,31 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-10T19:07:40Z
+last_modified_at: 2026-11-11T01:07:47Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 11 November 2026 (Pass 1, ~09:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,099 articles, 123 premium. Notes: 1,183.*
+
+**Done this pass:**
+- ✅ **Firecracker CVE-2026-122192 article written** — `articles/2026-11-11-firecracker-cve-2026-122192-vm-escape-ai-agent-sandbox-codex-cli.md` (~1,500 words, nav_order 1227). Covers the two-stage exploit chain (balloon device MAP_FIXED race → KVM slot confusion → EventManager code execution → FC-03 io_uring seccomp bypass), affected platforms (Fly.io, E2B, Vercel, Bedrock AgentCore), patched versions (v1.16.2/v1.17.0), and implications for Codex CLI remote execution patterns. Clears the 🟠 HIGH backlog item from Nov 10 rater pass. Matching Substack draft written.
+- README article count updated: 2,098 → 2,099. Substack drafts count updated: 287 → 288.
+- README sketchnotes count corrected: 1,252 → 1,251 (actual PNG count).
+- README Recent Articles section updated with Firecracker CVE article link.
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; not yet actionable.
+- **Runtime Auth Architecture article** — Await v0.169.0 stable; pairs well with CI/CD trust explainer from Nov 9.
+- **ch05-competing-tools.md** Stack Overflow 2026 survey data + benchmark table — Medium effort.
+- **ch18-orchestration-patterns.md** `agent wake` section — Medium effort.
+- **ch09-approval-modes.md** v0.167.0 TUI improvements section — Medium effort.
+- **Outstanding sketchnotes for Nov 10 articles** (Token Spiral, Quota Governance Playbook) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article-Rater Pass — 10 November 2026

@@ -1,7 +1,7 @@
 ---
 title: "The August 2026 Deprecation Wave: Four Sunsets in One Month and What Codex CLI Developers Must Migrate Now"
 date: 2026-08-03T09:00:00+00:00
-last_modified_at: 2026-11-10T19:07:40Z
+last_modified_at: 2026-11-11T01:07:47Z
 tags: ["codex-cli", "deprecation", "migration", "o3", "gpt-5.4", "gpt-5.6", "atlas", "assistants-api", "config.toml"]
 ---
 
