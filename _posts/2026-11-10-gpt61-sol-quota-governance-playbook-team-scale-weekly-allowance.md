@@ -3,7 +3,7 @@ title: "GPT-6.1 Sol Quota Governance Playbook: Protecting Weekly Allowances at T
 parent: "Articles"
 nav_order: 1226
 date: 2026-11-10T17:00:00+00:00
-last_modified_at: 2026-11-11T03:15:17Z
+last_modified_at: 2026-11-11T03:17:25Z
 tags: ["codex-cli", "gpt-6", "sol", "quota-management", "cost-governance", "teams", "agents-md", "guardian", "configuration", "enterprise"]
 ---
 
@@ -14,7 +14,7 @@ tags: ["codex-cli", "gpt-6", "sol", "quota-management", "cost-governance", "team
 
 One engineer burning 89 per cent of their weekly allowance in a single session is a personal inconvenience. Five engineers doing it on the same Monday morning is an availability incident. The Token Spiral article[^1] covers emergency mitigations for individuals. This playbook covers what engineering managers and platform teams need to put in place *before* that happens.
 
-The November 2026 billing regression — where GPT-6.1 Terra's cached input discount was misapplied to uncached Sol tokens — amplifies a structural cost pattern that will outlast the regression itself.[^2] Sol's turns-squared token accumulation is not a bug. It is an architectural characteristic of a long-context reasoning model. Teams that treat quota governance as an afterthought will continue to hit preventable limits even after OpenAI patches the billing defect.
+The November 2026 billing regression — where GPT-6.1 Terra's cached input tokens were incorrectly billed at the full input rate rather than the discounted cached rate — amplifies a structural cost pattern that will outlast the regression itself.[^2] Sol's turns-squared token accumulation is not a bug. It is an architectural characteristic of a long-context reasoning model. Teams that treat quota governance as an afterthought will continue to hit preventable limits even after OpenAI patches the billing defect.
 
 This playbook is organised around three control layers: **visibility**, **policy**, and **enforcement**. Each layer can be implemented independently, but they compound in effectiveness.
 
@@ -204,14 +204,14 @@ The first four items are pure configuration changes that can be committed to you
 
 ## A Note on the November Regression
 
-OpenAI has acknowledged the billing regression affecting Terra-cached tokens being applied to uncached Sol calls.[^2] A fix is expected in the coming days. When it ships, per-session costs will return to their pre-November baseline.
+The Terra cached input billing regression appears to have been resolved server-side by approximately 6 November 2026, based on community observation in GitHub issue #59690.[^2] OpenAI has not issued a formal public statement, and affected users have requested usage credits. Per-session Terra costs have returned to their pre-5 November baseline.
 
 The governance measures in this playbook remain relevant after the fix. Sol's turns-squared cost dynamics are structural, not a bug. The regression compressed the timeline on which teams would naturally encounter quota pressure — but the underlying dynamics were always present, and they will remain after the patch. Teams that implement these controls now will be better positioned for the full v0.169.0 stable release, which introduces additional agentic features that increase session depth and, with it, context accumulation potential.
 
 ---
 
 [^1]: "The Token Spiral: Why GPT-6.1 Sol Is Eating Your Weekly Allowance." `articles/2026-11-10-token-spiral-gpt61-sol-weekly-quota-burn-codex-cli.md`. Published 10 November 2026.
-[^2]: Community-identified billing regression: GPT-6.1 Terra cached input pricing applied to uncached Sol tokens. GitHub issue #60530, confirmed circa 5 November 2026.
+[^2]: GPT-6.1 Terra billing regression: cached input tokens billed at full input rate rather than the discounted cached rate. Started approximately 5 November 2026; community-observed fix by 6 November 2026 (server-side, no OpenAI public statement as of 10 Nov). GitHub issue #59690: https://github.com/openai/codex/issues/59690
 [^3]: ccusage CLI tool — session-level token diagnostics for Codex CLI. Community-maintained. Available via `npm install -g ccusage`.
 [^4]: AGENTS.md specification and project scope behaviour: `articles/2026-04-10-agents-md-codex-cli-project-configuration.md`.
 [^5]: Subagent model routing cost analysis. See: `articles/2026-07-24-codex-cli-multi-agent-v2-governance-playbook.md`, section "Sub-agent cost implications".
