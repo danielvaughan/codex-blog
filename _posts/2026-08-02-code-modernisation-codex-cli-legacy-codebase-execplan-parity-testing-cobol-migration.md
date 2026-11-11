@@ -1,7 +1,7 @@
 ---
 title: "Code Modernisation with Codex CLI: The ExecPlan Pattern for Legacy Codebase Migration"
 date: 2026-08-02T09:00:00+00:00
-last_modified_at: 2026-11-11T01:07:47Z
+last_modified_at: 2026-11-11T03:15:17Z
 tags: ["codex-cli", "code-modernisation", "legacy-migration", "ExecPlan", "COBOL", "parity-testing", "AGENTS.md", "enterprise"]
 ---
 

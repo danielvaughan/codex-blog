@@ -1,7 +1,7 @@
 ---
 title: "Local Preflight for Cloud Agents: Small Models as Quality Gates for Codex CLI"
 date: 2026-08-04T09:00:00+00:00
-last_modified_at: 2026-11-11T01:07:47Z
+last_modified_at: 2026-11-11T03:15:17Z
 tags: ["codex-cli", "small-language-models", "preflight", "quality-gates", "needle", "hybrid-architecture", "edge-inference", "model-routing", "cost-optimisation"]
 ---
 
