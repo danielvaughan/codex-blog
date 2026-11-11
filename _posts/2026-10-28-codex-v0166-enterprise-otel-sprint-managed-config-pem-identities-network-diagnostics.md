@@ -2,7 +2,7 @@
 title: "Codex CLI v0.166.0 Alpha Sprint: Enterprise OpenTelemetry, PEM Client Identities, and `codex doctor --network-only`"
 parent: "Articles"
 date: 2026-10-28T08:00:00+00:00
-last_modified_at: 2026-11-11T10:24:00Z
+last_modified_at: 2026-11-11T11:05:36Z
 nav_order: 1209
 tags:
   - codex-cli

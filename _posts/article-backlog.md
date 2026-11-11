@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T10:24:00Z
+last_modified_at: 2026-11-11T11:05:36Z
 tags:
   - backlog
   - planning
@@ -1400,8 +1400,8 @@ Both Substack drafts have embedded sketchnote placeholder comments ready for ima
 3. ✅ **Full Access Mode Is Deleting Home Directories — What Every Codex CLI User Must Know** — Written 2026-10-04 → `2026-10-04-full-access-mode-home-directory-deletion-practitioner-safety-guide-codex-cli.md`
    - Source: GitHub Issue #36937 + Issue #37419 (confused deputy via rollout JSONL, Git Bash, Windows/Linux). Misconfigured full-access mode causes silent home directory deletions. Existing article `2026-09-04-data-as-code-confused-deputy-rollout-jsonl-codex-cli.md` covers the technical root cause. This article is the practitioner safety guide: who is affected, immediate mitigation steps, `config.yaml` audit checklist, safe rollback procedure. HIGH URGENCY — practitioner safety window. Target: 1,200 words, free tier.
 
-4. 📝 **Codex in the Cloud: AGENTS.md Patterns That Travel** — 🟠 High
-   - Source: DevDay 2026 (29 September). Codex Cloud confirmed: tasks run remotely, laptop can be closed, cross-device handoff real. Three differences from local sessions: filesystem access (repo-only, no local paths), secret management (cloud env vars vs .env), session continuity (named sessions replace worktrees). Cloud-compatible AGENTS.md template. Target: 1,400 words, free tier.
+4. ✅ **Codex in the Cloud: AGENTS.md Patterns That Travel** — Written 2026-11-11 → `2026-11-11-codex-cloud-agents-md-patterns-that-travel.md`
+   - Source: DevDay 2026 (29 September). Codex Cloud confirmed: tasks run remotely, laptop can be closed, cross-device handoff real. Three differences from local sessions: filesystem access (repo-only, no local paths), secret management (cloud env vars vs .env), session continuity (named sessions replace worktrees). Cloud-compatible AGENTS.md template. ~1,400 words, free tier. Covers: filesystem problem (absolute paths break), secret management (env vars only, no .env), session continuity (named sessions vs worktrees), cloud-compatible AGENTS.md template, audit checklist for existing files.
 
 5. ✅ **The /agents View: Managing Parallel Codex Agents from One CLI Session** — Written 2026-10-17 → `2026-10-17-agents-view-parallel-task-management-codex-cli-tui.md`
    - Source: DevDay 2026 (29 September) + v0.157 /fork shortcut + v0.159 instant_interrupt flag. New /agents view consolidates five parallel worktrees into one pane: status indicators, progress display, interrupt controls, session creation. Walkthrough: five-agent frontend/backend split with live monitoring. No KB coverage exists. Target: 1,200 words, free tier.
