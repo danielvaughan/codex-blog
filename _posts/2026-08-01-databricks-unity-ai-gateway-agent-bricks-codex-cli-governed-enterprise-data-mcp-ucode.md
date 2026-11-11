@@ -1,7 +1,7 @@
 ---
 title: "Databricks Unity AI Gateway and Codex CLI: Governed Enterprise Data Access via Agent Bricks, Managed MCP Servers, and the ucode CLI"
 date: 2026-08-01T09:00:00+00:00
-last_modified_at: 2026-11-11T09:06:22Z
+last_modified_at: 2026-11-11T09:15:10Z
 tags: ["codex-cli", "databricks", "unity-ai-gateway", "agent-bricks", "mcp", "enterprise", "governance", "ucode", "unity-catalog", "genie-one"]
 ---
 

@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-azure-openai-foundry-enterprise-deployment-compliance"
 tags: ["codex-cli", "azure-openai", "microsoft-foundry", "enterprise", "compliance", "config.toml", "model-provider", "CI/CD"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-11-11T09:06:22Z
+last_modified_at: 2026-11-11T09:15:10Z
 ---
 # Codex CLI with Azure OpenAI and Microsoft Foundry: Enterprise Agent Deployment on Azure Infrastructure
 

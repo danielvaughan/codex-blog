@@ -1,11 +1,18 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T09:06:22Z
+last_modified_at: 2026-11-11T09:15:10Z
 tags:
   - backlog
   - planning
 ---
+
+## Article Triage — 11 November 2026 (Pass 4, 09:00 morning briefing)
+
+*Andy (NanoClaw) morning review. Library: 2,099 articles, 134 premium. Notes: 1,183.*
+
+**Done this pass:**
+- ✅ **ch05-competing-tools.md Stack Overflow 2026 adoption data added** — Updated Claude Code intro paragraph: replaced stale 41 per cent byteiota figure with SO 2026 authoritative data (Claude Code 65.5%, Codex CLI 29.5%). Added 'employee you manage' vs 'pair programmer' community framing from SO 2026 discussion. Updated 'When to stay with what you have' paragraph. New footnote `[^ch05-so2026]` added; `[^ch05-9]` annotated as 'Earlier adoption data (May 2026)'. Clears the medium-effort backlog item carried since Oct 26 book update plan.
 
 ## Article Triage — 11 November 2026 (Pass 3, ~hourly UTC)
 
