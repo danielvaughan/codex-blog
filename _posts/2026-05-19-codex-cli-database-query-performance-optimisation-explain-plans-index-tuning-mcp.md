@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-codex-cli-database-query-performance-optimisation-explain-plans-index-tuning-mcp"
 tags: ["codex-cli", "database", "postgresql", "query-optimisation", "explain-plan", "indexing", "mcp", "performance", "pg_stat_statements"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-11-11T03:19:22Z
+last_modified_at: 2026-11-11T05:15:21Z
 ---
 # Codex CLI for Database Query Performance Optimisation: EXPLAIN Plan Analysis, Index Tuning, and MCP-Driven Workflows
 

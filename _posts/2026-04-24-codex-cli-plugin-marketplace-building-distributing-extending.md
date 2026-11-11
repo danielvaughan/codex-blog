@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-cli-plugin-marketplace-building-distributing-extending"
 tags: ["codex-cli", "plugins", "marketplace", "skills", "mcp", "enterprise", "extensibility"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-11-11T03:19:22Z
+last_modified_at: 2026-11-11T05:15:21Z
 ---
 # Codex CLI Plugin Marketplace: Building, Distributing, and Managing Extensions at Scale
 

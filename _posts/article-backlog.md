@@ -1,10 +1,27 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T03:19:22Z
+last_modified_at: 2026-11-11T05:15:21Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 11 November 2026 (Pass 2, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,099 articles, 123 premium. Notes: 1,183.*
+
+**Done this pass:**
+- ✅ **ch18-orchestration-patterns.md Agent Wake section written** — New section "Agent Wake: Suspend and Resume (v0.164.0)" inserted at line 715, between Multi-Environment Sessions and Agent Graph Store. ~400 words. Covers: the sequential dependency problem; `wake_on_agent_messages` feature flag and config; three wake modes (agent completion, file event, webhook); composition with `multi_env_copy_file` for cross-environment relay pipelines; safety considerations (idle timeout, credential expiry, wake loops). Clears the medium-effort backlog item carried from Nov 10.
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; not yet actionable.
+- **Runtime Auth Architecture article** — Await v0.169.0 stable; pairs well with CI/CD trust explainer from Nov 9.
+- **ch05-competing-tools.md** Stack Overflow 2026 survey data + benchmark table (GPT-6.1 Sol Terminal-Bench score pending publication) — Medium effort; TODOs remain in source.
+- **ch09-approval-modes.md** v0.167.0 TUI improvements section — Medium effort.
+- **Outstanding sketchnotes for Nov 10 articles** (Token Spiral, Quota Governance Playbook) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 11 November 2026 (Pass 1, ~09:00 UTC)

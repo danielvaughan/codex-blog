@@ -2,7 +2,7 @@
 title: "Reddit Sentiment Monitor: Codex CLI — March 30, 2026"
 description: "Weekly Reddit sentiment monitor for Codex CLI across r/OpenAI, r/MachineLearning, r/programming, r/devops, and r/ArtificialIntelligence."
 date: 2026-03-30T09:00:00+00:00
-last_modified_at: 2026-11-11T03:19:22Z
+last_modified_at: 2026-11-11T05:15:21Z
 tags:
   - opinion
   - community-sentiment
