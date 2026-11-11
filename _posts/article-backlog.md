@@ -1,10 +1,32 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T21:06:05Z
+last_modified_at: 2026-11-11T23:08:42Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 11 November 2026 (Pass 10, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,100 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **Substack drafts for 3 missing Nov 4–9 articles (highest-rated first):**
+  - `2026-11-04-gpt61-sol-systemd-destruction-issue-59060-safety-case-sandboxed-execution.md` → `substack-drafts/` created (~1,350 words, rated 5.0 — top-tier)
+  - `2026-11-05-guardian-v3-evidence-pipeline-snapshots-cursors-housekeeping.md` → `substack-drafts/` created (~950 words, rated 4.6)
+  - `2026-11-09-gpt61-sol-near-astra-performance-decision-framework-codex-cli.md` → `substack-drafts/` created (~1,200 words, rated 4.5)
+  - All follow the Substack style guide: second-person voice, full GitHub raw URL for sketchnote, closing CTA with AI disclosure.
+
+**Remaining Nov 4–9 articles still without Substack drafts (carry forward):**
+- `2026-11-06-guardian-v3-production-configuration-guide-codex-cli.md` (rated 4.4) — medium effort
+- `2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.md` (rated 4.1)
+- `2026-11-09-codex-ci-cd-non-interactive-trust-explicit-project-trust-flag.md` (rated 3.8)
+- `2026-11-05-codex-queue-resume-unloaded-threads-how-to.md` (rated 3.6)
+- `2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.md` (rated 3.6)
+- `2026-11-09-codex-cloud-thread-reliability-duplicate-messages-stale-disconnect-itemless-failures.md` (rated 3.6)
+- `2026-11-05-codex-doctor-network-only-fast-network-diagnostics-proxy-mcp-vertex-ai.md` (rated 3.3)
+
 ---
 
 ## Article Triage — 11 November 2026 (Pass 9, ~hourly UTC)

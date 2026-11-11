@@ -1,7 +1,7 @@
 ---
 title: "Infinite Agentic Loops: What IAL-Scan's 68-Failure Audit Reveals About Unbounded Feedback Paths — and How Codex CLI's Budget and Compaction Stack Stops Them"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-11-11T21:06:05Z
+last_modified_at: 2026-11-11T23:08:42Z
 tags: ["codex-cli", "infinite-loops", "IAL-Scan", "agentic-loops", "rollout-budget", "token-budget", "loop-detection", "agent-safety", "feedback-paths", "static-analysis"]
 ---
 

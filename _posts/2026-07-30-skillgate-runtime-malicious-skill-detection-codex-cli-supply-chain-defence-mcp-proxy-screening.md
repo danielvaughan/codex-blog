@@ -1,7 +1,7 @@
 ---
 title: "SkillGate and the Skill Supply-Chain Gap: Why Runtime Screening Matters More Than Marketplace Curation — and How to Harden Your Codex CLI Skill Stack"
 date: 2026-07-30T09:00:00+00:00
-last_modified_at: 2026-11-11T21:06:05Z
+last_modified_at: 2026-11-11T23:08:42Z
 tags: ["codex-cli", "security", "skills", "supply-chain", "SkillGate", "MCP", "plugin-security", "runtime-screening", "SKILL.md"]
 ---
 

@@ -3,7 +3,7 @@ title: "Spec-Driven Development: Escaping the Agentic Productivity Paradox with 
 parent: "Articles"
 nav_order: 1123
 date: 2026-09-04T09:00:00+00:00
-last_modified_at: 2026-11-11T21:06:05Z
+last_modified_at: 2026-11-11T23:08:42Z
 tags: ["spec-driven-development", "requirements-engineering", "AGENTS.md", "wisespec", "productivity", "agentic-workflows", "harness-engineering"]
 ---
 

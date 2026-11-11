@@ -1,7 +1,7 @@
 ---
 title: "GPT-6.1 Terra as the Escape Hatch: Migrating Off Sol's AGENTS.md Regression"
 date: 2026-10-31T14:00:00+00:00
-last_modified_at: 2026-11-11T21:06:05Z
+last_modified_at: 2026-11-11T23:08:42Z
 tags:
   - codex-cli
   - gpt-61-terra

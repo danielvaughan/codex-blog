@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Desktop Integration Patterns: Handoff, Worktrees, Parallel Agents, and the Linux Preview"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-11-11T21:06:05Z
+last_modified_at: 2026-11-11T23:08:42Z
 tags: ["codex-cli", "desktop-app", "worktrees", "handoff", "parallel-agents", "linux", "session-management"]
 ---
 
