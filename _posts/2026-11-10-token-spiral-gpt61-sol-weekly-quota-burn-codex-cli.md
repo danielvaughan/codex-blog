@@ -3,7 +3,7 @@ title: "The Token Spiral: Why GPT-6.1 Sol Is Eating Your Weekly Allowance"
 parent: "Articles"
 nav_order: 1225
 date: 2026-11-10T13:00:00+00:00
-last_modified_at: 2026-11-11T11:05:36Z
+last_modified_at: 2026-11-11T11:40:52Z
 tags: ["codex-cli", "gpt-6", "sol", "quota-management", "token-consumption", "billing", "cost-governance", "rate-limits"]
 ---
 
@@ -75,7 +75,7 @@ These are ordered roughly by effort, from immediate to structural.
 
 The `/mode` command in the Codex CLI TUI toggles between Ultra and Fast mode. Fast mode is approximately 2.5 times cheaper per turn.[^6] The trade-off is response latency and reasoning depth — Fast mode is not suitable for complex multi-step planning, but it handles most code-editing and file-search tasks adequately.
 
-```
+```text
 /mode fast
 ```
 

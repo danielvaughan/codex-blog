@@ -3,7 +3,7 @@ title: "Codex in the Cloud: AGENTS.md Patterns That Travel"
 parent: "Articles"
 nav_order: 1228
 date: 2026-11-11T09:00:00+00:00
-last_modified_at: 2026-11-11T11:05:36Z
+last_modified_at: 2026-11-11T11:40:52Z
 tags: ["codex-cli", "codex-cloud", "agents-md", "cloud", "configuration", "secret-management", "session-continuity", "devday-2026"]
 ---
 
@@ -93,7 +93,7 @@ The "halt and report" instruction is deliberate. In a local session, a missing k
 
 For secrets that must exist in the repository for tooling to work (for example, a `.npmrc` referencing an authentication token), use Codex Cloud's secret interpolation syntax in the file rather than storing the token directly:
 
-```
+```ini
 //registry.npmjs.org/:_authToken=${NPM_TOKEN}
 ```
 
