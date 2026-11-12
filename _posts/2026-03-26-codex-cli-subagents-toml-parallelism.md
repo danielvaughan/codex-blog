@@ -2,7 +2,7 @@
 title: "Codex CLI Subagents: TOML Format, Parallelism and spawn_agents_on_csv"
 description: "Codex CLI's multi-agent system lets a single session delegate specialised work to parallel child agents. Once you understand the TOML agent definition."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-11-12T21:06:10Z
+last_modified_at: 2026-11-12T23:04:57Z
 tags:
   - subagents
   - toml-schema

@@ -2,7 +2,7 @@
 title: "Codex CLI Enters the O'Reilly Curriculum: What Ken Kousen's 5-Hour Course Tells Us About Mainstream Adoption"
 description: "When a tool graduates from GitHub README to O'Reilly live training, it has crossed an invisible line. OpenAI's Codex CLI has just done exactly that."
 date: 2026-04-09T10:12:00+00:00
-last_modified_at: 2026-11-12T21:06:10Z
+last_modified_at: 2026-11-12T23:04:57Z
 tags:
   - oreilly
   - ken-kousen

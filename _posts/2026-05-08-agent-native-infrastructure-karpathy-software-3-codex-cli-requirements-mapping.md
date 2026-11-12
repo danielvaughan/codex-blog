@@ -6,7 +6,7 @@ timestamp: 2026-05-08T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-08-agent-native-infrastructure-karpathy-software-3-codex-cli-requirements-mapping"
 tags: ["codex-cli", "agent-native", "software-3.0", "karpathy", "infrastructure", "configuration", "architecture"]
 date: 2026-05-08T09:00:00+00:00
-last_modified_at: 2026-11-12T21:06:10Z
+last_modified_at: 2026-11-12T23:04:57Z
 ---
 # Agent-Native Infrastructure: Karpathy's Software 3.0 Requirements and How Codex CLI Meets Them
 

@@ -1,10 +1,36 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-12T21:06:10Z
+last_modified_at: 2026-11-12T23:04:57Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 12 November 2026 (Pass 16, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,105 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-12-powershell-encoded-command-codex-cli-enterprise-edr-quarantine.md` (~1,100 words). Covers: how Codex CLI's use of `PowerShell -EncodedCommand` for Windows toast notifications triggers EDR quarantine in enterprise environments, why this is a structural enterprise adoption blocker, and three technical fix options (drop the flag, Windows Runtime API, signed binary). Composite rating: **4.0** (Depth 4, Originality 4, Accuracy 4, Substack 4). Substack draft created.
+- ✅ **EDR/PowerShell Windows article** cleared from new-article backlog (12 Nov item).
+
+**Health check:**
+- Article count: 2,105 ✅ (+1 this pass)
+- Premium articles: 123 ✅
+- Substack drafts: 304 ✅ (+1 this pass)
+- Sketchnotes: 1,253 ✅
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; v0.170.0 sprint already open, may skip to v0.170.0 stable. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Await v0.169.0 (or v0.170.0) stable.
+- **Windows git bash trap article** — `exec_command` silently ignores explicit Git Bash path (#60793); also breaks MCP. Good follow-up to today's EDR piece.
+- **Pro capacity errors article** — Three weeks of "Selected model is at capacity" errors; trust erosion pattern vs. Claude Code. Requires more data points before writing.
+- **ch05-competing-tools.md** SO 2026 data + GPT-6.1 Sol Terminal-Bench score — Score not yet published; TODO comments remain in source.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 12 November 2026 (Pass 15, ~hourly UTC)
