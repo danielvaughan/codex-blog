@@ -1,7 +1,7 @@
 ---
 title: "SkillShield: Injecting Security Skills Into Coding Agents via the System Prompt — and What It Means for AGENTS.md"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-11-12T11:40:18Z
+last_modified_at: 2026-11-12T17:03:28Z
 tags: ["security", "AGENTS.md", "prompt engineering", "defence", "coding agents", "RedCode", "system prompt", "SkillShield"]
 ---
 

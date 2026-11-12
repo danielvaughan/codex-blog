@@ -1,7 +1,7 @@
 ---
 title: "Cyber-Capable Models and the Evaluation Containment Problem: What Codex CLI's Safer Auto-Review Defaults Actually Defend Against"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-11-12T11:40:18Z
+last_modified_at: 2026-11-12T17:03:28Z
 tags: ["codex-cli", "security", "cyber-capable-models", "auto-review", "approval-policy", "sandbox", "evaluation-containment", "GPT-5.6", "Astra"]
 ---
 

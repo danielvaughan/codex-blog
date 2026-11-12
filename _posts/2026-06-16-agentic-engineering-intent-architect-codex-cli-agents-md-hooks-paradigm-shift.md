@@ -5,7 +5,7 @@ timestamp: 2026-06-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-16-agentic-engineering-intent-architect-codex-cli-agents-md-hooks-paradigm-shift"
 tags: ["codex-cli", "agentic-engineering", "intent-architect", "AGENTS.md", "paradigm-shift", "software-engineering", "hooks", "config-toml", "EvoClaw"]
 date: 2026-06-16T09:00:00+00:00
-last_modified_at: 2026-11-12T11:40:18Z
+last_modified_at: 2026-11-12T17:03:28Z
 ---
 # Agentic Engineering and the Intent Architect: What the Paradigm Shift from Code Author to Outcome Auditor Means for Codex CLI Configuration
 

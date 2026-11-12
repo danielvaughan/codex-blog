@@ -1,10 +1,33 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-12T11:40:18Z
+last_modified_at: 2026-11-12T17:03:28Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 12 November 2026 (Pass 14, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,101 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **Health check only** — Repo clean, working tree clear. All backlog carry-forward items remain blocked on external dependencies (stable tag, published benchmarks, Gemini pipeline). No new actionable work identified.
+
+**Health check:**
+- Article count: 2,101 ✅
+- Premium articles: 123 ✅
+- Substack drafts: 302 ✅
+- Sketchnotes: 1,253 ✅
+- Git status: clean
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; v0.170.0 sprint already open, may skip to v0.170.0 stable. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Await v0.169.0 (or v0.170.0) stable.
+- **ch05-competing-tools.md** SO 2026 data + GPT-6.1 Sol Terminal-Bench score — Score not yet published; TODO comments remain in source.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 12 November 2026 (Pass 13, ~hourly UTC)

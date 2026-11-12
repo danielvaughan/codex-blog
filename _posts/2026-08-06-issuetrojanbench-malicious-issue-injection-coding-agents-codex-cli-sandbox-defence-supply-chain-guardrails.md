@@ -1,7 +1,7 @@
 ---
 title: "IssueTrojanBench: 66.5% of Malicious Issues Bypass Coding Agent Guardrails — What Codex CLI's Sandbox Architecture Gets Right"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-11-12T11:40:18Z
+last_modified_at: 2026-11-12T17:03:28Z
 tags: ["codex-cli", "security", "issuetrojanbench", "prompt-injection", "supply-chain", "sandbox", "malicious-issues", "coding-agents"]
 ---
 

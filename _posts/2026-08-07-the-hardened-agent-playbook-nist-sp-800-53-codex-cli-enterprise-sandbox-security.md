@@ -1,7 +1,7 @@
 ---
 title: "The Hardened Agent Playbook: Mapping NIST SP 800-53 Controls to Your Codex CLI Enterprise Sandbox"
 date: 2026-08-07T09:00:00+00:00
-last_modified_at: 2026-11-12T11:40:18Z
+last_modified_at: 2026-11-12T17:03:28Z
 tags: ["codex-cli", "security", "enterprise", "NIST", "sandbox", "compliance", "SOC-2", "ISO-27001", "permissions", "hardening"]
 ---
 
