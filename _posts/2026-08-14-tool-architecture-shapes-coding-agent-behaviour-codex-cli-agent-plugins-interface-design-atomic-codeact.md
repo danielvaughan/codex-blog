@@ -1,7 +1,7 @@
 ---
 title: "The Devil Is in the Interface: How Tool Architecture Shapes Your Codex CLI Agent's Behaviour"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-11-12T10:08:53Z
+last_modified_at: 2026-11-12T10:26:01Z
 tags: ["codex-cli", "tool-architecture", "agent-plugins", "interface-design", "CodeAct", "MCP", "SWE-bench"]
 ---
 

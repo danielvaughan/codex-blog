@@ -1,7 +1,7 @@
 ---
 title: "Persistent Cloud Sessions: What 'Tasks Run After the Laptop Closes' Actually Means"
 date: 2026-10-21T08:00:00+00:00
-last_modified_at: 2026-11-12T10:08:53Z
+last_modified_at: 2026-11-12T10:26:01Z
 parent: "Articles"
 nav_order: 1194
 tags:
