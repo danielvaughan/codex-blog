@@ -1,7 +1,7 @@
 ---
 title: "Agentic Entropy and Architectural Drift: Why Your Coding Agent's Passing Tests Hide Structural Decay — and How Codex CLI's Layered Defences Fight Back"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-11-12T03:13:41Z
+last_modified_at: 2026-11-12T05:16:36Z
 tags: ["codex-cli", "agentic-entropy", "architectural-drift", "conformity-seeding", "spec-growth-engine", "AGENTS.md", "PostToolUse", "code-review", "software-architecture"]
 ---
 

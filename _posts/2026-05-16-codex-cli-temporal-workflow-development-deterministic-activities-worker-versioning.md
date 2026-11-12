@@ -6,7 +6,7 @@ timestamp: 2026-05-16T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-16-codex-cli-temporal-workflow-development-deterministic-activities-worker-versioning"
 tags: ["codex-cli", "temporal", "durable-execution", "workflow-orchestration", "worker-versioning", "activities", "go", "typescript", "python"]
 date: 2026-05-16T09:00:00+00:00
-last_modified_at: 2026-11-12T03:13:41Z
+last_modified_at: 2026-11-12T05:16:36Z
 ---
 # Codex CLI for Temporal Workflow Development: Deterministic Workflow Generation, Activity Scaffolding, and Worker Versioning
 

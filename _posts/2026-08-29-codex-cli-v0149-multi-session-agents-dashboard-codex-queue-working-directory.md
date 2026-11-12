@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.149.0: The Multi-Session Upgrade — agents Dashboard, codex queue, and Working Directory Commands"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-11-12T03:13:41Z
+last_modified_at: 2026-11-12T05:16:36Z
 tags: ["codex-cli", "v0.149.0", "multi-session", "agents-dashboard", "codex-queue", "tui", "sdk", "inter-session-messaging"]
 ---
 
