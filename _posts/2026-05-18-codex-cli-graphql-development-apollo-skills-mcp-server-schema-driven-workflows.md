@@ -6,7 +6,7 @@ timestamp: 2026-05-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-18-codex-cli-graphql-development-apollo-skills-mcp-server-schema-driven-workflows"
 tags: ["codex-cli", "graphql", "apollo", "mcp", "schema-design", "federation", "agent-skills"]
 date: 2026-05-18T09:00:00+00:00
-last_modified_at: 2026-11-12T05:16:36Z
+last_modified_at: 2026-11-12T07:07:15Z
 ---
 # Codex CLI for GraphQL Development: Apollo Skills, MCP Server Integration, and Schema-Driven Workflows
 

@@ -3,7 +3,7 @@ title: "Codex in the Cloud: AGENTS.md Patterns That Travel"
 parent: "Articles"
 nav_order: 1228
 date: 2026-11-11T09:00:00+00:00
-last_modified_at: 2026-11-12T05:16:36Z
+last_modified_at: 2026-11-12T07:07:15Z
 tags: ["codex-cli", "codex-cloud", "agents-md", "cloud", "configuration", "secret-management", "session-continuity", "devday-2026"]
 ---
 

@@ -1,10 +1,33 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-12T05:16:36Z
+last_modified_at: 2026-11-12T07:07:15Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 12 November 2026 (Pass 13, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,101 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **v0.167.2 stable patch article written** — `articles/2026-11-12-codex-v0167-2-stable-patch-vertex-ai-incremental-mcp-oauth-cloud-reconnect.md` (~950 words). Covers: incremental Vertex AI tool updates (default-on, opt-out flag), MCP OAuth cancellation-safe token refresh (PR #60981), idle Cloud conversation reconnection, Windows runtime reconciliation, thread-local model ID preservation. Substack draft created in `substack-drafts/`.
+- ✅ **Stale backlog item cleared** — `ch09-approval-modes.md` v0.167.0 TUI improvements section was already committed (`feat(book): add v0.167.0 approval UX improvements section to ch09`). Item removed from carry-forward.
+
+**Health check:**
+- Article count: 2,101 ✅
+- Premium articles: 123 ✅
+- Substack drafts: 1 new this pass (v0.167.2)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; v0.170.0 sprint already open, may skip to v0.170.0 stable. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Await v0.169.0 (or v0.170.0) stable.
+- **ch05-competing-tools.md** SO 2026 data + GPT-6.1 Sol Terminal-Bench score — Score not yet published; TODO comments remain in source.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 12 November 2026 (Pass 12, ~hourly UTC)
