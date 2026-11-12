@@ -1,7 +1,7 @@
 ---
 title: "Three Releases, Three Windows Regressions: Codex CLI's Persistent Platform Reliability Problem"
 date: 2026-11-01T10:00:00+00:00
-last_modified_at: 2026-11-12T07:07:15Z
+last_modified_at: 2026-11-12T10:08:53Z
 parent: "Articles"
 nav_order: 1212
 tags:
