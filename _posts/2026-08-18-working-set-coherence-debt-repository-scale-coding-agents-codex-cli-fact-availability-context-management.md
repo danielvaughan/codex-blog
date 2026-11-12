@@ -1,7 +1,7 @@
 ---
 title: "The Working Set Problem: What Coherence Debt Reveals About Your Codex CLI Context Strategy"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-11-12T17:03:28Z
+last_modified_at: 2026-11-12T21:06:10Z
 tags: ["codex-cli", "working-set", "coherence-debt", "context-management", "repository-scale", "coupled-fact-graph", "AGENTS.md", "file-discovery"]
 ---
 

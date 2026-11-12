@@ -1,25 +1,26 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-12T17:03:28Z
+last_modified_at: 2026-11-12T21:06:10Z
 tags:
   - backlog
   - planning
 ---
 
-## Article Triage — 12 November 2026 (Pass 14, ~hourly UTC)
+## Article Triage — 12 November 2026 (Pass 15, ~hourly UTC)
 
-*Automated hourly KB review (Andy). Library: 2,101 articles, 123 premium. Sketchnotes: 1,253.*
+*Automated hourly KB review (Andy). Library: 2,104 articles, 123 premium. Sketchnotes: 1,253.*
 
 **Done this pass:**
-- ✅ **Health check only** — Repo clean, working tree clear. All backlog carry-forward items remain blocked on external dependencies (stable tag, published benchmarks, Gemini pipeline). No new actionable work identified.
+- ✅ **New article written** — `2026-11-12-mcp-oauth-architecture-multi-agent-sessions-token-lifecycle-concurrent-refresh-enterprise-ttl.md` (~1,900 words). Covers: concurrent 401 refresh races in multi-agent sessions, cancellation-safe credential persistence, enterprise token TTL policy design, MCP server configuration for OAuth safety, and observability recommendations. Anchored in v0.167.2 PR #60981 as the teachable moment. Composite rating: **4.2** (Depth 4, Originality 4, Accuracy 4, Substack 4). Substack draft created.
+- ✅ **MCP OAuth Architecture** cleared from new-article backlog (12 Nov item).
 
 **Health check:**
-- Article count: 2,101 ✅
+- Article count: 2,104 ✅ (+1 this pass)
 - Premium articles: 123 ✅
-- Substack drafts: 302 ✅
+- Substack drafts: 303 ✅ (+1 this pass)
 - Sketchnotes: 1,253 ✅
-- Git status: clean
+- Git status: clean after commit
 
 **Outstanding backlog items (carry forward):**
 - **v0.169.0 Stable combined article** — Awaiting stable tag; v0.170.0 sprint already open, may skip to v0.170.0 stable. Monitor changelog-watch.

@@ -1,7 +1,7 @@
 ---
 title: "GPT-6.1 Sol Destroyed My Systemd: The Safety Case for Sandboxed Codex Execution"
 date: 2026-11-04T09:00:00+00:00
-last_modified_at: 2026-11-12T17:03:28Z
+last_modified_at: 2026-11-12T21:06:10Z
 parent: "Articles"
 nav_order: 1215
 tags:
