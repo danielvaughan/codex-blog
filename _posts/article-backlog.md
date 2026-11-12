@@ -1,10 +1,43 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-11T23:08:42Z
+last_modified_at: 2026-11-12T01:06:51Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 12 November 2026 (Pass 11, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,100 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **Substack drafts for 3 more missing Nov 4–9 articles (highest-rated first):**
+  - `2026-11-06-guardian-v3-production-configuration-guide-codex-cli.md` → `substack-drafts/` created (~950 words, rated 4.4)
+  - `2026-11-06-codex-v0167-stable-agent-command-center-multi-backend-image-attachments-gcp-vertex.md` → `substack-drafts/` created (~1,100 words, rated 4.1)
+  - `2026-11-09-codex-ci-cd-non-interactive-trust-explicit-project-trust-flag.md` → `substack-drafts/` created (~800 words, rated 3.8)
+  - All follow the Substack style guide: second-person voice, full GitHub raw URL for sketchnote, closing CTA with AI disclosure.
+
+**Remaining Nov 4–9 articles still without Substack drafts (carry forward):**
+- `2026-11-05-codex-queue-resume-unloaded-threads-how-to.md` (rated 3.6)
+- `2026-11-06-codex-queue-playbook-async-session-management-queue-depth-lifecycle-resume-patterns.md` (rated 3.6)
+- `2026-11-09-codex-cloud-thread-reliability-duplicate-messages-stale-disconnect-itemless-failures.md` (rated 3.6)
+- `2026-11-05-codex-doctor-network-only-fast-network-diagnostics-proxy-mcp-vertex-ai.md` (rated 3.3)
+
+**Health check:**
+- Article count: 2,100 ✅
+- Premium articles: 123 ✅
+- Substack drafts: 3 new this pass, 7 of 11 Nov 4–11 articles now covered
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; not yet actionable.
+- **Runtime Auth Architecture article** — Await v0.169.0 stable.
+- **ch09-approval-modes.md** v0.167.0 TUI improvements section — Medium effort, still pending.
+- **ch05-competing-tools.md** SO 2026 data + GPT-6.1 Sol Terminal-Bench score — Score not yet published.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 11 November 2026 (Pass 10, ~hourly UTC)

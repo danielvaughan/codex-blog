@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-codex-labs-gsi-enterprise-deployment-cli-workflows-at-scale"
 tags: ["codex-cli", "enterprise", "codex-labs", "gsi", "deployment", "adoption", "configuration"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-11-11T23:08:42Z
+last_modified_at: 2026-11-12T01:06:51Z
 ---
 # Codex Labs and the GSI Network: What Enterprise-Scale Codex Deployment Means for CLI Power Users
 

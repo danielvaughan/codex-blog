@@ -1,7 +1,7 @@
 ---
 title: "The Context Window Gap: Why Codex CLI Caps GPT-5.6's Million-Token Window at 272K — and Why That's Sensible Engineering"
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-11-11T23:08:42Z
+last_modified_at: 2026-11-12T01:06:51Z
 tags: ["codex-cli", "context-window", "GPT-5.6", "token-management", "compaction", "configuration"]
 ---
 

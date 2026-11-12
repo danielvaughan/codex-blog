@@ -1,7 +1,7 @@
 ---
 title: "Physical Agent Control Surfaces: What OpenAI's Codex Micro Reveals About the Human-Agent Interface"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-11-11T23:08:42Z
+last_modified_at: 2026-11-12T01:06:51Z
 tags: ["codex-micro", "hardware", "developer-ergonomics", "agent-control", "human-agent-interaction", "work-louder", "agentdeck", "stream-deck"]
 ---
 

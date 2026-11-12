@@ -1,7 +1,7 @@
 ---
 title: "The 272K Reality: How GPT-5.6 Sol's Context Window Cap and July Latency Regression Expose Codex CLI's Infrastructure Limits"
 date: 2026-07-26T09:00:00+00:00
-last_modified_at: 2026-11-11T23:08:42Z
+last_modified_at: 2026-11-12T01:06:51Z
 tags: ["codex-cli", "GPT-5.6", "context-window", "performance", "latency", "infrastructure", "config.toml", "compaction", "pricing", "Sol"]
 ---
 
