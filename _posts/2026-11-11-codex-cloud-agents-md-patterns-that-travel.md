@@ -3,7 +3,7 @@ title: "Codex in the Cloud: AGENTS.md Patterns That Travel"
 parent: "Articles"
 nav_order: 1228
 date: 2026-11-11T09:00:00+00:00
-last_modified_at: 2026-11-12T01:06:51Z
+last_modified_at: 2026-11-12T03:13:41Z
 tags: ["codex-cli", "codex-cloud", "agents-md", "cloud", "configuration", "secret-management", "session-continuity", "devday-2026"]
 ---
 
@@ -180,7 +180,7 @@ The majority of AGENTS.md files that have evolved organically from local use wil
 
 Cloud execution does not change the AGENTS.md features that matter most: tool permissions, approval policies, session profiles, and task-level instruction scoping. The `writable_roots`, `network`, and `approval_policy` keys work identically in Codex Cloud.[^2] Session profiles defined in `config.toml` apply whether the session runs locally or in a container.
 
-The `/agents` view introduced in Codex CLI v0.157 and improved in v0.159 also works with Codex Cloud sessions — you can monitor and interrupt cloud tasks from the same TUI you use to manage local sessions.[^4]
+The `/agents` view introduced in Codex CLI v0.159.0 (DevDay 2026) also works with Codex Cloud sessions — you can monitor and interrupt cloud tasks from the same TUI you use to manage local sessions.[^4]
 
 The main adjustment is the filesystem and secret model. Get those right, and an AGENTS.md file that works locally will work in Codex Cloud without further modification.
 
@@ -189,5 +189,5 @@ The main adjustment is the filesystem and secret model. Get those right, and an 
 [^1]: OpenAI DevDay 2026 — Codex Cloud production announcement. 29 September 2026, San Francisco.
 [^2]: Codex Cloud documentation — container environment, secret injection, named sessions. `https://developers.openai.com/codex/models`.
 [^3]: Codex CLI repository conventions — `.codex/` directory as a portable per-repo state location.
-[^4]: Codex CLI v0.159.0 release notes — `/agents` view improvements and cloud session monitoring.
+[^4]: Codex CLI v0.159.0 release notes — `/agents` view introduced at DevDay 2026, available from v0.159.0 onwards. Cloud session monitoring confirmed in the same release.
 [^5]: The /agents View: Managing Parallel Codex Agents from One CLI Session. `2026-10-17-agents-view-parallel-task-management-codex-cli-tui.md`.

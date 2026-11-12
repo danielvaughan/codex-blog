@@ -3,7 +3,7 @@ title: "The Token Spiral: Why GPT-6.1 Sol Is Eating Your Weekly Allowance"
 parent: "Articles"
 nav_order: 1225
 date: 2026-11-10T13:00:00+00:00
-last_modified_at: 2026-11-12T01:06:51Z
+last_modified_at: 2026-11-12T03:13:41Z
 tags: ["codex-cli", "gpt-6", "sol", "quota-management", "token-consumption", "billing", "cost-governance", "rate-limits"]
 ---
 
@@ -95,10 +95,13 @@ This change keeps your primary agent on Sol while routing spawned subagents to L
 
 ### 3. Prune Your MCP Tool Registry
 
-Every registered MCP server injects its full tool schema into every turn. A GitHub MCP server exposing 93 tools adds roughly 55,000 tokens per turn before any work is done.[^7] If you are not using a server in a given session, disable it:
+Every registered MCP server injects its full tool schema into every turn. A GitHub MCP server exposing 93 tools adds roughly 55,000 tokens per turn before any work is done.[^7] If you are not using a server in a given session, disable it by setting `enabled = false` in `config.toml`:
 
-```bash
-codex mcp disable github
+```toml
+# config.toml
+[mcp_servers.github]
+# ... existing config ...
+enabled = false
 ```
 
 Re-enable it only when you need it. The difference in per-turn baseline cost can be significant for long sessions.

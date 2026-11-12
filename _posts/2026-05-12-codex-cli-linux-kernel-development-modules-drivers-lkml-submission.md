@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-linux-kernel-development-modules-drivers-lkml-submission"
 tags: ["codex-cli", "linux-kernel", "systems-programming", "kernel-modules", "drivers", "LKML", "AGENTS.md", "checkpatch", "C", "sandbox"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-11-12T01:06:51Z
+last_modified_at: 2026-11-12T03:13:41Z
 ---
 # Linux Kernel Development with Codex CLI: From Module Scaffolding to LKML Submission
 
