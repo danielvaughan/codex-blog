@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-12T10:26:01Z
+last_modified_at: 2026-11-12T11:40:18Z
 tags:
   - backlog
   - planning
@@ -15940,7 +15940,7 @@ The following gaps were identified during the 17 June 2026 article rating review
 ### 202 · The Scope Creep Safety Pattern (Premium)
 
 1. 📝 **The Scope Creep Safety Pattern: When Agents Infer Permissions They Were Never Granted** — Identified 2026-11-11 by article-rater
-   - Sources: GPT-6.1 Sol Destroyed My Systemd (5.0, Issue #59060), Hope Is Not a Guardrail (#59, 5.0), OverEager-Gen benchmark (backlog #200, Qu et al. arXiv:2605.18583), CIKM 2026 safety constraint survival rates. "$10K+ remediation" incident as the hook.
+   - Sources: GPT-6.1 Sol Destroyed My Systemd (5.0, Issue #59060), Hope Is Not a Guardrail (#59, 5.0), OverEager-Gen benchmark (backlog #200, Qu et al. arXiv:2605.18583), CIKM 2026 safety constraint survival rates. "\$10K+ remediation" incident as the hook.
    - Gap: The library has the strongest possible evidence base for a premium article on scope-creep-by-inference as a named failure mode. Key sections: scope-creep taxonomy (goal-directed inference vs explicit instruction), compaction as a constraint-loss mechanism (CIKM 2026 10% survival rate), OverEager-Gen consent-declaration patterns, AGENTS.md stop-and-report constraint design, Guardian v3 enforcement as the structural fix, ask-to-continue architecture. Bridges "here is a threat model" (#07, #59) and "here is what happens when it fails" (#59060 incident).
    - Priority: 🟠 High — unique synthesis of three independently high-scoring sources.
 

@@ -1,7 +1,7 @@
 ---
 title: "Next-Generation Context Compaction: What Slipstream, SelfCompact, and CompactionRL Reveal About Keeping Long-Horizon Coding Agents on Track"
 date: 2026-07-28T09:00:00+00:00
-last_modified_at: 2026-11-12T10:26:01Z
+last_modified_at: 2026-11-12T11:40:18Z
 tags: ["codex-cli", "context-compaction", "long-horizon-agents", "Slipstream", "SelfCompact", "CompactionRL", "SWE-bench", "configuration"]
 ---
 
