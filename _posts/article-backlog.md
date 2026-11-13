@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-13T07:05:41Z
+last_modified_at: 2026-11-13T07:13:11Z
 tags:
   - backlog
   - planning
@@ -16003,11 +16003,12 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Gap: NIST published agent identity tenets connecting to zero-trust runtime architectures. No article maps these tenets to Codex CLI implementation. Key sections: NIST identity tenets explained (ephemeral identity, bounded authority, attestation), how PEM client identities in Codex CLI implement or partially implement each tenet, Guardian v2 as an attestation layer, EU AI Act deployer obligations mapped to NIST framework, gaps and open items.
    - Priority: 🟡 Medium — governance and compliance audience, connects to existing security library.
 
-### 197 · v0.169.0 Stable: Combined v0.168.0–v0.169.0 Super-Sprint
+### 197 · v0.169.0 Stable: Runtime Auth Architecture, MCP Lazy Startup, CI/CD Trust Hardening
 
-1. 📝 **v0.169.0 Stable: What Ships in the Combined v0.168.0–v0.169.0 Super-Sprint** — Identified 2026-11-07 by article-rater
-   - Sources: `notes/codex-v0169-alpha-sprint-tui-rendering-mcp-lazy-startup-noninteractive-trust.md` (Wave 1, PRs #60017–#60042), `notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md` (Wave 2, PRs #60046–#60122), v0.167.0 stable release guide (5.0 × Accuracy, 6 Nov). Ecosystem signals: Firecracker vuln disclosure, Cuttlefish iPhone app, AWS Kiro, Mistral Studio, Foundry Local.
-   - Gap: v0.168.0 did not ship stable — the first time OpenAI has absorbed a version into the next sprint without a stable release. The combined sprint covers TUI rendering refactor (10 PRs), MCP lazy startup (3 PRs), security hardening, full runtime auth migration across all subsystems (14 PRs), and rollout trace hardening. This is architecturally the most significant sprint since v0.167.0. No release guide exists yet. First-mover window opens at stable.
+1. 📝 **v0.169.0 Stable: Runtime Auth Architecture, MCP Lazy Startup, and CI/CD Trust Hardening** — Identified 2026-11-07 by article-rater; updated 2026-11-13 (KB correction)
+   - **KB CORRECTION (13 Nov 2026):** Earlier versions of this backlog item described a "Combined v0.168.0–v0.169.0 Super-Sprint" because v0.168.0 appeared to have been skipped. This was incorrect. v0.168.0 shipped stable on 13 November 2026 at 03:54 UTC (see `2026-11-13-codex-v0168-stable-model-provider-selection-side-panes-audio-gif-osc777.md`). v0.169.0 is therefore a standalone sprint, not a combined release.
+   - Sources: `notes/codex-v0169-alpha-sprint-tui-rendering-mcp-lazy-startup-noninteractive-trust.md` (Wave 1, PRs #60017–#60042), `notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md` (Wave 2, PRs #60046–#60122). Ecosystem signals: Firecracker vuln disclosure, Cuttlefish iPhone app, AWS Kiro, Mistral Studio, Foundry Local.
+   - Gap: v0.169.0 alpha sprint covers TUI rendering refactor (10 PRs), MCP lazy startup (3 PRs), security hardening, full runtime auth migration across all subsystems (14 PRs), and rollout trace hardening. This is architecturally significant. No release guide exists yet. First-mover window opens at stable.
    - Priority: 🔴 Critical — write immediately on stable tag. Same-day publication target.
 
 ### 198 · Firecracker Sandbox Security: Isolation Failure for AI Agent Execution Platforms

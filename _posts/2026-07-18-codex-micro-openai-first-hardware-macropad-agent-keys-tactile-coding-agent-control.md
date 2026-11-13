@@ -1,7 +1,7 @@
 ---
 title: "Codex Micro: What OpenAI's First Hardware Product Means for Tactile Agent Control"
 date: 2026-07-18T09:00:00+00:00
-last_modified_at: 2026-11-13T07:05:41Z
+last_modified_at: 2026-11-13T07:13:11Z
 tags: ["codex-micro", "hardware", "macropad", "agent-keys", "work-louder", "tactile-control", "developer-workflow", "openai-hardware"]
 ---
 
