@@ -1,7 +1,7 @@
 ---
 title: "Dependency Incident Audits with Codex CLI: From PackageGate to Hardened Lockfile Defence"
 date: 2026-07-12T09:00:00+00:00
-last_modified_at: 2026-11-13T07:13:11Z
+last_modified_at: 2026-11-13T10:07:36Z
 tags: ["codex-cli", "supply-chain-security", "dependency-management", "sandbox", "PackageGate", "lockfile", "incident-response"]
 ---
 
