@@ -1,7 +1,7 @@
 ---
 title: "v0.167.0 Sprint Preview: The Rust TUI Rewrite and the Reliability Debt OpenAI Needs to Clear"
 date: 2026-11-03T10:00:00+00:00
-last_modified_at: 2026-11-13T03:06:08Z
+last_modified_at: 2026-11-13T03:14:17Z
 parent: "Articles"
 nav_order: 1214
 tags:

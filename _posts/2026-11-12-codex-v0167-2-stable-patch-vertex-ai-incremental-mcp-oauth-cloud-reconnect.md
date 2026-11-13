@@ -3,7 +3,7 @@ title: "Codex CLI v0.167.2: Vertex AI Incremental Streaming, MCP OAuth Cancellat
 parent: "Articles"
 nav_order: 1229
 date: 2026-11-12T09:00:00+00:00
-last_modified_at: 2026-11-13T03:06:08Z
+last_modified_at: 2026-11-13T03:14:17Z
 tags: ["codex-cli", "release", "vertex-ai", "google-cloud", "mcp", "oauth", "cloud", "reliability", "streaming", "windows"]
 ---
 
@@ -33,8 +33,8 @@ For agentic workflows that chain multiple tool calls — file reads, shell comma
 If your workflow relies on the batched behaviour (for example, a downstream system that processes complete tool calls atomically), you can opt out via your `config.toml`:
 
 ```toml
-[cloud.vertex]
-incremental_tool_updates = false
+[features]
+incremental_tools_legacy_gcp = false
 ```
 
 The opt-out flag is present from v0.167.2 onwards; prior to this release, batching was the only behaviour.
