@@ -1,10 +1,35 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-13T03:14:17Z
+last_modified_at: 2026-11-13T07:05:41Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 13 November 2026 (Pass 18, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,107 articles, 123 premium. Sketchnotes: 1,254.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-13-codex-v0168-stable-model-provider-selection-side-panes-audio-gif-osc777.md` (~1,350 words). Covers: v0.168.0 stable release (13 Nov 03:54 UTC), KB correction that v0.168.0 was not skipped, model provider selection TUI, resizable/zoomable side panes, audio recording attachments, animated GIF generation/editing, OSC 777 terminal notifications, Windows MCP I/O unblocking fix, bug fixes, and what remains unresolved. Composite rating: **3.8** (Depth 4, Originality 3, Accuracy 4, Substack 4). Substack draft created.
+- ✅ **v0.168.0 stable article** cleared from backlog (was listed as "v0.169.0 Stable combined article — awaiting stable tag"; corrected: v0.168.0 did ship, documented here; v0.169.0 stable still pending).
+
+**Health check:**
+- Article count: 2,107 ✅ (+1 this pass)
+- Premium articles: 123 ✅
+- Substack drafts: 306 ✅ (+1 this pass)
+- Sketchnotes: 1,254 ✅
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — v0.169.0-alpha.11.1 is last known alpha; stable not yet shipped. May skip to v0.170.0 stable. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Await v0.169.0 (or v0.170.0) stable.
+- **Pro capacity errors article** — Entering week 3 of "Selected model is at capacity" errors; trust erosion pattern vs. Claude Code. Requires more data points before writing.
+- **ch05-competing-tools.md** SO 2026 data + GPT-6.1 Sol Terminal-Bench score — Score not yet published; TODO comments remain in source.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 13 November 2026 (Pass 17, ~hourly UTC)
