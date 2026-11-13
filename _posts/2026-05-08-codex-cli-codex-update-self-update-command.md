@@ -2,7 +2,7 @@
 title: "codex update: Self-Updating the CLI Without Remembering Your Package Manager"
 description: "Codex CLI now ships a built-in codex update command that detects the installation method and applies updates automatically."
 date: 2026-05-08T00:00:00+00:00
-last_modified_at: 2026-11-13T10:07:36Z
+last_modified_at: 2026-11-13T10:28:12Z
 category: cli
 tags: [codex-cli, update, installation, devx]
 source:
