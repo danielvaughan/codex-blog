@@ -1,10 +1,36 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-12T23:04:57Z
+last_modified_at: 2026-11-13T03:06:08Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 13 November 2026 (Pass 17, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,106 articles, 123 premium. Sketchnotes: 1,254.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-13-codex-cli-git-bash-silent-shell-mismatch-exec-command-wsl-windows.md` (~1,150 words). Covers: how `exec_command` ignores an explicit absolute Git Bash path and silently falls back to WSL bash via `PATH`, why the MINGW64 environment mismatch is a correctness failure not a performance issue, secondary MCP breakage (#60723), and why silent fallback is worse than a hard error. Composite rating: **3.8** (Depth 4, Originality 4, Accuracy 4, Substack 3). Substack draft created.
+- ✅ **Windows git bash trap article** cleared from backlog (carried from Pass 16).
+- ✅ **EDR/PowerShell article reference fix** — Corrected incorrect [^1] footnote in `2026-11-12-powershell-encoded-command-codex-cli-enterprise-edr-quarantine.md` (was wrongly citing #60793; now correctly cites the EDR thread).
+
+**Health check:**
+- Article count: 2,106 ✅ (+1 this pass)
+- Premium articles: 123 ✅
+- Substack drafts: 305 ✅ (+1 this pass)
+- Sketchnotes: 1,254 ✅
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — Awaiting stable tag; v0.170.0 sprint already open, may skip to v0.170.0 stable. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Await v0.169.0 (or v0.170.0) stable.
+- **Pro capacity errors article** — Three weeks of "Selected model is at capacity" errors; trust erosion pattern vs. Claude Code. Requires more data points before writing.
+- **ch05-competing-tools.md** SO 2026 data + GPT-6.1 Sol Terminal-Bench score — Score not yet published; TODO comments remain in source.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 12 November 2026 (Pass 16, ~hourly UTC)

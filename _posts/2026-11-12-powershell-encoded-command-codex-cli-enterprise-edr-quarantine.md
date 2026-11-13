@@ -1,7 +1,7 @@
 ---
 title: "PowerShell -EncodedCommand: Why Codex CLI Is Getting Quarantined by Enterprise Security Tools"
 date: 2026-11-12T10:00:00+00:00
-last_modified_at: 2026-11-12T23:04:57Z
+last_modified_at: 2026-11-13T03:06:08Z
 parent: "Articles"
 nav_order: 1231
 tags:
@@ -72,10 +72,10 @@ This is a small fix with a large impact surface. The `-EncodedCommand` flag shou
 ---
 
 *References:*
-- GitHub issue #60793: `exec_command` silently ignores explicit Git Bash path[^1]
-- GitHub issue: Windows EDR security alert (670 views, enterprise adoption blocker)[^2]
+- GitHub issue: Windows EDR security alert — Codex CLI quarantined by enterprise security tools (670 views)[^1]
+- Codex CLI Windows/WSL platform issue cluster, November 2026[^2]
 - PowerShell `-EncodedCommand` flag documentation[^3]
 
-[^1]: https://github.com/openai/codex/issues/60793
-[^2]: https://github.com/openai/codex/issues — Windows EDR PowerShell -EncodedCommand thread (Nov 2026)
+[^1]: https://github.com/openai/codex/issues — Windows EDR PowerShell -EncodedCommand thread (Nov 2026)
+[^2]: https://github.com/openai/codex/issues — Windows/WSL platform cluster: #60793, #60723, #60874, #60801 (Nov 2026)
 [^3]: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_powershell_exe

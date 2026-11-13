@@ -2,7 +2,7 @@
 title: "Codex CLI for CI/CD: codex exec, Non-Interactive Mode and Pipeline Integration"
 description: "codex exec is Codex's non-interactive execution mode — no TUI, no prompts, just autonomous task completion. It's the entry point for every CI/CD integration."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-11-12T23:04:57Z
+last_modified_at: 2026-11-13T03:06:08Z
 tags:
   - ci-cd
   - github-actions
