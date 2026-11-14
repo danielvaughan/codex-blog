@@ -1,7 +1,7 @@
 ---
 title: "The Compaction Spiral: How Codex CLI Can Burn Your Entire Pro Quota Before Lunch"
 date: 2026-11-14T08:00:00+00:00
-last_modified_at: 2026-11-14T03:15:34Z
+last_modified_at: 2026-11-14T10:09:22Z
 parent: "Articles"
 nav_order: 1234
 tags:
@@ -15,7 +15,7 @@ tags:
   - ultra-reasoning
   - bugs
   - performance
-copy_edited: false
+copy_edited: true
 ---
 
 A fresh Codex CLI session. Two prompts in. Context already at 79%. By the time you notice something is wrong, your weekly Pro allowance — $200 worth — is gone.
@@ -66,7 +66,7 @@ OpenAI has not published a fix or ETA as of 14 November 2026. There are several 
 
 **Switch reasoning tier for long tasks.** Use Standard or Extended reasoning rather than Ultra for multi-hour agentic sessions. Reserve Ultra for discrete, bounded reasoning problems — architecture analysis, complex debugging — where you can bound the session length and restart cleanly.
 
-**Break sessions earlier.** The spiral's severity scales with session length and total context volume. For long agentic tasks, divide work into discrete bounded sessions rather than one continuous run. Restart Codex between major phases.
+**Break sessions earlier.** The spiral's severity scales with session length and total context volume. For long agentic tasks, divide work into discrete, bounded sessions rather than one continuous run. Restart Codex between major phases.
 
 **Monitor cache reuse.** Normal cache reuse is 60%+. If you see it drop below 30% in the token usage display, treat it as a warning sign. Exit the session and restart before the loop accelerates.
 
