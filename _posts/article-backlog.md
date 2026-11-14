@@ -1,10 +1,37 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-13T10:28:12Z
+last_modified_at: 2026-11-14T03:05:49Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 14 November 2026 (Pass 19, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,108 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-14-codex-cli-compaction-spiral-pro-quota-drain-cache-invalidation-ultra-reasoning.md` (~1,250 words). Covers: compaction feedback loop root cause (cache prefix invalidation on rewrite), Ultra reasoning amplifier, Issue #60538 (72 compaction events, 15.7% cache reuse, full weekly quota lost in ~8 hours), Issue #60791 (9-hr task, ~30% quota drained, zero progress), interim mitigations, and the broader transparency failure alongside the multiplier cut. Composite rating: **4.3** (Depth 4, Originality 4, Accuracy 5, Substack 4). Substack draft created.
+- ✅ **Compaction spiral article** cleared from Nov 13 backlog opportunity #1.
+
+**Health check:**
+- Article count: 2,108 ✅ (+1 this pass)
+- Premium articles: 123 ✅
+- Substack drafts: 307 ✅ (+1 this pass)
+- Sketchnotes: 1,253 ✅
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.169.0 Stable combined article** — stable not yet shipped; v0.171.0-alpha sprint now open. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Await v0.169.0 (or later) stable.
+- **Pro capacity errors article** — Week 3 of "Selected model is at capacity"; two concurrent threads (939 combined views). Needs more data before writing; flag for Pass 20.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13 opportunity #2. Actionable. Queue for next pass.
+- **"I had no authority" — scope creep PREMIUM** — Nov 13 opportunity #3. Queued PREMIUM. Requires dedicated pass.
+- **ch05-competing-tools.md** SO 2026 data + GPT-6.1 Sol Terminal-Bench score — Score not yet published; TODO comments remain in source.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, Compaction Spiral) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates** (3) — Carry forward.
+
 ---
 
 ## Article Triage — 13 November 2026 (Pass 18, ~hourly UTC)

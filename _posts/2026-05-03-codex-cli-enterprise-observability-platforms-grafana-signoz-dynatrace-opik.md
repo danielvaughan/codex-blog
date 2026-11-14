@@ -6,7 +6,7 @@ timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-enterprise-observability-platforms-grafana-signoz-dynatrace-opik"
 tags: ["codex-cli", "observability", "opentelemetry", "grafana", "signoz", "dynatrace", "opik", "enterprise", "monitoring"]
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-11-13T10:28:12Z
+last_modified_at: 2026-11-14T03:05:49Z
 ---
 # Codex CLI Enterprise Observability: Choosing and Configuring Grafana Cloud, SigNoz, Dynatrace, and Opik
 

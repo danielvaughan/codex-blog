@@ -3,7 +3,7 @@ title: "MCP OAuth Architecture in Multi-Agent Sessions: Token Lifecycle, Concurr
 parent: "Articles"
 nav_order: 1230
 date: 2026-11-12T14:00:00+00:00
-last_modified_at: 2026-11-13T10:28:12Z
+last_modified_at: 2026-11-14T03:05:49Z
 tags: ["mcp", "oauth", "multi-agent", "security", "architecture", "enterprise", "codex-cli", "authentication"]
 copy_edited: true
 ---

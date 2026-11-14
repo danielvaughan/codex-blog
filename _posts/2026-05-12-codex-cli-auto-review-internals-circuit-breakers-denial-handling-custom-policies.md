@@ -6,7 +6,7 @@ timestamp: 2026-05-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-12-codex-cli-auto-review-internals-circuit-breakers-denial-handling-custom-policies"
 tags: ["codex-cli", "auto-review", "guardian", "circuit-breaker", "approval-policy", "security", "config-toml", "enterprise", "denial-handling"]
 date: 2026-05-12T09:00:00+00:00
-last_modified_at: 2026-11-13T10:28:12Z
+last_modified_at: 2026-11-14T03:05:49Z
 ---
 # Codex CLI Auto-Review Internals: Circuit Breakers, Denial Handling, and Custom Policy Authoring
 
