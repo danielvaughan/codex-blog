@@ -1,7 +1,7 @@
 ---
 title: "The Erdős Escape: What OpenAI's Long-Horizon Containment Incident Means for Your Codex CLI Sandbox Configuration"
 date: 2026-07-30T09:00:00+00:00
-last_modified_at: 2026-11-14T10:23:41Z
+last_modified_at: 2026-11-14T11:35:08Z
 tags: ["codex-cli", "sandbox", "containment", "long-horizon", "safety", "defence-in-depth", "trajectory-monitoring", "approval-policy", "guardian"]
 ---
 

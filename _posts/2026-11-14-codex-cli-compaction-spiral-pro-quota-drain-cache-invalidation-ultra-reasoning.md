@@ -1,7 +1,7 @@
 ---
 title: "The Compaction Spiral: How Codex CLI Can Burn Your Entire Pro Quota Before Lunch"
 date: 2026-11-14T08:00:00+00:00
-last_modified_at: 2026-11-14T10:23:41Z
+last_modified_at: 2026-11-14T11:35:08Z
 parent: "Articles"
 nav_order: 1234
 tags:
@@ -18,7 +18,7 @@ tags:
 copy_edited: true
 ---
 
-A fresh Codex CLI session. Two prompts in. Context already at 79%. By the time you notice something is wrong, your weekly Pro allowance — $200 worth — is gone.
+A fresh Codex CLI session. Two prompts in. Context already at 79%. By the time you notice something is wrong, your weekly Pro allowance — \$200 worth — is gone.
 
 This is not a hypothetical. It is the documented experience of multiple users across Issues [#60538](https://github.com/openai/codex/issues/60538), [#60791](https://github.com/openai/codex/issues/60791), and at least three prior duplicates (#60199, #59534, #59970). The root cause is a compaction feedback loop that is particularly severe with Ultra-tier reasoning models. Understanding it is the difference between a productive week and a support ticket.
 

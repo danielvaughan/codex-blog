@@ -1,7 +1,7 @@
 ---
 title: "Agents Don't Paginate: First-Chunk Inclusion Is What Drives Tool-Response Accuracy"
 date: 2026-08-30T14:00:00+00:00
-last_modified_at: 2026-11-14T10:23:41Z
+last_modified_at: 2026-11-14T11:35:08Z
 tags: ["codex-cli", "tool-responses", "context-management", "mcp", "token-budget", "tool_output_token_limit", "research", "arXiv"]
 ---
 
