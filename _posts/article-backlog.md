@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-15T10:05:55Z
+last_modified_at: 2026-11-15T11:38:27Z
 tags:
   - backlog
   - planning
@@ -27,7 +27,7 @@ tags:
 - **"Codex Surgeon, Claude Resident" community framing article** — Nov 15 opportunity #1. Actionable. Reza__ quote + morphllm DeepSWE data + agent-recap tooling. Queue for next pass.
 - **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Regulatory uncertainty still live. Queue for next pass.
 - **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
-- **"I had no authority" — scope creep PREMIUM** — Nov 14 carry-forward (Issue #59060, $10k infra incident). Requires dedicated pass.
+- **"I had no authority" — scope creep PREMIUM** — Nov 14 carry-forward (Issue #59060, \$10k infra incident). Requires dedicated pass.
 - **v0.171.0 Stable combined article** — alpha.5 is latest; stable signal expected this week. Monitor changelog-watch.
 - **Runtime Auth Architecture article** — Await v0.171.0 stable.
 - **Pro capacity errors article** — Week 3+ of capacity errors; more data accumulating. Flag for pass 21.

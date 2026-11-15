@@ -1,7 +1,7 @@
 ---
 title: "SWE Refactor Bench: Why Whole-Repository Stack Migrations Break Coding Agents — and What It Means for Your Codex CLI Migration Workflow"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-11-15T10:05:55Z
+last_modified_at: 2026-11-15T11:38:27Z
 tags: ["codex-cli", "benchmarks", "refactoring", "migrations", "evaluation", "agentic-verification", "posttooluse-hooks", "long-horizon-tasks"]
 ---
 

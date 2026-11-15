@@ -1,7 +1,7 @@
 ---
 title: "Mise en Place for Agentic Coding: How Deliberate Preparation and Context Fluency Transform Your Codex CLI Workflow"
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-11-15T10:05:55Z
+last_modified_at: 2026-11-15T11:38:27Z
 tags: ["codex-cli", "context-engineering", "mise-en-place", "AGENTS.md", "plan-mode", "task-decomposition", "context-fluency", "agentic-coding"]
 ---
 
