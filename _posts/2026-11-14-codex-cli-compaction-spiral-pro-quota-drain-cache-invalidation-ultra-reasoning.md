@@ -1,7 +1,7 @@
 ---
 title: "The Compaction Spiral: How Codex CLI Can Burn Your Entire Pro Quota Before Lunch"
 date: 2026-11-14T08:00:00+00:00
-last_modified_at: 2026-11-14T11:35:08Z
+last_modified_at: 2026-11-15T03:12:10Z
 parent: "Articles"
 nav_order: 1234
 tags:
@@ -47,7 +47,7 @@ Each iteration of the loop consumes tokens at input rates rather than cache rate
 
 Ultra-tier models such as gpt-6-astra in Ultra mode are inherently heavier on token consumption per exchange — that is part of what you pay for. Under normal circumstances this is acceptable: you get stronger reasoning at higher cost, and cache reuse keeps total spend predictable.
 
-In a compaction spiral, Ultra reasoning removes all predictability. Each re-ingestion is not just expensive in absolute terms; it is expensive at a multiplier that scales with reasoning depth. The user in Issue #60538 lost their full weekly allowance in approximately eight hours of work. Issue #60791 documented a nine-hour Unity development task that consumed ~30% of the weekly quota while making zero measurable progress on the task itself — the tokens were burning on compaction overhead, not on the problem.
+In a compaction spiral, Ultra reasoning removes all predictability. Each re-ingestion is not just expensive in absolute terms; it is expensive at a multiplier that scales with reasoning depth. The user in Issue #60538 lost their full weekly allowance in approximately eight hours of work. Issue #60791 documented a nine-hour Unity development task that made zero measurable progress on the task itself while consuming significant weekly quota — the tokens were burning on compaction overhead, not on the problem.
 
 ## Who Is at Risk
 
