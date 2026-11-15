@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.146.1 Least-Privilege Runtime: Per-Session Execution Limits, Agent Plugin Boundaries, and Turn-Scoped Permissions"
 date: 2026-08-05T09:00:00+00:00
-last_modified_at: 2026-11-15T19:04:05Z
+last_modified_at: 2026-11-15T23:05:02Z
 tags: ["codex-cli", "security", "runtime-isolation", "permission-profiles", "agent-plugins", "enterprise", "v0.146.1"]
 ---
 

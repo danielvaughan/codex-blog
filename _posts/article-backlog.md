@@ -1,10 +1,38 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-15T19:04:05Z
+last_modified_at: 2026-11-15T23:05:02Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 15 November 2026 (Pass 21, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,111 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-15-codex-surgeon-claude-resident-community-framing-cost-task-benchmark.md` (~950 words). Covers: Reza__ surgeon/resident analogy from r/vibecoding, morphllm benchmark data (SWE-bench 80.9% vs 75.2%, Terminal-Bench 77.3% vs 74.1%, 240 tok/s vs 96 tok/s), $4.43 vs $11.84/task cost gap, Codex strengths (throughput, terminal-native tasks), Claude Code strengths (reasoning depth, plan-following), instruction-adherence failure mode (Issue #59740 churn event), emerging hybrid workflow pattern. Composite rating: **4.0** (Depth 4, Originality 4, Accuracy 4, Substack 4). Substack draft created.
+- ✅ **"Codex Surgeon, Claude Resident"** cleared from Nov 15 backlog opportunity #1.
+
+**Health check:**
+- Article count: 2,111 ✅ (+1 this pass)
+- Premium articles: 123 ✅
+- Substack drafts: 310 ✅ (+1 this pass)
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Regulatory uncertainty still live. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Nov 14 carry-forward (Issue #59060, $10k infra incident). Requires dedicated pass.
+- **v0.169.0 Stable combined article** (#197, Critical) — first-mover window narrowing; v0.171.0 stable approaching. Queue for next pass.
+- **v0.171.0 Stable combined article** — alpha.5 is latest; stable signal expected this week. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Await v0.171.0 stable.
+- **Pro capacity errors article** — Week 3+ of capacity errors; more data accumulating. Flag for pass 22.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 15 November 2026 (Pass 20, ~hourly UTC)
