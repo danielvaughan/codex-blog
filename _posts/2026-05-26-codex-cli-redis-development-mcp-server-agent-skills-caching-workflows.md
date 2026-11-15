@@ -5,7 +5,7 @@ timestamp: 2026-05-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-26-codex-cli-redis-development-mcp-server-agent-skills-caching-workflows"
 tags: ["codex-cli", "redis", "mcp", "caching", "agent-skills", "valkey", "data-structures"]
 date: 2026-05-26T09:00:00+00:00
-last_modified_at: 2026-11-15T07:05:09Z
+last_modified_at: 2026-11-15T09:05:39Z
 ---
 # Codex CLI for Redis Development: MCP Server, Agent Skills, and Production Caching Workflows
 

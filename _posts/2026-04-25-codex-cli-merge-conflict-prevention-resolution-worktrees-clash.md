@@ -6,7 +6,7 @@ timestamp: 2026-04-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-25-codex-cli-merge-conflict-prevention-resolution-worktrees-clash"
 tags: ["codex-cli", "git", "merge-conflicts", "worktrees", "parallel-agents", "clash", "integration"]
 date: 2026-04-25T09:00:00+00:00
-last_modified_at: 2026-11-15T07:05:09Z
+last_modified_at: 2026-11-15T09:05:39Z
 ---
 # Merge Conflict Prevention and Resolution with Codex CLI: Worktrees, Clash, and Integration Strategies
 

@@ -3,7 +3,7 @@ title: "Refusing the Impossible: What the Code Hallucination Benchmark Reveals â
 parent: "Articles"
 nav_order: 1127
 date: 2026-09-05T09:00:00+00:00
-last_modified_at: 2026-11-15T07:05:09Z
+last_modified_at: 2026-11-15T09:05:39Z
 tags: ["codex-cli", "code-hallucination", "supply-chain", "PostToolUse", "AGENTS.md", "security", "LLM-evaluation", "package-safety"]
 ---
 
