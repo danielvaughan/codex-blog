@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-15T03:12:10Z
+last_modified_at: 2026-11-15T07:05:09Z
 tags:
   - backlog
   - planning
@@ -1730,7 +1730,7 @@ Both Substack drafts have embedded sketchnote placeholder comments ready for ima
 5. ✅ **The /agents View: Managing Parallel Codex Agents from One CLI Session** — Written 2026-10-17 → `2026-10-17-agents-view-parallel-task-management-codex-cli-tui.md`
    - Source: DevDay 2026 (29 September) + v0.157 /fork shortcut + v0.159 instant_interrupt flag. New /agents view consolidates five parallel worktrees into one pane: status indicators, progress display, interrupt controls, session creation. Walkthrough: five-agent frontend/backend split with live monitoring. No KB coverage exists. Target: 1,200 words, free tier.
 
-6. 📝 **MCP 2.0 (Claude Code 2.1.284): Stateless Core, MCP Apps, and Enterprise Managed Auth** — 🟠 High
+6. ✅ **MCP 2.0 (Claude Code 2.1.284): Stateless Core, MCP Apps, and Enterprise Managed Auth** — Written 2026-11-15 → `2026-11-15-mcp-2-0-claude-code-2-1-284-stateless-core-mcp-apps-enterprise-managed-auth.md`
    - Source: Claude Code 2.1.284 release notes (29 September 2026). MCP 2.0 introduces: stateless core protocol (removes session state from protocol layer), MCP Apps (interactive UI components as first-class protocol primitives), Enterprise Managed Auth (zero-touch OAuth delegation). Existing MCP articles (`2026-08-15-mcp-2026-07-28-stateless-protocol...` and `2026-08-31-mcp-2026-07-28-stateless-protocol...`) predate MCP 2.0's architectural shift. OWASP MCP Top 10 mapping articles also need accuracy review. Zero library coverage of MCP 2.0. Target: 1,600 words, premium.
 
 7. 📝 **Codex Security Cloud: Automated Repo Scanning as a CI Strategy** — 🟡 Medium
