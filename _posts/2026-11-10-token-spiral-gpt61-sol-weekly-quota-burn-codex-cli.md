@@ -3,7 +3,7 @@ title: "The Token Spiral: Why GPT-6.1 Sol Is Eating Your Weekly Allowance"
 parent: "Articles"
 nav_order: 1225
 date: 2026-11-10T13:00:00+00:00
-last_modified_at: 2026-11-15T09:05:39Z
+last_modified_at: 2026-11-15T10:05:55Z
 tags: ["codex-cli", "gpt-6", "sol", "quota-management", "token-consumption", "billing", "cost-governance", "rate-limits"]
 ---
 

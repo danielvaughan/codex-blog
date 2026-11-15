@@ -1,7 +1,10 @@
 ---
 title: "1,300 Zombies: The macOS Memory Crisis Inside Codex CLI"
 date: 2026-11-15T10:00:00+00:00
-last_modified_at: 2026-11-15T09:05:39Z
+last_modified_at: 2026-11-15T10:05:55Z
+parent: "Articles"
+nav_order: 1236
+copy_edited: true
 tags:
   - codex-cli
   - macos
@@ -65,7 +68,7 @@ Beyond memory consumption, zombie accumulation has secondary effects on active s
 
 There is no user-side fix for the underlying bug. The only effective mitigation is session management:
 
-**Restart Codex CLI periodically during long tasks.** Terminating the GUI process forces the kernel to reparent all children to `launchd`, which does call `wait()` and cleans up the zombie backlog. At session restart, zombie count resets to zero.
+**Restart Codex CLI periodically during long tasks.** Terminating the GUI process forces the kernel to reparent all children to `launchd`, which does call `wait()` and cleans up the zombie backlog. At each session restart, the zombie count resets to zero.
 
 **Monitor with Activity Monitor.** Filter by process name and watch the child process count column. When you observe more than a few hundred child processes, plan a restart at the next natural task boundary.
 
@@ -87,7 +90,7 @@ There is no published fix or ETA as of 15 November 2026.
 
 ## Tracking
 
-The primary report is a GitHub issue in the Codex CLI repository. If you are experiencing whole-Mac freezes or memory exhaustion during extended Codex sessions on macOS, leave a comment with your hardware spec (RAM, macOS version, Codex CLI version) and the zombie count at time of freeze. The more data points on the issue, the stronger the signal for prioritisation.
+The primary report is a GitHub issue in the Codex CLI repository. If you are experiencing whole-Mac freezes or memory exhaustion during extended Codex sessions on macOS, leave a comment with your hardware spec (RAM, macOS version, Codex CLI version) and the zombie count at the time of the freeze. The more data points on the issue, the stronger the signal for prioritisation.
 
 ---
 
