@@ -1,7 +1,7 @@
 ---
 title: "China's Three-Tier AI Agent Regulation and Codex CLI: Mapping the Implementation Opinions to approval_policy, Sandbox Modes, and Audit Hooks"
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-11-15T11:38:27Z
+last_modified_at: 2026-11-15T19:04:05Z
 tags: ["codex-cli", "regulation", "compliance", "china", "ai-agents", "approval-policy", "sandbox", "hooks", "enterprise", "governance", "config.toml"]
 ---
 

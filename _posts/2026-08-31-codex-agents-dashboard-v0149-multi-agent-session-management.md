@@ -1,7 +1,7 @@
 ---
 title: "The `codex agents` Dashboard: Managing Parallel Sessions Without the Terminal-Tab Overhead"
 date: 2026-08-31T13:00:00+00:00
-last_modified_at: 2026-11-15T11:38:27Z
+last_modified_at: 2026-11-15T19:04:05Z
 tags: ["codex-cli", "multi-agent", "v0.149", "session-management", "codex-queue", "tui", "workflow"]
 ---
 

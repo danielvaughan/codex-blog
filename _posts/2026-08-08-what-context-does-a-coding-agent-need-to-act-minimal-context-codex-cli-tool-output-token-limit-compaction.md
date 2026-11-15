@@ -1,7 +1,7 @@
 ---
 title: "What Context Does a Coding Agent Actually Need to Act? Why Less Beats More — and How to Configure Codex CLI Accordingly"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-11-15T11:38:27Z
+last_modified_at: 2026-11-15T19:04:05Z
 tags: ["codex-cli", "context-engineering", "token-efficiency", "SWE-bench", "coding-agents", "tool_output_token_limit", "compaction", "AGENTS.md"]
 ---
 

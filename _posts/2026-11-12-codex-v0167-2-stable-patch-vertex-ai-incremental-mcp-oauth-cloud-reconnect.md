@@ -3,7 +3,7 @@ title: "Codex CLI v0.167.2: Vertex AI Incremental Streaming, MCP OAuth Cancellat
 parent: "Articles"
 nav_order: 1229
 date: 2026-11-12T09:00:00+00:00
-last_modified_at: 2026-11-15T11:38:27Z
+last_modified_at: 2026-11-15T19:04:05Z
 tags: ["codex-cli", "release", "vertex-ai", "google-cloud", "mcp", "oauth", "cloud", "reliability", "streaming", "windows"]
 copy_edited: true
 ---

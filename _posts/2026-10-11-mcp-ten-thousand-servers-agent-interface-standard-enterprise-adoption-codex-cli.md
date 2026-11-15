@@ -3,7 +3,7 @@ title: "MCP at 10,000: How the Agent Interface Standard Won"
 parent: "Articles"
 nav_order: 1177
 date: 2026-10-11T07:00:00+00:00
-last_modified_at: 2026-11-15T11:38:27Z
+last_modified_at: 2026-11-15T19:04:05Z
 tags: ["mcp", "model-context-protocol", "codex-cli", "enterprise", "a2a", "agent-architecture", "integration", "standards"]
 copy_edited: true
 ---
