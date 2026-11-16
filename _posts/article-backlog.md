@@ -1,10 +1,37 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-16T10:25:52Z
+last_modified_at: 2026-11-16T11:05:58Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 16 November 2026 (Pass 23, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,111 articles, 134 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-16-agents-md-four-traps-silent-break-instructions-codex-claude-code-cursor-gemini.md` (~1,400 words). Covers: Codex `agents.override.md` silent priority + 32 KB context cap; Claude Code's AGENTS.md fallback disabled by any `claude.local.md`; Cursor `.mdc` extension + frontmatter requirement; Gemini CLI `contextFiles` settings.json fix; cross-tool verification checklist; Claude Code `/drprompt audit` (v2.1.283+). Source: "AGENTS.md Explained" — Daily AI News By Ali (youtube.com/watch?v=m6NmVmrA24c, 2026-11-16). Composite rating: **4.5** (Depth 5, Originality 4, Accuracy 4, Substack 5).
+- ✅ README article count updated: 2,111.
+
+**Health check:**
+- Article count: 2,111 ✅ (+1 this pass)
+- Premium articles: 134 ✅
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **v0.171.0 Stable combined article** — alpha.7 latest as of Nov 15; stable signal expected early week of 17 Nov. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Source material rich. Can proceed independently of v0.171.0 stable.
+- **Pro capacity errors article** — Week 3+ of capacity errors accumulating.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+- **New Nov 16 article ideas** (from YouTube sweep): "AGENTS.md 4 Traps" ✅ done; "AI-Generated AGENTS.md / ETH Zürich + /drprompt" — may partially duplicate Apr 2026 ETH Zürich article, requires diff check; "Speed vs Accuracy 57s" — Medium; "Spec-Driven OpenSpec" — Medium; "/goal Mode" — existing articles cover, low value; "Three Modes UX" — Medium.
+
 ---
 
 ## Article Triage — 16 November 2026 (Pass 22, ~hourly UTC)

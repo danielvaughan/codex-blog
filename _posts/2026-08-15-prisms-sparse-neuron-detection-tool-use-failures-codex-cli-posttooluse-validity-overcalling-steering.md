@@ -1,7 +1,7 @@
 ---
 title: "A Few Neurons Reveal Tool-Use Failures: What PRISMS Means for Your Codex CLI Defence Stack"
 date: 2026-08-15T09:00:00+00:00
-last_modified_at: 2026-11-16T10:25:52Z
+last_modified_at: 2026-11-16T11:05:58Z
 tags: ["codex-cli", "tool-use", "PRISMS", "sparse-detection", "activation-steering", "PostToolUse", "validity", "over-calling", "missing-tools", "reliability"]
 ---
 

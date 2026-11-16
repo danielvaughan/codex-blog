@@ -2,7 +2,7 @@
 title: "Codex CLI OpenTelemetry: Observability and Metrics in Production"
 description: "Codex CLI ships built-in OpenTelemetry support for production observability — traces, logs, and metrics from every agent run."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-11-16T10:25:52Z
+last_modified_at: 2026-11-16T11:05:58Z
 tags:
   - configuration
   - observability

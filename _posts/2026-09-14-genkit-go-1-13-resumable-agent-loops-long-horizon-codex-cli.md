@@ -3,7 +3,7 @@ title: "Resumable Agent Loops: What Genkit Go 1.13 Teaches Codex CLI Teams About
 parent: "Articles"
 nav_order: 1157
 date: 2026-09-14T08:00:00+00:00
-last_modified_at: 2026-11-16T10:25:52Z
+last_modified_at: 2026-11-16T11:05:58Z
 tags: ["codex-cli", "multi-agent", "resumability", "long-running-agents", "genkit", "external-message", "hitl", "orchestration", "agentic"]
 ---
 
