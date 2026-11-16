@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1096
 title: "Codex CLI v0.150.0 & v0.151.0: Interrupt Hooks, MCP Result Interception, and the Completed Lifecycle Architecture"
 date: 2026-09-02T12:00:00+00:00
-last_modified_at: 2026-11-16T15:06:32Z
+last_modified_at: 2026-11-16T21:05:58Z
 tags: ["codex-cli", "hooks", "mcp", "extensions", "release", "on_mcp_tool_result", "interrupt-hooks", "v0.150", "v0.151"]
 ---
 

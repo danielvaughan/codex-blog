@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-mobile-chatgpt-ios-branch-worktree-goal-inline-review-cli-companion"
 tags: ["codex-cli", "codex-mobile", "chatgpt-ios", "remote-control", "goal-mode", "inline-review", "branch-selection", "worktree", "mobile-workflow", "june-2026"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-11-16T15:06:32Z
+last_modified_at: 2026-11-16T21:05:58Z
 ---
 # Codex Mobile in ChatGPT iOS: Branch Selection, Goal Management, and Inline Code Review from Your Phone
 

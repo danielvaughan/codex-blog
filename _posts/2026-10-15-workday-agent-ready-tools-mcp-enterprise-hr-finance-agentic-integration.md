@@ -3,7 +3,7 @@ title: "Workday's Agent-Ready Tools Turn Enterprise HR and Finance Data into MCP
 parent: "Articles"
 nav_order: 1183
 date: 2026-10-15T00:00:00+00:00
-last_modified_at: 2026-11-16T15:06:32Z
+last_modified_at: 2026-11-16T21:05:58Z
 tags:
   - workday
   - mcp

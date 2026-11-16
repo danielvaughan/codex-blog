@@ -3,7 +3,7 @@ title: "The Compound Constraint Problem: When AGENTS.md Instructions Combine Des
 parent: "Articles"
 nav_order: 1151
 date: 2026-09-09T08:00:00+00:00
-last_modified_at: 2026-11-16T15:06:32Z
+last_modified_at: 2026-11-16T21:05:58Z
 tags: ["agents-md", "prompt-engineering", "codex-cli", "instruction-design", "reliability", "empirical"]
 ---
 

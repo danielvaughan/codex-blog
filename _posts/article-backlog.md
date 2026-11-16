@@ -1,10 +1,36 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-16T15:06:32Z
+last_modified_at: 2026-11-16T21:05:58Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 16 November 2026 (Pass 25, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,115 articles, 134 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-16-codex-cli-model-name-pinning-silent-quality-regression-gpt56sol-content-addressed-versioning.md` (~1,500 words). Covers: GPT-5.6-sol quality regression (malformed shell commands, stray Unicode, CI/CD pipeline failures); root cause — Codex CLI pins to model *names* not version hashes, allowing silent backend changes with no user notification; Docker image digest / npm lockfile analogy; workaround (pin to `gpt-6.1-sol` or `gpt-5.4`); systemic gaps (no model quality status page, no regression triage SLA); content-addressed model versioning proposal; December quota consolidation trust context. Source: `reddit-sentiment/2026-11-16-daily-report.md`; `notes/changelog-watch.md`. Composite rating: **4.5** (Depth 5, Originality 4, Accuracy 4, Substack 5 — developer-trust signal, strong search intent).
+- ✅ README article count updated: 2,115. README recent articles list updated with all 4 Nov 16 articles.
+
+**Health check:**
+- Article count: 2,115 ✅ (+1 this pass, +4 today)
+- Premium articles: 134 ✅
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **v0.171.0 Stable combined article** — alpha.7 latest as of Nov 15; stable signal expected early week of 17 Nov. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Source material rich (notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md). Distinct from v0.169.0 stable article; deeper architecture piece.
+- **Pro capacity errors article** — Week 3+ of capacity errors accumulating; December merger announcement adds urgency.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 16 November 2026 (Pass 24, ~hourly UTC)

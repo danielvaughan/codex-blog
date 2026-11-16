@@ -1,6 +1,6 @@
 ---
 date: 2026-09-05T09:00:00+00:00
-last_modified_at: 2026-11-16T15:06:32Z
+last_modified_at: 2026-11-16T21:05:58Z
 title: "The codex agents Dashboard and codex queue: Orchestrating Parallel Sessions Without the Terminal-Tab Overhead"
 parent: "Articles"
 nav_order: 1131

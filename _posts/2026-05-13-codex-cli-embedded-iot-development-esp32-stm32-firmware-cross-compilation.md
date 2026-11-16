@@ -6,7 +6,7 @@ timestamp: 2026-05-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-13-codex-cli-embedded-iot-development-esp32-stm32-firmware-cross-compilation"
 tags: ["codex-cli", "embedded-systems", "iot", "esp32", "stm32", "firmware", "cross-compilation", "mcp", "platformio", "agents-md"]
 date: 2026-05-13T09:00:00+00:00
-last_modified_at: 2026-11-16T15:06:32Z
+last_modified_at: 2026-11-16T21:05:58Z
 ---
 # Codex CLI for Embedded and IoT Development: Firmware Generation, Cross-Compilation, and Hardware-Aware Agent Workflows
 

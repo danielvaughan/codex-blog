@@ -1,7 +1,7 @@
 ---
 title: "Guardian v2 vs. GPT-6.1 Sol: Enforcing AGENTS.md at the System Level"
 date: 2026-10-29T08:00:00+00:00
-last_modified_at: 2026-11-16T15:06:32Z
+last_modified_at: 2026-11-16T21:05:58Z
 parent: "Articles"
 nav_order: 1210
 tags:
