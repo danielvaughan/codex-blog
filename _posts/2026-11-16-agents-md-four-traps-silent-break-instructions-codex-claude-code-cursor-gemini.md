@@ -1,7 +1,7 @@
 ---
 title: "AGENTS.md: The 4 Traps That Silently Break Your Instructions in Codex, Claude Code, Cursor, and Gemini CLI"
 date: 2026-11-16T13:00:00+00:00
-last_modified_at: 2026-11-16T11:05:58Z
+last_modified_at: 2026-11-16T11:34:45Z
 parent: "Articles"
 nav_order: 2111
 tags: ["AGENTS.md", "codex-cli", "claude-code", "cursor", "gemini-cli", "configuration", "cross-tool", "silent-failure", "best-practices"]
@@ -31,7 +31,7 @@ The practical failure mode: a developer adds an `agents.override.md` to a module
 
 Ask Codex directly:
 
-```
+```text
 summarise current instructions
 ```
 
@@ -49,7 +49,7 @@ The same trap applies in the other direction. Teams that invest heavily in `CLAU
 
 **Verification command:**
 
-```
+```text
 /status
 ```
 
@@ -95,7 +95,7 @@ Once set, Gemini CLI reads `AGENTS.md` as its instruction source. Without this c
 
 **Verification command:**
 
-```
+```text
 /context
 ```
 

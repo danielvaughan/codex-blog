@@ -1,7 +1,7 @@
 ---
 title: '"Codex Surgeon, Claude Resident": How the Developer Community Settled Its Most-Debated Question'
 date: 2026-11-15T10:00:00+00:00
-last_modified_at: 2026-11-16T11:05:58Z
+last_modified_at: 2026-11-16T11:34:45Z
 parent: "Articles"
 nav_order: 1235
 tags:
@@ -37,7 +37,7 @@ Morphllm's "15 AI Coding Agents Tested" benchmark tested both tools across SWE-b
 | **Claude Code** | 80.9% (1st) | 74.1% | ~96 tok/s |
 | **Codex CLI** | 75.2% (3rd) | 77.3% (1st) | ~240 tok/s |
 
-Claude Code leads on SWE-bench by 5.7 percentage points. Codex CLI leads on Terminal-Bench by 3.2 points and runs at more than twice the throughput. The pattern holds up under cost analysis too: community-reported task costs averaged $4.43 per task for Codex and $11.84 for Claude Code — a 2.7× gap.
+Claude Code leads on SWE-bench by 5.7 percentage points. Codex CLI leads on Terminal-Bench by 3.2 points and runs at more than twice the throughput. The pattern holds up under cost analysis too: community-reported task costs averaged \$4.43 per task for Codex and \$11.84 for Claude Code — a 2.7× gap.
 
 The surgeon analogy captures exactly this. A surgeon is fast, precise, and expensive per hour but completes a high volume of discrete procedures efficiently. A resident is thorough, deliberate, and deeply engaged with reasoning through the full clinical picture before acting. Both are essential. Neither is a substitute for the other.
 
@@ -81,7 +81,7 @@ The pattern emerging across threads is a division of labour that maps directly o
 - **Codex CLI** for fast iteration, file operations, test execution, CI tasks, shell-heavy work, and anything where throughput matters more than reasoning depth
 - **Claude Code** for architectural decisions, complex refactors, long planning sessions, and any task where you want the agent to reason carefully before it touches anything
 
-One user described it as "Codex for shipping, Claude for thinking." Another framed it as running Codex on the sprint and Claude Code on the architecture review. The $4.43/$11.84 cost split makes the economics of this hybrid approach tractable: use the cheaper, faster tool for volume work and the deeper tool selectively.
+One user described it as "Codex for shipping, Claude for thinking." Another framed it as running Codex on the sprint and Claude Code on the architecture review. The \$4.43/\$11.84 cost split makes the economics of this hybrid approach tractable: use the cheaper, faster tool for volume work and the deeper tool selectively.
 
 ## Why the Analogy Will Last
 
