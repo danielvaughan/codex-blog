@@ -3,7 +3,7 @@ title: "MCP 2.0: What Claude Code 2.1.284 Actually Changed About the Protocol"
 parent: "Articles"
 nav_order: 1235
 date: 2026-11-15T08:00:00+00:00
-last_modified_at: 2026-11-16T03:08:26Z
+last_modified_at: 2026-11-16T10:06:58Z
 tags:
   - mcp
   - mcp-2
@@ -125,4 +125,3 @@ The protocol made these things possible in July. Claude Code made them real in S
 [^2]: Anthropic Engineering Blog, "MCP 2.0: Stable Stateless Core, MCP Apps, and Enterprise Managed Auth", 29 September 2026.
 [^3]: Model Context Protocol Specification 2026-07-28, modelcontextprotocol.io, 28 July 2026.
 [^4]: Codex CLI PR #35724, "MCP: server/discover-based HTTP discovery with legacy fallback", merged v0.146.0.
-[^5]: "MCP OAuth Architecture in Multi-Agent Sessions", codex-resources, 12 November 2026.
