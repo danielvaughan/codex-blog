@@ -1,7 +1,7 @@
 ---
 title: "Software Supply Chains Are Dead: What Use-Case-Oriented Regeneration Means for Codex CLI Dependency Strategy"
 date: 2026-07-15T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags: ["codex-cli", "supply-chain", "dependency-management", "code-generation", "security", "regeneration"]
 ---
 

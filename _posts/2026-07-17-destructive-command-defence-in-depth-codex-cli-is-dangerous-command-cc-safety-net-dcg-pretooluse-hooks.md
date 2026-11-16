@@ -1,7 +1,7 @@
 ---
 title: "Destructive Command Defence in Depth: Codex CLI's Built-In Guards, cc-safety-net, and the PreToolUse Hook Ecosystem"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags: ["codex-cli", "safety", "destructive-commands", "PreToolUse", "hooks", "cc-safety-net", "dcg", "defence-in-depth", "sandbox"]
 ---
 

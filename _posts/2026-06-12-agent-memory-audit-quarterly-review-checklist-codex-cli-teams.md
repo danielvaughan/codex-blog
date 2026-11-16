@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-agent-memory-audit-quarterly-review-checklist-codex-cli-teams"
 tags: ["memory", "audit", "dreaming", "maintenance", "governance", "codex-cli", "teams", "memory-hygiene"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 ---
 # The Agent Memory Audit: A Quarterly Review Checklist for Codex CLI Teams
 

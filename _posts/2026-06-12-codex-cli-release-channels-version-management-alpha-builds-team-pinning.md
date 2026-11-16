@@ -5,7 +5,7 @@ timestamp: 2026-06-12T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-12-codex-cli-release-channels-version-management-alpha-builds-team-pinning"
 tags: ["codex-cli", "release-management", "version-pinning", "alpha-builds", "enterprise", "configuration", "npm", "updates"]
 date: 2026-06-12T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 ---
 # Codex CLI Release Channels and Version Management: Alpha Builds, Version Pinning, and Team-Wide Update Strategies
 

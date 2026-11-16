@@ -5,7 +5,7 @@ type: Technical Article
 timestamp: 2026-05-03T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-03-codex-cli-sandbox-internals-seatbelt-bubblewrap-landlock-windows-dacl"
 date: 2026-05-03T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags:
   - codex-cli
   - sandbox

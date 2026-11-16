@@ -1,10 +1,38 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 16 November 2026 (Pass 22, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,110 articles, 134 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-16-codex-v0169-stable-multi-tab-side-chat-task-search-command-centre-runtime-auth-incremental-exec.md` (~1,400 words). Covers: multi-tab side chat with persistent history, task search in Agent Command Centre, collapsible turn details, custom model provider from sign-in, Cloud connection improvements, runtime authentication migration (8 subsystems), incremental exec tool catalog, MCP lazy startup, Guardian security changes (goal objectives as untrusted context, sensitive process inputs omitted from logs), explicit project trust in non-interactive mode, child agent model catalog inheritance, Gateway OAuth model catalog discovery. Composite rating: **4.5** (Depth 5, Originality 4, Accuracy 5, Substack 4). Substack draft created.
+- ✅ **v0.169.0 Stable combined article** (#197, Critical) cleared from backlog.
+- ✅ README article count updated: articles 2,110 / substack-drafts 311.
+
+**Health check:**
+- Article count: 2,110 ✅ (+1 this pass)
+- Premium articles: 134 ✅
+- Substack drafts: 311 ✅ (+1 this pass)
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Regulatory uncertainty still live. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Nov 14 carry-forward (Issue #59060, $10k infra incident). Requires dedicated pass.
+- **v0.171.0 Stable combined article** — alpha.5 latest as of Nov 14; stable signal expected imminently. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Source material now rich (full v0.169.0 runtime auth migration documented). Can proceed independently of v0.171.0 stable.
+- **Pro capacity errors article** — Week 3+ of capacity errors; more data accumulating. Flag for pass 23.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 15 November 2026 (Pass 21, ~hourly UTC)

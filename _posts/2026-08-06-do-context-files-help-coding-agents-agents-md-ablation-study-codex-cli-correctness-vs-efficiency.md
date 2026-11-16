@@ -1,7 +1,7 @@
 ---
 title: "Do Context Files Actually Help? What a 288-Run Ablation Study Reveals About AGENTS.md, Correctness, and Your Codex CLI Workflow"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags: ["codex-cli", "agents-md", "context-engineering", "empirical-research", "ablation-study", "correctness", "efficiency", "claude-code", "config.toml"]
 ---
 

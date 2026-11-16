@@ -1,7 +1,7 @@
 ---
 title: "28 Days of Shipping: What the Sprint Scorecard Tells Us About OpenAI's Priorities"
 date: 2026-10-22T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 parent: "Articles"
 nav_order: 1196
 tags:

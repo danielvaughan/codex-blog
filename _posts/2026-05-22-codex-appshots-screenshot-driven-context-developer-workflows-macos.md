@@ -6,7 +6,7 @@ timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-appshots-screenshot-driven-context-developer-workflows-macos"
 tags: ["codex", "appshots", "macos", "screenshots", "context", "developer-workflows", "codex-app", "computer-use", "privacy"]
 date: 2026-05-22T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 ---
 # Codex Appshots: Screenshot-Driven Context for Developer Workflows on macOS
 

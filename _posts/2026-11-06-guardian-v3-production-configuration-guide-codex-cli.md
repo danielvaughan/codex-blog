@@ -1,7 +1,7 @@
 ---
 title: "Guardian v3: Production Configuration Guide for Codex CLI"
 date: 2026-11-06T08:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 parent: "Articles"
 nav_order: 1220
 tags:

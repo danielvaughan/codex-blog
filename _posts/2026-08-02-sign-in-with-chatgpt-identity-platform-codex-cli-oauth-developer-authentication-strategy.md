@@ -1,7 +1,7 @@
 ---
 title: "Sign in with ChatGPT: What OpenAI's Identity Platform Play Means for Codex CLI Developers"
 date: 2026-08-02T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags: ["codex-cli", "sign-in-with-chatgpt", "oauth", "identity", "authentication", "openai", "developer-tools"]
 ---
 

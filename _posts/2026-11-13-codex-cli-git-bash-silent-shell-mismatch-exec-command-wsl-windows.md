@@ -3,7 +3,7 @@ title: "The Git Bash Trap: How Codex CLI Silently Picks the Wrong Shell on Windo
 parent: "Articles"
 nav_order: 1232
 date: 2026-11-13T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags:
   - codex-cli
   - windows

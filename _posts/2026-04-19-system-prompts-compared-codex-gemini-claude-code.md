@@ -1,7 +1,7 @@
 ---
 title: "The DNA of Coding Agents: Codex CLI vs Gemini CLI vs Claude Code vs Pi — System Prompts Compared"
 date: 2026-04-19T00:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags:
   - codex-cli
   - gemini-cli

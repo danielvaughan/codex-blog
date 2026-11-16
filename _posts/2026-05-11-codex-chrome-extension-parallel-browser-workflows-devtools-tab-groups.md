@@ -6,7 +6,7 @@ timestamp: 2026-05-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-11-codex-chrome-extension-parallel-browser-workflows-devtools-tab-groups"
 tags: ["codex-cli", "chrome-extension", "browser-automation", "devtools", "developer-workflows"]
 date: 2026-05-11T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 ---
 # The Codex Chrome Extension: Parallel Browser Workflows, DevTools Integration, and Domain Access Control
 

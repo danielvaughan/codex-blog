@@ -1,7 +1,7 @@
 ---
 title: "The Balkanisation of Execution-Security Research: What Five Cross-Cutting Gaps Mean for Your Codex CLI Defence Stack"
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags: ["codex-cli", "security", "sandbox", "TOCTOU", "scope-creep", "policy-enforcement", "execution-security", "defence-in-depth"]
 ---
 

@@ -2,7 +2,7 @@
 title: "cmux, ACPX, and OMX: The Three Layers of Multi-Agent UX"
 description: "Running a single AI coding agent is straightforward. Running five in parallel — each on a different module, each needing different approvals."
 date: 2026-04-09T11:11:00+00:00
-last_modified_at: 2026-11-15T23:05:02Z
+last_modified_at: 2026-11-16T03:08:26Z
 tags:
   - cmux
   - acpx
