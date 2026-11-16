@@ -1,10 +1,37 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-16T11:34:45Z
+last_modified_at: 2026-11-16T15:06:32Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 16 November 2026 (Pass 24, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,114 articles, 134 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-16-openai-december-usage-limits-merge-chatgpt-codex-shared-allowance-developer-impact.md` (~1,450 words). Covers: OpenAI's December 2026 announcement merging ChatGPT and Codex into a single shared token-based allowance; community backlash (122 upvotes, 300+ comments on community.openai.com); impact by tier (Plus most exposed, Pro at risk under sustained agentic loads); transparency gap (no consumption metrics published); Claude Code competitive framing; practical guidance for developers before December. Source: `reddit-sentiment/2026-11-16-daily-report.md`; `notes/2026-11-16-weekly-kb-update.md`. Composite rating: **4.5** (Depth 4, Originality 4, Accuracy 5, Substack 5 — time-sensitive, highly actionable).
+- ✅ README article count updated: 2,114.
+
+**Health check:**
+- Article count: 2,114 ✅ (+1 this pass, +3 today)
+- Premium articles: 134 ✅
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **v0.171.0 Stable combined article** — alpha.7 latest as of Nov 15; stable signal expected early week of 17 Nov. Monitor changelog-watch.
+- **Runtime Auth Architecture article** — Source material rich (notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md). Can proceed independently of v0.171.0 stable.
+- **Pro capacity errors article** — Week 3+ of capacity errors accumulating; December merger announcement now adds urgency.
+- **"Why Model Name Pinning Is a Hidden Risk in AI-Powered Pipelines"** — NEW: GPT-5.6-sol regression has exposed systemic architectural gap; content-addressed model versioning vs name-based pinning. High developer interest.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 16 November 2026 (Pass 23, ~hourly UTC)
