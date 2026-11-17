@@ -3,7 +3,7 @@ title: "AGENTS.md as Multi-Agent Orchestration Manifest: Dependency Annotations,
 parent: "Articles"
 nav_order: 1162
 date: 2026-09-21T13:00:00+00:00
-last_modified_at: 2026-11-17T10:07:33Z
+last_modified_at: 2026-11-17T10:26:25Z
 tags: ["agents-md", "multi-agent", "orchestration", "codex-cli", "coordination", "workflow", "parallel-agents"]
 ---
 
