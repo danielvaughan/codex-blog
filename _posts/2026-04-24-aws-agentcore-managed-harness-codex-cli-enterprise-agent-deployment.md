@@ -6,7 +6,7 @@ timestamp: 2026-04-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-24-aws-agentcore-managed-harness-codex-cli-enterprise-agent-deployment"
 tags: ["codex-cli", "aws", "amazon-bedrock", "agentcore", "enterprise", "managed-harness", "agent-deployment", "infrastructure"]
 date: 2026-04-24T09:00:00+00:00
-last_modified_at: 2026-11-17T03:13:03Z
+last_modified_at: 2026-11-17T07:07:05Z
 ---
 # AWS AgentCore's Managed Harness and Coding Skills: What They Mean for Codex CLI Teams
 

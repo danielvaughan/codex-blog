@@ -6,7 +6,7 @@ timestamp: 2026-04-17T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-17-agent-orchestrator-landscape-scion-cao-composio"
 tags: ["orchestration", "scion", "cao", "composio", "multi-agent", "agentic-pod", "kubernetes", "enterprise"]
 date: 2026-04-17T09:00:00+00:00
-last_modified_at: 2026-11-17T03:13:03Z
+last_modified_at: 2026-11-17T07:07:05Z
 ---
 # The Agent Orchestrator Landscape: Scion, CAO, ComposioHQ, and Choosing Your Multi-Agent Runtime
 

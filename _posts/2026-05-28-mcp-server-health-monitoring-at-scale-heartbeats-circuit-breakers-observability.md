@@ -6,7 +6,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-mcp-server-health-monitoring-at-scale-heartbeats-circuit-breakers-observability"
 tags: ["codex-cli", "mcp", "monitoring", "observability", "circuit-breaker", "opentelemetry", "grafana", "production"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-11-17T03:13:03Z
+last_modified_at: 2026-11-17T07:07:05Z
 ---
 # MCP Server Health Monitoring at Scale: Heartbeats, Circuit Breakers, and Observability for Multi-Server Configurations
 

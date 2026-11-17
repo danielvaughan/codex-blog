@@ -1,7 +1,7 @@
 ---
 title: "Codex Management Agents: Orchestration Patterns for Multi-Agent Systems"
 date: 2026-06-22T00:00:00+00:00
-last_modified_at: 2026-11-17T03:13:03Z
+last_modified_at: 2026-11-17T07:07:05Z
 author: Daniel Vaughan
 description: "How OpenAI's Agents SDK enables management agents that coordinate, delegate, and supervise specialist workers — and why the patterns matter more than the framework."
 tags:

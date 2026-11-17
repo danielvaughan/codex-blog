@@ -3,8 +3,9 @@ title: "GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price — a Practic
 parent: "Articles"
 nav_order: 1222
 date: 2026-11-09T09:00:00+00:00
-last_modified_at: 2026-11-17T03:13:03Z
+last_modified_at: 2026-11-17T07:07:05Z
 tags: ["codex-cli", "gpt-6", "sol", "astra", "luna", "model-selection", "cost-governance", "configuration", "decision-framework"]
+copy_edited: true
 ---
 
 # GPT-6.1 Sol: Near-Astra Performance at One-Fifth the Price — a Practical Decision Framework

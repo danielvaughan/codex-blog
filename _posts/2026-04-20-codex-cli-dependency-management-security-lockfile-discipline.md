@@ -6,7 +6,7 @@ timestamp: 2026-04-20T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-20-codex-cli-dependency-management-security-lockfile-discipline"
 tags: ["codex-cli", "dependency-management", "security", "supply-chain", "lockfile", "npm", "pip", "cargo", "AGENTS.md"]
 date: 2026-04-20T09:00:00+00:00
-last_modified_at: 2026-11-17T03:13:03Z
+last_modified_at: 2026-11-17T07:07:05Z
 ---
 # Safe Dependency Management with Codex CLI: Why AI Agents Get It Wrong and How to Fix It
 

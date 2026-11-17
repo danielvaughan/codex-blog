@@ -5,7 +5,7 @@ timestamp: 2026-05-28T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-28-mcp-server-versioning-backwards-compatibility-managing-breaking-changes"
 tags: ["mcp", "versioning", "backwards-compatibility", "codex-cli", "migration", "breaking-changes", "schema-evolution"]
 date: 2026-05-28T09:00:00+00:00
-last_modified_at: 2026-11-17T03:13:03Z
+last_modified_at: 2026-11-17T07:07:05Z
 ---
 # MCP Server Versioning and Backwards Compatibility: Managing Breaking Changes Across MCP Server Upgrades
 

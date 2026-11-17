@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-remote-connections-mobile-pairing-ssh-hosts-enterprise-access-tokens"
 tags: ["codex-cli", "remote-connections", "mobile", "ssh", "enterprise", "access-tokens", "authentication", "daemon"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-11-17T03:13:03Z
+last_modified_at: 2026-11-17T07:07:05Z
 ---
 # Codex Remote Connections: Mobile Pairing, SSH Hosts, and Enterprise Access Tokens
 
