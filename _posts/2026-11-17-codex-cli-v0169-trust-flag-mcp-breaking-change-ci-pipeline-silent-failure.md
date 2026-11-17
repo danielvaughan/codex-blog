@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.169.0 Broke Your CI Pipeline — and Said Nothing"
 date: 2026-11-17T09:00:00+00:00
-last_modified_at: 2026-11-17T09:06:45Z
+last_modified_at: 2026-11-17T10:07:33Z
 tags:
   - codex-cli
   - ci-cd
@@ -10,6 +10,9 @@ tags:
   - breaking-changes
   - devops
   - v0169
+parent: "Articles"
+nav_order: 2117
+copy_edited: true
 ---
 
 Codex CLI v0.169.0 shipped on 13 November with a quiet trust model change that has been silently disabling MCP servers in CI/CD pipelines ever since. No error. No warning. Just MCP integrations that stopped working and green builds that suddenly do less than they used to.

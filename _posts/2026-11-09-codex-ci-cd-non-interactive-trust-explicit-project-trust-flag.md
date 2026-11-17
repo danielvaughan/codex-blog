@@ -3,7 +3,7 @@ title: "Codex CLI in CI/CD: The New Explicit Project Trust Requirement (#60041)"
 parent: "Articles"
 nav_order: 1223
 date: 2026-11-09T10:00:00+00:00
-last_modified_at: 2026-11-17T09:06:45Z
+last_modified_at: 2026-11-17T10:07:33Z
 tags: ["codex-cli", "ci-cd", "security", "non-interactive", "trust", "v0.169.0", "configuration"]
 copy_edited: true
 ---

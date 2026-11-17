@@ -1,7 +1,7 @@
 ---
 title: "The Multi-Agent Auditability Gap: Why Codex CLI's Encrypted Sub-Agent Delegation Is a Compliance Liability"
 date: 2026-07-25T09:00:00+00:00
-last_modified_at: 2026-11-17T09:06:45Z
+last_modified_at: 2026-11-17T10:07:33Z
 tags: ["codex-cli", "multi-agent", "auditability", "encryption", "EU AI Act", "compliance", "sub-agent delegation", "MultiAgentV2"]
 ---
 

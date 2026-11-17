@@ -1,7 +1,7 @@
 ---
 title: "The Feature Codex Users Want Most: Remote Control from Your Phone"
 date: 2026-11-17T10:00:00+00:00
-last_modified_at: 2026-11-17T09:06:45Z
+last_modified_at: 2026-11-17T10:07:33Z
 tags:
   - codex-cli
   - mobile
@@ -10,9 +10,12 @@ tags:
   - feature-requests
   - agentic-workflows
   - chatgpt-app
+parent: "Articles"
+nav_order: 2116
+copy_edited: true
 ---
 
-Discussion #9200 on the OpenAI Codex community forum has 195 upvotes and 53 comments, making it the highest-voted open feature request in the entire board. The ask, stated simply: run Codex as a headless daemon on your workstation and monitor or approve its actions from the ChatGPT mobile app while you are away from your desk.
+Discussion #9200 on the OpenAI Codex community forum has 195 upvotes and 53 comments, making it the highest-voted open feature request on the entire board. The ask, stated simply: run Codex as a headless daemon on your workstation and monitor or approve its actions from the ChatGPT mobile app while you are away from your desk.
 
 This is not a niche request. It is the product gap that sits at the intersection of everything Codex CLI promises to be — an autonomous, long-horizon coding agent — and everything it currently cannot do once you close your laptop.
 
@@ -29,7 +32,7 @@ The community has named several specific sub-scenarios that this would unlock:
 - **Overnight builds**: kick off a spec implementation before bed, wake up to a PR that needs a final review tap
 - **Travel approvals**: a CI agent flags a production deployment for human sign-off; approve it from the airport
 - **Agent-to-agent control**: a ChatGPT orchestrator spawns a Codex subagent, communicates with it over the same approval channel — remote control becomes a building block for multi-agent systems
-- **Team relay**: one developer starts a task, hands off approval rights to a colleague who is online in a different timezone
+- **Team relay**: one developer starts a task, hands off approval rights to a colleague who is online in a different time zone
 
 Each of these is a real, recurrent workflow problem for professional developers using Codex at any scale above solo hobby projects.
 

@@ -2,7 +2,7 @@
 title: "Codex CLI TUI Shortcuts and Slash Commands: The Complete Reference"
 description: "Codex CLI's full-screen terminal UI (TUI) is where most interactive work happens. Beneath the chat-style composer sits a dense set of keyboard shortcuts."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-11-17T09:06:45Z
+last_modified_at: 2026-11-17T10:07:33Z
 tags:
   - reference
   - config-toml
