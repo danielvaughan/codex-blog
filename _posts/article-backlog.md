@@ -1,10 +1,38 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-17T07:07:05Z
+last_modified_at: 2026-11-17T09:06:45Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 17 November 2026 (Pass 1, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,115 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-17-codex-cli-v0169-trust-flag-mcp-breaking-change-ci-pipeline-silent-failure.md` (~1,400 words). Covers: v0.169.0 breaking change — `--sandbox workspace-write` no longer enables MCP servers/project config in untrusted dirs; `--trust` flag now required explicitly; silent failure mode (no error, no non-zero exit); grep audit patterns for CI configs; version-pinning and smoke-test remediation; release discipline gap; 5 alpha versions shipped Nov 17 alone as context. Source: `reddit-sentiment/2026-11-17-daily-report.md`. Composite rating: **4.5** (Depth 5, Originality 4, Accuracy 5, Substack 4 — high developer urgency, strong search intent for silent CI breakage).
+- ✅ **New article written** — `2026-11-17-codex-cli-mobile-remote-control-headless-daemon-top-feature-request-9200.md` (~1,300 words). Covers: discussion #9200 (195 upvotes, #1 community feature request); headless daemon model; cryptographic action signing; irreversibility tiers; Codex Remote gap vs full daemon vision; competitive pressure from Claude Max; workarounds (SSH+tmux, low-risk sandboxing). Source: `reddit-sentiment/2026-11-17-daily-report.md`. Composite rating: **4.5** (Depth 4, Originality 5, Accuracy 4, Substack 5 — agentic AI narrative piece, broad appeal).
+- ✅ README article count updated: 2,115. README recent articles list updated with both Nov 17 articles.
+
+**Health check:**
+- Article count: 2,115 ✅ (+2 this pass)
+- Premium articles: 123 ✅
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **v0.171.0 Stable combined article** — alpha.11 shipped Nov 17; stable likely imminent this week. Monitor for release.
+- **Runtime Auth Architecture article** — Source material rich (notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md). Still pending.
+- **Pro capacity errors article** — Week 3+ of capacity errors accumulating; December merger adds urgency.
+- **December 2026 limits analytical piece** — page 12 thread now has concrete Claude Max arithmetic comparisons. High priority.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 16 November 2026 (Pass 25, ~hourly UTC)

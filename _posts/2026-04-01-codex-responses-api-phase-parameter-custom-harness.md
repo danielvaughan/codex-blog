@@ -2,7 +2,7 @@
 title: "Building Custom Harnesses with the Codex Responses API: Phase, Compaction, and Conversation State"
 description: "The Codex CLI, TypeScript SDK, and Python SDK all abstract away the Responses API."
 date: 2026-04-01T08:00:00+00:00
-last_modified_at: 2026-11-17T07:07:05Z
+last_modified_at: 2026-11-17T09:06:45Z
 tags:
   - architecture
   - agent-loop

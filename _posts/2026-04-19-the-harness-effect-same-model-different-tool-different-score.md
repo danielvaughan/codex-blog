@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-the-harness-effect-same-model-different-tool-different-score"
 tags: ["harness-engineering", "benchmarks", "codex-cli", "claude-code", "cursor", "AGENTS.md", "performance-tuning"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-11-17T07:07:05Z
+last_modified_at: 2026-11-17T09:06:45Z
 ---
 # The Harness Effect: Why the Same Model Scores 16 Points Higher in a Different Tool
 

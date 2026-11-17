@@ -1,7 +1,7 @@
 ---
 title: "From Prompts to Contracts: What Harness Engineering Means for Auditable Codex CLI Workflows"
 date: 2026-07-11T09:00:00+00:00
-last_modified_at: 2026-11-17T07:07:05Z
+last_modified_at: 2026-11-17T09:06:45Z
 tags: ["codex-cli", "harness-engineering", "enterprise", "audit", "contracts", "code-owned-enforcement", "approval-policy", "hooks", "requirements-toml"]
 ---
 
