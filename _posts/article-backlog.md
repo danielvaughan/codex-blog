@@ -1,10 +1,33 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-17T11:34:51Z
+last_modified_at: 2026-11-17T13:05:44Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 17 November 2026 (Pass 2, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,116 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-17-openai-december-limits-claude-max-arithmetic-correction-cycle-token-burn-community-analysis.md` (~1,400 words). Covers: page 12 of the December limits community protest — Phivo's pro-consolidation argument and the community's acceptance of the cost premise while rejecting the opacity; correction-cycle token burn as a billing multiplier unique to unified allowances; Claude Max comparisons becoming arithmetic (not rhetorical) with published side-by-side calculations; specific pre-December disclosure demands; structural argument OpenAI has not made; migration plan signal vs rhetorical threat to switch. Source: `reddit-sentiment/2026-11-17-daily-report.md`. Composite rating: **4.5** (Depth 5, Originality 4, Accuracy 4, Substack 5 — analytical continuation of HIGH-priority backlog item; distinct from Nov 16 background article).
+- ✅ README article count updated: 2,116. README recent articles list updated.
+
+**Health check:**
+- Article count: 2,116 ✅ (+1 this pass, +3 today)
+- Premium articles: 123 ✅
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **v0.171.0 Stable combined article** — alpha.11 shipped Nov 17; stable likely imminent this week. Monitor for release.
+- **Runtime Auth Architecture article** — Source material rich (notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md). Still pending.
+
 ---
 
 ## Article Triage — 17 November 2026 (Pass 1, ~hourly UTC)
