@@ -3,7 +3,7 @@ title: "Voice on by Default: How v0.156.0 Changes the Codex CLI's Identity"
 parent: "Articles"
 nav_order: 1168
 date: 2026-09-22T08:00:00+00:00
-last_modified_at: 2026-11-17T10:26:25Z
+last_modified_at: 2026-11-17T11:34:51Z
 tags: ["codex-cli", "voice", "v0.156.0", "tui", "fullscreen", "usage-dashboard", "worktrees", "mermaid", "multimodal", "identity-shift"]
 ---
 

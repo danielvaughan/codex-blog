@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Pins Model Names, Not Versions — and That's a Silent Quality Bomb"
 date: 2026-11-16T18:00:00+00:00
-last_modified_at: 2026-11-17T10:26:25Z
+last_modified_at: 2026-11-17T11:34:51Z
 parent: "Articles"
 nav_order: 2115
 tags:
@@ -120,7 +120,7 @@ The architectural fix is clear, even if the implementation is non-trivial.
 
 OpenAI would need to publish stable, immutable model version identifiers — analogous to Docker image digests or Git commit hashes. Something like:
 
-```
+```text
 gpt-5.6-sol@sha256:7f4a2b...
 ```
 

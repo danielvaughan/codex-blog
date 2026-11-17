@@ -1,7 +1,7 @@
 ---
 title: "OpenAI's December Quota Merger: What Happens When Your Chat and Code Share the Same Allowance"
 date: 2026-11-16T16:00:00+00:00
-last_modified_at: 2026-11-17T10:26:25Z
+last_modified_at: 2026-11-17T11:34:51Z
 parent: "Articles"
 nav_order: 2112
 tags:
@@ -30,7 +30,7 @@ This article explains exactly what is changing, why the community response is so
 
 ## What OpenAI Has Announced
 
-Under the current structure, ChatGPT and Codex operate under independent usage allowances. A Plus subscriber ($20/month) has a conversational limit for ChatGPT and a separate capacity allocation for Codex CLI tasks. These limits do not interact. A developer who exhausts their Codex allowance mid-week still has full ChatGPT access, and vice versa.
+Under the current structure, ChatGPT and Codex operate under independent usage allowances. A Plus subscriber (\$20/month) has a conversational limit for ChatGPT and a separate capacity allocation for Codex CLI tasks. These limits do not interact. A developer who exhausts their Codex allowance mid-week still has full ChatGPT access, and vice versa.
 
 From December 2026, that separation ends. ChatGPT and Codex will draw from a **single unified token-based allowance**. Every conversational query and every agentic coding task will decrement the same counter.
 
@@ -49,7 +49,7 @@ Three factors have made this land harder than it might otherwise have done.
 **First, the timing.** The announcement arrives at the end of a week in which three separate quota failure modes have been in active community discussion:
 
 - GPT-6.1 Sol burning 88.96% of a weekly allowance in a single conversation, traced to a billing regression in which cached input has been charged at full price since 5 November.
-- The compaction spiral — Ultra-tier reasoning models repeatedly invalidating the shared cache prefix through tool call patterns, generating full-price requests at every turn, draining a $200/week Pro allowance before lunch.
+- The compaction spiral — Ultra-tier reasoning models repeatedly invalidating the shared cache prefix through tool call patterns, generating full-price requests at every turn, draining a \$200/week Pro allowance before lunch.
 - Unverified reports of the Pro tier's underlying multiplier being cut from 20× to 10× with no documentation and no dashboard visibility.
 
 Developers were already operating in an environment of quota anxiety. The December announcement amplifies that anxiety rather than resolving it.
@@ -62,9 +62,9 @@ Developers were already operating in an environment of quota anxiety. The Decemb
 
 ## Impact by Plan Tier
 
-**Plus ($20/month)** is the most exposed tier. The practical cap on Codex CLI usage for Plus subscribers has always been tight; folding that into a shared allowance with conversational ChatGPT creates a genuine risk of Codex being functionally unusable for professional development work without upgrading. The community framing is that Plus will become a ChatGPT subscription that happens to include Codex access rather than a plan that supports both workflows.
+**Plus (\$20/month)** is the most exposed tier. The practical cap on Codex CLI usage for Plus subscribers has always been tight; folding that into a shared allowance with conversational ChatGPT creates a genuine risk of Codex being functionally unusable for professional development work without upgrading. The community framing is that Plus will become a ChatGPT subscription that happens to include Codex access rather than a plan that supports both workflows.
 
-**Pro ($100/month)** provides more headroom, but the week's discussions have established that even Pro has limits that professional developers routinely hit. If the unified allowance for Pro preserves the existing aggregate capacity, the impact may be manageable for most single-developer workflows. If the allowance is set lower to preserve margins, Pro subscribers running sustained agentic pipelines — the heaviest Codex users — will be the first to notice.
+**Pro (\$100/month)** provides more headroom, but the week's discussions have established that even Pro has limits that professional developers routinely hit. If the unified allowance for Pro preserves the existing aggregate capacity, the impact may be manageable for most single-developer workflows. If the allowance is set lower to preserve margins, Pro subscribers running sustained agentic pipelines — the heaviest Codex users — will be the first to notice.
 
 **Team and Enterprise** plans are likely less affected in the short term. Enterprise customers typically negotiate usage commitments rather than operating under consumer-tier rate limits. The community pushback is concentrated in Plus and Pro.
 
@@ -98,7 +98,7 @@ The irony is that the data OpenAI would need to publish is data its own billing 
 
 **Watch for the official metrics announcement.** If OpenAI publishes consumption data before December, the picture changes substantially. The community demand for transparency is loud and organised; there is real pressure on OpenAI to respond before the change lands. Set a reminder to revisit your plan choice once figures are available.
 
-**Evaluate the alternative.** Claude Code's pricing and usage model are worth a direct comparison against your actual workflow cost. The "Codex Surgeon, Claude Resident" benchmark data circulating this week shows Claude Code at $11.84/task against Codex's $4.43/task on SWE-bench tasks — Codex is cheaper per task, but only if you have sufficient allowance to run those tasks. The relative economics change if unified limits reduce practical Codex access on lower tiers.
+**Evaluate the alternative.** Claude Code's pricing and usage model are worth a direct comparison against your actual workflow cost. The "Codex Surgeon, Claude Resident" benchmark data circulating this week shows Claude Code at \$11.84/task against Codex's \$4.43/task on SWE-bench tasks — Codex is cheaper per task, but only if you have sufficient allowance to run those tasks. The relative economics change if unified limits reduce practical Codex access on lower tiers.
 
 ---
 
