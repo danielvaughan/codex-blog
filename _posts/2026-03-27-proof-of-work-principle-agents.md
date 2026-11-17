@@ -2,7 +2,7 @@
 title: "The Proof of Work Principle: Why Agents Need to Show Their Working"
 description: "There is a habit that developers have fallen into when working with autonomous coding agents: they read the diff, nod, and merge. The code arrived from."
 date: 2026-03-27T09:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 summary: "Opinion: Symphony's 'proof of work' concept reframes autonomous agents from magic boxes into accountable actors. CI green, PR review feedback, and walkthrough artefacts before human review — and why your Codex CLI setup should demand the same."
 tags:
   - opinion

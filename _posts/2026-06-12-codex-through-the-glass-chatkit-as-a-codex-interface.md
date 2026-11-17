@@ -2,7 +2,7 @@
 title: "Codex Through the Glass: ChatKit as a Codex Interface"
 description: "OpenAI's own embeddable chat component — ChatKit — provides the fastest path to a branded Codex agent interface, with self-hosted options for data residency."
 date: 2026-06-12T20:03:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 series: "Codex Through the Glass"
 series_order: 4
 tags:

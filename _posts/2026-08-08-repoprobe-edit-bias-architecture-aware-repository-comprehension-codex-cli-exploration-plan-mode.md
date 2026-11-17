@@ -1,7 +1,7 @@
 ---
 title: "RepoProbe and Edit Bias: Why Your Coding Agent Reaches for the Keyboard Before It Understands the Architecture — and How Codex CLI's Exploration Stack Fights Back"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 tags: ["codex-cli", "RepoProbe", "edit-bias", "architecture-comprehension", "plan-mode", "AGENTS.md", "CodeGraph", "repository-exploration", "ASE-2026"]
 ---
 

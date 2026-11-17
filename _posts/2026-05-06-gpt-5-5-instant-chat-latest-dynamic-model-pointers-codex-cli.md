@@ -6,7 +6,7 @@ timestamp: 2026-05-06T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-06-gpt-5-5-instant-chat-latest-dynamic-model-pointers-codex-cli"
 tags: ["codex-cli", "gpt-5.5", "chat-latest", "model-selection", "configuration", "dynamic-model-pointer"]
 date: 2026-05-06T09:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 ---
 # GPT-5.5 Instant and chat-latest: Dynamic Model Pointers for Codex CLI Developers
 

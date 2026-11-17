@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Pins Model Names, Not Versions — and That's a Silent Quality Bomb"
 date: 2026-11-16T18:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 parent: "Articles"
 nav_order: 2115
 tags:
@@ -20,7 +20,7 @@ copy_edited: true
 
 # Codex CLI Pins Model Names, Not Versions — and That's a Silent Quality Bomb
 
-Around 14 November 2026, something quietly broke in Codex CLI. Developers began reporting malformed shell commands in generated output. Stray Unicode characters were embedding themselves in YAML files. CI/CD pipelines that had run cleanly for weeks started failing with parse errors. The model involved was GPT-5.6-sol — the Codex CLI default since v0.161.0.
+Around 14 November 2026, something quietly broke in Codex CLI. Developers began reporting malformed shell commands in generated output. Stray Unicode characters were embedding themselves in YAML files. CI/CD pipelines that had run cleanly for weeks started failing with parse errors. The model involved was GPT-5.6-sol — a previous-generation model that many developers had explicitly pinned in their `config.toml` from when it was the CLI default before DevDay 2026.
 
 The regression thread on community.openai.com reached 12 replies and 751 views within 48 hours. A workaround was confirmed quickly: pin your model to `gpt-6.1-sol` or `gpt-5.4` in Codex settings. Both were unaffected. The practical fix was simple.
 
@@ -164,7 +164,7 @@ For developers building production workflows on Codex CLI today, the practical t
 
 | Item | Detail |
 |------|--------|
-| **Affected model** | GPT-5.6-sol (Codex CLI default since v0.161.0) |
+| **Affected model** | GPT-5.6-sol (previous-generation model; current CLI default is GPT-6.1 Sol since v0.159.1) |
 | **Symptoms** | Malformed shell commands, stray Unicode in generated output |
 | **Likely cause** | Silent backend model checkpoint update |
 | **First reported** | ~14 November 2026 |

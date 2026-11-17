@@ -1,7 +1,7 @@
 ---
 title: "SafeClawBench and the Semantic–Sandbox Gap: Why 84% of Real Agent Harm Passes Your Text-Level Safety Checks — and What Codex CLI's Two-Layer Architecture Does About It"
 date: 2026-08-09T09:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 tags: ["codex-cli", "security", "safeclawbench", "sandbox", "pretooluse", "approval-policy", "tool-safety", "agent-security"]
 ---
 

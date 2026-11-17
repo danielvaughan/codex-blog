@@ -1,7 +1,7 @@
 ---
 title: "ProfMalPlus and Agent-Coordinated Malicious Package Detection: What 597 Zero-Day NPM Threats Reveal About Supply Chain Defence — and How to Harden Codex CLI Workflows Against Dependency Poisoning"
 date: 2026-07-16T09:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 tags: ["codex-cli", "supply-chain-security", "malicious-packages", "npm", "agent-coordination", "PreToolUse-hooks", "sandbox", "dependency-management"]
 ---
 

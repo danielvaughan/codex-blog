@@ -1,7 +1,7 @@
 ---
 title: "OpenAI's December Quota Merger: What Happens When Your Chat and Code Share the Same Allowance"
 date: 2026-11-16T16:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 parent: "Articles"
 nav_order: 2112
 tags:
@@ -94,7 +94,7 @@ The irony is that the data OpenAI would need to publish is data its own billing 
 
 **Use `--max-tokens` on Ultra-tier tasks.** The compaction spiral is an independent risk that compounds under a unified allowance. Setting an explicit token cap on reasoning-heavy tasks reduces the risk of a single session consuming a disproportionate share of your allowance.
 
-**Pin to a known-good model.** The GPT-5.6-sol regression active as of 16 November has a confirmed workaround: pin to `gpt-6.1-sol` or `gpt-5.4`. Avoid the default model until the regression is resolved to prevent silent quality failures that waste tokens on rework.
+**Pin to a known-good model.** The GPT-5.6-sol regression active as of 16 November has a confirmed workaround: if you have explicitly pinned `gpt-5.6-sol` in your `config.toml`, switch to `gpt-6.1-sol` (the current CLI default since v0.159.1) or `gpt-5.4`. Avoid `gpt-5.6-sol` until the regression is resolved to prevent silent quality failures that waste tokens on rework.
 
 **Watch for the official metrics announcement.** If OpenAI publishes consumption data before December, the picture changes substantially. The community demand for transparency is loud and organised; there is real pressure on OpenAI to respond before the change lands. Set a reminder to revisit your plan choice once figures are available.
 

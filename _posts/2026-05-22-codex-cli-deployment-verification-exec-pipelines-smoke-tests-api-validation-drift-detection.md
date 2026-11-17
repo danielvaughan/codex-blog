@@ -6,7 +6,7 @@ timestamp: 2026-05-22T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-22-codex-cli-deployment-verification-exec-pipelines-smoke-tests-api-validation-drift-detection"
 tags: ["codex-cli", "deployment", "verification", "smoke-testing", "exec", "output-schema", "ci-cd", "infrastructure", "drift-detection", "post-deployment"]
 date: 2026-05-22T09:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 ---
 # Codex CLI Deployment Verification Patterns: exec Pipelines for Smoke Tests, API Validation, and Infrastructure Drift Detection
 

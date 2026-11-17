@@ -1,7 +1,7 @@
 ---
 title: "The Jagged Frontier: Why Your Coding Agent's Robustness Depends on Scaffold and Model Together"
 date: 2026-08-20T09:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 tags: ["codex-cli", "robustness", "semantics-preserving-transformations", "scaffold-effects", "model-selection", "AGENTS.md", "SWE-bench", "perturbation", "coding-agents"]
 ---
 

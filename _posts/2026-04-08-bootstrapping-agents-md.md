@@ -2,7 +2,7 @@
 title: "Bootstrapping AGENTS.md: Scaffold Generation, Override Files and Chain Verification"
 description: "Every Codex CLI session begins by assembling an instruction chain from AGENTS.md files scattered across your directory tree. Getting this chain right — from."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 tags:
   - getting-started
   - agents-md

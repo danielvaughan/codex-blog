@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1106
 title: "Codex CLI v0.152.0: Vim Search in Drafts, Per-Tool MCP Token Limits, and the Planning Tool Goes Opt-In"
 date: 2026-09-03T14:00:00+00:00
-last_modified_at: 2026-11-16T21:05:58Z
+last_modified_at: 2026-11-17T03:13:03Z
 tags: ["codex-cli", "release", "vim-mode", "mcp", "token-management", "configuration", "bedrock"]
 ---
 
