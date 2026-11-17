@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-17T13:05:44Z
+last_modified_at: 2026-11-17T18:11:02Z
 tags:
   - backlog
   - planning
@@ -16309,4 +16309,42 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Sources: Codex Cloud AGENTS.md Patterns That Travel (4.0), GPT-6.1 Sol Near-Astra Decision Framework (4.8), DevDay 2026 Recap (4.8), Persistent Cloud Sessions (4.0), Codex Cloud Operations Guide (backlog #190). Three structural differences: filesystem, secrets, session continuity.
    - Gap: First premium article dedicated to cloud-first agentic workflows. Key sections: AGENTS.md patterns that work in containers (filesystem/secrets/cold-start), model selection for unattended long-horizon tasks (Sol vs Astra for overnight agents), cost governance for workloads that run while the laptop is closed, named session management and handoff across devices, secret injection via Codex Cloud dashboard. Audience: teams that have moved beyond local Codex CLI to Codex Cloud production use.
    - Priority: 🟡 Medium — Codex Cloud is production-ready (DevDay confirmed); premium gap is real.
+
+
+---
+
+### 207 · The Windows Platform Health Dashboard (Premium)
+
+1. 📝 **Windows Platform Health Dashboard: Structuring the November 2026 Reliability Crisis for Enterprise Decision-Makers** — Identified 2026-11-17 by article-rater
+   - Sources: PowerShell -EncodedCommand EDR Quarantine (4.0), The Git Bash Trap (3.8), 1,300 Zombies macOS article (4.2), Three Releases Three Windows Regressions (3.8), v0.167.0/v0.168.0 Stable articles. 7+ Windows/WSL GitHub issues in 24 hours: #60793, #60723, #60874, #60801, #60600, #60549, #60204.
+   - Gap: The November Windows reliability cluster (EDR quarantine, silent Git Bash fallback, MCP startup crash, macOS zombie processes) is large enough for a premium synthesis. Key sections: structural root cause analysis (shared platform test surface), enterprise adoption risk assessment by use case (VSCode extension, CI/CD, WSL-heavy teams), explicit platform quality KPIs OpenAI should publish, roadmap recommendations. The EDR quarantine issue specifically affects enterprise segments OpenAI is actively targeting with Azure integration investments.
+   - Priority: 🟠 High — time-sensitive; cluster is live; enterprise decision-makers need a consolidated reference.
+
+### 208 · The Release Discipline Manifesto
+
+1. 📝 **The Release Discipline Manifesto: What Alpha Velocity Needs to Mean for Production Stability** — Identified 2026-11-17 by article-rater
+   - Sources: Codex CLI Pins Model Names (4.8), v0.169.0 Broke Your CI Pipeline (4.0), v0.169.0 alpha sprint data (171 alphas, 50 PRs/day), "three consecutive releases with Windows regressions" data from prior batches.
+   - Gap: First article to name and frame the structural tension between OpenAI's extraordinary alpha-velocity release cadence and the production pipeline adoption by enterprise teams. Proposes a release discipline framework: mandatory `BREAKING:` labels for trust/sandbox semantic changes, semver discipline for auth surface changes, `codex.lock` for model version pinning, model quality status page analogous to status.openai.com. The Docker/npm/pip precedent shows the industry norm; Codex CLI's current practice falls significantly short. Editorial risk is moderate; probability of OpenAI engagement is real.
+   - Priority: 🟡 Medium — high value for enterprise audience; timing is good (v0.169.0 CI breakage is fresh).
+
+### 209 · The Transparency Ratchet: What OpenAI Must Publish Before December
+
+1. 📝 **The Transparency Ratchet: What OpenAI Must Publish Before the December Quota Merger** — Identified 2026-11-17 by article-rater
+   - Sources: OpenAI December Quota Merger (4.5), December Limits Maths (4.5), The Compaction Spiral (4.8), The Token Spiral (4.5), community.openai.com megathread (1,048+ replies). Page 12 analytical case from December Limits Maths article.
+   - Gap: The community's analytical case for transparency is now coherent and rigorous — this article synthesises it into a concrete disclosure checklist: unified allowance figures by tier (minimum viable), consumption metrics dashboard with model-level breakdown, correction-cycle token burn acknowledgement, 90-day post-merger review commitment. The information-theoretic argument (withholding data about an economic exchange is itself evidence about the direction of unfairness) elevates this above a complaint into a governance argument. Time-bounded: OpenAI has approximately 2–3 weeks before December to respond credibly.
+   - Priority: 🔴 Urgent — December window is imminent; community migration plans are forming now.
+
+### 210 · The Remote-Work AI Agent Playbook
+
+1. 📝 **The Remote-Work AI Agent Playbook: Designing for Headless, Mobile-Approved Agentic Workflows** — Identified 2026-11-17 by article-rater
+   - Sources: The Feature Codex Users Want Most (4.5, Discussion #9200), Codex Cloud AGENTS.md Patterns That Travel (4.0), codex queue --resume how-to (2.9), Codex Cloud Thread Reliability (3.6).
+   - Gap: Synthesises the headless/remote workflow state for teams already running overnight agentic tasks. Key sections: what works today (codex queue overnight batch, SSH+tmux+Tailscale workarounds, structured sandbox-only tasks), what AGENTS.md patterns support headless execution (cold-start orientation, halt-and-report on missing secrets, TTL-aware task design), what's coming (native daemon mode, cryptographic action signing, push notification approvals), and how to design today for the execution model of tomorrow. Practical field guide for senior engineers and platform teams.
+   - Priority: 🟡 Medium — Codex Cloud is production-ready; overnight agent workflows are becoming common; this fills a practical gap.
+
+### 211 · The Billing Trust Reset: What It Would Take
+
+1. 📝 **The Billing Trust Reset: Five Structural Failures and What a Credible Recovery Looks Like** — Identified 2026-11-17 by article-rater
+   - Sources: The Token Spiral (4.5), The Compaction Spiral (4.8), Codex CLI Pins Model Names (4.8), OpenAI December Quota Merger (4.5), The December Limits Maths (4.5). Five consecutive structural failures across a 3-week window.
+   - Gap: Editorial-style premium piece. The five structural failures — turns-squared accumulation, cached input billing regression, compaction spiral, mutable model versions, quota merger opacity — are individually addressable. Together they form a pattern: developer-visible infrastructure does not meet the standards of comparably-priced developer tools. The article frames what a credible trust reset would require: concrete transparency commitments, monitoring infrastructure (comparable to what npm, Docker, GitHub maintain for their ecosystems), and an accountability mechanism for quality regressions. High editorial risk. High reward if the piece lands with the right audience and OpenAI responds publicly.
+   - Priority: 🟡 Medium — editorial risk requires careful timing; best published after the December announcement has fully landed and community response is complete.
 
