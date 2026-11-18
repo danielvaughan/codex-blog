@@ -1,10 +1,35 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-18T17:05:56Z
+last_modified_at: 2026-11-18T19:06:30Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 18 November 2026 (Pass 3, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,119 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-18-microsoft-ignite-2026-frontier-models-commoditised-agentic-operations-layer.md` (~1,400 words). Covers: Microsoft Ignite 2026 "frontier models are commoditised — the fight is over the agentic operations layer" framing; Azure Resource Manager MCP server (create/update/delete cloud resources via ARM, gated by Azure Policy); Richard Seroter #911 "Agents build things. Enterprises have to run them" and "Put MCP Next to Your API, Not on Top of It" synthesis; enterprise protocol stack convergence (MCP + A2A + AG-UI across Google Cloud, IBM, BCG, Microsoft, GitHub, ServiceNow); Claude Code 2.1.326 Code Mode for agent teams; practical guidance on operations-first investment, MCP architecture patterns, policy-before-autonomy. Source: `notes/changelog-watch.md` (Nov 18 entry). Composite rating: **4.5** (Depth 5, Originality 4, Accuracy 5, Substack 4 — strategic enterprise framing; strong Substack appeal as synthesis of multiple fresh signals; timely to Ignite and Seroter #911).
+- ✅ README article count updated: 2,119. README recent articles list updated.
+
+**Health check:**
+- Article count: 2,119 ✅ (+1 this pass, +3 today)
+- Premium articles: 123 ✅
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.171.0 Stable combined article** — alpha.13 shipped Nov 18 05:47 UTC; stable likely imminent mid-week. Monitor changelog-watch.
+- **Seroter #911 remaining pieces** — "The levels of agentic engineering", "Why Git Needs Help: Moving from Files to Systems for Source Control". Rich material; queue for next pass.
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, v0.170.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 18 November 2026 (Pass 2, ~hourly UTC)
