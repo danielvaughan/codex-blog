@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.169.0 Broke Your CI Pipeline — and Said Nothing"
 date: 2026-11-17T09:00:00+00:00
-last_modified_at: 2026-11-18T07:08:41Z
+last_modified_at: 2026-11-18T15:06:50Z
 tags:
   - codex-cli
   - ci-cd

@@ -1,10 +1,35 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-18T07:08:41Z
+last_modified_at: 2026-11-18T15:06:50Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 18 November 2026 (Pass 1, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,117 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-18-codex-v0170-stable-subagent-visibility-audio-transcription-cloud-freeze-enterprise-mcp.md` (~1,400 words). Covers: v0.170.0 STABLE (Nov 18 03:40 UTC) — subagent visibility improvements in TUI sidebar (#62149); audio transcription backend support (#62142); cloud refresh optimisation preventing UI freezing (#62150); enterprise MCP authentication fixes (#62129); Windows sandbox registration repair (#62141); sprint context (reliability cluster, opened Nov 11); v0.169.1 patch context; v0.171.0-alpha.13 already in flight. Source: `notes/changelog-watch.md` (Nov 18 entry). Composite rating: **4.0** (Depth 4, Originality 3, Accuracy 5, Substack 4 — solid enterprise-focused release article; practical upgrade reference).
+- ✅ README article count updated: 2,117. README recent articles list updated with Nov 18 article.
+
+**Health check:**
+- Article count: 2,117 ✅ (+1 this pass, +1 today)
+- Premium articles: 123 ✅
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.171.0 Stable combined article** — alpha.13 shipped Nov 18 05:47 UTC; stable likely imminent mid-week. Monitor changelog-watch.
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **Runtime Auth Architecture article** — Source material rich (notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md). Still pending.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, v0.170.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 17 November 2026 (Pass 2, ~hourly UTC)
