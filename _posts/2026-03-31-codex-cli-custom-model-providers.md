@@ -2,7 +2,7 @@
 title: "Codex CLI Custom Model Providers: Azure, Vercel, Local LLMs and Dynamic Bearer Tokens"
 description: "Codex CLI ships wired to OpenAI's hosted models, but the [model_providers] configuration table lets you point it at any OpenAI-compatible endpoint — Azure."
 date: 2026-03-31T08:00:00+00:00
-last_modified_at: 2026-11-18T15:06:50Z
+last_modified_at: 2026-11-18T17:05:56Z
 tags:
   - configuration
   - model-selection

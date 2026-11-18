@@ -6,7 +6,7 @@ timestamp: 2026-06-04T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-04-codex-computer-use-windows-foreground-desktop-automation-agent-sandbox-permissions"
 tags: ["codex", "computer-use", "windows", "desktop-automation", "sandbox", "permissions", "foreground", "remote-control", "agent"]
 date: 2026-06-04T09:00:00+00:00
-last_modified_at: 2026-11-18T15:06:50Z
+last_modified_at: 2026-11-18T17:05:56Z
 ---
 # Codex Computer Use on Windows: Foreground Desktop Automation with Agent Sandbox Controls
 

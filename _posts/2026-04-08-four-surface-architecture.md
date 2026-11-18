@@ -2,7 +2,7 @@
 title: "The Four-Surface Architecture: CLI, Desktop, IDE Extension and Cloud as One System"
 description: "OpenAI ships Codex as a single agent with four points of entry. The CLI, Desktop app, IDE extension and Cloud surface all share the same configuration."
 date: 2026-04-08T08:00:00+00:00
-last_modified_at: 2026-11-18T15:06:50Z
+last_modified_at: 2026-11-18T17:05:56Z
 tags:
   - architecture
   - desktop-app

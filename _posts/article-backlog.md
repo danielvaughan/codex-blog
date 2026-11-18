@@ -1,10 +1,34 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-18T15:06:50Z
+last_modified_at: 2026-11-18T17:05:56Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 18 November 2026 (Pass 2, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,120 articles, 123 premium. Sketchnotes: 1,253.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-18-codex-cli-v0169-runtime-auth-migration-per-request-tokens-async-budget-multi-agent.md` (~1,600 words). Covers: v0.169.0 runtime auth architecture deep-dive — the shift from cached/startup-time tokens to per-request derivation across eight PRs (#60046–#60101); WebSocket re-authentication before reuse (#60055); thread-scoped Guardian/memory quota auth (#60064); async budget and service-tier checks (#60080, #60075); fail-fast terminal auth denial (#60096); MCP network policy from runtime context with persistent denials (#60046); child agent model catalog inheritance (#60049); implications for CI/CD pipelines and multi-agent orchestration. Source: `notes/codex-v0169-alpha-sprint-runtime-auth-migration-rollout-traces.md`. Composite rating: **4.5** (Depth 5, Originality 4, Accuracy 5, Substack 4 — fills the architecture gap left by the user-facing v0.169.0 release article; strong enterprise and multi-agent audience appeal).
+- ✅ README article count updated: 2,120. README recent articles list updated.
+
+**Health check:**
+- Article count: 2,120 ✅ (+1 this pass, +2 today)
+- Premium articles: 123 ✅
+- Sketchnotes: 1,253 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.171.0 Stable combined article** — alpha.13 shipped Nov 18 05:47 UTC; stable likely imminent mid-week. Monitor changelog-watch.
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, v0.170.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 18 November 2026 (Pass 1, ~hourly UTC)

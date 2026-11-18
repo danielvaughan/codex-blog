@@ -1,7 +1,7 @@
 ---
 title: "1,300 Zombies: The macOS Memory Crisis Inside Codex CLI"
 date: 2026-11-15T10:00:00+00:00
-last_modified_at: 2026-11-18T15:06:50Z
+last_modified_at: 2026-11-18T17:05:56Z
 parent: "Articles"
 nav_order: 1236
 copy_edited: true
