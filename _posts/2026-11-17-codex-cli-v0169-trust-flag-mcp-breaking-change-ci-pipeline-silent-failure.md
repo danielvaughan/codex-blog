@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.169.0 Broke Your CI Pipeline — and Said Nothing"
 date: 2026-11-17T09:00:00+00:00
-last_modified_at: 2026-11-17T18:11:02Z
+last_modified_at: 2026-11-18T03:10:19Z
 tags:
   - codex-cli
   - ci-cd
@@ -97,7 +97,7 @@ The fix is a one-line addition: add `--trust` to every `codex exec` invocation t
 
 ## The Broader Pattern: Alpha Velocity Meets Production Pipelines
 
-On 17 November 2026 alone, the openai/codex repository shipped five Rust alpha versions (rust-v0.171.0-alpha.4.1 through alpha.11) and merged 50 pull requests. The pace of development is extraordinary. It is also a source of risk for any team that is not carefully pinning their Codex CLI version.
+On 17 November 2026 alone, the openai/codex repository shipped two Rust alpha versions (rust-v0.171.0-alpha.11 and alpha.12) on top of the sprint cycle that had been averaging a new alpha every few hours since alpha.6 on 15 November. The pace of development is extraordinary. It is also a source of risk for any team that is not carefully pinning their Codex CLI version.
 
 The v0.169.0 trust change is a symptom of a structural tension: a project moving at alpha velocity while being used in production CI/CD pipelines by thousands of teams. When you update Codex CLI without reading the full release notes — and the release notes for v0.169.0 did not explicitly mark this as a breaking change — you are exposed.
 
@@ -148,7 +148,7 @@ The community response to this incident has been largely measured, but the under
 
 The security improvement is real. The user experience of discovering it via silent pipeline degradation is not acceptable for a tool that positions itself as production-ready. Breaking changes to trust semantics — particularly ones that cause silent correctness failures rather than visible errors — warrant an explicit `BREAKING:` label in the CHANGELOG, a migration note in the release announcement, and ideally a deprecation warning during the transition period.
 
-As Codex CLI moves toward the v0.171.0 stable cycle (alpha.11 as of 17 November, stable expected this week), the team has an opportunity to establish a stronger release discipline norm: `BREAKING:` labels are not optional for changes that silently alter agent behaviour in production environments.
+As Codex CLI moves toward the v0.171.0 stable cycle (alpha.12 as of 17 November, stable expected this week), the team has an opportunity to establish a stronger release discipline norm: `BREAKING:` labels are not optional for changes that silently alter agent behaviour in production environments.
 
 Until that norm is established, the responsibility falls to teams using Codex in CI/CD to treat every minor version bump as a potential behaviour change, audit actively, and pin defensively.
 

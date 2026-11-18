@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-aws-agent-plugins-compound-plugin-pattern"
 tags: ["aws", "plugins", "compound-plugin", "cloud-infrastructure", "enterprise", "marketplace", "mcp", "iac", "cost-estimation"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-11-17T18:11:02Z
+last_modified_at: 2026-11-18T03:10:19Z
 ---
 # AWS Agent Plugins and the Compound Plugin Pattern: How Cloud Providers Are Shipping Production-Grade Agent Skills
 

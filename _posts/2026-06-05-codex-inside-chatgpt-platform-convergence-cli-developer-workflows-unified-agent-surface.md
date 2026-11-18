@@ -5,7 +5,7 @@ timestamp: 2026-06-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-05-codex-inside-chatgpt-platform-convergence-cli-developer-workflows-unified-agent-surface"
 tags: ["codex-cli", "chatgpt", "platform-convergence", "unified-surface", "app-server", "developer-experience", "enterprise", "strategy", "june-2026"]
 date: 2026-06-05T09:00:00+00:00
-last_modified_at: 2026-11-17T18:11:02Z
+last_modified_at: 2026-11-18T03:10:19Z
 ---
 # Codex Inside ChatGPT: What the Platform Convergence Means for CLI-First Developer Workflows
 

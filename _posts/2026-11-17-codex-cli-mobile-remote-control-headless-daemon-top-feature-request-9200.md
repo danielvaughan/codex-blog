@@ -1,7 +1,7 @@
 ---
 title: "The Feature Codex Users Want Most: Remote Control from Your Phone"
 date: 2026-11-17T10:00:00+00:00
-last_modified_at: 2026-11-17T18:11:02Z
+last_modified_at: 2026-11-18T03:10:19Z
 tags:
   - codex-cli
   - mobile

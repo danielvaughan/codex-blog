@@ -1,7 +1,7 @@
 ---
 title: "AGENTS.md: The 4 Traps That Silently Break Your Instructions in Codex, Claude Code, Cursor, and Gemini CLI"
 date: 2026-11-16T13:00:00+00:00
-last_modified_at: 2026-11-17T18:11:02Z
+last_modified_at: 2026-11-18T03:10:19Z
 parent: "Articles"
 nav_order: 2111
 tags: ["AGENTS.md", "codex-cli", "claude-code", "cursor", "gemini-cli", "configuration", "cross-tool", "silent-failure", "best-practices"]
@@ -83,11 +83,13 @@ In Cursor, open the Model Context panel (⌘M) and inspect the **Rules** section
 
 Gemini CLI does not read `AGENTS.md` by default. Its default instruction file is `gemini.md` (lowercase, in the project root). If your team has invested in an `AGENTS.md` and added Gemini CLI to the workflow, the agent runs with no project instructions until someone explicitly configures the read target.
 
-The fix is a single-line change in `settings.json` (or `.gemini/settings.json` in the project root):
+The fix is a small change in `.gemini/settings.json` in the project root:
 
 ```json
 {
-  "contextFiles": ["AGENTS.md"]
+  "context": {
+    "fileName": ["AGENTS.md"]
+  }
 }
 ```
 
@@ -118,15 +120,15 @@ Run this checklist when onboarding a new team member, after any change to instru
 
 ---
 
-## Bonus: Claude Code's `/drprompt audit` for Stale Instructions
+## Bonus: Claude Code's `/doctor prompt-audit` for Stale Instructions
 
-Since v2.1.283, Claude Code ships a built-in instruction auditor accessible via `/drprompt audit`.[^3] It scans your active instruction file (whether `CLAUDE.md` or `AGENTS.md`) for three categories of technical debt:
+Since v2.1.283, Claude Code ships a built-in instruction auditor accessible via `/doctor prompt-audit`.[^3] It scans your active instruction file (whether `CLAUDE.md` or `AGENTS.md`) for three categories of technical debt:
 
 1. **Instructions written for older model versions** — directives that reference deprecated behaviour or capabilities that no longer apply to the current Claude model.
 2. **Dead file references** — `@import` paths or file citations that point to files that have been renamed, moved, or deleted.
 3. **Contradictions between instructions** — where two rules apply to the same scenario but specify different behaviour.
 
-The audit output includes a severity rating and suggested remediation for each finding. For teams with mature instruction files that have accumulated over many months of iteration, running `/drprompt audit` once per quarter is a low-effort way to prevent instruction debt from quietly degrading agent performance.
+The audit output includes a severity rating and suggested remediation for each finding. For teams with mature instruction files that have accumulated over many months of iteration, running `/doctor prompt-audit` once per quarter is a low-effort way to prevent instruction debt from quietly degrading agent performance.
 
 ---
 
@@ -140,4 +142,4 @@ The verification commands above give you exactly that: a direct window into what
 
 [^1]: Primary source: "AGENTS.md Explained" — Daily AI News By Ali (youtube.com/watch?v=m6NmVmrA24c, 2026-11-16, 10:32). Tool-specific behaviour confirmed against official documentation for each agent.
 [^2]: Claude Code AGENTS.md fallback behaviour: documented in Claude Code release notes and official Anthropic developer documentation. The fallback is intentional — it allows teams without a `CLAUDE.md` to benefit from AGENTS.md without additional configuration.
-[^3]: `/drprompt audit` available in Claude Code v2.1.283 and later. Feature referenced in Claude Code official documentation (Anthropic, 2026). The command name derives from "Doctor Prompt" — a reference to the medical audit framing used in Claude Code's instruction hygiene documentation.
+[^3]: `/doctor prompt-audit` (alias: `/checkup prompt-audit`) available in Claude Code v2.1.283 and later. Feature referenced in Claude Code official documentation (Anthropic, 2026). The command name derives from "Doctor Prompt" — a reference to the medical audit framing used in Claude Code's instruction hygiene documentation.
