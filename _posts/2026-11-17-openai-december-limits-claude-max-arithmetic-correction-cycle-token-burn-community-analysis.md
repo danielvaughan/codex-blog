@@ -1,7 +1,7 @@
 ---
 title: "The December Limits Maths: How the Community Built an Analytical Case Against OpenAI's Quota Merger"
 date: 2026-11-17T14:00:00+00:00
-last_modified_at: 2026-11-18T03:10:19Z
+last_modified_at: 2026-11-18T07:08:41Z
 parent: "Articles"
 nav_order: 2118
 tags:
@@ -16,7 +16,7 @@ tags:
   - pro-plan
   - billing
   - trust
-copy_edited: false
+copy_edited: true
 ---
 
 # The December Limits Maths: How the Community Built an Analytical Case Against OpenAI's Quota Merger
@@ -71,7 +71,7 @@ This matters because the nature of a threat to switch has changed. A rhetorical 
 
 ---
 
-## What OpenAI Has Not Done (and When It Would Need To)
+## What OpenAI Has Not Done — and When It Would Need To
 
 The specific demands from the community as of page 12 are concrete and time-bounded:
 
