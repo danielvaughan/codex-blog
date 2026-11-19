@@ -1,11 +1,34 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-19T05:17:21Z
+last_modified_at: 2026-11-19T07:07:29Z
 tags:
   - backlog
   - planning
 ---
+
+## Article Triage — 19 November 2026 (Pass 3, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,124 articles, 134 premium. Sketchnotes: 1,258.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-19-invisible-tax-gpt56-luna-undocumented-background-reviewer-codex-cli.md` (~1,400 words). Covers: discovery of `codex-auto-review` background process using GPT-5.6 Luna without user disclosure; Guardian security review and workspace reconciliation phases that trigger it; quota multiplier cost implications; compounding effect alongside 20x→10x multiplier cut and compaction spiral; OpenCode.ai estimate of 6–20B Luna tokens/day across users; practical detection via usage dashboard; TOML config to narrow Guardian review scope; AGENTS.md opt-in review as transparency alternative; trust dimension vs Anthropic's published limits. Sources: GitHub Issue #59835, community.openai.com thread (696 views), Nov 13 changelog-watch, compaction spiral Substack draft. Composite rating: **4.5** (Depth 5, Originality 4, Accuracy 5, Substack 4 — fills billing transparency gap; long-running backlog item from Nov 13 now cleared; pairs strongly with compaction spiral article).
+- ✅ **v0.171.0 stable confirmed retroactively absent** — v0.171.0 ran 13 alphas and was absorbed into v0.170.0; backlog item closed.
+- ✅ README article count updated: 2,124. README recent articles list updated.
+
+**Health check:**
+- Article count: 2,124 ✅ (+3 today, +1 this pass)
+- Premium articles: 134 ✅
+- v0.171.0 stable: confirmed never shipped — v0.170.0 absorbed the sprint; v0.172.0-alpha.1 is current
+- Sketchnotes: 1,258 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.172.0 sprint article** — alpha.1 opened Nov 18 17:54 UTC; sparse notes; monitor for feature signals and stable candidate.
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, v0.170.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
 
 ## Article Triage — 19 November 2026 (Pass 2, ~hourly UTC)
 
