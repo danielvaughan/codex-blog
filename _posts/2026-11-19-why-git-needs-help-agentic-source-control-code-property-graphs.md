@@ -1,7 +1,7 @@
 ---
 title: "Why Git Needs Help: Moving from Files to Systems for Agentic Source Control"
 date: 2026-11-19T09:00:00+00:00
-last_modified_at: 2026-11-19T10:27:36Z
+last_modified_at: 2026-11-19T11:05:40Z
 tags:
   - git
   - agentic-development
@@ -10,6 +10,11 @@ tags:
   - multi-agent
   - infrastructure
   - monorepo
+rating: 4.5
+depth: 5
+originality: 4
+accuracy: 5
+substack: 4
 copy_edited: true
 ---
 

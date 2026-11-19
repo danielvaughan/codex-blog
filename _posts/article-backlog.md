@@ -1,11 +1,33 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-19T10:27:36Z
+last_modified_at: 2026-11-19T11:05:40Z
 tags:
   - backlog
   - planning
 ---
+
+## Article Triage — 19 November 2026 (Pass 4, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,124 articles, 134 premium. Sketchnotes: 1,258.*
+
+**Done this pass:**
+- ✅ **Ratings added to front matter** — `2026-11-19-invisible-tax-gpt56-luna-undocumented-background-reviewer-codex-cli.md` and `2026-11-19-why-git-needs-help-agentic-source-control-code-property-graphs.md`. Both were missing `rating`, `depth`, `originality`, `accuracy`, `substack` fields. Added: rating 4.5, depth 5, originality 4, accuracy 5, substack 4 (consistent with backlog-recorded composite from Pass 3 and Pass 1 respectively).
+- ✅ **November 19 batch added to `resources/article-ratings.md`** — Full table row and batch assessment for all three Nov 19 articles (Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering). Two new gap analysis entries (#215 Pierre Question premium, #216 Agentic Infrastructure Stack premium).
+
+**Health check:**
+- Article count: 2,124 ✅
+- Premium articles: 134 ✅
+- Front matter ratings: all Nov 19 articles now complete ✅
+- article-ratings.md: Nov 19 batch section added ✅
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.172.0 sprint article** — alpha.1 opened Nov 18 17:54 UTC; sparse notes; monitor for feature signals and stable candidate.
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3; regulatory review live; enterprise governance angle; first-mover window still open. See gap analysis #215 in article-ratings.md.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, v0.170.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident, Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
 
 ## Article Triage — 19 November 2026 (Pass 3, ~hourly UTC)
 
