@@ -1,7 +1,7 @@
 ---
 title: "Speculative Decoding Meets Agentic LLMs: How AsymSpec and AgentSpec Close the Tool-Use Inference Gap"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-11-19T03:17:10Z
+last_modified_at: 2026-11-19T05:17:21Z
 tags: ["inference-optimisation", "speculative-decoding", "tool-use", "MCP", "agentic-llm", "performance", "EMNLP-2026"]
 ---
 

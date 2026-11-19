@@ -1,7 +1,7 @@
 ---
 title: "Agentic Configuration Management: What a Framework-Independent Governance Model Means for Your Codex CLI Config Stack"
 date: 2026-08-12T09:00:00+00:00
-last_modified_at: 2026-11-19T03:17:10Z
+last_modified_at: 2026-11-19T05:17:21Z
 tags: ["codex-cli", "configuration-governance", "ACM", "config.toml", "requirements.toml", "enterprise", "managed-configuration", "impact-propagation", "versioning", "compliance"]
 ---
 

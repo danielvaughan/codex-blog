@@ -1,7 +1,7 @@
 ---
 title: "Multi-Agent Alignment Degradation: What Anthropic's AI Organisations Study Means for Your Codex CLI Sub-Agent Governance"
 date: 2026-08-03T09:00:00+00:00
-last_modified_at: 2026-11-19T03:17:10Z
+last_modified_at: 2026-11-19T05:17:21Z
 tags: ["codex-cli", "multi-agent", "alignment", "safety", "governance", "sub-agent", "anthropic", "AGENTS.md", "PostToolUse", "hooks"]
 ---
 

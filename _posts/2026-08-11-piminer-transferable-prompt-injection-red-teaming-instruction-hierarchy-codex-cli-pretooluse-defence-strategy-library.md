@@ -1,7 +1,7 @@
 ---
 title: "PIMiner and the Instruction Hierarchy Gap: Why Transferable Prompt Injection Attacks Reach 87% Success — and How Codex CLI's Layered Defences Hold the Line"
 date: 2026-08-11T09:00:00+00:00
-last_modified_at: 2026-11-19T03:17:10Z
+last_modified_at: 2026-11-19T05:17:21Z
 tags: ["codex-cli", "prompt-injection", "red-teaming", "PIMiner", "instruction-hierarchy", "PreToolUse", "sandbox", "security", "AGENTS.md", "defence-in-depth"]
 ---
 

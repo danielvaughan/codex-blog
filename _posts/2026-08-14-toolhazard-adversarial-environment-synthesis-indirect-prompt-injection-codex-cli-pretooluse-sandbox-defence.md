@@ -1,7 +1,7 @@
 ---
 title: "ToolHazard and Adversarial Environment Synthesis: What 87 Stress-Test Tasks Reveal About Indirect Prompt Injection in Tool-Using Agents — and How Codex CLI's Layered Defences Respond"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-11-19T03:17:10Z
+last_modified_at: 2026-11-19T05:17:21Z
 tags: ["codex-cli", "security", "indirect-prompt-injection", "ToolHazard", "PreToolUse", "PostToolUse", "sandbox", "agent-hijacking", "adversarial-evaluation"]
 ---
 

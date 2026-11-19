@@ -6,7 +6,7 @@ timestamp: 2026-04-13T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-13-what-eth-zurich-paper-gets-wrong-right-about-agents-md"
 tags: ["agents-md", "research", "eth-zurich", "best-practices", "enterprise", "context-files", "cost-optimisation"]
 date: 2026-04-13T09:00:00+00:00
-last_modified_at: 2026-11-19T03:17:10Z
+last_modified_at: 2026-11-19T05:17:21Z
 ---
 # What the ETH Zurich Paper Gets Wrong (and Right) About AGENTS.md
 

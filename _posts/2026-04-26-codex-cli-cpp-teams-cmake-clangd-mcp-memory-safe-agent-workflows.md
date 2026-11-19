@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-cpp-teams-cmake-clangd-mcp-memory-safe-agent-workflows"
 tags: ["codex-cli", "c++", "c", "cmake", "clangd", "mcp", "memory-safety", "sanitisers", "agents-md", "hooks", "c++26"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-11-19T03:17:10Z
+last_modified_at: 2026-11-19T05:17:21Z
 ---
 # Codex CLI for C and C++ Teams: CMake, Clangd MCP, Sanitisers, and Memory-Safe Agent Workflows
 

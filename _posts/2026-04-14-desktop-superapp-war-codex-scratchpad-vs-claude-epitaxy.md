@@ -6,7 +6,7 @@ timestamp: 2026-04-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-14-desktop-superapp-war-codex-scratchpad-vs-claude-epitaxy"
 tags: ["superapp", "desktop", "codex-app", "claude-code", "epitaxy", "scratchpad", "competitive-analysis", "parallel-agents", "coordinator-mode"]
 date: 2026-04-14T09:00:00+00:00
-last_modified_at: 2026-11-19T03:17:10Z
+last_modified_at: 2026-11-19T05:17:21Z
 ---
 # The Desktop Superapp War: Codex Scratchpad vs Claude Code Epitaxy
 

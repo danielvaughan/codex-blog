@@ -1,7 +1,7 @@
 ---
 title: "Claude Opus 5 Lands: Configuring Codex CLI as a Multi-Model Routing Layer with Anthropic's New Frontier"
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-11-19T03:17:10Z
+last_modified_at: 2026-11-19T05:17:21Z
 tags: ["codex-cli", "claude-opus-5", "custom-provider", "model-routing", "named-profiles", "openrouter", "adaptive-thinking", "config.toml"]
 ---
 
