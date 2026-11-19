@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Operations Layer: What Microsoft Ignite 2026 Signals for Enterprise AI"
 date: 2026-11-18T00:00:00+00:00
-last_modified_at: 2026-11-19T07:11:18Z
+last_modified_at: 2026-11-19T10:07:25Z
 tags:
   - microsoft-ignite
   - enterprise
@@ -18,7 +18,7 @@ depth: 5
 originality: 4
 accuracy: 5
 substack: 4
-copy_edited: false
+copy_edited: true
 ---
 
 # The Agentic Operations Layer: What Microsoft Ignite 2026 Signals for Enterprise AI

@@ -1,7 +1,7 @@
 ---
 title: "Why Git Needs Help: Moving from Files to Systems for Agentic Source Control"
 date: 2026-11-19T09:00:00+00:00
-last_modified_at: 2026-11-19T07:11:18Z
+last_modified_at: 2026-11-19T10:07:25Z
 tags:
   - git
   - agentic-development
@@ -10,6 +10,7 @@ tags:
   - multi-agent
   - infrastructure
   - monorepo
+copy_edited: true
 ---
 
 <!-- sketchnote pending generation: 2026-11-19-why-git-needs-help-agentic-source-control-code-property-graphs.png -->
@@ -62,7 +63,7 @@ Davenport proposes four structural shifts. These are directional rather than imm
 
 Replace flat file storage with Code Property Graphs (CPGs) and Abstract Syntax Trees (ASTs). An agent mutating a method signature updates a node in a graph rather than editing a line in a text file. The graph encodes relationships — callers, implementors, dependencies — that agents can traverse directly rather than inferring from text.
 
-```
+```text
 # Today: agent reads file, parses text, finds method, edits line, writes file
 # CPG model: agent queries graph for method node, mutates node, change propagates
 ```

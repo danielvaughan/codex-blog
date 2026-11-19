@@ -1,7 +1,7 @@
 ---
 title: "The Invisible Tax: GPT-5.6 Luna and Codex CLI's Undocumented Background Reviewer"
 date: 2026-11-19T14:00:00+00:00
-last_modified_at: 2026-11-19T07:11:18Z
+last_modified_at: 2026-11-19T10:07:25Z
 tags:
   - codex-cli
   - pricing
@@ -11,6 +11,7 @@ tags:
   - guardian
   - billing
   - pro-plan
+copy_edited: true
 ---
 
 Something odd started appearing in Pro subscriber usage stats in mid-November 2026. Users opened their Codex dashboard and found GPT-5.6 Luna listed — a model they had never chosen, never configured, and never deliberately invoked. A community thread drew 696 views and four replies before the pattern became clear: Codex CLI had been running a background process called `codex-auto-review` without telling anyone.[^1]
