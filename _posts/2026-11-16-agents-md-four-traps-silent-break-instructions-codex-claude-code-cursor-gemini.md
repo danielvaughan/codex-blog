@@ -1,11 +1,16 @@
 ---
 title: "AGENTS.md: The 4 Traps That Silently Break Your Instructions in Codex, Claude Code, Cursor, and Gemini CLI"
 date: 2026-11-16T13:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 parent: "Articles"
 nav_order: 2111
 tags: ["AGENTS.md", "codex-cli", "claude-code", "cursor", "gemini-cli", "configuration", "cross-tool", "silent-failure", "best-practices"]
 copy_edited: true
+rating: 4.5
+depth: 4
+originality: 5
+accuracy: 4
+substack: 5
 ---
 
 # AGENTS.md: The 4 Traps That Silently Break Your Instructions in Codex, Claude Code, Cursor, and Gemini CLI

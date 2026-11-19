@@ -1,7 +1,7 @@
 ---
 title: "The December Limits Maths: How the Community Built an Analytical Case Against OpenAI's Quota Merger"
 date: 2026-11-17T14:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 parent: "Articles"
 nav_order: 2118
 tags:
@@ -17,6 +17,11 @@ tags:
   - billing
   - trust
 copy_edited: true
+rating: 4.5
+depth: 4
+originality: 5
+accuracy: 4
+substack: 5
 ---
 
 # The December Limits Maths: How the Community Built an Analytical Case Against OpenAI's Quota Merger

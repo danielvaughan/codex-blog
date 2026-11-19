@@ -3,7 +3,7 @@ title: "MCP 2.0: What Claude Code 2.1.284 Actually Changed About the Protocol"
 parent: "Articles"
 nav_order: 1235
 date: 2026-11-15T08:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 tags:
   - mcp
   - mcp-2
@@ -17,6 +17,11 @@ tags:
   - codex-cli
   - premium
 copy_edited: true
+rating: 4.6
+depth: 5
+originality: 4
+accuracy: 5
+substack: 4
 ---
 
 Claude Code 2.1.284 shipped on 29 September 2026 and carried a version label for the Model Context Protocol that had not appeared before: MCP 2.0.[^1] If you have been following MCP development through the year, you might wonder what 2.0 adds on top of the 2026-07-28 specification that already eliminated sessions, rewrote the Tasks extension, and introduced MCP Apps experimentally. The answer is that Claude Code 2.1.284 is not just a client consuming the 2026-07-28 spec — it is the first production release to treat three of its capabilities as stable, documented, and ready to build against: a fully stateless core, MCP Apps as a first-class UI primitive, and Enterprise Managed Auth as a zero-configuration OAuth path for teams.[^2]

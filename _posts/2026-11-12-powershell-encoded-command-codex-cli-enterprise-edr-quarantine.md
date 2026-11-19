@@ -1,7 +1,7 @@
 ---
 title: "PowerShell -EncodedCommand: Why Codex CLI Is Getting Quarantined by Enterprise Security Tools"
 date: 2026-11-12T10:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 parent: "Articles"
 nav_order: 1231
 tags:
@@ -15,6 +15,11 @@ tags:
   - community
   - analysis
 copy_edited: true
+rating: 4.0
+depth: 4
+originality: 4
+accuracy: 3
+substack: 5
 ---
 
 A thread on the Codex CLI GitHub issues tracker, currently sitting at 670 views with just one reply, is quietly documenting one of the most damaging enterprise adoption blockers the tool has seen: corporate endpoint detection and response (EDR) tools are flagging and quarantining Codex CLI on Windows because of how it triggers Windows toast notifications.

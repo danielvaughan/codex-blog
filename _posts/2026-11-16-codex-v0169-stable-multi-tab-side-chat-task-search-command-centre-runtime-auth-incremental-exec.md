@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.169.0 Stable: Multi-Tab Side Chat, Task Search in Agent Command Centre, Runtime Auth Overhaul, and Incremental Exec Catalog"
 date: 2026-11-16T08:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 parent: "Articles"
 nav_order: 2110
 tags:
@@ -16,6 +16,11 @@ tags:
   - tui
   - code-mode
 copy_edited: true
+rating: 4.6
+depth: 5
+originality: 4
+accuracy: 5
+substack: 4
 ---
 
 # Codex CLI v0.169.0 Stable: Multi-Tab Side Chat, Task Search in Agent Command Centre, Runtime Auth Overhaul, and Incremental Exec Catalog

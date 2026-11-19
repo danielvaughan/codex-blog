@@ -3,7 +3,7 @@ title: "The Git Bash Trap: How Codex CLI Silently Picks the Wrong Shell on Windo
 parent: "Articles"
 nav_order: 1232
 date: 2026-11-13T09:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 tags:
   - codex-cli
   - windows
@@ -15,6 +15,11 @@ tags:
   - tool-calls
   - community
 copy_edited: true
+rating: 3.8
+depth: 4
+originality: 4
+accuracy: 3
+substack: 4
 ---
 
 There is a category of software bug more damaging than a crash: the kind that silently does the wrong thing and lets you discover the consequences hours later. GitHub issue #60793, filed against Codex CLI on Windows, describes exactly this pattern.

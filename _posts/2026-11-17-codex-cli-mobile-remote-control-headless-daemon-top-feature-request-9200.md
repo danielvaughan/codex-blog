@@ -1,7 +1,7 @@
 ---
 title: "The Feature Codex Users Want Most: Remote Control from Your Phone"
 date: 2026-11-17T10:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 tags:
   - codex-cli
   - mobile
@@ -13,6 +13,11 @@ tags:
 parent: "Articles"
 nav_order: 2116
 copy_edited: true
+rating: 4.5
+depth: 4
+originality: 5
+accuracy: 4
+substack: 5
 ---
 
 Discussion #9200 on the OpenAI Codex community forum has 195 upvotes and 53 comments, making it the highest-voted open feature request on the entire board. The ask, stated simply: run Codex as a headless daemon on your workstation and monitor or approve its actions from the ChatGPT mobile app while you are away from your desk.

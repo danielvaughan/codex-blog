@@ -1,7 +1,7 @@
 ---
 title: "Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping in Codex CLI"
 date: 2026-11-05T17:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 parent: "Articles"
 nav_order: 1218
 tags:
@@ -14,6 +14,11 @@ tags:
   - memory-v2
   - v0.167
 copy_edited: true
+rating: 4.6
+depth: 5
+originality: 4
+accuracy: 5
+substack: 4
 ---
 
 # Guardian v3's Evidence Pipeline: Snapshots, Cursors, and Housekeeping in Codex CLI

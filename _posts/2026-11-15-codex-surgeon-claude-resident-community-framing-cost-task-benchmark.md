@@ -1,7 +1,7 @@
 ---
 title: '"Codex Surgeon, Claude Resident": How the Developer Community Settled Its Most-Debated Question'
 date: 2026-11-15T10:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 parent: "Articles"
 nav_order: 1235
 tags:
@@ -16,6 +16,11 @@ tags:
   - sentiment
   - hybrid-workflow
 copy_edited: true
+rating: 4.5
+depth: 4
+originality: 5
+accuracy: 4
+substack: 5
 ---
 
 The comparison keeps coming up. Codex CLI versus Claude Code. Fast versus careful. Terminal-native versus plan-faithful. Every thread in r/vibecoding, r/ChatGPTCoding, and the GitHub issue tracker eventually circles back to it. The community has been trying to find the right frame for months.

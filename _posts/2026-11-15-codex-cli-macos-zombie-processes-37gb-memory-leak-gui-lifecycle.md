@@ -1,7 +1,7 @@
 ---
 title: "1,300 Zombies: The macOS Memory Crisis Inside Codex CLI"
 date: 2026-11-15T10:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 parent: "Articles"
 nav_order: 1236
 copy_edited: true
@@ -14,6 +14,11 @@ tags:
   - gui
   - process-lifecycle
   - troubleshooting
+rating: 4.2
+depth: 4
+originality: 4
+accuracy: 4
+substack: 5
 ---
 
 ![Sketchnote diagram for: 1,300 Zombies: The macOS Memory Crisis Inside Codex CLI](/sketchnotes/articles/2026-11-15-codex-cli-macos-zombie-processes-37gb-memory-leak-gui-lifecycle.png)

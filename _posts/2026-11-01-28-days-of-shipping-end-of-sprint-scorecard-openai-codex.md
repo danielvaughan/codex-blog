@@ -1,7 +1,7 @@
 ---
 title: "28 Days of Shipping: The Final Scorecard"
 date: 2026-11-01T08:00:00+00:00
-last_modified_at: 2026-11-19T11:36:41Z
+last_modified_at: 2026-11-19T13:06:05Z
 parent: "Articles"
 nav_order: 1211
 tags:
@@ -13,6 +13,11 @@ tags:
   - product-strategy
   - sprint-retrospective
 copy_edited: true
+rating: 4.2
+depth: 4
+originality: 4
+accuracy: 5
+substack: 4
 ---
 
 # 28 Days of Shipping: The Final Scorecard
