@@ -2,7 +2,7 @@
 title: Articles Index
 description: "Last updated: 2026-11-11 Total articles rated: 2,100+"
 date: 2026-11-11T08:00:00+00:00
-last_modified_at: 2026-11-19T07:07:29Z
+last_modified_at: 2026-11-19T07:11:18Z
 tags:
   - index
   - articles
