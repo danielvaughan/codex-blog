@@ -1,25 +1,25 @@
 ---
-title: "Codex CLI v0.170.0 Stable: Subagent Visibility, Audio Transcription Backend, Cloud Freeze Fix, and Enterprise MCP Hardening"
+title: "Codex CLI v0.170.0 Stable: Realtime Voice Calls, OpenTelemetry Auth, Multi-Environment MCP, and Reliability Fixes"
 date: 2026-11-18T08:00:00+00:00
-last_modified_at: 2026-11-19T03:07:51Z
+last_modified_at: 2026-11-19T03:17:10Z
 parent: "Articles"
 nav_order: 2119
 tags:
   - codex-cli
   - v0.170.0
   - release-notes
-  - subagents
-  - multi-agent
-  - audio
+  - voice
+  - webrtc
+  - opentelemetry
   - mcp
   - enterprise
   - tui
   - reliability
   - windows
-copy_edited: true
+copy_edited: false
 ---
 
-# Codex CLI v0.170.0 Stable: Subagent Visibility, Audio Transcription Backend, Cloud Freeze Fix, and Enterprise MCP Hardening
+# Codex CLI v0.170.0 Stable: Realtime Voice Calls, OpenTelemetry Auth, Multi-Environment MCP, and Reliability Fixes
 
 **Release date:** 18 November 2026, 03:40 UTC
 **Version:** v0.170.0 stable
@@ -29,65 +29,81 @@ copy_edited: true
 
 ---
 
-Five days after the dual-stable event that shipped v0.168.0 and v0.169.0 on the same calendar day, Codex CLI has promoted a third stable release in the same sprint window. v0.170.0 landed at 03:40 UTC on 18 November with a tighter, more focused change set than its predecessors. Where v0.168.0 was a TUI-polish sprint and v0.169.0 was a deep infrastructure overhaul, v0.170.0 reads as a reliability cluster: five targeted fixes that address the most visible sources of enterprise friction in the previous stable line.
+Five days after the dual-stable event that shipped v0.168.0 and v0.169.0 on the same calendar day, Codex CLI has promoted a third stable release in the same sprint window. v0.170.0 landed at 03:40 UTC on 18 November with a focused change set built around one significant new capability — realtime voice calls in the TUI — and a disciplined cluster of reliability fixes that address authentication edge cases, cloud reconnection, and platform parity on Windows.
 
-The standout addition is subagent visibility in the TUI sidebar. Everything else — audio transcription backend, cloud refresh optimisation, enterprise MCP authentication, and Windows sandbox repair — is squarely aimed at making Codex more dependable when it runs in production, in teams, and on platforms other than a developer's personal Mac.
+Where v0.168.0 was a TUI-polish sprint and v0.169.0 was a deep infrastructure overhaul, v0.170.0 reads as a capability-plus-stability release: one headline feature that opens a new input modality, two infrastructure additions that extend Codex's production observability and MCP flexibility, and a half-dozen targeted bug fixes that make the system more resilient in conditions that controlled testing does not reliably reproduce.
 
 ---
 
 ## What Changed
 
-### 1. Subagent Visibility in the TUI Sidebar (#62149)
+### 1. Realtime Voice Calls in the TUI (#61172)
 
-The most user-facing change in v0.170.0 is a set of improvements to how the TUI sidebar surfaces subagent activity. When Codex spawns child agents to handle parallel subtasks — file search agents, test-runner agents, documentation agents — their state previously appeared only as cryptic task IDs or was buried in the raw log stream. With v0.170.0, the sidebar presents active subagents in a structured, navigable view.
+The headline addition in v0.170.0 is WebRTC negotiation for realtime voice calls within the terminal interface. The TUI now supports voice as a live interaction mode: rather than typing a prompt, a developer can speak directly to Codex and receive a real-time response in the terminal.
 
-This matters more than it might appear. As agentic workflows grow more complex, the ability to understand what your agent is doing — right now, in this session — becomes the central operational problem. A single Codex session coordinating three subagents on a large refactor is effectively a small distributed system. Without visibility, you are flying blind.
+This is a meaningful expansion of the input surface. Voice input is not a novelty feature — it is a qualitatively different interaction mode suited to a different class of task. Describing a complex refactoring goal, explaining the intent behind a design decision, or narrating the behaviour of a bug as you observe it are all tasks where speech is faster and more natural than typed text. For developers working in environments where keyboard focus is split — debugging on one screen, monitoring on another — voice removes the context-switch cost entirely.
 
-The Microsoft Ignite 2026 signal from this week captured the enterprise framing precisely: "Frontier models are commoditised — the fight is over the agentic operations layer." Subagent visibility is not a cosmetic feature. It is the beginning of an observability layer for multi-agent sessions — the kind of infrastructure that makes agentic workflows safe enough to trust with consequential work.
+The WebRTC transport choice is deliberate. WebRTC provides low-latency, browser-compatible, encrypted peer-to-peer media negotiation. Using it for the TUI voice channel means the same transport layer could eventually serve browser-based Codex interfaces without protocol fragmentation. It also means the voice session inherits WebRTC's native NAT traversal properties, which matters for enterprise environments where outbound traffic passes through proxy layers.
 
-The sidebar update builds directly on v0.169.0's Task Search in the Agent Command Centre. The pattern is consistent: each release adds another layer of legibility to the multi-agent session model that Codex has been assembling across the past several versions.
+The TUI voice feature builds on v0.168.0's audio attachment support, which introduced audio files as inputs to Codex tasks. v0.170.0 completes the logical arc: audio can now be provided as a live stream, not just a static file attachment.
 
-### 2. Audio Transcription Backend Support (#62142)
+### 2. OpenTelemetry HTTP Exporter Auth Header Refresh (#61028)
 
-v0.170.0 adds backend plumbing for audio transcription. This is not a finished user-facing feature — the release notes describe it as backend support, which means the infrastructure is in place but the full TUI integration is likely being completed in the v0.171.0 sprint already underway.
+v0.170.0 adds automatic refresh of authentication headers for OpenTelemetry HTTP exporters. This is an infrastructure change aimed at teams running Codex in observability pipelines where telemetry is exported to backends — Grafana, Honeycomb, Datadog, or internal OTEL collectors — via authenticated HTTP endpoints.
 
-The significance is what it signals. v0.168.0 added audio attachment support — the ability to include an audio file as an input to a Codex task. v0.170.0 extends that with transcription infrastructure on the backend: Codex can now process the content of audio inputs rather than treating them as opaque blobs.
+The problem addressed: OpenTelemetry HTTP exporters that require authentication (bearer tokens, API keys) previously acquired those credentials at session start and cached them for the duration of the session. In long-running Codex sessions or in CI pipelines where token rotation is aggressive, the exporter's cached credentials could expire, causing telemetry exports to fail silently.
 
-The practical direction is clear: voice notes, recorded debugging sessions, screen-capture audio, and meeting recordings become potential inputs to a Codex task. For developers who prefer to describe a problem out loud before Codex writes the code, this closes a natural part of the input surface.
+With v0.170.0, the exporter independently refreshes its authentication headers. Telemetry delivery no longer depends on credentials that were valid when the session started; it depends on credentials that are valid when the export fires.
 
-### 3. Cloud Refresh Optimisation to Prevent UI Freezing (#62150)
+The practical significance is highest for enterprise observability setups. Teams that have instrumented Codex with OTEL tracing to track agent behaviour, tool call patterns, and session costs will find that their telemetry pipelines become more reliable across long sessions — and that the tracing data they depend on for cost governance and debugging continues to flow even when token rotation policies are strict.
 
-A persistent complaint in community threads over the past fortnight has been UI freezing during long-running cloud sessions. The symptom was a TUI that became unresponsive — sometimes for several seconds — when Codex refreshed its state from the cloud backend while a session was active.
+### 3. Experimental: Identically-Named MCP Servers Across Environments (#60905)
 
-The root cause was a refresh pattern that blocked the main UI thread. Cloud state updates — quota readings, session continuations, task-status polling — were being applied synchronously in a way that could starve the render loop during high-latency cloud calls.
+v0.170.0 ships experimental support for using identically-named MCP servers across different environments. Prior to this change, MCP server names were required to be globally unique within a Codex configuration. If you ran Codex in a development environment and a production environment, and both environments had an MCP server called `database`, the naming conflict required one to be renamed or configuration to be context-switched manually.
 
-v0.170.0 decouples the cloud refresh cycle from the UI thread, ensuring that state synchronisation runs without blocking the terminal interface. For users on higher-latency cloud connections or under heavy cloud load conditions, the practical effect is a more responsive TUI even when the backend is under pressure.
+The experimental flag matters: this feature is not yet stable API and its behaviour may change in a future release. Teams should not build production workflows that depend on the precise semantics of this feature before it graduates to stable.
 
-This fix is especially relevant in the enterprise context. Teams running Codex through VPN gateways, proxy layers, or in cloud regions with higher round-trip latency were disproportionately affected by the freeze. The fix removes that environmental sensitivity.
+What it enables in practice: multi-environment MCP configurations — dev, staging, production — where the same logical tool surface (same server name, same tool descriptions) points to environment-appropriate backends. For agentic workflows that need to operate across environment boundaries without changing their tool invocation patterns, this is the enabler.
 
-### 4. Enterprise MCP Authentication Fixes (#62129)
-
-Enterprise MCP deployments involve authentication patterns that differ meaningfully from the typical developer setup. OAuth flows that go through corporate identity providers, tokens that require rotation through internal certificate authorities, and MCP servers that sit behind authenticated proxies all introduce edge cases that community releases do not regularly exercise.
-
-v0.170.0 ships a set of enterprise MCP authentication fixes under PR #62129. The release notes are sparse on specifics — which is itself a signal that these changes were driven by enterprise customer feedback rather than community issue reports — but the fix cluster complements the OAuth hardening that began in v0.167.2 (MCP OAuth cancellation safety) and continued through v0.169.0's runtime auth migration.
-
-The cumulative picture: Codex has spent three stable releases hardening its MCP authentication layer. That is not coincidence. MCP is becoming the standard enterprise agent connector, and the authentication surface is where enterprise deployments encounter real-world conditions that controlled testing does not reproduce.
-
-### 5. Windows Sandbox Registration Repair (#62141)
-
-Windows support has historically been Codex's most volatile platform. The v0.170.0 release includes a targeted fix for a sandbox registration failure that affected Windows environments where the runtime service encountered privilege errors during initialisation.
-
-The symptom: Codex would fail to register its sandbox environment correctly after a service privilege error, leaving the session in a partially initialised state. Subsequent commands either failed silently or ran outside the sandbox boundary — which in an enterprise context means running without the isolation guarantees that security policy requires.
-
-The fix repairs the registration reconciliation logic so that a privilege error during sandbox setup triggers a clean retry cycle rather than leaving the registration in an inconsistent state. This is consistent with the registration repair work that appeared in the v0.167.2 patch line.
+The feature complements the persistent MCP connection denial behaviour shipped in v0.169.0 (#60046). Together they give enterprise operators more precise control over which MCP connections are established and which server names are active in each context.
 
 ---
 
-## Release Context: The Reliability Cluster Pattern
+## Reliability and Bug Fix Cluster
 
-Looking at the five changes together, v0.170.0 is a coherent reliability sprint rather than a feature sprint. No single change here adds a major new capability in the way that v0.169.0's Multi-Tab Side Chat or v0.168.0's Model Provider Selection TUI did. What v0.170.0 delivers instead is stability in the conditions that matter most for production use: multi-agent sessions, enterprise auth infrastructure, cloud-connected workflows, and Windows platform parity.
+The remaining changes in v0.170.0 are fixes rather than features, but several address failure modes that have been visible in community issue trackers and enterprise support channels since the v0.169.x line.
 
-The sprint opened on 11 November with alpha.1, ran 43 pull requests across the alpha series (a sprint volume consistent with recent stable releases), and promoted through alpha.4.2 before the stable cut on 18 November. The dual-track alpha maintenance pattern continues: v0.170.0-alpha.4.2 landed at 01:52 UTC on 18 November — less than two hours before the stable promotion — suggesting last-minute confidence verification rather than any significant late change.
+### WebSocket Oversized Request Fallback (#60840, #60841)
+
+Oversized WebSocket requests now fall back to HTTP without entering retry loops. The previous behaviour — retrying a failed WebSocket send that exceeded the frame size limit — could cause pipeline stalls when the message was large and the retry budget was high. The fix adds a size check that routes oversized payloads to HTTP transport directly, bypassing the WebSocket path and the unnecessary retry cycle.
+
+### MCP OAuth Credential Race Conditions (#60849, #60981)
+
+Two related fixes address race conditions in MCP OAuth credential management during cancellation, login, and logout transitions. In setups where the user interrupts an OAuth flow or logs out while a credential refresh is in flight, the previous code could leave the credential store in an inconsistent state — authenticated for some operations but not others. The fixes serialise the credential lifecycle transitions to prevent these races.
+
+### Cloud Conversation Reconnection (#60969, #61014)
+
+Idle cloud conversations now reconnect automatically after brief stream interruptions, and active recovery turns survive client reconnections without being dropped. These two fixes address the most common form of cloud session disruption: a network hiccup or backend scaling event that briefly drops the streaming connection. Previously, recovery required the user to manually restart the session. With v0.170.0, the reconnection is handled transparently for both idle and mid-turn scenarios.
+
+### Windows File Replacement and Sandbox Permissions (#60872, #60943, #60944)
+
+Three related fixes address Windows-specific sandbox issues: file replacement operations that were failing silently in sandboxed contexts, sandbox permission settings that were not being correctly applied during Windows file I/O, and runtime registration edge cases introduced by the interaction between Windows path handling and the sandbox policy layer. Windows support in Codex has been an ongoing stabilisation effort; this cluster continues the work.
+
+### Sandbox Permission Inheritance Fix (#60936, #61134)
+
+A subtle but important fix: permission updates were dropping existing sandbox restrictions from child threads. When a permission update was applied to a session, the update logic was rebuilding the child thread permission set rather than merging with it — with the effect that restrictions established at thread creation could be silently removed. The fix ensures permission updates are applied additively: they can tighten or extend existing restrictions but cannot implicitly clear them.
+
+### Duplicate File Search Results (#60845, #60846)
+
+Two fixes address file search quality in the TUI: duplicate results were appearing in file search output under certain indexing conditions, and thread search snippets were rendering incorrectly when the matched text contained leading or trailing whitespace. Both are polish fixes; neither is a regression introduced in v0.170.0 — they address long-standing issues that became more visible as file search was used more heavily in multi-agent workflows.
+
+---
+
+## Release Context
+
+v0.170.0 is a coherent release that balances a genuinely new capability (voice calls) with the kind of infrastructure work that keeps Codex reliable at production scale. It does not carry the architectural depth of v0.169.0's runtime auth migration, but it is not attempting to. What it delivers is a voice input channel that extends how developers can interact with the terminal, two backend infrastructure improvements that matter to teams running Codex in observed, multi-environment production contexts, and a set of targeted fixes that address the highest-friction edge cases reported since the v0.169.x stabilisation.
+
+The sprint opened on 11 November with alpha.1 and promoted through alpha.4.2 before the stable cut on 18 November. The dual-track alpha maintenance pattern continues: v0.170.0-alpha.4.2 landed at 01:52 UTC on 18 November — less than two hours before the stable promotion — suggesting last-minute confidence verification rather than any significant late change.
 
 ---
 
@@ -105,7 +121,7 @@ Sprint theme for v0.171.0 is not yet fully visible from release note patterns, b
 npm install -g @openai/codex@0.170.0
 ```
 
-No breaking changes are documented in v0.170.0. The enterprise MCP authentication fixes are backward-compatible; the sandbox registration repair is transparent to users. The subagent visibility changes are additive to the existing TUI sidebar — no configuration changes are required to see subagent activity.
+No breaking changes are documented in v0.170.0. The realtime voice feature is additive — no configuration changes are required to access it, and existing text-based workflows are unaffected. The experimental MCP server naming feature is opt-in. The reliability fixes are transparent to users.
 
 If you are running Codex in CI with pinned versions, the v0.169.1 patch (17 November) addressed minor bug fixes; v0.170.0 is the recommended upgrade target for production stable deployments as of today.
 
@@ -113,16 +129,20 @@ If you are running Codex in CI with pinned versions, the v0.169.1 patch (17 Nove
 
 ## Summary
 
-| Change | PR | Category |
+| Change | PR(s) | Category |
 |---|---|---|
-| Subagent visibility improvements in TUI sidebar | #62149 | Observability |
-| Audio transcription backend support | #62142 | Multimodal |
-| Cloud refresh optimisation (UI freeze prevention) | #62150 | Reliability |
-| Enterprise MCP authentication fixes | #62129 | Enterprise |
-| Windows sandbox registration repair | #62141 | Platform |
+| Realtime voice calls via WebRTC negotiation in TUI | #61172 | Capability |
+| OpenTelemetry HTTP exporter auth header auto-refresh | #61028 | Observability |
+| Experimental identically-named MCP server support across environments | #60905 | MCP |
+| Oversized WebSocket request fallback to HTTP | #60840, #60841 | Reliability |
+| MCP OAuth credential race condition fixes | #60849, #60981 | Authentication |
+| Cloud conversation auto-reconnection | #60969, #61014 | Reliability |
+| Windows file replacement and sandbox permission fixes | #60872, #60943, #60944 | Platform |
+| Sandbox permission inheritance (child threads) | #60936, #61134 | Security |
+| Duplicate file search result and snippet fixes | #60845, #60846 | Polish |
 
-v0.170.0 is not the most dramatic Codex release of the month — that honour goes to the dual-stable event of 13 November. But it may be the most professionally useful. The changes it ships are the kind that make the difference between a tool that works in a demo and a tool that works in production, every day, for a team that depends on it.
+v0.170.0 opens a voice channel that changes how developers interact with the terminal, adds observability infrastructure that makes Codex more trustworthy in production pipelines, and clears a backlog of reliability issues across authentication, cloud connectivity, and Windows platform support.
 
 ---
 
-*Source material: `notes/changelog-watch.md` (Nov 11–18 2026 entries). Composite rating: Depth 4, Originality 3, Accuracy 5, Substack 4 — solid enterprise-focused release article; practical upgrade reference.*
+*Source material: openai/codex GitHub releases and official Codex changelog (Nov 18 2026). Fact-checked against primary source on 2026-11-19.*
