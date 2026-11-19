@@ -1,10 +1,32 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-19T13:06:05Z
+last_modified_at: 2026-11-19T13:06:40Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 19 November 2026 (Pass 5, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,124 articles, 134 premium. Sketchnotes: 1,258.*
+
+**Done this pass:**
+- ✅ **Ratings backfilled to front matter — 35 November articles (Nov 1–18)** — Cross-referenced `resources/article-ratings.md` to add `rating`, `depth`, `originality`, `accuracy`, and `substack` fields to all November 2026 articles missing them. Covers Nov 1–3 (3 articles), Nov 4–11 (12 articles), Nov 12–17 (16 articles), and Nov 18 (2 articles). The Microsoft Ignite article (Nov 18) already had ratings — skipped. Committed as `ratings(nov-1-18): backfill front matter ratings for 35 November articles`.
+
+**Health check:**
+- Article count: 2,124 ✅
+- Premium articles: 134 ✅
+- Front matter ratings: all Nov 1–19 articles now complete ✅
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.172.0 sprint article** — alpha.1 opened Nov 18 17:54 UTC; sparse notes; monitor for feature signals and stable candidate.
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3; regulatory review live; enterprise governance angle; first-mover window still open. See gap analysis #215 in article-ratings.md.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, v0.170.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident, Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 19 November 2026 (Pass 4, ~hourly UTC)
