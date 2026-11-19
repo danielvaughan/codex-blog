@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.170.0 Stable: Subagent Visibility, Audio Transcription Backend, Cloud Freeze Fix, and Enterprise MCP Hardening"
 date: 2026-11-18T08:00:00+00:00
-last_modified_at: 2026-11-18T19:06:30Z
+last_modified_at: 2026-11-19T03:07:51Z
 parent: "Articles"
 nav_order: 2119
 tags:

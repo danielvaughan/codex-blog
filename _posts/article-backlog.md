@@ -1,10 +1,36 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-18T19:06:30Z
+last_modified_at: 2026-11-19T03:07:51Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 19 November 2026 (Pass 1, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,122 articles, 134 premium. Sketchnotes: 1,258.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-19-why-git-needs-help-agentic-source-control-code-property-graphs.md` (~1,400 words). Covers: why Git's flat-text, line-diff model is structurally misaligned with autonomous agents; four failure modes at agentic scale (token inefficiency, structural blindness, ephemeral diagnostic memory, infrastructure throughput limits); four proposed solutions from O'Reilly Radar/Davenport (CPGs, server-hosted architecture, persistent reasoning ledgers, stacked microdiffs); practical Codex CLI implications today (worktrees for isolation, hook-based diagnostic capture, atomic commits, MCP-layer source control preview). Sources: O'Reilly Radar[^1], Seroter #911 (Nov 17). Composite rating: **4.5** (Depth 5, Originality 4, Accuracy 5, Substack 4 — fills infrastructure gap; timely to Seroter #911 carry-forward; strong multi-agent audience appeal).
+- ✅ README article count updated: 2,122. README recent articles list updated.
+
+**Health check:**
+- Article count: 2,122 ✅ (+1 this pass, +1 today)
+- Premium articles: 134 ✅
+- v0.171.0 stable: not yet released — alpha sprint continues at alpha.13+; monitor changelog
+- Sketchnotes: 1,258 (unchanged — Gemini pipeline not run this pass)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.171.0 Stable combined article** — alpha sprint still active as of Nov 18; stable not yet out. Monitor changelog.
+- **"The levels of agentic engineering"** — Seroter #911 / Terem/Piskorz framework; 6-level maturation model; strong framing article. Queue for next pass.
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity #3. Strategic. Queue for next pass.
+- **"The invisible tax" (Luna background reviewer)** — Nov 13/14 carry-forward. Still actionable.
+- **"I had no authority" — scope creep PREMIUM** — Requires dedicated pass.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, v0.170.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 18 November 2026 (Pass 3, ~hourly UTC)
