@@ -1,7 +1,7 @@
 ---
 title: "OpenAI's December Quota Merger: What Happens When Your Chat and Code Share the Same Allowance"
 date: 2026-11-16T16:00:00+00:00
-last_modified_at: 2026-11-19T11:05:40Z
+last_modified_at: 2026-11-19T11:36:41Z
 parent: "Articles"
 nav_order: 2112
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "The Invisible Tax: GPT-5.6 Luna and Codex CLI's Undocumented Background Reviewer"
 date: 2026-11-19T14:00:00+00:00
-last_modified_at: 2026-11-19T11:05:40Z
+last_modified_at: 2026-11-19T11:36:41Z
 tags:
   - codex-cli
   - pricing
@@ -38,7 +38,7 @@ Both passes run against GPT-5.6 Luna. Luna is fast and cheap relative to GPT-6 A
 
 ## The Token Cost
 
-Luna's pricing is $0.20 per million input tokens and $1.20 per million output tokens — genuinely inexpensive at that rate. For a single session, the background review cost is small.
+Luna's pricing is \$0.20 per million input tokens and \$1.20 per million output tokens — genuinely inexpensive at that rate. For a single session, the background review cost is small.
 
 The issue is scale and compounding. OpenCode.ai estimated that `codex-auto-review` was consuming between 6 billion and 20 billion Luna tokens per day across the Codex user base as of November 2026.[^2] At the individual level, a heavy Pro subscriber running long agentic sessions with frequent workspace reconnects can accumulate tens of millions of background Luna tokens in a week without any visible indicator in the TUI.
 
@@ -75,7 +75,7 @@ As of 19 November 2026, there has been no official acknowledgement of `codex-aut
 The community proposal in that issue is reasonable: if a background review process must run, it should:
 
 - Be disclosed during onboarding and surfaced in the model/session information pane
-- Use the cheapest capable model available (GPT-6 Luna at $0.10/$0.50 per million tokens rather than GPT-5.6 Luna at $0.20/$1.20)
+- Use the cheapest capable model available (GPT-6 Luna at \$0.10/\$0.50 per million tokens rather than GPT-5.6 Luna at \$0.20/\$1.20)
 - Be isolatable in usage accounting so subscribers can see its contribution to quota consumption
 - Be configurable — with an opt-out for users who have implemented their own post-task review hooks in AGENTS.md
 
@@ -111,7 +111,7 @@ flag any unexpected additions.
 
 The technical cost of `codex-auto-review` is small. The transparency cost is not.
 
-Codex CLI is a Pro product at $200 per month. At that price point, subscribers have a reasonable expectation that every process consuming their quota is documented. The comparison point in community threads is not theoretical: Claude Pro publishes concrete session limits per tier. Anthropic's transparency on billing mechanics has become a repeated competitive differentiator in precisely the threads where Codex's quota behaviour is being questioned.[^6]
+Codex CLI is a Pro product at \$200 per month. At that price point, subscribers have a reasonable expectation that every process consuming their quota is documented. The comparison point in community threads is not theoretical: Claude Pro publishes concrete session limits per tier. Anthropic's transparency on billing mechanics has become a repeated competitive differentiator in precisely the threads where Codex's quota behaviour is being questioned.[^6]
 
 The fix is not complicated. Disclose the background process. Surface it in the UI. Make it configurable. That would not eliminate the quota cost, but it would eliminate the trust cost — which, in a week that also included a multiplier cut and a compaction regression, is the more urgent problem to solve.
 

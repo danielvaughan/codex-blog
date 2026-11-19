@@ -6,7 +6,7 @@ timestamp: 2026-04-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-codex-worktree-lifecycle-app-vs-cli"
 tags: ["worktree", "codex-app", "lifecycle", "cleanup", "workspace", "parallel-agents"]
 date: 2026-04-11T09:00:00+00:00
-last_modified_at: 2026-11-19T11:05:40Z
+last_modified_at: 2026-11-19T11:36:41Z
 ---
 # Codex CLI Worktree Lifecycle: App vs CLI Worktree Management
 
