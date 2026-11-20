@@ -1,7 +1,7 @@
 ---
 title: "`codex doctor --network-only`: Fast Network Diagnostics for Proxy, MCP, and Vertex AI Issues"
 date: 2026-11-05T10:00:00+00:00
-last_modified_at: 2026-11-20T11:37:36Z
+last_modified_at: 2026-11-20T13:07:16Z
 parent: "Articles"
 nav_order: 1216
 tags: ["codex-cli", "diagnostics", "troubleshooting", "networking", "proxy", "mcp", "vertex-ai", "v0.166"]

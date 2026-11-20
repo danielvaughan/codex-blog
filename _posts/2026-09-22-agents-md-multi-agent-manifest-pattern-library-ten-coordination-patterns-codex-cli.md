@@ -3,7 +3,7 @@ title: "AGENTS.md Multi-Agent Manifest Pattern Library: Ten Coordination Pattern
 parent: "Articles"
 nav_order: 1165
 date: 2026-09-22T09:00:00+00:00
-last_modified_at: 2026-11-20T11:37:36Z
+last_modified_at: 2026-11-20T13:07:16Z
 tags: ["codex-cli", "multi-agent", "agents-md", "orchestration", "coordination", "patterns", "agentic", "workflow"]
 ---
 

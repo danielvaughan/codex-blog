@@ -1,7 +1,7 @@
 ---
 title: "Zero-Replay Debugging and the Event Knowledge Graph: What BranchPoint-Latent Means for Your Codex CLI Rollout Traces"
 date: 2026-08-18T09:00:00+00:00
-last_modified_at: 2026-11-20T11:37:36Z
+last_modified_at: 2026-11-20T13:07:16Z
 tags: ["codex-cli", "debugging", "rollout-traces", "event-knowledge-graph", "zero-replay", "observability", "OTLP", "counterfactual-replay"]
 ---
 

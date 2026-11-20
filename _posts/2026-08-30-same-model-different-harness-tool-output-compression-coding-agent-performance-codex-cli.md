@@ -1,7 +1,7 @@
 ---
 title: "Same Model, Different Harness: How Tool-Output Half-Life Compression Determines Coding-Agent Performance"
 date: 2026-08-30T09:00:00+00:00
-last_modified_at: 2026-11-20T11:37:36Z
+last_modified_at: 2026-11-20T13:07:16Z
 tags: ["codex-cli", "context-management", "tool-output", "harness-design", "SWE-bench", "context-compression", "configuration", "hooks"]
 ---
 

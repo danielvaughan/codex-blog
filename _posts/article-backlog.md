@@ -1,10 +1,39 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-20T11:37:36Z
+last_modified_at: 2026-11-20T13:07:16Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 20 November 2026 (Pass 1, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,123 articles, 134 premium. Sketchnotes: 1,258.*
+
+**Done this pass:**
+- ✅ **New article written** — `2026-11-20-codex-cli-v0171-stable-gpt62-sol-default-tui-workspace-remote-exec-mcp-statusline.md` (~1,500 words). Covers: v0.171.0 stable (Nov 20 00:44 UTC); GPT-6.2 Sol + Astra added to catalog, Sol becomes new default model — first default change since v0.168.0; TUI workspace panel enabled by default for all users (document previews, image previews, subagent transcripts); configurable undo/redo in non-Vim prompt composer including attachment and large paste restore; `codex exec --remote <ADDR>` for noninteractive remote sessions on existing app servers; `/rc` and `/remote` slash commands for TUI device pairing; custom MCP status line authoring via `/statusline`; four targeted bug fixes (draft preservation, permission profiles, late completion race, enterprise MCP sign-in); Desktop build 26.1117.31558 crash wave caveat (macOS ARM64, Windows — CLI unaffected); v0.173.0-alpha.1 opens 128 min after stable. Composite rating: **4.5** (Depth 4, Originality 3, Accuracy 5, Substack 4 — high-value release article, model default switch is the signal to watch against quality regression thread).
+- ✅ **Substack draft created** — `substack-drafts/2026-11-20-codex-cli-v0171-stable-gpt62-sol-default-tui-workspace-remote-exec-mcp-statusline.md`
+- ✅ **README updated** — article count 2,122 → 2,123; recent articles list updated.
+
+**Health check:**
+- Article count: 2,123 ✅ (+1 this pass)
+- Premium articles: 134 ✅
+- v0.171.0 stable: shipped 00:44 UTC Nov 20 — article written ✅
+- v0.173.0-alpha.1: open (00:50 UTC Nov 20) — monitor for feature signals
+- Desktop crash wave: 26.1117.31558 tracked — patch expected imminently
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.172.0 / v0.173.0 sprint article** — v0.173.0-alpha.1 opens; sparse notes; monitor for feature signals and stable candidate.
+- **"Is Codex CLI Getting Worse? The Quality Regression Debate"** — balanced analysis, regression data vs power-user results; GPT-6.2 Sol-as-default is the key variable; monitor 1–2 weeks before writing.
+- **"OpenAI Is Spending Your Credits Without Asking — The Billing Consent Flaw"** — Issue #62694; billing consent design; pairs with December limits megathread; high Substack potential.
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity; regulatory review live; enterprise governance angle.
+- **"I had no authority" — scope creep PREMIUM** — now reinforced by Issue #62666 (Codex Desktop background Git freeze). Requires dedicated pass.
+- **Desktop crash wave article** — #62703/#62698 combined; rapid-patch pattern; write when patch ships.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0 stable, v0.169.0 stable, v0.170.0 stable, v0.171.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident, Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 19 November 2026 (Pass 5, ~hourly UTC)

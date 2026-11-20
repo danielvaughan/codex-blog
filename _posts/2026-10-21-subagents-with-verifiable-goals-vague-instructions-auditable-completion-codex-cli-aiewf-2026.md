@@ -1,7 +1,7 @@
 ---
 title: "Subagents with Verifiable Goals: Moving from Vague Instructions to Auditable Completion"
 date: 2026-10-21T15:00:00+00:00
-last_modified_at: 2026-11-20T11:37:36Z
+last_modified_at: 2026-11-20T13:07:16Z
 parent: "Articles"
 nav_order: 1199
 tags:
