@@ -2,7 +2,7 @@
 title: "Codex's Three-Tier Browser Architecture: Plugins, Chrome Extension, and Sandboxed Browser"
 description: "Codex implements a hierarchical browser tool system that solves a fundamental challenge in agentic systems: tool selection as a first-class problem. Rather."
 date: 2026-05-17T00:00:00+00:00
-last_modified_at: 2026-11-20T13:07:16Z
+last_modified_at: 2026-11-20T19:05:40Z
 category: architecture
 tags:
   - browser-use

@@ -1,10 +1,39 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-20T13:07:16Z
+last_modified_at: 2026-11-20T19:05:40Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 20 November 2026 (Pass 2, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,123 articles, 123 premium. Sketchnotes: 1,254.*
+
+**Done this pass:**
+- ✅ **README counts synced** — Corrected stale counts: drafts 27→24, notes 1,207→1,272, announcements 27→39.
+
+**Health check:**
+- Article count: 2,123 ✅
+- Premium articles: 123 ✅
+- Sketchnotes: 1,254 ✅
+- v0.171.0 stable article: published ✅
+- v0.173.0-alpha.1: open — monitoring
+- Front matter ratings: all November articles rated ✅; October (48 articles) and September (89 articles) still missing ratings — complex cross-reference task, deferred.
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.172.0 / v0.173.0 sprint article** — v0.173.0-alpha.1 opens; sparse notes; monitor for feature signals and stable candidate.
+- **"Is Codex CLI Getting Worse? The Quality Regression Debate"** — balanced analysis, regression data vs power-user results; GPT-6.2 Sol-as-default is the key variable; monitor 1–2 weeks before writing.
+- **"OpenAI Is Spending Your Credits Without Asking — The Billing Consent Flaw"** — Issue #62694; billing consent design; pairs with December limits megathread; high Substack potential.
+- **"The Pierre acquisition question: who owns your Git history?"** — Nov 15 opportunity; regulatory review live; enterprise governance angle.
+- **"I had no authority" — scope creep PREMIUM** — now reinforced by Issue #62666 (Codex Desktop background Git freeze). Requires dedicated pass.
+- **Desktop crash wave article** — #62703/#62698 combined; rapid-patch pattern; write when patch ships.
+- **October/September rating backfill** — 48 Oct + 89 Sep articles missing front matter ratings; requires title-to-filename matching against article-ratings.md; not actionable in short automated passes.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0–v0.171.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident, Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 20 November 2026 (Pass 1, ~hourly UTC)
