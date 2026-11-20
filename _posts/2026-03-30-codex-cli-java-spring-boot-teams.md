@@ -2,7 +2,7 @@
 title: "Codex CLI for Java and Spring Boot Teams: AGENTS.md, Maven Sandboxing, and Gradle Workflows"
 description: "Java is one of the most-used languages in enterprise software, yet Codex CLI guidance skews heavily toward Python, TypeScript, and Go. This article fills."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-11-19T13:06:40Z
+last_modified_at: 2026-11-20T03:10:59Z
 tags:
   - language-guide
   - agents-md

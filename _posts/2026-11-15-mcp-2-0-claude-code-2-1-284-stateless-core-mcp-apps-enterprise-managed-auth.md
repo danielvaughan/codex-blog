@@ -3,7 +3,7 @@ title: "MCP 2.0: What Claude Code 2.1.284 Actually Changed About the Protocol"
 parent: "Articles"
 nav_order: 1235
 date: 2026-11-15T08:00:00+00:00
-last_modified_at: 2026-11-19T13:06:40Z
+last_modified_at: 2026-11-20T03:10:59Z
 tags:
   - mcp
   - mcp-2

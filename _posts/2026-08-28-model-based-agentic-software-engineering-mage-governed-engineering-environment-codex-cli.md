@@ -1,7 +1,7 @@
 ---
 title: "Model-Based Agentic Software Engineering: The MAGE Framework and What It Reveals About Codex CLI's Configuration Layer"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-11-19T13:06:40Z
+last_modified_at: 2026-11-20T03:10:59Z
 tags: ["codex-cli", "agents", "software-engineering", "MAGE", "AGENTS.md", "hooks", "governance", "configuration", "architecture"]
 ---
 
