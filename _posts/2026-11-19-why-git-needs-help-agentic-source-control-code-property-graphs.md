@@ -1,7 +1,7 @@
 ---
 title: "Why Git Needs Help: Moving from Files to Systems for Agentic Source Control"
 date: 2026-11-19T09:00:00+00:00
-last_modified_at: 2026-11-20T19:05:40Z
+last_modified_at: 2026-11-20T21:06:20Z
 tags:
   - git
   - agentic-development
@@ -18,7 +18,7 @@ substack: 4
 copy_edited: true
 ---
 
-<!-- sketchnote pending generation: 2026-11-19-why-git-needs-help-agentic-source-control-code-property-graphs.png -->
+![Sketchnote diagram for: Why Git Needs Help: Moving from Files to Systems for Agentic Source Control](/sketchnotes/articles/2026-11-19-why-git-needs-help-agentic-source-control-code-property-graphs.png)
 
 Git was designed in 2005 for humans collaborating over text. That design assumption — that code is flat text, that diffs are line-based, and that history is a sequence of human-authored commits — underpins every major version control system in production today. For two decades, it was correct enough. For agentic development at scale, it is becoming a bottleneck.
 
