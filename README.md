@@ -31,7 +31,7 @@ software engineering with Codex, published from a private source repository.
 | **Run it** | `bundle install && bundle exec jekyll serve`, then open <http://localhost:4000> |
 | **State** | Live and publishing; every push to `main` deploys |
 | **Work** | [Issues](https://github.com/danielvaughan/codex-blog/issues): 1 open on 21 November 2026 |
-| **Decisions** | Design notes in [`docs/superpowers/specs/`](docs/superpowers/specs/); house rules in [AGENTS.md](AGENTS.md) |
+| **Decisions** | House rules in [AGENTS.md](AGENTS.md); the April 2026 design notes are kept privately |
 
 ## Current state
 
@@ -120,7 +120,6 @@ read in the direction of the label.
 | `llms.txt`, `search.json`, `robots.txt` | Generated machine-readable index, search index and crawler rules |
 | `02bc222b25212df6c50e4a0673715a15.txt` | IndexNow ownership key file |
 | `CNAME`, `favicon.ico` | Custom domain and icon |
-| `docs/superpowers/` | Design specs and implementation plans from April 2026 (site design, reskin, shared code with the main site, book widget) |
 | `.github/workflows/` | `deploy.yml` and `indexnow.yml` |
 | `Gemfile` | `github-pages`, `jekyll-last-modified-at` and `webrick` |
 | `.pre-commit-config.yaml`, `.gitleaks.toml` | Gitleaks secret scan, with the public verification codes allow-listed |
@@ -134,8 +133,6 @@ read in the direction of the label.
 4. [`_layouts/post.html`](_layouts/post.html): what a reader sees on an article page.
 5. [`_pages/topics/index.md`](_pages/topics/index.md): the topic hubs that organise the articles.
 6. [`_posts/SYNCED-DO-NOT-EDIT.md`](_posts/SYNCED-DO-NOT-EDIT.md): the warning that these folders belong to the sync.
-7. [`docs/superpowers/specs/2026-04-07-codex-blog-design.md`](docs/superpowers/specs/2026-04-07-codex-blog-design.md):
-   why the site exists and how it was designed.
 
 ## How to run
 
@@ -172,7 +169,7 @@ Publishing needs no command:
 
 - 7 April 2026: created as the public face of the private `codex-resources` articles, first on the minimal-mistakes
   theme, then reskinned to match danielvaughan.com and sharing its styles through the `_main-site` submodule
-  (submodule last moved 10 April 2026). Design notes are in `docs/superpowers/specs/`.
+  (submodule last moved 10 April 2026).
 - 8 April 2026: book widget design; the site promotes the companion book from `_config.yml`.
 - 24 May 2026: custom domain and Actions-based Pages build set from the GitHub web interface.
 - The deploy uses `deploy.yml` rather than the native Pages build so non-whitelisted plugins such as
