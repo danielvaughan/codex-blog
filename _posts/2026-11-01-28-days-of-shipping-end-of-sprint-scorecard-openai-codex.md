@@ -1,7 +1,7 @@
 ---
 title: "28 Days of Shipping: The Final Scorecard"
 date: 2026-11-01T08:00:00+00:00
-last_modified_at: 2026-11-20T21:06:20Z
+last_modified_at: 2026-11-21T03:06:28Z
 parent: "Articles"
 nav_order: 1211
 tags:
