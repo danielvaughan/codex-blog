@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.171.0 Stable: GPT-6.2 Sol Default, TUI Workspace On, Remote Exec, and MCP Status Line"
 date: 2026-11-20T09:00:00+00:00
-last_modified_at: 2026-11-21T03:06:28Z
+last_modified_at: 2026-11-21T03:13:17Z
 tags:
   - codex-cli
   - v0.171.0
@@ -158,7 +158,7 @@ Four targeted fixes ship in v0.171.0:
 
 v0.172.0-alpha.2 was running in parallel with v0.171.0 stabilisation (last seen at alpha.2 on 19 November). With v0.171.0 now stable, that sprint may either continue toward its own stable or be absorbed — the pattern has varied across recent cycles.
 
-v0.173.0-alpha.1 opened at 02:50 UTC on 20 November, 128 minutes after v0.171.0 stable. This is consistent with the last two cycles: a new alpha sprint starts within hours of a stable promotion, maintaining continuous forward momentum.
+v0.173.0-alpha.1 opened at 02:50 UTC on 20 November, 126 minutes after v0.171.0 stable. This is consistent with the last two cycles: a new alpha sprint starts within hours of a stable promotion, maintaining continuous forward momentum.
 
 ---
 

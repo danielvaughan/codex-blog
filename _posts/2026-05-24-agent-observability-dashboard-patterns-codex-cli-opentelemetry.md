@@ -6,7 +6,7 @@ timestamp: 2026-05-24T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-24-agent-observability-dashboard-patterns-codex-cli-opentelemetry"
 tags: ["codex-cli", "opentelemetry", "observability", "monitoring", "dashboards", "tracing", "metrics", "grafana", "cost-management"]
 date: 2026-05-24T09:00:00+00:00
-last_modified_at: 2026-11-21T03:06:28Z
+last_modified_at: 2026-11-21T03:13:17Z
 ---
 # Agent Observability Dashboard Patterns: OpenTelemetry, Traces, and Cost Monitoring for Codex CLI
 
