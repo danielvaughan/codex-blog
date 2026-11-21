@@ -1,10 +1,42 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-21T10:26:08Z
+last_modified_at: 2026-11-21T13:05:28Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 21 November 2026 (Pass 3, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,126 articles, 134 premium. Sketchnotes: 1,254.*
+
+**Done this pass:**
+- ✅ **v0.173.0 alpha sprint KB note** — `notes/codex-v0173-alpha-sprint-nov21.md` written. Captured feature signals across alpha.1–alpha.4: reasoning summaries on by default (concurrent + TUI default + `/config` picker + fix), indexed web search opt-in default, TUI clipboard to Rex clients, MCP HTTP startup clarity, Guardian V2 enabled, model catalog collaboration guidance, Daybreak opt-out. Sprint article now research-ready; trigger is stable release.
+
+**Health check:**
+- Article count: 2,126 ✅
+- Premium articles: 134 ✅
+- Sketchnotes: 1,254 ✅
+- v0.171.0 stable: article written ✅, copy edited ✅
+- v0.173.0 sprint: alpha.4 live (Nov 21 00:35 UTC) — feature signals captured in `notes/codex-v0173-alpha-sprint-nov21.md`; not yet stable
+- Desktop crash wave: 26.1117.31558 — patch still pending
+- Quality regression thread: monitoring (1–2 week window before writing)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.173.0 sprint article** — research ready; write when stable ships. Headline: reasoning summaries as default + indexed web search.
+- **"Is Codex CLI Getting Worse? The Quality Regression Debate"** — monitor 1–2 weeks before writing.
+- **"OpenAI Is Spending Your Credits Without Asking — The Billing Consent Flaw"** — high Substack potential; carry forward.
+- **"The Pierre acquisition question: who owns your Git history?"** — regulatory review live; carry forward.
+- **"I had no authority" — scope creep PREMIUM** — requires dedicated pass.
+- **Desktop crash wave article** — write when patch ships.
+- **`codex exec --remote` deep-dive** — medium priority.
+- **`/statusline` command deep-dive** — low-medium priority.
+- **October/September rating backfill** — not actionable in short automated passes.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0–v0.171.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident, Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering, TUI Workspace) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 21 November 2026 (Pass 2, ~hourly UTC)

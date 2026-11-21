@@ -3,7 +3,7 @@ title: "Codex Cloud Thread Reliability: Three Fixes That Complete the State Mach
 parent: "Articles"
 nav_order: 1224
 date: 2026-11-09T11:00:00+00:00
-last_modified_at: 2026-11-21T10:26:08Z
+last_modified_at: 2026-11-21T13:05:28Z
 tags: ["codex-cli", "cloud", "reliability", "threads", "v0.169.0", "debugging", "transcripts"]
 copy_edited: true
 rating: 3.6
