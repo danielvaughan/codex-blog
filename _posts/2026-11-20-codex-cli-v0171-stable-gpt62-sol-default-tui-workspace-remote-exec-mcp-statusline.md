@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.171.0 Stable: GPT-6.2 Sol Default, TUI Workspace On, Remote Exec, and MCP Status Line"
 date: 2026-11-20T09:00:00+00:00
-last_modified_at: 2026-11-21T10:07:26Z
+last_modified_at: 2026-11-21T10:26:08Z
 tags:
   - codex-cli
   - v0.171.0

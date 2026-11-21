@@ -1,7 +1,7 @@
 ---
 title: "SKILL.state: O(T) Agent Memory — What Structured Execution State Means for Codex CLI Long-Horizon Tasks"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-11-21T10:07:26Z
+last_modified_at: 2026-11-21T10:26:08Z
 tags: ["codex-cli", "agent-architecture", "context-management", "compaction", "long-horizon", "memory", "hooks", "AGENTS.md"]
 ---
 

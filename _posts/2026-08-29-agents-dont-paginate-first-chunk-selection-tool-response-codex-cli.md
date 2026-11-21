@@ -1,7 +1,7 @@
 ---
 title: "Agents Don't Paginate: What First-Chunk Selection Means for Codex CLI Tool Output Design"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-11-21T10:07:26Z
+last_modified_at: 2026-11-21T10:26:08Z
 tags: ["codex-cli", "tool-responses", "token-budget", "mcp", "context-management", "file-reading", "hooks", "performance"]
 ---
 

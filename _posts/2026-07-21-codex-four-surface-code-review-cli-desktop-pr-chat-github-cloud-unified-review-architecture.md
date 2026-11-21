@@ -1,7 +1,7 @@
 ---
 title: "Four Surfaces, One Reviewer: How Codex Unifies Code Review Across CLI, Desktop, GitHub, and CI/CD"
 date: 2026-07-21T09:00:00+00:00
-last_modified_at: 2026-11-21T10:07:26Z
+last_modified_at: 2026-11-21T10:26:08Z
 tags: ["codex-cli", "code-review", "PR-Chat", "review-surfaces", "AGENTS.md", "review_model", "named-profiles", "GitHub-integration", "desktop-app", "CI/CD"]
 ---
 
