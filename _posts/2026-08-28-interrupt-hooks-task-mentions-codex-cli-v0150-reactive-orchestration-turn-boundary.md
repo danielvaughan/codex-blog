@@ -1,7 +1,7 @@
 ---
 title: "Interrupt Hooks and Task @ Mentions in Codex CLI v0.150.0: Reactive Orchestration at the Turn Boundary"
 date: 2026-08-28T09:00:00+00:00
-last_modified_at: 2026-11-21T03:13:17Z
+last_modified_at: 2026-11-21T05:12:17Z
 tags: ["codex-cli", "hooks", "multi-agent", "orchestration", "v0.150.0", "interrupt", "task-management", "reactive"]
 ---
 

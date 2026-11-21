@@ -1,7 +1,7 @@
 ---
 title: "Why Git Needs Help: Moving from Files to Systems for Agentic Source Control"
 date: 2026-11-19T09:00:00+00:00
-last_modified_at: 2026-11-21T03:13:17Z
+last_modified_at: 2026-11-21T05:12:17Z
 tags:
   - git
   - agentic-development

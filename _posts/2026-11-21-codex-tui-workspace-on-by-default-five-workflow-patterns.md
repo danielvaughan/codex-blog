@@ -1,7 +1,7 @@
 ---
 title: "Codex TUI Workspace Is Now On by Default: Five Workflow Patterns It Unlocks"
 date: 2026-11-21T08:00:00+00:00
-last_modified_at: 2026-11-21T03:13:17Z
+last_modified_at: 2026-11-21T05:12:17Z
 tags:
   - codex-cli
   - v0.171.0
@@ -17,7 +17,7 @@ depth: 4
 originality: 4
 accuracy: 5
 substack: 4
-copy_edited: false
+copy_edited: true
 ---
 
 If you opened Codex CLI after updating to v0.171.0 and found your terminal split in two, you are not alone. The TUI workspace panel — previously an opt-in feature requiring a configuration flag — is now on for every user by default. No config change needed, no flag to set. It is just there.
@@ -54,7 +54,7 @@ Before v0.171.0, subagent activity was largely opaque from within the TUI. You c
 
 If the split layout is not useful for your workflow — perhaps you are working on a small screen, or running Codex in a narrow terminal pane within a tmux layout — you can collapse the workspace.
 
-The workspace panel respects standard TUI resize bindings. Use the focus keys to move between panes and resize with the bracket keys (`[` and `]`) when the pane divider is focused. To collapse it entirely, reduce it to minimum width; on next launch it will restore to default unless you set the preference in config.
+The workspace panel respects standard TUI resize bindings. Use the focus keys to move between panes and resize with the bracket keys (`[` and `]`) when the pane divider is focused. To collapse it entirely, reduce it to minimum width; on next launch, it will restore to default unless you set the preference in config.
 
 For users who want to suppress the workspace permanently without updating per-session:
 
@@ -76,7 +76,7 @@ Previously: subagent returns unexpected output → you have no visibility into w
 
 With workspace: the subagent transcript streams in real time. You can watch tool calls as they execute and see exactly which call produced the divergence — the wrong file read, the malformed query, the tool that returned an unexpected schema — without instrumenting anything or re-running.
 
-This cuts debugging cycles for multi-agent tasks significantly. The first run is now also the diagnostic run.
+This significantly cuts debugging cycles for multi-agent tasks. The first run is now also the diagnostic run.
 
 ### 2. Verifying File Context Before a Destructive Write
 

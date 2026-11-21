@@ -1,7 +1,7 @@
 ---
 title: "PowerShell -EncodedCommand: Why Codex CLI Is Getting Quarantined by Enterprise Security Tools"
 date: 2026-11-12T10:00:00+00:00
-last_modified_at: 2026-11-21T03:13:17Z
+last_modified_at: 2026-11-21T05:12:17Z
 parent: "Articles"
 nav_order: 1231
 tags:

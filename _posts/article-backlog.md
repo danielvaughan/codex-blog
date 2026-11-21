@@ -1,10 +1,42 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-21T03:13:17Z
+last_modified_at: 2026-11-21T05:12:17Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 21 November 2026 (Pass 2, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,126 articles, 134 premium. Sketchnotes: 1,254.*
+
+**Done this pass:**
+- ✅ **Copy edit** — `2026-11-21-codex-tui-workspace-on-by-default-five-workflow-patterns.md` marked `copy_edited: true`. Three fixes applied: adverb placement ("cuts … significantly" → "significantly cuts"), comma after introductory adverbial clause ("on next launch, it will restore"), and front matter flag updated.
+
+**Health check:**
+- Article count: 2,126 ✅
+- Premium articles: 134 ✅
+- Sketchnotes: 1,254 ✅
+- v0.171.0 stable: article written ✅, copy edited ✅
+- v0.173.0-alpha.1: open — monitoring
+- Desktop crash wave: 26.1117.31558 — patch still pending
+- Quality regression thread: monitoring (1–2 week window before writing)
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.172.0 / v0.173.0 sprint article** — monitor for feature signals and stable candidate.
+- **"Is Codex CLI Getting Worse? The Quality Regression Debate"** — monitor 1–2 weeks before writing.
+- **"OpenAI Is Spending Your Credits Without Asking — The Billing Consent Flaw"** — high Substack potential; carry forward.
+- **"The Pierre acquisition question: who owns your Git history?"** — regulatory review live; carry forward.
+- **"I had no authority" — scope creep PREMIUM** — requires dedicated pass.
+- **Desktop crash wave article** — write when patch ships.
+- **`codex exec --remote` deep-dive** — medium priority.
+- **`/statusline` command deep-dive** — low-medium priority.
+- **October/September rating backfill** — not actionable in short automated passes.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0–v0.171.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident, Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering, TUI Workspace) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 21 November 2026 (Pass 1, ~hourly UTC)
