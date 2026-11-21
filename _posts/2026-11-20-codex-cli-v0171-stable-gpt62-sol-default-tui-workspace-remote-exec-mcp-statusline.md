@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.171.0 Stable: GPT-6.2 Sol Default, TUI Workspace On, Remote Exec, and MCP Status Line"
 date: 2026-11-20T09:00:00+00:00
-last_modified_at: 2026-11-21T07:08:26Z
+last_modified_at: 2026-11-21T10:07:26Z
 tags:
   - codex-cli
   - v0.171.0
@@ -171,7 +171,7 @@ The same day v0.171.0 CLI shipped, Codex Desktop build 26.1117.31558 introduced 
 - **#62698** — Windows kernel crashes on startup and during task interruptions
 - **#62701** — Windows `cyber_policy` interruptions blocking legitimate Unreal Engine code reviews
 
-These are Desktop-specific issues; the CLI v0.171.0 release is unaffected. A rapid patch to the Desktop build is likely given the breadth of platform coverage. If you are on macOS Apple Silicon or Windows and experience startup crashes after updating Desktop, the workaround is to roll back to the previous Desktop build while the patch releases.
+These are Desktop-specific issues; the CLI v0.171.0 release is unaffected. A rapid patch to the Desktop build is likely given the breadth of platform coverage. If you are on macOS Apple Silicon or Windows and experience startup crashes after updating Desktop, the workaround is to roll back to the previous Desktop build until a patch is released.
 
 ---
 

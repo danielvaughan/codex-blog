@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.168.0 Stable: Model Provider Selection, Resizable Side Panes, Audio Attachments, GIF Editing, and OSC 777 Notifications"
 date: 2026-11-13T03:54:00+00:00
-last_modified_at: 2026-11-21T07:08:26Z
+last_modified_at: 2026-11-21T10:07:26Z
 parent: "Articles"
 nav_order: 1233
 tags:
