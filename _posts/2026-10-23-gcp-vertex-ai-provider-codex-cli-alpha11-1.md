@@ -1,7 +1,7 @@
 ---
 title: "Built-In Google Cloud Vertex AI: Codex CLI Adds a Native GCP Provider"
 date: 2026-10-23T09:00:00+00:00
-last_modified_at: 2026-11-21T05:12:17Z
+last_modified_at: 2026-11-21T07:08:26Z
 parent: "Articles"
 nav_order: 1201
 tags:

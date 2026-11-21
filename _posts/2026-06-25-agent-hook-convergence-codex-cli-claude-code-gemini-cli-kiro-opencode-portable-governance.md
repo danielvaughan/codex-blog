@@ -5,7 +5,7 @@ timestamp: 2026-06-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-25-agent-hook-convergence-codex-cli-claude-code-gemini-cli-kiro-opencode-portable-governance"
 tags: ["codex-cli", "claude-code", "gemini-cli", "kiro", "opencode", "hooks", "extensibility", "governance", "enterprise", "portability"]
 date: 2026-06-25T09:00:00+00:00
-last_modified_at: 2026-11-21T05:12:17Z
+last_modified_at: 2026-11-21T07:08:26Z
 ---
 # The Agent Hook Convergence: How Five Coding Agents Arrived at the Same Extensibility Pattern — and What It Means for Portable Governance
 

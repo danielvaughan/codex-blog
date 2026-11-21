@@ -1,7 +1,7 @@
 ---
 title: "The Preference Engineering Playbook: From Captured Corrections to Compiled Enforcement in Codex CLI"
 date: 2026-07-24T09:00:00+00:00
-last_modified_at: 2026-11-21T05:12:17Z
+last_modified_at: 2026-11-21T07:08:26Z
 tags: ["codex-cli", "preferences", "TRACE", "compiled-enforcement", "memory-hygiene", "AGENTS.md", "hooks", "trust-tiers"]
 ---
 

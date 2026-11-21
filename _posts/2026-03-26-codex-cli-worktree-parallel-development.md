@@ -2,7 +2,7 @@
 title: "Worktree-Based Parallel Development with Codex CLI"
 description: "The core limitation of sequential AI agent workflows: one agent, one thread, one context. Every task blocks the next."
 date: 2026-03-26T09:00:00+00:00
-last_modified_at: 2026-11-21T05:12:17Z
+last_modified_at: 2026-11-21T07:08:26Z
 tags:
   - workflow-patterns
   - git-integration

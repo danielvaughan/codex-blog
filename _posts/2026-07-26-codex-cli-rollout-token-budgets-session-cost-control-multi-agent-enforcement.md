@@ -1,7 +1,7 @@
 ---
 title: "Rollout Token Budgets: How Codex CLI's Session-Level Cost Control Finally Stops Runaway Agent Spend"
 date: 2026-07-26T09:00:00+00:00
-last_modified_at: 2026-11-21T05:12:17Z
+last_modified_at: 2026-11-21T07:08:26Z
 tags: ["codex-cli", "token-budgets", "cost-control", "multi-agent", "enterprise", "configuration", "rollout-budget"]
 ---
 
