@@ -1,10 +1,44 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-22T10:27:18Z
+last_modified_at: 2026-11-22T15:06:48Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 22 November 2026 (Pass 1, ~15:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,126 articles, 134 premium. Sketchnotes: 1,254.*
+
+**Done this pass:**
+- ✅ **Changelog updated** — `notes/changelog-watch.md` updated with Nov 22 afternoon sweep: quota burn anomaly cluster (#63138, #63139, #63141), 4 new v0.173.0 sprint TUI commits (#63085, #63088, #63089, #63102), safety gate cluster continuation (#63131, #63137), and Windows/macOS platform issues (#63128, #63132–#63133).
+
+**Health check:**
+- Article count: 2,126 ✅
+- Premium articles: 134 ✅
+- Sketchnotes: 1,254 ✅
+- v0.171.0 stable: article written ✅, copy edited ✅
+- v0.173.0 sprint: alpha.4 still latest (Nov 21 00:35 UTC); 4 more TUI polish commits merged today; stable not yet shipped
+- Quota burn anomaly: **NEW — 3 reports in 90 minutes on Nov 22 (GPT-6.2 Sol, Astra, Medium)** — monitoring for OpenAI response
+- Safety gate over-triggering: cluster active (#63092, #63131, #63137) — 5+ reports across 2 days
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.173.0 sprint article** — research ready; write when stable ships. Headline: reasoning summaries as default + indexed web search.
+- **🚨 NEW: "GPT-6.2 Is Burning Quota 5x Faster — Metering Bug or Model Behaviour Change?"** — high Substack potential; 3 independent reports (#63138, #63139, #63141) on Nov 22; monitor for OpenAI acknowledgement; write if no fix by Nov 23.
+- **"GPT-6.2 Sol's Safety Layer: Miscalibrated or Just Stricter?"** — 5+ reports across #63092, #63080, #63072, #63131, #63137; threshold crossed; article-ready if pattern holds to Nov 23.
+- **"Is Codex CLI Getting Worse? The Quality Regression Debate"** — monitor 1–2 weeks before writing.
+- **"OpenAI Is Spending Your Credits Without Asking — The Billing Consent Flaw"** — carry forward; quota burn anomaly now adds urgency.
+- **"The Pierre acquisition question: who owns your Git history?"** — regulatory review live; carry forward.
+- **"I had no authority" — scope creep PREMIUM** — requires dedicated pass.
+- **Desktop crash wave article** — write when patch ships.
+- **`codex exec --remote` deep-dive** — medium priority.
+- **`/statusline` command deep-dive** — low-medium priority.
+- **October/September rating backfill** — not actionable in short automated passes.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0–v0.171.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident, Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering, TUI Workspace) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 21 November 2026 (Pass 3, ~hourly UTC)
