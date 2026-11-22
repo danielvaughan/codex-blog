@@ -6,7 +6,7 @@ timestamp: 2026-04-27T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-27-codex-cli-enterprise-managed-configuration-requirements-toml-admin-policies"
 tags: ["codex-cli", "enterprise", "managed-configuration", "requirements-toml", "MDM", "governance", "security", "admin", "compliance"]
 date: 2026-04-27T09:00:00+00:00
-last_modified_at: 2026-11-22T03:09:38Z
+last_modified_at: 2026-11-22T10:07:17Z
 ---
 # Codex CLI Enterprise Managed Configuration: requirements.toml, managed\_config.toml, and Admin-Enforced Policies
 

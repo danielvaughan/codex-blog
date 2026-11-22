@@ -2,7 +2,7 @@
 title: "Migrating from Cursor to Codex CLI"
 description: "Cursor's June 2025 pricing overhaul — replacing predictable 500-request plans with variable credit pools — sent a visible slice of its user base searching."
 date: 2026-03-28T09:00:00+00:00
-last_modified_at: 2026-11-22T03:09:38Z
+last_modified_at: 2026-11-22T10:07:17Z
 tags:
   - competitive-landscape
   - cursor

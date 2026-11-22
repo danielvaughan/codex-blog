@@ -1,7 +1,7 @@
 ---
 title: "Does Fixing Break Security? What 5,968 Iterative LLM Repair Timelines Reveal About Security Regression — and How Codex CLI's PostToolUse Hooks Defend Your Iteration Loop"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-11-22T03:09:38Z
+last_modified_at: 2026-11-22T10:07:17Z
 tags: ["codex-cli", "security-regression", "iterative-repair", "PostToolUse", "IaC", "hooks", "auto-review", "iteration-budget"]
 ---
 

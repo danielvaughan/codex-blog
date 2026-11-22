@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.171.0 Stable: GPT-6.2 Sol Default, TUI Workspace On, Remote Exec, and MCP Status Line"
 date: 2026-11-20T09:00:00+00:00
-last_modified_at: 2026-11-22T03:09:38Z
+last_modified_at: 2026-11-22T10:07:17Z
 tags:
   - codex-cli
   - v0.171.0
@@ -38,9 +38,9 @@ Within two hours of the stable tag, v0.173.0-alpha.1 opened — the dual-track a
 
 ## What Changed
 
-### 1. GPT-6.2 Sol and Astra Join the Model Catalog; Sol Becomes Default (#62106)
+### 1. GPT-6.2 Sol and Astra Join the Model Catalogue; Sol Becomes Default (#62106)
 
-The most consequential change in v0.171.0 is a model default switch. GPT-6.2 Sol replaces the previous default and joins GPT-6.2 Astra in the model catalog. This is the first model default change since v0.168.0.
+The most consequential change in v0.171.0 is a model default switch. GPT-6.2 Sol replaces the previous default and joins GPT-6.2 Astra in the model catalogue. This is the first model default change since v0.168.0.
 
 The timing is deliberate. A quality regression thread on community.openai.com — "Codex is rapidly degrading — please take this seriously" — had accumulated significant engagement by mid-November, with reports of ~67% task failure rates and 66–75% of token budgets consumed correcting Codex's own errors in affected workflows. The pattern appeared to track the GPT-5.x model series. Setting Sol as the new default is OpenAI's clearest signal that the model layer was the root cause.
 
@@ -54,7 +54,7 @@ codex --model gpt-6.2-sol  # explicit override
 cat ~/.codex/config.toml | grep model
 ```
 
-GPT-6.2 Astra is also available in the catalog for users who want to evaluate it directly:
+GPT-6.2 Astra is also available in the catalogue for users who want to evaluate it directly:
 
 ```bash
 codex --model gpt-6.2-astra

@@ -1,7 +1,7 @@
 ---
 title: "The Levels of Agentic Engineering: Why Tool Accumulation Is Not Progress"
 date: 2026-11-19T00:00:00+00:00
-last_modified_at: 2026-11-22T03:09:38Z
+last_modified_at: 2026-11-22T10:07:17Z
 tags:
   - agentic-engineering
   - maturity-model
@@ -19,8 +19,6 @@ accuracy: 5
 substack: 4
 copy_edited: true
 ---
-
-# The Levels of Agentic Engineering: Why Tool Accumulation Is Not Progress
 
 There is a failure mode spreading quietly through engineering teams that have adopted AI coding tools. It looks like progress. Teams install Codex CLI, then Claude Code, then Cursor, then a handful of MCP servers. The number of tools grows. The agent invocations multiply. The monthly spend climbs. And somewhere in that accumulation, teams convince themselves they are becoming more agentic.
 

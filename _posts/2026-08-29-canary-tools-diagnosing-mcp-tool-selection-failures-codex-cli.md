@@ -1,7 +1,7 @@
 ---
 title: "Canary in the Toolbox: Diagnosing MCP Tool-Selection Failures in Codex CLI"
 date: 2026-08-29T09:00:00+00:00
-last_modified_at: 2026-11-22T03:09:38Z
+last_modified_at: 2026-11-22T10:07:17Z
 tags: ["codex-cli", "mcp", "tool-selection", "reliability", "diagnostics", "evaluation"]
 ---
 
