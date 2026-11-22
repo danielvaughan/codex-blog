@@ -1,7 +1,7 @@
 ---
 title: "The Compaction Cliff: How Context Compaction Silently Erodes Your AGENTS.md Safety Rules"
 date: 2026-08-31T20:00:00+00:00
-last_modified_at: 2026-11-22T10:07:17Z
+last_modified_at: 2026-11-22T10:27:18Z
 tags: ["codex-cli", "context-compaction", "agents-md", "safety", "memory", "knowledge-triage", "long-horizon-agents"]
 ---
 
