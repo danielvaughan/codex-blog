@@ -1,7 +1,7 @@
 ---
 title: "LivePlan and Online Corrective Steering: Why Deterministic Drift Detection Plus LLM Advisory Beats Global Replanning — and How to Wire It into Codex CLI"
 date: 2026-08-10T09:00:00+00:00
-last_modified_at: 2026-11-21T13:05:28Z
+last_modified_at: 2026-11-22T03:09:38Z
 tags: ["codex-cli", "liveplan", "corrective-steering", "drift-detection", "PostToolUse", "hooks", "trajectory-monitoring", "agent-reliability"]
 ---
 

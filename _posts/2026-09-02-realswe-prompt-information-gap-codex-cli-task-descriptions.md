@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1104
 title: "The 6.4pp Tax: What RealSWE Reveals About Prompt Quality and How to Fix It in Codex CLI"
 date: 2026-09-02T20:00:00+00:00
-last_modified_at: 2026-11-21T13:05:28Z
+last_modified_at: 2026-11-22T03:09:38Z
 tags: ["codex-cli", "benchmarks", "research", "prompt-engineering", "agents-md", "swe-bench", "task-description", "requirements"]
 ---
 

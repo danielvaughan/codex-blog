@@ -1,7 +1,7 @@
 ---
 title: "Codex TUI Workspace Is Now On by Default: Five Workflow Patterns It Unlocks"
 date: 2026-11-21T08:00:00+00:00
-last_modified_at: 2026-11-21T13:05:28Z
+last_modified_at: 2026-11-22T03:09:38Z
 tags:
   - codex-cli
   - v0.171.0
@@ -114,6 +114,6 @@ The subagent transcript view in particular addresses the main friction point in 
 
 ## References
 
-- Codex CLI v0.171.0 release notes — github.com/openai/codex/releases/tag/v0.171.0 (2026-11-20)
+- Codex CLI v0.171.0 release notes — github.com/openai/codex/releases/tag/rust-v0.171.0 (2026-11-20)
 - Pull requests: #61352, #61888, #61889, #61919, #62157 (TUI workspace enablement by default)
 - Related KB article: [Codex CLI v0.171.0 Stable: GPT-6.2 Sol Default, TUI Workspace On, Remote Exec, and MCP Status Line](2026-11-20-codex-cli-v0171-stable-gpt62-sol-default-tui-workspace-remote-exec-mcp-statusline.md)

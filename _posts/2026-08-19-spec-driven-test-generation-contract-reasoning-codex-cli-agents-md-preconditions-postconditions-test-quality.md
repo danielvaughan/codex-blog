@@ -1,7 +1,7 @@
 ---
 title: "Spec-Driven Test Generation: What Contract Reasoning Reveals About Your Codex CLI Test Workflow"
 date: 2026-08-19T09:00:00+00:00
-last_modified_at: 2026-11-21T13:05:28Z
+last_modified_at: 2026-11-22T03:09:38Z
 tags: ["codex-cli", "test-generation", "spec-driven", "contracts", "AGENTS.md", "pre-conditions", "post-conditions", "PostToolUse", "hooks", "code-quality"]
 ---
 
