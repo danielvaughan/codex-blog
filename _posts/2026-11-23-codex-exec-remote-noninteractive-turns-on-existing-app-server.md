@@ -1,7 +1,7 @@
 ---
 title: "codex exec --remote: Running Non-Interactive Turns on an Existing App Server"
 date: 2026-11-23T08:00:00+00:00
-last_modified_at: 2026-11-23T07:09:13Z
+last_modified_at: 2026-11-23T10:07:45Z
 tags:
   - codex-cli
   - v0.171.0
@@ -31,7 +31,7 @@ Two new options are added to the exec command line (`codex-rs/exec/src/cli.rs` i
 | `--remote <ADDR>` | "Connect to an existing app server." | Declared `global`, so it is accepted on `exec` and `exec resume` |
 | `--remote-auth-token-env <ENV_VAR>` | "Environment variable containing the remote WebSocket bearer token." | The token is read from the named environment variable, never passed on the command line |
 
-The PR also lets you put the remote options before `exec`. The dispatcher copies the root-level `--remote` and `--remote-auth-token-env` onto the exec command, and fails with "`codex exec` received conflicting remote server endpoints" if the two positions name different endpoints. The test for this uses two `wss://` addresses, which is the one address form the source shows.
+The PR also lets you put the remote options before `exec`. The dispatcher copies the root-level `--remote` and `--remote-auth-token-env` onto the exec command, and fails with "`codex exec` received conflicting remote server endpoints" if the two positions name different endpoints. The test for this uses two `wss://` addresses — the only address format the source documents.
 
 ---
 
