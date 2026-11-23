@@ -1,10 +1,48 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-23T10:26:56Z
+last_modified_at: 2026-11-23T11:04:52Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 23 November 2026 (Pass 1, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,127 articles, 134 premium. Sketchnotes: 1,254.*
+
+**Done this pass:**
+- ✅ **New article copy-edited and rated** — `articles/2026-11-23-codex-exec-remote-noninteractive-turns-on-existing-app-server.md` — `copy_edited: true`, `rating: 4.0` added to front matter. Article was copy-edited in a prior commit (6a3e966c); flags were missing.
+- ✅ **Changelog updated** — `notes/changelog-watch.md` updated with Nov 23 KB sweep: 10 v0.173.0 sprint PRs (#63237, #63258, #63262, #63219, #63266, #63278, #63281, #63280, #63283, #63275), macOS crash on 2nd message (#63285, HIGH), attachment materialisation regression (#63261, Windows Pro), sub-agent AGENTS.md inheritance bug (#63260), safety block cluster expansion (#63254).
+
+**Health check:**
+- Article count: 2,127 ✅ (+1 this period: exec-remote)
+- Premium articles: 134 ✅
+- Sketchnotes: 1,254 ✅
+- v0.171.0 stable: article written ✅, copy edited ✅, rated ✅
+- v0.173.0 sprint: alpha.4 still latest (Nov 21 00:35 UTC); 10 more sprint commits merged Nov 23; stable not yet shipped
+- Quota burn anomaly: 3 reports (#63138, #63139, #63141) on Nov 22 — **deadline day: write if no OpenAI fix posted**
+- Safety gate over-triggering: cluster now 6+ reports across #63092, #63080, #63072, #63131, #63137, #63254 — article-ready
+- macOS crash on second message (#63285): HIGH severity; watch for more reports / hotfix
+- Attachment materialisation regression (#63261): Windows Pro; urgent; watch for hotfix
+- Git status: clean after commit
+
+**Outstanding backlog items (carry forward):**
+- **v0.173.0 sprint article** — research ready; write when stable ships. Headline: reasoning summaries as default + indexed web search.
+- **🚨 "GPT-6.2 Is Burning Quota 5x Faster — Metering Bug or Model Behaviour Change?"** — deadline passed (Nov 23); 3 independent reports; write unless OpenAI has acknowledged a fix today.
+- **"GPT-6.2 Sol's Safety Layer: Miscalibrated or Just Stricter?"** — 6+ reports; threshold crossed; article-ready.
+- **"26.1117 Build Cluster: What Broke and When to Expect the Fix"** — 8+ issues including HIGH macOS crash; article-ready if crash reports multiply today.
+- **"The Hidden AGENTS.md Inheritance Gap in Codex Multi-Agent Spawning"** — sub-agent blind-start bug (#63260); strong niche article.
+- **"Is Codex CLI Getting Worse? The Quality Regression Debate"** — monitor 1–2 weeks before writing.
+- **"OpenAI Is Spending Your Credits Without Asking — The Billing Consent Flaw"** — carry forward; quota burn anomaly adds urgency.
+- **"The Pierre acquisition question: who owns your Git history?"** — regulatory review live; carry forward.
+- **"I had no authority" — scope creep PREMIUM** — requires dedicated pass.
+- **Desktop crash wave article** — write when patch ships.
+- **`/statusline` command deep-dive** — low-medium priority.
+- **October/September rating backfill** — not actionable in short automated passes.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0–v0.171.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident, Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering, TUI Workspace, exec-remote) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 22 November 2026 (Pass 1, ~15:00 UTC)

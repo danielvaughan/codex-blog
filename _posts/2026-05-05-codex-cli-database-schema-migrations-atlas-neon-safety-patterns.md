@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-database-schema-migrations-atlas-neon-safety-patterns"
 tags: ["codex-cli", "database", "migrations", "atlas", "neon", "mcp", "schema", "safety", "skills"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-11-23T10:26:56Z
+last_modified_at: 2026-11-23T11:04:52Z
 ---
 # Database Schema Migrations with Codex CLI: Atlas Skills, Neon Branching, and Safety Patterns
 

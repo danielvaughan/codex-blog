@@ -1,7 +1,7 @@
 ---
 title: "Steering vs Dispatching: The Two Agent Interaction Patterns Every Developer Needs"
 date: 2026-07-18T09:00:00+00:00
-last_modified_at: 2026-11-23T10:26:56Z
+last_modified_at: 2026-11-23T11:04:52Z
 tags: ["codex-cli", "claude-code", "agent-patterns", "steering", "dispatching", "workflow", "developer-productivity", "agentic-coding"]
 ---
 

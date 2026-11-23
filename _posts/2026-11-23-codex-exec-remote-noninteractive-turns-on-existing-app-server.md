@@ -1,7 +1,7 @@
 ---
 title: "codex exec --remote: Running Non-Interactive Turns on an Existing App Server"
 date: 2026-11-23T08:00:00+00:00
-last_modified_at: 2026-11-23T10:26:56Z
+last_modified_at: 2026-11-23T11:04:52Z
 tags:
   - codex-cli
   - v0.171.0
@@ -12,6 +12,8 @@ tags:
   - ci-cd
   - thread-resume
   - authentication
+rating: 4.0
+copy_edited: true
 ---
 
 `codex exec` has always started a fresh agent in the process that ran it. From v0.171.0 it can instead be a thin client: point it at an app server that is already running, and the turn runs there, using that server's configuration, credentials and filesystem. This article reads the implementing change, [openai/codex#61707](https://github.com/openai/codex/pull/61707) ("Support remote app servers in `codex exec`", merged 16 November 2026), to pin down what the flag does, what it refuses to do, and where earlier coverage in this knowledge base was imprecise.
