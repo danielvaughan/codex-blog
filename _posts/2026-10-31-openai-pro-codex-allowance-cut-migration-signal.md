@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Halves Pro Codex Allowance: The Trigger Developers Were Waiting For"
 date: 2026-10-31T09:30:00+00:00
-last_modified_at: 2026-11-23T11:04:52Z
+last_modified_at: 2026-11-23T18:09:09Z
 tags:
   - codex-cli
   - pricing

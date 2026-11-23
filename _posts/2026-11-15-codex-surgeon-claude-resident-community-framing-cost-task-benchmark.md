@@ -1,7 +1,7 @@
 ---
 title: '"Codex Surgeon, Claude Resident": How the Developer Community Settled Its Most-Debated Question'
 date: 2026-11-15T10:00:00+00:00
-last_modified_at: 2026-11-23T11:04:52Z
+last_modified_at: 2026-11-23T18:09:09Z
 parent: "Articles"
 nav_order: 1235
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-23T11:04:52Z
+last_modified_at: 2026-11-23T18:09:09Z
 tags:
   - backlog
   - planning
@@ -16768,3 +16768,10 @@ The following gaps were identified during the 17 June 2026 article rating review
    - Gap: Editorial-style premium piece. The five structural failures — turns-squared accumulation, cached input billing regression, compaction spiral, mutable model versions, quota merger opacity — are individually addressable. Together they form a pattern: developer-visible infrastructure does not meet the standards of comparably-priced developer tools. The article frames what a credible trust reset would require: concrete transparency commitments, monitoring infrastructure (comparable to what npm, Docker, GitHub maintain for their ecosystems), and an accountability mechanism for quality regressions. High editorial risk. High reward if the piece lands with the right audience and OpenAI responds publicly.
    - Priority: 🟡 Medium — editorial risk requires careful timing; best published after the December announcement has fully landed and community response is complete.
 
+
+### 212 · EDR Quarantine Defence Kit: Windows Enterprise Safe Deployment
+
+1. 📝 **EDR Quarantine Defence Kit: Auditing Codex CLI's Windows Subprocess Surface Against Enterprise Security Tools** — Identified 2026-11-23 by article-rater
+   - Sources: PowerShell -EncodedCommand EDR Quarantine (4.0, Pass 26), Windows Binary Hijacking (4.8), The Windows Platform Health Dashboard backlog #207, Command Safety Defence in Depth (4.4), v0.169.0 Stable Windows release articles.
+   - Gap: The `-EncodedCommand` fix addresses the notification dispatch path only. A wider audit is needed: what other Codex CLI Windows behaviours (sandbox subprocess spawning, MCP OAuth token cache paths, Noise Protocol relay processes, PowerShell-based install scripts) trigger common EDR heuristics? Key sections: threat-model for enterprise-class EDR detection (CrowdStrike, Defender for Endpoint, SentinelOne, Carbon Black), audit methodology (run Codex CLI in EDR-instrumented environment, capture all subprocess spawns and file system writes), per-behaviour remediation matrix, whitelist policy templates for enterprise security teams, tracking issue references. Pairs naturally with existing Windows Binary Hijacking article (5-layer defence analysis) and the broader Windows Enterprise Health Dashboard.
+   - Priority: 🟠 High — time-sensitive; EDR quarantine is an active blocker; enterprise procurement decisions are being made now.

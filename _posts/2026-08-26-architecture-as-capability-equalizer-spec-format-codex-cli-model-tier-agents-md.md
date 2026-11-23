@@ -1,7 +1,7 @@
 ---
 title: "Architecture Specs as a Capability Equalizer: What Spec Format Tells Us About Codex CLI Model Tier Selection"
 date: 2026-08-26T09:00:00+00:00
-last_modified_at: 2026-11-23T11:04:52Z
+last_modified_at: 2026-11-23T18:09:09Z
 tags: ["codex-cli", "architecture", "specification-formats", "model-selection", "AGENTS.md", "named-profiles", "cost-optimisation", "research"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Reasoning Effort, Not Tool Access, Buys First-Try Reliability: What 90 Agent Runs Reveal — and How to Configure Codex CLI's Reasoning Levels"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-11-23T11:04:52Z
+last_modified_at: 2026-11-23T18:09:09Z
 tags: ["codex-cli", "reasoning-effort", "agentic-coding", "first-try-reliability", "model-configuration", "cost-optimisation"]
 ---
 
