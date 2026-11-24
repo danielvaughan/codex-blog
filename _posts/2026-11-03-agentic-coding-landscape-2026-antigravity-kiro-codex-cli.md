@@ -1,7 +1,7 @@
 ---
 title: "The 2026 Agentic Coding Landscape: Antigravity Is Live, Kiro Survives a Security Crisis, and Codex Finishes a Sprint"
 date: 2026-11-03T09:00:00+00:00
-last_modified_at: 2026-11-24T11:39:03Z
+last_modified_at: 2026-11-24T17:05:09Z
 parent: "Articles"
 nav_order: 1213
 tags:
