@@ -1,10 +1,45 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-24T17:05:09Z
+last_modified_at: 2026-11-24T21:05:41Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 24 November 2026 (Pass 2, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,126 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check completed** — no new articles since Pass 1; counts stable; no uncommitted changes.
+
+**Health check:**
+- Article count: 2,126 ✅ (no change)
+- Premium articles: 123 ✅
+- Sketchnotes: 1,255 ✅
+- v0.173.0 sprint: stable not yet shipped; watch for release
+- Quota burn anomaly (#63138, #63139, #63141): no OpenAI fix confirmed; article remains overdue
+- Safety gate over-triggering: cluster at 6+ reports — article-ready
+- macOS crash on second message (#63285): HIGH severity; watch for hotfix
+- Attachment materialisation regression (#63261): Windows Pro; watch for hotfix
+- Git status: clean
+
+**Outstanding backlog items (carry forward):**
+- **v0.173.0 sprint article** — write when stable ships. Headline: reasoning summaries as default + indexed web search.
+- **🚨 "GPT-6.2 Is Burning Quota 5x Faster — Metering Bug or Model Behaviour Change?"** — 3 independent reports; write unless OpenAI has acknowledged a fix.
+- **"GPT-6.2 Sol's Safety Layer: Miscalibrated or Just Stricter?"** — 6+ reports; article-ready.
+- **"26.1117 Build Cluster: What Broke and When to Expect the Fix"** — macOS crash + attachment regression; article-ready if crash reports multiply.
+- **"The Hidden AGENTS.md Inheritance Gap in Codex Multi-Agent Spawning"** — sub-agent blind-start bug (#63260); strong niche article.
+- **"Is Codex CLI Getting Worse? The Quality Regression Debate"** — monitor 1–2 weeks before writing.
+- **"OpenAI Is Spending Your Credits Without Asking — The Billing Consent Flaw"** — carry forward; quota burn anomaly adds urgency.
+- **"The Pierre acquisition question: who owns your Git history?"** — regulatory review live; carry forward.
+- **"I had no authority" — scope creep PREMIUM** — requires dedicated pass.
+- **Desktop crash wave article** — write when patch ships.
+- **October/September rating backfill** — not actionable in short automated passes.
+- **Outstanding sketchnotes** (Token Spiral, Quota Governance Playbook, Firecracker CVE, AGENTS.md Cloud Patterns, v0.168.0–v0.171.0 stable, Compaction Spiral, Zombie Process, Surgeon/Resident, Why Git Needs Help, Invisible Tax, Levels of Agentic Engineering, TUI Workspace, exec-remote, statusline) — Requires Gemini pipeline; not actionable in automated passes.
+- **Premium draft publication candidates (3)** — Carry forward.
+
 ---
 
 ## Article Triage — 24 November 2026 (Pass 1, ~hourly UTC)

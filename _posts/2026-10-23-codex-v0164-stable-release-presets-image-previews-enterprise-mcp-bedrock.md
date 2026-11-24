@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.164.0 Stable: /presets, Image Previews, Enterprise MCP GA, and Bedrock Default-On"
 date: 2026-10-23T08:00:00+00:00
-last_modified_at: 2026-11-24T17:05:09Z
+last_modified_at: 2026-11-24T21:05:41Z
 parent: "Articles"
 nav_order: 1200
 tags:

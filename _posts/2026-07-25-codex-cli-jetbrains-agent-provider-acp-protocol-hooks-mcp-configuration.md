@@ -1,7 +1,7 @@
 ---
 title: "Codex as JetBrains Agent Provider: How ACP, Hooks, and MCP Server Management Turn Your IDE into a Multi-Agent Control Plane"
 date: 2026-07-25T09:00:00+00:00
-last_modified_at: 2026-11-24T17:05:09Z
+last_modified_at: 2026-11-24T21:05:41Z
 tags: ["codex-cli", "jetbrains", "acp", "agent-client-protocol", "ide-integration", "mcp", "hooks", "junie", "configuration"]
 ---
 
