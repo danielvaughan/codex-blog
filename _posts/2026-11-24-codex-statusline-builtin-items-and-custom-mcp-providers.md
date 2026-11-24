@@ -1,7 +1,7 @@
 ---
 title: "The Codex /statusline Command: 33 Built-In Items and the Experimental MCP Provider Contract"
 date: 2026-11-24T08:00:00+00:00
-last_modified_at: 2026-11-24T07:15:26Z
+last_modified_at: 2026-11-24T10:07:22Z
 tags:
   - codex-cli
   - v0.171.0
@@ -112,7 +112,7 @@ The skill and the type file together state hard ceilings. Codex accepts at most:
 | UTF-8 text across string leaves | 16 KiB |
 | Time for each read | 1 second |
 
-After a successful read, Codex waits one second before reading again. An error or a timeout stops polling altogether, and the skill says to reselect the provider in `/statusline` to restart it. If the footer has fallen back, the skill says F2 shows the failed attempt.
+After a successful read, Codex waits one second before reading again. An error or a timeout stops polling altogether, and the skill says to reselect the provider in `/statusline` to restart it. If the footer has fallen back, the skill says that F2 shows the failed attempt.
 
 ### A minimal provider
 
@@ -143,7 +143,7 @@ The v0.171.0 coverage in this repository ([Codex CLI v0.171.0 Stable](codex-cli-
 Reasonable guidance, inferred from the constraints above rather than stated in the sources:
 
 - Start with the built-in items. 33 are available, and they cover model, git, budget and safety posture with no code and no flag.
-- Write a provider only for data Codex does not already track, or for layout the picker cannot express.
+- Write a provider only for data Codex does not already track, or for layout that the picker cannot express.
 - Keep a provider's `resources/read` cheap. With a one-second budget and polling that ends on any error, a slow network call in the render path will silently kill the footer.
 - Remember that the footer is per-thread input. The snapshot is for "the displayed thread", so a provider should be a pure function of the snapshot plus any fast local state.
 

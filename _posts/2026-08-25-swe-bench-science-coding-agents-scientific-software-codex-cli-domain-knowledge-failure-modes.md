@@ -1,7 +1,7 @@
 ---
 title: "SWE-bench Science: Why Coding Agents Fail at Scientific Software — and What It Means for Your Codex CLI Configuration"
 date: 2026-08-25T09:00:00+00:00
-last_modified_at: 2026-11-24T07:15:26Z
+last_modified_at: 2026-11-24T10:07:22Z
 tags: ["codex-cli", "benchmarks", "scientific-software", "evaluation", "domain-knowledge", "AGENTS.md", "failure-modes", "SWE-bench"]
 ---
 

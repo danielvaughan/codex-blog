@@ -1,7 +1,7 @@
 ---
 title: "When Your Agent Looks Like an Attacker: Why AI Coding Agents Trigger EDR Rules and How Codex CLI's Sandbox Keeps You Safe"
 date: 2026-07-20T09:00:00+00:00
-last_modified_at: 2026-11-24T07:15:26Z
+last_modified_at: 2026-11-24T10:07:22Z
 tags: ["codex-cli", "security", "EDR", "endpoint-detection", "sandbox", "Landlock", "Seatbelt", "LOLBin", "DPAPI", "credential-access", "enterprise", "Sophos"]
 ---
 

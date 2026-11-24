@@ -1,7 +1,7 @@
 ---
 title: "Adversarial Review: Why Structured Disagreement Beats Consensus in Agentic Code Review — and How to Wire It in Codex CLI"
 date: 2026-08-30T11:00:00+00:00
-last_modified_at: 2026-11-24T07:15:26Z
+last_modified_at: 2026-11-24T10:07:22Z
 tags: ["codex-cli", "multi-agent", "code-review", "adversarial-review", "structured-disagreement", "subagents", "AGENTS.md", "harness-engineering"]
 ---
 
