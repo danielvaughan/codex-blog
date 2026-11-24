@@ -2,7 +2,7 @@
 title: "gstack: Garry Tan's Production Claude Code Skills Toolkit"
 description: "gstack is Garry Tans open-source software factory: 31 slash-command skills for Claude Code (and Codex CLI, Cursor."
 date: 2026-03-30T08:00:00+00:00
-last_modified_at: 2026-11-24T03:11:45Z
+last_modified_at: 2026-11-24T07:15:26Z
 tags:
   - ecosystem
   - skills
