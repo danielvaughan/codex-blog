@@ -1,10 +1,29 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-24T21:05:41Z
+last_modified_at: 2026-11-24T23:04:03Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 24 November 2026 (Pass 3, ~23:03 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,126 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check completed** — no new articles since Pass 2; counts stable; no uncommitted changes.
+
+**Health check:**
+- Article count: 2,126 ✅ (no change)
+- Premium articles: 123 ✅
+- Sketchnotes: 1,255 ✅
+- v0.173.0 sprint: stable not yet shipped; watch for release
+- Quota burn anomaly (#63138, #63139, #63141): no OpenAI fix confirmed; article remains overdue
+- Safety gate over-triggering: cluster at 6+ reports — article-ready
+- macOS crash on second message (#63285): HIGH severity; watch for hotfix
+- Attachment materialisation regression (#63261): Windows Pro; watch for hotfix
+
 ---
 
 ## Article Triage — 24 November 2026 (Pass 2, ~hourly UTC)
