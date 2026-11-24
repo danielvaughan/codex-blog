@@ -1,7 +1,7 @@
 ---
 title: "The Codex /statusline Command: 33 Built-In Items and the Experimental MCP Provider Contract"
 date: 2026-11-24T08:00:00+00:00
-last_modified_at: 2026-11-24T10:26:39Z
+last_modified_at: 2026-11-24T11:39:03Z
 tags:
   - codex-cli
   - v0.171.0
@@ -134,7 +134,7 @@ The skill's enable steps: register the server on the host that runs the app serv
 
 ## What This Corrects
 
-The v0.171.0 coverage in this repository ([Codex CLI v0.171.0 Stable](codex-cli-v0171-stable-gpt62-sol-default-tui-workspace-remote-exec-mcp-statusline)) says the status line is "authored by the MCP server on each update cycle". The source describes a pull model instead: the TUI reads a resource roughly once a second, with a one-second timeout, and stops on the first failure. Examples such as a build-status or database-connection indicator remain plausible uses, but they are inferences, not documented samples; the only shipped sample displays the model name and agent state.
+The v0.171.0 coverage in this repository ([Codex CLI v0.171.0 Stable](/2026/11/20/codex-cli-v0171-stable-gpt62-sol-default-tui-workspace-remote-exec-mcp-statusline/)) says the status line is "authored by the MCP server on each update cycle". The source describes a pull model instead: the TUI reads a resource roughly once a second, with a one-second timeout, and stops on the first failure. Examples such as a build-status or database-connection indicator remain plausible uses, but they are inferences, not documented samples; the only shipped sample displays the model name and agent state.
 
 ---
 
