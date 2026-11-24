@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Operations Layer: What Microsoft Ignite 2026 Signals for Enterprise AI"
 date: 2026-11-18T00:00:00+00:00
-last_modified_at: 2026-11-23T18:09:09Z
+last_modified_at: 2026-11-24T03:11:45Z
 tags:
   - microsoft-ignite
   - enterprise
@@ -73,7 +73,7 @@ This is not a subtle distinction. Teams that get the architecture wrong build sy
 
 ## The Competitive Response
 
-The model vendors understand this shift. Claude Code 2.1.326, released 18 November, adds Code Mode for agent teams — a configuration specifically designed for multi-agent deployments where one Codex or Claude Code instance is directing others. The same release strengthens sandbox protections and extends Remote Control streaming. These are not model capability improvements. They are operations layer improvements: better isolation, better observability, better control for the enterprise contexts where agentic engineering is now standard.
+The model vendors understand this shift. Claude Code 2.1.326, released 16 November, adds Code Mode for agent teams — a configuration specifically designed for multi-agent deployments where one Codex or Claude Code instance is directing others. The same release strengthens sandbox protections and extends Remote Control streaming. These are not model capability improvements. They are operations layer improvements: better isolation, better observability, better control for the enterprise contexts where agentic engineering is now standard.
 
 The pattern will continue. As frontier model quality converges toward commodity, the vendors that win enterprise contracts will be those with the strongest story on operations: governance tooling, audit trails, budget controls, multi-agent coordination primitives, and enterprise support. Model quality will remain a factor but it will not be the deciding one.
 

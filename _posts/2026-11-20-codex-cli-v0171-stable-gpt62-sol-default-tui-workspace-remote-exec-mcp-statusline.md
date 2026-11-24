@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.171.0 Stable: GPT-6.2 Sol Default, TUI Workspace On, Remote Exec, and MCP Status Line"
 date: 2026-11-20T09:00:00+00:00
-last_modified_at: 2026-11-23T18:09:09Z
+last_modified_at: 2026-11-24T03:11:45Z
 tags:
   - codex-cli
   - v0.171.0
@@ -95,17 +95,17 @@ Shortcuts are configured in `~/.codex/config.toml` under the `[keybindings]` sec
 
 ### 4. Remote Session Exec: `codex exec --remote <ADDR>` (#61707)
 
-v0.171.0 introduces `codex exec --remote <ADDR>` — a new flag that connects to or resumes a noninteractive session on an existing Codex app server.
+v0.171.0 introduces `codex exec --remote <ADDR>` — a new flag that starts a new noninteractive thread on an existing Codex app server and runs a turn there, using the server's configuration, credentials, and filesystem.
 
-The use case: Codex sessions running on a remote server (a CI runner, a cloud VM, a shared development machine) are now addressable from a local terminal without opening a new session. You provide the address of the existing app server and `--remote` attaches to that session's execution context.
+The use case: Codex app servers running on a remote host (a CI runner, a cloud VM, a shared development machine) are now addressable from a local terminal. You provide the WebSocket address of the existing app server and `--remote` creates a new thread there and runs the prompt, without spinning up a new local agent process.
 
 ```bash
-codex exec --remote 10.0.1.42:3000 "run the full test suite and summarise failures"
+codex exec --remote wss://10.0.1.42:3000 "run the full test suite and summarise failures"
 ```
 
 This is the noninteractive complement to the `/rc` and `/remote` TUI commands (below). Where those commands pair a TUI device for interactive remote control, `codex exec --remote` sends a one-shot instruction to a running server without opening an interactive session.
 
-The practical application in multi-agent builds: an orchestrator process can dispatch work to a fleet of Codex app servers by address, without each dispatch requiring a new session startup handshake. Session state on the target server persists between calls.
+The practical application in multi-agent builds: an orchestrator process can dispatch work to a fleet of Codex app servers by address, without each dispatch requiring a new session startup handshake. To continue a previous session, capture the thread UUID from the first run and use `codex exec resume --remote <ADDR> <UUID>` for follow-up turns.
 
 ---
 
