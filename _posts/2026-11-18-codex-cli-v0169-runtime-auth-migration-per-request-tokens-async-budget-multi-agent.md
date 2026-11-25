@@ -1,7 +1,7 @@
 ---
 title: "How Codex CLI v0.169.0 Rewired Its Authentication Layer: Per-Request Tokens, Async Budget Checks, and What It Means for Multi-Agent Builds"
 date: 2026-11-18T10:00:00+00:00
-last_modified_at: 2026-11-25T03:43:17Z
+last_modified_at: 2026-11-25T05:11:48Z
 parent: "Articles"
 nav_order: 2120
 tags:

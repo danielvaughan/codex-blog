@@ -5,7 +5,7 @@ timestamp: 2026-05-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-30-llmops-with-codex-cli-prompt-versioning-eval-pipelines-observability"
 tags: ["codex-cli", "llmops", "prompt-versioning", "evaluation", "observability", "langfuse", "braintrust", "promptfoo", "mcp", "ci-cd"]
 date: 2026-05-30T09:00:00+00:00
-last_modified_at: 2026-11-25T03:43:17Z
+last_modified_at: 2026-11-25T05:11:48Z
 ---
 # LLMOps with Codex CLI: Prompt Versioning, Eval Pipelines, and Production Observability
 

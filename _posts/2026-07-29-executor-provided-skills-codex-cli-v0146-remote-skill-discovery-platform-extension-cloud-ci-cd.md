@@ -5,7 +5,7 @@ timestamp: 2026-07-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-29-executor-provided-skills-codex-cli-v0146-remote-skill-discovery-platform-extension-cloud-ci-cd"
 tags: ["codex-cli", "skills", "executor", "platform-extension", "v0.146.0", "cloud", "ci-cd", "SKILL.md", "selectedCapabilityRoots"]
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-11-25T03:43:17Z
+last_modified_at: 2026-11-25T05:11:48Z
 ---
 # Executor-Provided Skills in Codex CLI v0.146: How Remote Environments Now Contribute Skills to Your Agent
 

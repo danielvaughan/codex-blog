@@ -1,7 +1,7 @@
 ---
 title: "GPT-5.6 on Amazon Bedrock: Configuring Codex CLI for Multi-Cloud Model Access with Sol, Terra, and Luna"
 date: 2026-07-17T09:00:00+00:00
-last_modified_at: 2026-11-25T03:43:17Z
+last_modified_at: 2026-11-25T05:11:48Z
 tags: ["codex-cli", "gpt-5.6", "amazon-bedrock", "multi-cloud", "sol", "terra", "luna", "enterprise", "model-providers", "reasoning-effort", "config.toml", "prompt-caching"]
 ---
 

@@ -1,10 +1,39 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-25T03:43:17Z
+last_modified_at: 2026-11-25T05:11:48Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 25 November 2026 (Pass 2, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,127 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **README sketchnote count corrected** — was 8 (broken by d4a2caa4 which used `ls` instead of `find`), restored to 1,255.
+- ✅ **Article count updated** — articles 2,127 (up 1 from Pass 1: v0.172.0 stable article added by Dalex Studio).
+- ✅ **Health check completed** — no new stable release since v0.172.0 (2026-11-24); v0.174.0-alpha.5 shipped 2026-11-25T01:11Z.
+
+**Health check:**
+- Article count: 2,127 ✅
+- Premium articles: 123 ✅
+- Sketchnotes: 1,255 ✅ (count corrected this pass)
+- v0.174.0 sprint: alpha.5 published today; stable not yet shipped
+- v0.172.0 stable (2026-11-24): covered ✅ — thread links in TUI, Tab completion for slash commands, lazy MCP startup, Bedrock Runtime, cross-platform remote sessions
+- New issues filed today (#63823–#63827): desktop automation failures/wasted credits, Linux pty controlling terminal loss, repeated cyber flags, missing ~/.codex on VS Code remote — monitor for fix
+- Quota burn anomaly (#63138–#63141): no OpenAI fix confirmed; article remains overdue 🔴
+- December quota merger: ~1–2 weeks away; Transparency Ratchet article remains time-sensitive 🔴
+- macOS crash on second message (#63285): watch for hotfix 🔴
+
+**Outstanding article priorities (carried forward):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+
 ---
 
 ## Article Triage — 25 November 2026 (Pass 1, ~hourly UTC)
