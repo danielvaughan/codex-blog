@@ -1,10 +1,40 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-25T11:40:36Z
+last_modified_at: 2026-11-25T15:06:38Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 25 November 2026 (Pass 4, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,128 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **README substack-drafts count corrected** — 328 → 329 (one new substack draft added today).
+- ✅ **README sketchnotes count corrected** — 1,256 → 1,255 (commit 15aec861 had set it back to 1,256; find confirms 1,255 PNGs).
+- ✅ **Health check completed** — no new stable release; v0.172.0 remains current.
+
+**Health check:**
+- Article count: 2,128 ✅ (up 1 from Pass 2: Paperclip budget controls article, 2026-11-25)
+- Premium articles: 123 ✅
+- Sketchnotes: 1,255 ✅
+- Substack drafts: 329 ✅
+- Current stable: v0.172.0 (2026-11-24) — no new stable since last pass
+- v0.174.0 sprint: alpha.5 (2026-11-25T01:11Z) remains latest pre-release; no alpha.6 yet
+- New issues filed since Pass 2 (#63930–#63934): macOS PDF link bug, Windows SQLITE_READONLY startup failure, agent self-induced test misdiagnosis, AppLocker/WDAC compatibility request, false-positive ESP32-S3 cyber blocks — monitor for fixes
+- Quota burn anomaly (#63138–#63141): no OpenAI fix; article overdue 🔴
+- December quota merger: approaching; Transparency Ratchet article time-sensitive 🔴
+- macOS crash on second message (#63285): no hotfix shipped 🔴
+
+**Outstanding article priorities (carried forward):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+
 ---
 
 ## Article Triage — 25 November 2026 (Pass 2, ~hourly UTC)
