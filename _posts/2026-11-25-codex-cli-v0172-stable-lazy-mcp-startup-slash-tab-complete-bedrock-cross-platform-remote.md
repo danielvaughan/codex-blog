@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.172.0 Stable: Lazy MCP Startup, Slash-Command Tab Completion, Bedrock Runtime, and Cross-Platform Remote Sessions"
 date: 2026-11-25T09:00:00+00:00
-last_modified_at: 2026-11-25T17:05:00Z
+last_modified_at: 2026-11-25T18:08:46Z
 tags:
   - codex-cli
   - v0.172.0
@@ -10,7 +10,7 @@ tags:
   - tui
   - remote
   - bedrock
-rating: 3.5
+rating: 3.3
 depth: 3
 originality: 2
 accuracy: 5

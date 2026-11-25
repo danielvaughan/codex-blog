@@ -1,7 +1,7 @@
 ---
 title: "The Codex /statusline Command: 33 Built-In Items and the Experimental MCP Provider Contract"
 date: 2026-11-24T08:00:00+00:00
-last_modified_at: 2026-11-25T17:05:00Z
+last_modified_at: 2026-11-25T18:08:46Z
 tags:
   - codex-cli
   - v0.171.0
