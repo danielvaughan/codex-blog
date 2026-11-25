@@ -1,7 +1,7 @@
 ---
 title: "The Codex /statusline Command: 33 Built-In Items and the Experimental MCP Provider Contract"
 date: 2026-11-24T08:00:00+00:00
-last_modified_at: 2026-11-25T07:09:14Z
+last_modified_at: 2026-11-25T07:09:29Z
 tags:
   - codex-cli
   - v0.171.0
@@ -12,7 +12,11 @@ tags:
   - skills
   - experimental-features
 copy_edited: true
-rating: 4.0
+rating: 4.3
+depth: 4
+originality: 4
+accuracy: 5
+substack: 4
 ---
 
 Codex CLI v0.171.0 is described in its release coverage as adding "custom MCP status line authoring". The source is more specific than that, and the earlier summaries in this repository blur two separate things. `/statusline` is first a picker for built-in footer items, which works for everyone. The MCP provider is a second, experimental layer behind a feature flag, and it works differently from how it is usually described: the server returns a UI tree on request, and it does not push updates.
