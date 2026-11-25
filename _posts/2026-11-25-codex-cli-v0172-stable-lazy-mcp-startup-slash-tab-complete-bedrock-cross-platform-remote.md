@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.172.0 Stable: Lazy MCP Startup, Slash-Command Tab Completion, Bedrock Runtime, and Cross-Platform Remote Sessions"
 date: 2026-11-25T09:00:00+00:00
-last_modified_at: 2026-11-25T07:09:29Z
+last_modified_at: 2026-11-25T10:07:57Z
 tags:
   - codex-cli
   - v0.172.0
@@ -15,7 +15,7 @@ depth: 3
 originality: 2
 accuracy: 5
 substack: 3
-copy_edited: false
+copy_edited: true
 ---
 
 **Release date:** 24 November 2026, 00:03 UTC
@@ -36,7 +36,7 @@ You can set an approval reviewer for individual connected app tools in `config.t
 ## TUI Improvements
 
 - **Tab completion for slash-command arguments** (#62343): `/mcp lo` completes to `/mcp login`.
-- **Thread links open in the terminal** (#62332): follow links from search results and transcripts to saved conversations and nested agents.
+- **Thread links open in the terminal** (#62332): links in search results and transcripts open saved conversations and nested agents.
 - **Task-group navigation** (#62200): `Shift+Up` and `Shift+Down` jump between task groups in the agent command center.
 - **Paging long choices** (#62209): `PageUp` and `PageDown` scroll answer choices taller than the answer area.
 - **Cloud replies** (#62403): replies finishing after history loads update in place, keeping transcript order.

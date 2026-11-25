@@ -1,7 +1,7 @@
 ---
 title: "Paperclip Budget Controls: Why a Hard Stop Enforced on Recorded Spend Is Not a Spending Cap"
 date: 2026-11-25T08:00:00+00:00
-last_modified_at: 2026-11-25T07:09:29Z
+last_modified_at: 2026-11-25T10:07:57Z
 tags:
   - codex-cli
   - paperclip
@@ -48,7 +48,7 @@ The document also says what a stop does not do: a confirmed operator Stop "does 
 
 ## Why a Stop Lags
 
-The README does not enumerate the causes. From the documented design, three follow, and I mark them as inference:
+The README does not enumerate the causes. From the documented design, three follow, and I mark them as inferences:
 
 - **Settlement trails spend.** The ledger can only stop what it has seen. Tokens consumed by a long in-flight run are projected exposure until the run settles.
 - **Reporting depends on the adapter.** The README says "usage reporting" can delay a stop. An agent runtime that reports usage late, or cannot price a model, leaves the ledger behind the provider.
@@ -79,7 +79,7 @@ flowchart LR
 
 1. **Leave headroom under the real limit.** Treat the hard stop as a trip-wire with slack, and set it below the amount you cannot exceed. How much slack depends on how large a single run can be, which you can learn by observing one.
 2. **Measure first.** Follow the reviewer's advice: run one small task, compare Paperclip's recorded spend with the provider's usage view, and size budgets from the gap.
-3. **Use narrow scopes for experiments.** Project and agent budgets contain a runaway to one scope before the company budget is touched.
+3. **Use narrow scopes for experiments.** Project and agent budgets confine a runaway to one scope before the company budget is touched.
 4. **Put a ceiling outside the orchestrator.** Codex has its own controls. Where your plan or workspace offers spend limits, set them at the provider. They are enforced by the party that bills you. Compare with the in-Codex tools covered in the [rate-limit and budget articles in this library](https://danielvaughan.com/codex-resources/articles/).
 5. **Know the manual stop.** Paperclip's pause and terminate controls are the fastest response to a loop you can see. Learn where they are before you need them.
 6. **Keep timer heartbeats off** unless an agent has a reason to poll.
