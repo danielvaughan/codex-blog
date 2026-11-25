@@ -5,7 +5,7 @@ timestamp: 2026-06-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-01-devin-vs-codex-cli-cloud-sandbox-local-first-architecture-enterprise-comparison"
 tags: ["codex-cli", "devin", "comparison", "enterprise", "sandbox", "architecture", "cloud", "local-first", "security", "data-residency"]
 date: 2026-06-01T09:00:00+00:00
-last_modified_at: 2026-11-25T10:27:40Z
+last_modified_at: 2026-11-25T11:06:23Z
 ---
 # Devin vs Codex CLI: Cloud Sandbox vs Local-First Architecture for Enterprise Engineering Teams
 

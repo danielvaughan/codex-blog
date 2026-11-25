@@ -1,7 +1,7 @@
 ---
 title: "Paperclip Budget Controls: Why a Hard Stop Enforced on Recorded Spend Is Not a Spending Cap"
 date: 2026-11-25T08:00:00+00:00
-last_modified_at: 2026-11-25T10:27:40Z
+last_modified_at: 2026-11-25T11:06:23Z
 tags:
   - codex-cli
   - paperclip
@@ -10,6 +10,12 @@ tags:
   - cost-governance
   - orchestration
   - enterprise
+rating: 3.5
+depth: 3
+originality: 4
+accuracy: 4
+substack: 3
+copy_edited: true
 ---
 
 Paperclip, the open-source orchestrator that can run Codex as one of its agents, has "hard stops" in its budget policy. Its own README then says that enforcement "uses recorded spend" and that "usage reporting and in-flight work can delay a stop". Those two statements together mean a hard stop is a control on what has been recorded, and not a ceiling on what the provider will bill.

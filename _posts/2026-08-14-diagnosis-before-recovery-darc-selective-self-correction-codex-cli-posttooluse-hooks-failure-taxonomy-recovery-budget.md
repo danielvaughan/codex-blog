@@ -1,7 +1,7 @@
 ---
 title: "Diagnosis Before Recovery: What DARC's Selective Self-Correction Means for Your Codex CLI Error-Handling Strategy"
 date: 2026-08-14T09:00:00+00:00
-last_modified_at: 2026-11-25T10:27:40Z
+last_modified_at: 2026-11-25T11:06:23Z
 tags: ["codex-cli", "self-correction", "error-recovery", "DARC", "PostToolUse", "hooks", "failure-taxonomy", "agent-reliability"]
 ---
 

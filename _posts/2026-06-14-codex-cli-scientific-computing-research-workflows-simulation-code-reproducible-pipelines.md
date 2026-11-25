@@ -5,7 +5,7 @@ timestamp: 2026-06-14T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-14-codex-cli-scientific-computing-research-workflows-simulation-code-reproducible-pipelines"
 tags: ["codex-cli", "scientific-computing", "research-workflows", "simulation", "reproducibility", "MCP", "AGENTS.md", "HPC"]
 date: 2026-06-14T09:00:00+00:00
-last_modified_at: 2026-11-25T10:27:40Z
+last_modified_at: 2026-11-25T11:06:23Z
 ---
 # Codex CLI for Scientific Computing: From Black Hole Simulations to Reproducible Research Pipelines
 

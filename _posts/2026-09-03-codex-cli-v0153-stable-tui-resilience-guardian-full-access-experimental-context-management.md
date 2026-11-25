@@ -3,7 +3,7 @@ parent: "Articles"
 nav_order: 1107
 title: "Codex CLI v0.153.0 Stable: TUI Session Resilience, Guardian Full Access Optimisation, and Experimental Context Management"
 date: 2026-09-03T12:00:00+00:00
-last_modified_at: 2026-11-25T10:27:40Z
+last_modified_at: 2026-11-25T11:06:23Z
 tags: ["codex-cli", "release", "tui", "guardian", "mcp", "context-management", "plugins", "vim-mode"]
 ---
 

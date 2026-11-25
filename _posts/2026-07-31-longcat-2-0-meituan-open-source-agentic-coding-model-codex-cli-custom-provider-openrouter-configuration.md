@@ -1,7 +1,7 @@
 ---
 title: "LongCat-2.0: Configuring Meituan's 1.6T Open-Source Agentic Coding Model as a Codex CLI Provider"
 date: 2026-07-31T09:00:00+00:00
-last_modified_at: 2026-11-25T10:27:40Z
+last_modified_at: 2026-11-25T11:06:23Z
 tags: ["codex-cli", "longcat-2.0", "meituan", "open-source", "custom-model-providers", "openrouter", "config.toml", "agentic-coding", "mixture-of-experts", "model-routing"]
 ---
 
