@@ -1,10 +1,36 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-25T19:05:40Z
+last_modified_at: 2026-11-25T23:05:27Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 25 November 2026 (Pass 8, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,128 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean, all counts verified. README corrected: articles 2,128, premium 123, notes 1,194, sketchnotes 1,255, substack-drafts 329 (README had drifted to 2,130/134/1,211/1,259).
+- ✅ **Release check** — no new stable (v0.172.0, Nov 24). No new alpha beyond v0.174.0-alpha.6 (Nov 25 19:35 UTC, logged Pass 7).
+- ✅ **New issues logged** — #63977–#63991 (21:11–22:40 UTC) summarised in changelog-watch.md.
+
+**New issues filed this pass (21:11–22:40 UTC):**
+- #63977/#63980 — Quota session-binding cluster: quota flips 90%↔0% on network change; mismatch reports
+- #63978 — Android Remote creates WSL tasks on Windows (cross-platform routing bug)
+- #63979 — VS Code extension crash on Windows (chat-open regression, build 26.1120.50957)
+- #63981 — macOS dictation Return-key regression (tap-to-start UX broken)
+- #63983/#63984 — Cyber-policy false-positive cluster grows: GoogleTest static review, general cyber blocks (now 3 reports alongside #63961)
+- #63991 — `codex queue --resume` blocked by idle TUI thread lock (CI/automation impact)
+
+**Outstanding article priorities (carried forward):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+
 ---
 
 ## Article Triage — 25 November 2026 (Pass 6, ~hourly UTC)
