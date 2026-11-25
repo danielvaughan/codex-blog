@@ -1,10 +1,41 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-25T18:08:46Z
+last_modified_at: 2026-11-25T19:05:40Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 25 November 2026 (Pass 6, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,128 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean, all counts match README (articles: 2,128, premium: 123, sketchnotes: 1,255, substack-drafts: 329, notes: 1,194). No drift.
+- ✅ **Release check** — stable remains v0.172.0 (Nov 24 00:03 UTC). Latest alpha: v0.174.0-alpha.5 (Nov 25 01:11 UTC). No new alpha.6+ shipped.
+- ✅ **New issues logged** — #63957–#63972 (17:07–18:54 UTC) summarised below and in changelog-watch.md.
+
+**New issues filed this pass (17:07–18:54 UTC):**
+- #63957, #63958, #63964 — GPT-6.2 Sol/Astra quality cluster: Sol favours short-term acceptance over maintainable architecture; Astra+Sol described as "uncontrollable" on complex tasks — escalating concern, feeds 🔴 article priority below
+- #63960 — app-server HTTP 400 Bad Request failures across all running threads — broad regression signal
+- #63961 — Codex CLI cybersecurity block during local Go GUI regression test — cyber_policy false-positive cluster (#63570 lineage) continues
+- #63963 — ChatGPT Work macOS: new sessions lack permissions selector; "Approve for me" not working
+- #63966 — Windows 10: `CreateProcessAsUserW` failed: 5 when running exec_command unelevated
+- #63967 — Windows: FIDO2 login requests email code (Advanced Account Protection regression)
+- #63968 — Windows: app-server native stack exhaustion (`0xC0000005`) on `mcpServerS` — crash-level regression
+- #63969 — DFW server unresponsive for 24 hrs across all platforms — service-reliability signal
+- #63972 — Persistent Work handoff + browser-session verification failures (Windows 11)
+
+**Windows crash cluster:** #63966/#63967/#63968/#63972 form a Windows privilege/auth/stack crash cluster in v0.172.0 — monitor for hotfix.
+
+**Outstanding article priorities (carried forward):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+
 ---
 
 ## Article Triage — 25 November 2026 (Pass 5, ~hourly UTC)
