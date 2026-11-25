@@ -1,10 +1,38 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-24T23:04:03Z
+last_modified_at: 2026-11-25T01:04:51Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 25 November 2026 (Pass 1, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,126 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **README counts corrected** — articles 2,126 (was 2,128), premium 123 (was 134), notes 1,194 (was 1,211), sketchnotes 1,255 (was 1,256), drafts 24 (was 27).
+- ✅ **Health check completed** — no new articles overnight; counts stable.
+
+**Health check:**
+- Article count: 2,126 ✅
+- Premium articles: 123 ✅
+- Sketchnotes: 1,255 ✅
+- v0.173.0 sprint: watch for stable release; last noted alpha.4
+- Quota burn anomaly (#63138, #63139, #63141): no OpenAI fix confirmed; article overdue 🔴
+- Safety gate over-triggering: 6+ community reports — article-ready 🟠
+- macOS crash on second message (#63285): HIGH severity; watch for hotfix 🔴
+- Attachment materialisation regression (#63261): Windows Pro; watch for hotfix 🟠
+- December quota merger: ~1–2 weeks away; Transparency Ratchet article remains time-sensitive 🔴
+
+**Outstanding article priorities (carried forward):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+
 ---
 
 ## Article Triage — 24 November 2026 (Pass 3, ~23:03 UTC)
