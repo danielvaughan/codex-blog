@@ -1,7 +1,7 @@
 ---
 title: "codex queue Playbook: Async Session Management, Queue Depth, Session Lifecycle, and Resume Patterns"
 date: 2026-11-06T10:00:00+00:00
-last_modified_at: 2026-11-25T15:06:38Z
+last_modified_at: 2026-11-25T17:05:00Z
 parent: "Articles"
 nav_order: 1221
 tags:

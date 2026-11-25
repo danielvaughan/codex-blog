@@ -1,10 +1,38 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-25T15:06:38Z
+last_modified_at: 2026-11-25T17:05:00Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 25 November 2026 (Pass 5, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,128 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Full health check** — repo clean, all counts verified, no drift detected.
+- ✅ **Article counts confirmed** — 2,128 articles, 123 premium, 1,194 notes, 1,255 sketchnotes. All match README.
+- ✅ **Copy-edit audit** — all 6 articles published Nov 20–25 carry `copy_edited: true`. No backlog.
+- ✅ **Rating audit** — all Nov 20–25 articles rated (Pass 27–28). No unrated articles outstanding.
+
+**Health check:**
+- Article count: 2,128 ✅
+- Premium articles: 123 ✅
+- Sketchnotes: 1,255 ✅ (last sketchnote: 2026-11-19; 6 articles since then without sketchnotes — known gap)
+- Notes: 1,194 ✅
+- Current stable: v0.172.0 (2026-11-24) — no new stable since Pass 4
+- v0.174.0 sprint: monitoring for alpha.6+
+- No new GitHub issues requiring immediate backlog update since Pass 4
+
+**Outstanding article priorities (carried forward):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+
 ---
 
 ## Article Triage — 25 November 2026 (Pass 4, ~hourly UTC)
