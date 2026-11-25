@@ -3,7 +3,7 @@ title: "Endogenous Authorization Laundering: How Codex CLI's Persistent Memory B
 parent: "Articles"
 nav_order: 1146
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 tags: ["security", "memory", "authorization", "codex-cli", "hooks", "AGENTS.md"]
 ---
 
@@ -96,7 +96,7 @@ The hook receives the tool name and arguments. A write to `MEMORY.md` containing
 
 Adopt a convention that mirrors what Cerruti et al. call source-authority gating. In your `AGENTS.md`, declare a permission policy table that the agent treats as the canonical ledger — separate from, and never overwritten by, the memory pipeline:
 
-```markdown
+```md
 ## Permission Ledger (canonical — not modifiable by agent)
 
 | Capability | Source | Granted | Scope |

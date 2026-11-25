@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-coda-bench-data-intensive-tasks-coding-agents-codex-cli-file-discovery-sandbox-strategy"
 tags: ["codex-cli", "CoDA-Bench", "data-discovery", "file-discovery", "sandbox", "data-science", "ICML-2026", "benchmark", "GPT-5.5", "coding-agents"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 ---
 # CoDA-Bench: What the Data-Intensive Task Benchmark Means for Codex CLI File Discovery and Sandbox Strategy
 
@@ -93,7 +93,7 @@ codex --add-dir ~/datasets --add-dir /mnt/shared-data \
 
 CoDA-Bench shows that agents which discover files first and code second perform better. Encode this as a constraint in your project's `AGENTS.md`:
 
-```markdown
+```md
 ## Data Discovery Protocol
 
 When working with data files:
@@ -196,7 +196,7 @@ The paper's most actionable finding is that **semantic noise, not volume, drives
 
 This has a direct Codex CLI implication: **curate your data directories**. Move working datasets into a clearly named subdirectory (`/data/active/` vs `/data/archive/`). Use README files in data directories that describe what each file contains. The agent reads these — and CoDA-Bench shows it needs the help.
 
-```markdown
+```md
 <!-- /data/active/README.md -->
 ## Active Datasets
 

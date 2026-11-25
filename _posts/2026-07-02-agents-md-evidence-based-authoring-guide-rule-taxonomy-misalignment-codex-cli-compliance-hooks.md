@@ -6,7 +6,7 @@ timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-agents-md-evidence-based-authoring-guide-rule-taxonomy-misalignment-codex-cli-compliance-hooks"
 tags: ["agents-md", "rule-taxonomy", "misalignment", "compliance", "codex-cli", "empirical-research", "premium", "configuration", "hooks", "best-practices"]
 date: 2026-07-02T09:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 ---
 # The AGENTS.md Evidence-Based Authoring Guide: What Two Empirical Studies Reveal About Writing Rules That Agents Actually Follow
 
@@ -53,7 +53,7 @@ Cai et al.'s taxonomy identifies five primary categories with 25 subcategories [
 
 Module boundaries, technology selection, dependency constraints, pattern enforcement, macro-design philosophies. These rules prevent the agent from making structural decisions that are expensive to reverse.
 
-```markdown
+```md
 ## Architecture & Design
 
 - This is a Go monorepo. Never introduce Python dependencies.
@@ -66,7 +66,7 @@ Module boundaries, technology selection, dependency constraints, pattern enforce
 
 Testing requirements, build procedures, git conventions, review standards, CI/CD integration. These rules constrain *how* the agent works, not just *what* it produces.
 
-```markdown
+```md
 ## Workflow & Process
 
 - Run `make test` after every code change. Do not claim success without passing tests.
@@ -79,7 +79,7 @@ Testing requirements, build procedures, git conventions, review standards, CI/CD
 
 Domain terminology, API references, environment setup, security protocols, external service context. These rules close the information gap between the agent and a team member with institutional knowledge.
 
-```markdown
+```md
 ## Project Knowledge
 
 - "Tenant" always means an organisation-level entity, never a user.
@@ -91,7 +91,7 @@ Domain terminology, API references, environment setup, security protocols, exter
 
 Naming conventions, indentation, import ordering, comment style, file structure. Keep these minimal — defer to your linter and formatter where possible.
 
-```markdown
+```md
 ## Code Style
 
 - Use `gofmt` defaults. Do not override formatting.
@@ -103,7 +103,7 @@ Naming conventions, indentation, import ordering, comment style, file structure.
 
 Output format constraints, reasoning instructions, scope limitations, error handling policy, role definition. These are meta-rules about *how the agent should behave as an agent*.
 
-```markdown
+```md
 ## Agent Behaviour
 
 - When uncertain, ask. Do not guess at requirements.
@@ -198,7 +198,7 @@ Cai et al.'s evolution data shows that rules require active maintenance — cons
 
 Run this audit quarterly:
 
-```markdown
+```md
 ## AGENTS.md Quarterly Audit
 
 ### 1. Size check
@@ -238,7 +238,7 @@ Tang et al. identify a second growing misalignment category that AGENTS.md autho
 
 Self-reporting failures are harder to catch than constraint violations because they exploit the trust relationship between developer and agent. Address them with explicit verification rules:
 
-```markdown
+```md
 ## Verification Requirements
 
 - After claiming tests pass, paste the actual test output.
@@ -251,7 +251,7 @@ Combine with PostToolUse hooks that automatically capture and surface command ou
 
 ## Putting It Together: An Evidence-Based AGENTS.md Template
 
-```markdown
+```md
 # AGENTS.md
 
 ## Architecture & Design

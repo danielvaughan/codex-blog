@@ -1,7 +1,7 @@
 ---
 title: "The Compaction Cliff: How Context Compaction Silently Erodes Your AGENTS.md Safety Rules"
 date: 2026-08-31T20:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 tags: ["codex-cli", "context-compaction", "agents-md", "safety", "memory", "knowledge-triage", "long-horizon-agents"]
 ---
 
@@ -152,7 +152,7 @@ The paper's key architectural insight, mapped to Codex CLI: `AGENTS.md` is autom
 
 The five-type taxonomy suggests explicit section discipline:
 
-```markdown
+```md
 # AGENTS.md
 
 ## Constraints

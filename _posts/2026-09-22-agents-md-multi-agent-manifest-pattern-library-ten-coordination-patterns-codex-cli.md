@@ -3,7 +3,7 @@ title: "AGENTS.md Multi-Agent Manifest Pattern Library: Ten Coordination Pattern
 parent: "Articles"
 nav_order: 1165
 date: 2026-09-22T09:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 tags: ["codex-cli", "multi-agent", "agents-md", "orchestration", "coordination", "patterns", "agentic", "workflow"]
 ---
 
@@ -24,7 +24,7 @@ The patterns are ordered from simplest to most complex. Teams new to multi-agent
 
 Every pattern in this library uses the same section structure inside AGENTS.md:
 
-```markdown
+```md
 ## Coordination
 
 ### Dependency Annotations
@@ -56,7 +56,7 @@ Agents read this block on session start. The dependency table tells each agent w
 
 **Scenario:** Two agents. Agent-1 runs the schema migration; agent-2 updates the ORM models and REST endpoints. The failure mode without coordination: agent-2 writes ORM code against the old schema while agent-1's migration is mid-flight, producing models that do not match the live database.
 
-```markdown
+```md
 ## Coordination
 
 ### Dependency Annotations
@@ -87,7 +87,7 @@ Agents read this block on session start. The dependency table tells each agent w
 
 **Scenario:** Three agents working in parallel: API implementation, UI component generation, and integration test authoring. The failure mode: test agent writes assertions against interface contracts that neither the API nor UI agent has finalised.
 
-```markdown
+```md
 ## Coordination
 
 ### Dependency Annotations
@@ -120,7 +120,7 @@ Agents read this block on session start. The dependency table tells each agent w
 
 **Scenario:** Two or more agents developing independent features that all modify `config/feature-flags.yml`. The failure mode: merge conflicts in a file that appears trivially simple but causes silent feature-flag mismatches when overwritten.
 
-```markdown
+```md
 ## Coordination
 
 ### Exclusion Zones
@@ -140,7 +140,7 @@ This minimal manifest is intentional. Shared-config patterns need exclusion, not
 
 **Scenario:** A single long-running agent rewrites a service overnight. The harness-first requirement means the agent must pass the test harness before touching implementation files. The failure mode without the gate: agent implements before the harness exists and defines its own success criteria — producing code that satisfies self-authored tests rather than production-equivalent ones.
 
-```markdown
+```md
 ## Coordination
 
 ### Dependency Annotations
@@ -167,7 +167,7 @@ This minimal manifest is intentional. Shared-config patterns need exclusion, not
 
 **Scenario:** One agent updates implementation code; a second agent updates the documentation that references it. The failure mode: documentation agent reads stale source before the implementation agent has stabilised the public API surface.
 
-```markdown
+```md
 ## Coordination
 
 ### Dependency Annotations
@@ -190,7 +190,7 @@ This minimal manifest is intentional. Shared-config patterns need exclusion, not
 
 **Scenario:** A security-scan agent runs dependency audits and SAST checks before any deployment agent is allowed to proceed. The failure mode without the gate: a deployment agent pushes a build containing a known vulnerability because the scan was skipped or ran in parallel.
 
-```markdown
+```md
 ## Coordination
 
 ### Dependency Annotations
@@ -214,7 +214,7 @@ This minimal manifest is intentional. Shared-config patterns need exclusion, not
 
 **Scenario:** Parallel agents deploying to AWS and GCP. Both share a Terraform state backend. The failure mode: concurrent state writes corrupt the remote lock.
 
-```markdown
+```md
 ## Coordination
 
 ### Exclusion Zones
@@ -234,7 +234,7 @@ This minimal manifest is intentional. Shared-config patterns need exclusion, not
 
 **Scenario:** Four or more agents processing a sprint backlog simultaneously. Decision-impact scoring from the backlog's metadata drives task priority. The failure mode at this scale: pairwise interaction count reaches six channels for four agents and fifteen for six agents — human oversight can no longer track all combinations.[^2]
 
-```markdown
+```md
 ## Coordination
 
 ### Dependency Annotations
@@ -266,7 +266,7 @@ This minimal manifest is intentional. Shared-config patterns need exclusion, not
 
 **Scenario:** A data-pipeline rewrite agent runs for multiple hours, processing large datasets. The failure mode: a partial write leaves the pipeline in an inconsistent state that is harder to recover from than a clean rollback.
 
-```markdown
+```md
 ## Coordination
 
 ### Milestone Tags
@@ -288,7 +288,7 @@ The checkpoint-per-batch pattern comes directly from the ACID-compliant agent tr
 
 **Scenario:** All implementation agents have completed. A dedicated review agent reads every changed file, runs the test suite, checks citation or link validity, and produces a sign-off report. The failure mode: no agent owns the cross-cutting quality check, so it is either skipped or duplicated inconsistently across agents.
 
-```markdown
+```md
 ## Coordination
 
 ### Dependency Annotations

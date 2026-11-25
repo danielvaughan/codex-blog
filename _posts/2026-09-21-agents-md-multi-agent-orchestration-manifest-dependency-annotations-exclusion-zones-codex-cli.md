@@ -3,7 +3,7 @@ title: "AGENTS.md as Multi-Agent Orchestration Manifest: Dependency Annotations,
 parent: "Articles"
 nav_order: 1162
 date: 2026-09-21T13:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 tags: ["agents-md", "multi-agent", "orchestration", "codex-cli", "coordination", "workflow", "parallel-agents"]
 ---
 
@@ -32,7 +32,7 @@ The compound constraint research reinforces why this separation matters.[^3] Whe
 
 A dependency annotation records which tasks must complete before other tasks can begin. This is the equivalent of a Makefile dependency graph, expressed in natural language that both humans and agents can read.
 
-```markdown
+```md
 ## Agent Task Dependencies
 
 - [ ] task: schema-migration
@@ -64,7 +64,7 @@ This pattern eliminates the category of failure where an agent performs correct 
 
 Milestone tags create shared checkpoints that agents use to synchronise their understanding of progress without requiring human intervention at each step.
 
-```markdown
+```md
 ## Milestones
 
 - [x] MILESTONE:db-schema-stable — Schema v4 applied and verified. All agents may read from new columns. Do not write to deprecated columns.
@@ -80,7 +80,7 @@ The key property of a milestone tag is that it is binary and persistent. Unlike 
 
 An exclusion zone declares which parts of the codebase, which operations, or which external resources must not be accessed by more than one agent at a time.
 
-```markdown
+```md
 ## Exclusion Zones
 
 The following resources are serialised — only one agent may hold them at a time.
@@ -104,7 +104,7 @@ Exclusion zones address the failure mode that Yegge's survey respondents describ
 
 Rollback conditions define the state an agent should restore if it cannot complete its task, and the conditions under which it should attempt rollback rather than simply failing.
 
-```markdown
+```md
 ## Rollback Conditions
 
 If an agent encounters any of the following conditions, it must stop, log the condition
@@ -126,7 +126,7 @@ Rollback conditions serve a different function from exclusion zones. An exclusio
 
 The four additions fit naturally into a structured section of an existing AGENTS.md file. A team that already has a working AGENTS.md — tool definitions, hooks, model profiles — adds a `## Coordination` block at the top of the file, above the per-session instructions, so that agents read it first.
 
-```markdown
+```md
 # AGENTS.md — Repository: checkout-service
 
 ## Coordination

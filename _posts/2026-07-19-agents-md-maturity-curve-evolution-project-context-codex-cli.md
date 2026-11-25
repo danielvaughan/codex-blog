@@ -1,7 +1,7 @@
 ---
 title: "The AGENTS.md Maturity Curve: How Project Context Evolves from Wish List to Force Multiplier"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 tags: ["agents-md", "configuration", "developer-workflow", "codex-cli", "maturity-model"]
 ---
 
@@ -37,7 +37,7 @@ graph LR
 
 The typical first AGENTS.md reads like a job specification written by someone who has never hired:
 
-```markdown
+```md
 # AGENTS.md
 
 Use TypeScript. Follow best practices. Write clean code.
@@ -56,7 +56,7 @@ This fails because every directive is either a language default (the model alrea
 
 The first real improvement arrives after a frustrating agent failure. The developer adds the specific command that would have prevented the error:
 
-```markdown
+```md
 ## Build & Test
 
 - Build: `pnpm build --filter=@acme/core`
@@ -78,7 +78,7 @@ This is where setup commands appear — identified as "high-leverage" content be
 
 The qualitative leap. Instructions move from "what to do" to "how to choose":
 
-```markdown
+```md
 ## State Management Decision Table
 
 | Scope | Duration | Solution |
@@ -105,7 +105,7 @@ Decision tables let agents pick the right pattern immediately without exploring 
 
 At full maturity, AGENTS.md becomes a team governance artefact:
 
-```markdown
+```md
 ## Non-Obvious Patterns
 
 - `useServerAction()` hooks must be co-located with their form component

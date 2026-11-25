@@ -1,7 +1,7 @@
 ---
 title: "The /goal Command and the Verification Problem: Long-Running Autonomous Agents in Codex CLI"
 date: 2026-07-06T09:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 tags: ["codex-cli", "goal-mode", "autonomous-agents", "verification", "trust-architecture", "token-budgets", "long-running-tasks"]
 ---
 
@@ -83,7 +83,7 @@ The emerging community consensus centres on three companion files that transform
 
 ### GOAL.md — Defining Completion
 
-```markdown
+```md
 ## Objective
 Migrate the authentication module from Express middleware to Hono middleware.
 
@@ -105,7 +105,7 @@ The critical design choice is making the definition of done a runnable command, 
 
 ### VERIFY.md — Mapping Requirements to Evidence
 
-```markdown
+```md
 | # | Requirement | Check command | Expected |
 |---|-------------|---------------|----------|
 | 1 | Auth tests pass | `npm run test:auth` | Exit 0 |
@@ -120,7 +120,7 @@ The key insight: a green terminal is not proof if the check does not map back to
 
 The agent maintains a structured execution log:
 
-```markdown
+```md
 ## Run 1 — 2026-07-06 09:00–11:45
 
 ### Completed

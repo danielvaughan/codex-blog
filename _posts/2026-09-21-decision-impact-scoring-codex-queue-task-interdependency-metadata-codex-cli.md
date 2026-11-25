@@ -3,7 +3,7 @@ title: "Decision-Impact Scoring for Codex Queue: Encoding Task Interdependency B
 parent: "Articles"
 nav_order: 1163
 date: 2026-09-21T15:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 tags: ["codex-cli", "multi-agent", "codex-queue", "task-management", "agents-md", "decision-impact", "orchestration", "workflow"]
 ---
 
@@ -57,7 +57,7 @@ Agents reading a `DEPENDS-ON` task check the queue status of its dependencies be
 
 The task description carries per-task metadata. AGENTS.md carries the batch-level dependency register — the document that gives any agent in the session a full view of the task graph before it starts work.
 
-```markdown
+```md
 ## Batch: Payments Auth Refactor — 2026-09-21
 
 ### Impact Register

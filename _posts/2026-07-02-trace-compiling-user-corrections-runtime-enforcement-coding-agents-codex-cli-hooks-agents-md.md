@@ -5,7 +5,7 @@ timestamp: 2026-07-02T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-07-02-trace-compiling-user-corrections-runtime-enforcement-coding-agents-codex-cli-hooks-agents-md"
 tags: ["codex-cli", "TRACE", "user-corrections", "runtime-enforcement", "hooks", "AGENTS.md", "PreToolUse", "PostToolUse", "agent-memory", "preference-compliance"]
 date: 2026-07-02T09:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 ---
 # TRACE and the Correction-to-Enforcement Pipeline: Why Your Coding Agent Keeps Ignoring What You Told It — and How to Fix That with Codex CLI Hooks
 
@@ -127,7 +127,7 @@ Codex CLI stores full session transcripts under `~/.codex/sessions/` [^4]. A pos
 
 TRACE's atomic rules map naturally to AGENTS.md directives [^3]. The hierarchical lookup — global (`~/.codex/AGENTS.md`), project root, then per-directory — mirrors TRACE's applicability scoping:
 
-```markdown
+```md
 <!-- ~/.codex/AGENTS.md — global preferences -->
 # Personal Coding Preferences
 

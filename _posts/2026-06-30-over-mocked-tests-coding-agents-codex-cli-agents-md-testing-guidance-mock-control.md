@@ -5,7 +5,7 @@ timestamp: 2026-06-30T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-30-over-mocked-tests-coding-agents-codex-cli-agents-md-testing-guidance-mock-control"
 tags: ["testing", "mocking", "test-quality", "AGENTS.md", "codex-cli", "configuration", "test-doubles", "over-mocking", "empirical-study"]
 date: 2026-06-30T09:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 ---
 # Over-Mocked Tests and Coding Agents: What 1.2 Million Commits Reveal — and How to Configure Codex CLI's AGENTS.md for Test Quality
 
@@ -80,7 +80,7 @@ Codex CLI's hierarchical instruction system provides three layers where mocking 
 
 Set organisation-wide defaults that apply to every repository:
 
-```markdown
+```md
 ## Testing Standards
 
 - Prefer real objects over mocks. Only mock external services (HTTP APIs,
@@ -99,7 +99,7 @@ Set organisation-wide defaults that apply to every repository:
 
 Add project-specific constraints that reflect the actual test tooling:
 
-```markdown
+```md
 ## Test Configuration
 
 - Run tests with `just test` before completing any task.
@@ -122,7 +122,7 @@ Add project-specific constraints that reflect the actual test tooling:
 
 For directories where mocking rules differ from the project default, use `AGENTS.override.md`:
 
-```markdown
+```md
 # services/payments/AGENTS.override.md
 
 ## Testing — Payments Service
@@ -206,7 +206,7 @@ This one-shot audit produces a prioritised list of files to refactor, starting w
 
 Drawing together the research findings and Codex CLI's configuration surface, here is a complete `AGENTS.md` testing section suitable for most Python or TypeScript projects:
 
-```markdown
+```md
 ## Testing Philosophy
 
 Tests exist to catch regressions, not to document implementation details.

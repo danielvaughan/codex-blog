@@ -3,7 +3,7 @@ title: "Audit-First Rollback Semantics: What Deployment Pipeline Research Means 
 parent: "Articles"
 nav_order: 1148
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 tags: ["codex-cli", "deployment", "audit", "rollback", "hooks", "ci-cd", "agentic-safety", "posttooluse"]
 ---
 
@@ -177,7 +177,7 @@ sequenceDiagram
 
 The formal mechanism requires each provisional state to carry an explicit `rollback(p)` contract and `deadline(p)`. In Codex CLI terms, these belong in `AGENTS.md` as per-tool rollback policies:
 
-```markdown
+```md
 ## Tool Rollback Policy
 
 | Tool | Rollback Contract | Deadline |

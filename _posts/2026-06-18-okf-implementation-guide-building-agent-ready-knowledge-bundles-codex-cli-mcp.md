@@ -5,7 +5,7 @@ timestamp: 2026-06-18T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-18-okf-implementation-guide-building-agent-ready-knowledge-bundles-codex-cli-mcp"
 tags: ["codex-cli", "okf", "open-knowledge-format", "mcp", "knowledge-management", "context-engineering", "google-cloud"]
 date: 2026-06-18T09:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 ---
 # OKF Implementation Guide: Building Agent-Ready Knowledge Bundles for Codex CLI via MCP
 
@@ -79,7 +79,7 @@ mkdir -p okf-knowledge/{services,runbooks,schemas}
 
 ### 2. Create the Root Index
 
-```markdown
+```md
 # Knowledge Bundle
 
 * [Services](services/) - Microservice documentation
@@ -93,7 +93,7 @@ Save as `okf-knowledge/index.md`. Note: index files have no frontmatter [^4].
 
 Create `okf-knowledge/services/auth-service.md`:
 
-```markdown
+```md
 ---
 type: "Microservice"
 title: "Auth Service"
@@ -152,7 +152,7 @@ Links express relationships; surrounding prose conveys the relationship type. Co
 
 Create `okf-knowledge/log.md`:
 
-```markdown
+```md
 ## 2026-06-18
 
 * **Creation**: Initial bundle with auth-service, user-store, and rate-limiter concepts
@@ -233,7 +233,7 @@ server.tool("list_links", { path: "string" }, async (args) => {
 
 Tell Codex CLI how to use the knowledge bundle by adding context hints to your `AGENTS.md` [^7]:
 
-```markdown
+```md
 ## Knowledge Context
 
 This project has an OKF knowledge bundle available via the `team-knowledge` MCP server.

@@ -3,7 +3,7 @@ title: "Cross-Task Coordination: Combining @Mentions and Native Worktrees for Pa
 parent: "Articles"
 nav_order: 1171
 date: 2026-09-29T08:00:00+00:00
-last_modified_at: 2026-11-25T11:06:23Z
+last_modified_at: 2026-11-25T11:40:36Z
 tags: ["codex-cli", "multi-agent", "worktrees", "at-mentions", "parallel-coding", "v0.150.0", "v0.154.0", "v0.156.0", "cross-task", "orchestration"]
 ---
 
@@ -103,7 +103,7 @@ A completed worktree session does not guarantee clean integration with any other
 
 This is by design. Codex CLI's worktree model treats git merge as a deliberate human action, not an automatic consequence of agent completion. The AGENTS.md for any multi-worktree workflow should include an explicit merge discipline section:
 
-```markdown
+```md
 ## Merge Discipline
 
 - No session merges its own worktree to main.
@@ -116,7 +116,7 @@ This makes the integration responsibility visible rather than implicit. Teams th
 
 ## AGENTS.md Template for a Two-Session Parallel Sprint
 
-```markdown
+```md
 ## Parallel Session Configuration (v0.156.0+)
 
 ### Active tasks
