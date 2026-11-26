@@ -1,7 +1,7 @@
 ---
 title: "Lean4Agent and Formally Verified Agent Workflows: What Dependent-Type Verification Means for Codex CLI's Hook and Specification Stack"
 date: 2026-07-11T09:00:00+00:00
-last_modified_at: 2026-11-26T15:07:39Z
+last_modified_at: 2026-11-26T17:07:10Z
 tags: ["codex-cli", "formal-verification", "lean4", "agent-workflows", "pre-conditions", "post-conditions", "hooks", "type-safety", "guardrails"]
 ---
 

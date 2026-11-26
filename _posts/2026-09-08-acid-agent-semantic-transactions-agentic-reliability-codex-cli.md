@@ -3,7 +3,7 @@ title: "ACID for AI Agents: Applying Transactional Guarantees to Codex CLI Workf
 parent: "Articles"
 nav_order: 1147
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-11-26T15:07:39Z
+last_modified_at: 2026-11-26T17:07:10Z
 tags: ["codex-cli", "reliability", "transactions", "acid", "hooks", "harness-engineering", "data-agents"]
 ---
 

@@ -1,10 +1,36 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-26T15:07:39Z
+last_modified_at: 2026-11-26T17:07:10Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 26 November 2026 (Pass 5, ~15:00–17:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,130 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean; v0.172.0 stable unchanged. No new alpha beyond v0.174.0-alpha.7.
+- ✅ **New issues logged** — #64165–#64183 (15:00–~17:00 UTC) summarised in changelog-watch.md.
+- ✅ **PRs logged** — 4 PRs: #64164 (compact filesystem context, workspace-write), #64166 (cap Guardian V3 shadow-board evidence), #64179 (MCP message board notification delivery), #64184 (Statsig metrics).
+- ✅ **Article opportunity added** — see backlog item #213 below (Cybersecurity FP escalation).
+
+**New article opportunity identified this pass:**
+
+### 213 · The Seven-Day Safety Wall: How Codex's Cybersecurity Filter Is Blocking Legitimate Developer Work
+
+1. 📝 **The Seven-Day Safety Wall: How Codex's Cybersecurity Filter Is Blocking Legitimate Developer Work** — Identified 2026-11-26 by Pass 5 hourly triage
+   - Sources: #64170 (core-js maintainer; 63 failed turns, 20 chats, Nov 20–26); #64175 (this pass); #64141, #64143 (Pass 3); #64065, #64066 (earlier); #63131, #63092, #62941, #63583 (cross-referenced in #64170); `notes/changelog-watch.md` Pass 3–5 cluster summaries.
+   - Gap: The cybersecurity false-positive cluster has grown over seven days from isolated reports to a career-impacting blocker for at least one prominent OSS maintainer (core-js). This article synthesises the full cluster: what triggers the filter (polyfill work, Minecraft Bedrock monitoring, SQLite concurrency fixes, 86Box debugging, academic security research, PowerShell launch text), what does not trigger it (context, phrasing), what OpenAI has said (nothing yet), what workarounds exist (rephrasing, splitting requests), and what the pattern reveals about safety-filter calibration in a general-purpose coding agent. The core-js maintainer's account — 63 blocked turns across 20 chats — is the clearest documentation of systemic impact. Editorial angle: this is a teachable case study in filter over-reach vs. developer trust; not an attack on OpenAI safety intent.
+   - Priority: 🔴 Urgent — cluster is live, growing, and now has a high-credibility anchor report from a known OSS maintainer; write before OpenAI responds so the article frames the problem rather than reacting to a fix.
+
+**Existing high-priority items (unchanged):**
+- 🔴 #209 — The Transparency Ratchet (December quota merger window closing)
+- 🟠 #207 — Windows Platform Health Dashboard
+- 🟠 #212 — EDR Quarantine Defence Kit
+
 ---
 
 ## Article Triage — 26 November 2026 (Pass 4, ~hourly UTC)

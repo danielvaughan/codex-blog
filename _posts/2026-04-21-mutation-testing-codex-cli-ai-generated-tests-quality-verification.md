@@ -6,7 +6,7 @@ timestamp: 2026-04-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-21-mutation-testing-codex-cli-ai-generated-tests-quality-verification"
 tags: ["codex-cli", "mutation-testing", "test-quality", "stryker", "pitest", "mutmut", "ai-generated-tests", "verification"]
 date: 2026-04-21T09:00:00+00:00
-last_modified_at: 2026-11-26T15:07:39Z
+last_modified_at: 2026-11-26T17:07:10Z
 ---
 # Mutation Testing with Codex CLI: Why Your AI-Generated Tests Are Lying and How to Fix Them
 

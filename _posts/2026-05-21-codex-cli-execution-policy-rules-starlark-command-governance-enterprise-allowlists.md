@@ -6,7 +6,7 @@ timestamp: 2026-05-21T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-21-codex-cli-execution-policy-rules-starlark-command-governance-enterprise-allowlists"
 tags: ["codex-cli", "execution-policy", "starlark", "security", "enterprise", "governance", "rules", "allowlists"]
 date: 2026-05-21T09:00:00+00:00
-last_modified_at: 2026-11-26T15:07:39Z
+last_modified_at: 2026-11-26T17:07:10Z
 ---
 # Codex CLI Execution Policy Rules: Starlark-Based Command Governance, Smart Approvals, and Enterprise Allowlists
 

@@ -1,7 +1,7 @@
 ---
 title: "CodeGrep and the File Discovery Tax: What an RL-Trained Retrieval Agent Reveals About Your Codex CLI Token Budget"
 date: 2026-08-08T09:00:00+00:00
-last_modified_at: 2026-11-26T15:07:39Z
+last_modified_at: 2026-11-26T17:07:10Z
 tags: ["codex-cli", "CodeGrep", "retrieval", "token-efficiency", "file-discovery", "GRPO", "codebase-indexing", "SWE-bench", "MCP", "CodeGraph"]
 ---
 
