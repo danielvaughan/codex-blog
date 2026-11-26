@@ -1,7 +1,7 @@
 ---
 title: "Which Model Actually Answered? How Codex Builds Its Model List and Reports a Rerouted Turn"
 date: 2026-11-26T09:00:00+00:00
-last_modified_at: 2026-11-26T07:19:04Z
+last_modified_at: 2026-11-26T10:08:54Z
 tags:
   - codex-cli
   - models
@@ -11,6 +11,7 @@ tags:
   - app-server
   - cyber-safety
   - source-code-analysis
+copy_edited: true
 ---
 
 The model name in the Codex picker is what the client asked for. It is not a record of which model replied. Codex's own source contains a mechanism that exists precisely because the two can differ, and it has some sharp edges that matter if you track cost, quality or compliance by model.
@@ -30,7 +31,7 @@ The list is not hard-coded into the binary, and it is not fetched fresh on every
 | `Offline` | Use cached data only; never fetch |
 | `OnlineIfUncached` | Use the cache if it is fresh, otherwise fetch |
 
-The default cache lives in a file called `models_cache.json` and has a time-to-live of 300 seconds.[^4] A cached entry is only reused if its client version and an opaque provider-and-auth identity match the current session; legacy entries without an identity count as a miss.[^5] So a session that starts within five minutes of the last fetch, on the same account and client version, may reuse the catalogue. Otherwise it asks the server.
+The default cache lives in a file called `models_cache.json` and has a time-to-live of 300 seconds.[^4] A cached entry is only reused if its client version and an opaque provider-and-auth identity match the current session; legacy entries without an identity count as a miss.[^5] So a session that starts within five minutes of the last fetch, on the same account and client version, may reuse the catalogue. Otherwise, it asks the server.
 
 There is also an invalidation path that does not wait for the TTL. Every streamed response can carry an `X-Models-Etag` header, which the client forwards as a `ModelsEtag` event.[^6] The manager exposes `refresh_if_new_etag`, which re-fetches with the `Online` strategy when the ETag differs from the cached one.[^7] In practice: if OpenAI changes the catalogue mid-session, the next response tells the client to refresh.
 
@@ -46,7 +47,7 @@ One more detail: when the remote catalogue contains at least one `List` entry an
 
 ## What Happens When the Server Answers With a Different Model
 
-When a streamed response arrives, the client reads an `OpenAI-Model` header from it. Both the server-sent-events path and the WebSocket path do this, and each emits a `ServerModel` event.[^11] The enum's own doc comment states the intent: this value "can differ from the requested model when backend safety routing applies."[^12]
+When a streamed response arrives, the client reads an `OpenAI-Model` header from it. Both the server-sent-events path and the WebSocket path do this, and each emits a `ServerModel` event.[^11] The enum's own doc comment states the intent: this value "can differ from the requested model when backend safety routing applies".[^12]
 
 The turn loop handles that event once per turn.[^13] The comparison itself is plain:[^14]
 
