@@ -1,7 +1,7 @@
 ---
 title: "WorkBuddy Bench and the Contamination-Resistant Multi-Domain Benchmark: Why the Harness Is Not a Neutral Instrument — and What 260 Tasks Reveal for Codex CLI Developers"
 date: 2026-08-13T09:00:00+00:00
-last_modified_at: 2026-11-25T23:05:27Z
+last_modified_at: 2026-11-26T03:05:58Z
 tags: ["codex-cli", "benchmarks", "contamination-resistance", "harness-sensitivity", "multi-domain-evaluation", "security", "WorkBuddy-Bench"]
 ---
 

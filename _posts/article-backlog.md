@@ -1,10 +1,43 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-25T23:05:27Z
+last_modified_at: 2026-11-26T03:05:58Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 26 November 2026 (Pass 1, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,128 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean, all counts verified. articles 2,128, premium 123, notes 1,194, sketchnotes 1,255, substack-drafts 329. No drift.
+- ✅ **Release check** — no new stable (v0.172.0 current, Nov 24). No new alpha beyond v0.174.0-alpha.6 (Nov 25 19:35 UTC).
+- ✅ **New issues logged** — #64041–#64062 (01:56–02:59 UTC) summarised in changelog-watch.md.
+- ✅ **PRs logged** — 9 PRs merged (00:20–02:42 UTC); TUI sidebar mouse controls, Unicode fuzzy match fix, MCP elicitation, Command Center shortcuts.
+
+**New issues filed this pass (01:56–02:59 UTC):**
+- #64041–#64043 — Windows Computer Use URL error; macOS app relaunch failure; Windows→iOS Remote conversation sync gap
+- #64044, #64047 — Voice chat misalignment false-positive ("Macro Plex"); content safety false-positive cluster continues
+- #64046 — macOS Work conversation creation broken
+- #64049 — TUI `/term` side-terminal feature request (community demand)
+- #64050, #64051 — Search popup overlap regression; inline edit cards missing on Windows desktop
+- #64056 — Japanese commentary in Korean conversation (i18n routing bug)
+- #64059 — Model list refresh timeout multi-device (Codex CLI + Desktop)
+- #64060 — Shared agentic weekly allowance drops to 0%; Support cannot reconcile (allowance-drain cluster)
+- #64061, #64062 — Windows Work command execution blocked after Linux switch; Local Work cannot download Library originals
+
+**Windows Work/Remote regression cluster** (#64041, #64043, #64051, #64061, #64062) is widening — monitor for hotfix signal.
+
+**Outstanding article priorities (carried forward):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+- 🟠 Allowance Drain: Why Shared Agentic Quotas Keep Hitting Zero (new — #63977/#63980/#64060 cluster)
+
 ---
 
 ## Article Triage — 25 November 2026 (Pass 8, ~hourly UTC)
