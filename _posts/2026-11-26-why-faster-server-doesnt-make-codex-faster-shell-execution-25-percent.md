@@ -1,7 +1,7 @@
 ---
 title: "Why a Faster Server Does Not Make Codex Faster: The 2.5% Shell-Execution Finding"
 date: 2026-11-26T08:00:00+00:00
-last_modified_at: 2026-11-26T17:07:10Z
+last_modified_at: 2026-11-26T18:09:08Z
 tags:
   - codex-cli
   - infrastructure
@@ -11,7 +11,7 @@ tags:
   - azure
   - cost-optimisation
   - agentic-engineering
-rating: 4.0
+rating: 4.3
 depth: 4
 originality: 5
 accuracy: 4

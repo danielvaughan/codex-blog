@@ -1,7 +1,7 @@
 ---
 title: "The Invisible Tax: GPT-5.6 Luna and Codex CLI's Undocumented Background Reviewer"
 date: 2026-11-19T14:00:00+00:00
-last_modified_at: 2026-11-26T17:07:10Z
+last_modified_at: 2026-11-26T18:09:08Z
 tags:
   - codex-cli
   - pricing

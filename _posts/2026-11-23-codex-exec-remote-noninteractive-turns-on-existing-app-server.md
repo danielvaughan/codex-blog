@@ -1,7 +1,7 @@
 ---
 title: "codex exec --remote: Running Non-Interactive Turns on an Existing App Server"
 date: 2026-11-23T08:00:00+00:00
-last_modified_at: 2026-11-26T17:07:10Z
+last_modified_at: 2026-11-26T18:09:08Z
 tags:
   - codex-cli
   - v0.171.0

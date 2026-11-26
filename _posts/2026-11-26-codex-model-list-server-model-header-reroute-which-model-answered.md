@@ -1,7 +1,7 @@
 ---
 title: "Which Model Actually Answered? How Codex Builds Its Model List and Reports a Rerouted Turn"
 date: 2026-11-26T09:00:00+00:00
-last_modified_at: 2026-11-26T17:07:10Z
+last_modified_at: 2026-11-26T18:09:08Z
 tags:
   - codex-cli
   - models
@@ -12,6 +12,11 @@ tags:
   - cyber-safety
   - source-code-analysis
 copy_edited: true
+rating: 4.4
+depth: 5
+originality: 4
+accuracy: 5
+substack: 3
 ---
 
 The model name in the Codex picker is what the client asked for. It is not a record of which model replied. Codex's own source contains a mechanism that exists precisely because the two can differ, and it has some sharp edges that matter if you track cost, quality or compliance by model.
