@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.172.0 Stable: Lazy MCP Startup, Slash-Command Tab Completion, Bedrock Runtime, and Cross-Platform Remote Sessions"
 date: 2026-11-25T09:00:00+00:00
-last_modified_at: 2026-11-26T03:05:58Z
+last_modified_at: 2026-11-26T05:18:14Z
 tags:
   - codex-cli
   - v0.172.0

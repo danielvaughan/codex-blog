@@ -6,7 +6,7 @@ timestamp: 2026-05-01T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-01-agent-code-churn-research-codex-cli-durability-patterns"
 tags: ["codex-cli", "research", "code-quality", "code-churn", "AGENTS.md", "hooks", "best-practices", "MSR-2026"]
 date: 2026-05-01T09:00:00+00:00
-last_modified_at: 2026-11-26T03:05:58Z
+last_modified_at: 2026-11-26T05:18:14Z
 ---
 # Agent-Generated Code Churns Faster: What 110,000 Pull Requests Reveal and How to Configure Codex CLI for Durable Output
 

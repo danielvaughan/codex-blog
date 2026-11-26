@@ -1,7 +1,7 @@
 ---
 title: "Credential Exfiltration Defence in Depth: From Activation Probes to Codex CLI's Shell Environment Policy"
 date: 2026-08-12T09:00:00+00:00
-last_modified_at: 2026-11-26T03:05:58Z
+last_modified_at: 2026-11-26T05:18:14Z
 tags: ["codex-cli", "security", "credential-exfiltration", "honeytokens", "activation-probes", "shell-environment-policy", "PreToolUse", "sandbox", "defence-in-depth"]
 ---
 

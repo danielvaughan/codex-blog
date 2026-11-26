@@ -1,10 +1,45 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-26T03:05:58Z
+last_modified_at: 2026-11-26T05:18:14Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 26 November 2026 (Pass 2, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,128 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean. README notes count corrected (1,211 → 1,194). All other counts verified correct.
+- ✅ **Release check** — v0.174.0-alpha.7 released Nov 26 04:36 UTC. No new stable (v0.172.0 current, Nov 24). Logged in changelog-watch.md.
+- ✅ **New issues logged** — #64064–#64075 (03:08–04:44 UTC) summarised in changelog-watch.md.
+- ✅ **PRs logged** — 3 PRs merged (02:42–04:01 UTC): TUI code fence fix, Kitty pet flicker fix, TUI image attachment path resolution.
+
+**New issues filed this pass (03:08–04:44 UTC):**
+- #64064 — Windows ChatGPT app hangs on startup
+- #64065/#64066 — Cybersecurity false-positive cluster grows (academic research + 86Box debugging)
+- #64068 — Scheduled run chat stays untitled (session metadata race)
+- #64070 — macOS mock carousel covers diagram/text (UI overlap)
+- #64072 — Windows Computer Use Chrome URL verify failure (joins #64041)
+- #64073 — Windows 512 MiB serialization freeze on OneDrive image batch (new regression)
+- #64074 — ChatGPT Work: patch files not resolved (Work file-handling bug)
+- #64075 — Feature request: download files from web Outputs panel
+
+**Emerging article opportunity — Cybersecurity false-positive cluster:**
+- 5+ reports in 2 days; GPT-6 blocking legitimate academic security research and debugging sessions
+- Article angle: "GPT-6's Cyber-Policy Overcorrection: When Safety Filters Break Legitimate Work"
+
+**Outstanding article priorities (carried forward):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🟠 GPT-6 Cybersecurity False-Positive Pattern (new, growing cluster)
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+- 🟠 Allowance Drain: Why Shared Agentic Quotas Keep Hitting Zero (#63977/#63980/#64060)
+
 ---
 
 ## Article Triage — 26 November 2026 (Pass 1, ~hourly UTC)

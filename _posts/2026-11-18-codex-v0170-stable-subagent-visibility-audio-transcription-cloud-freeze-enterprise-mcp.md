@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.170.0 Stable: Realtime Voice Calls, OpenTelemetry Auth, Multi-Environment MCP, and Reliability Fixes"
 date: 2026-11-18T08:00:00+00:00
-last_modified_at: 2026-11-26T03:05:58Z
+last_modified_at: 2026-11-26T05:18:14Z
 parent: "Articles"
 nav_order: 2119
 tags:
