@@ -1,7 +1,7 @@
 ---
 title: "HANDBOOK.md and the Policy Compliance Gap: What a 36% Pass Rate Means for Codex CLI's AGENTS.md Governance"
 date: 2026-08-01T09:00:00+00:00
-last_modified_at: 2026-11-26T13:05:52Z
+last_modified_at: 2026-11-26T15:07:39Z
 tags: ["codex-cli", "benchmarks", "policy-compliance", "AGENTS.md", "governance", "approval-policy", "enterprise", "HANDBOOK.md"]
 ---
 

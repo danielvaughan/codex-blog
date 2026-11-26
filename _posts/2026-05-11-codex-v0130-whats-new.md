@@ -2,7 +2,7 @@
 title: "Codex CLI v0.130.0: What's New and Why It Matters"
 description: "The latest stable release of Codex CLI (v0.130.0, 8 May 2026) brings several features relevant to agentic and enterprise workflows."
 date: 2026-05-11T00:00:00+00:00
-last_modified_at: 2026-11-26T13:05:52Z
+last_modified_at: 2026-11-26T15:07:39Z
 tags:
   - codex-cli
   - changelog

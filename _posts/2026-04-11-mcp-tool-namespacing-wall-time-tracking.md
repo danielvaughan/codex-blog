@@ -6,7 +6,7 @@ timestamp: 2026-04-11T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-11-mcp-tool-namespacing-wall-time-tracking"
 tags: ["mcp", "namespacing", "wall-time", "performance", "tool-collision", "codex-cli"]
 date: 2026-04-11T09:00:00+00:00
-last_modified_at: 2026-11-26T13:05:52Z
+last_modified_at: 2026-11-26T15:07:39Z
 ---
 # MCP Tool Namespacing and Wall Time Tracking in Codex CLI
 

@@ -1,10 +1,45 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-26T13:05:52Z
+last_modified_at: 2026-11-26T15:07:39Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 26 November 2026 (Pass 4, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,130 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean; no new commits since 13:10 UTC. Counts verified correct.
+- ✅ **Release check** — no new stable (v0.172.0 current). No new alpha beyond v0.174.0-alpha.7.
+- ✅ **New issues logged** — #64145–#64163 (13:03–~15:00 UTC) summarised in changelog-watch.md.
+- ✅ **PRs logged** — 4 PRs merged: #64152 (Statsig cleanup), #64157 (Guardian V3 tool-call assessment), #64159 (tool executor lifetimes), #64160 (Guardian V3 manual approval provenance).
+
+**New issues filed this pass (15 issues):**
+- **#64145** — Side Chat cache miss while Fork succeeds (cache-coherence gap)
+- **#64150** — GPT-6.2 Astra mislabelled as "GPT-6 Astra" in mixed-model sessions
+- **#64151** — Project "No chats" after app-server API thread assignment
+- **#64153** — Code mode broken-pipe errors on Linux
+- **#64158** — Windows PowerShell classifier cyber-FP (**joins cluster, now 8+ reports**)
+- **#64162** — Excessive `git diff` spawning in large LFS repos (performance)
+- **#64163** — Permissions dropdown disappeared; approval mode inaccessible
+
+**Notable article opportunity — Guardian V3 / approval-provenance:**
+- Three PRs (#64157, #64159, #64160) in 15 minutes refactoring the Guardian approval system to V3. If a stable carries this, it's worth a "What Changed in Codex's Guardian System" article — covers V3 tool-call assessment, manual approval provenance, and how this addresses the silent-refusal report (#64118 from Pass 3).
+
+**Outstanding article priorities (updated):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🔴 GPT-6 Cybersecurity False-Positive Pattern (now 8+ reports, all platforms — escalated from 🟠)
+- 🟠 Allowance Drain: Why Shared Agentic Quotas Keep Hitting Zero
+- 🟠 When Codex Acts Without Asking: The Consent Gap (#64129)
+- 🟠 Guardian V3: What Changed in Codex's Approval System (new, watch for stable release)
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+
 ---
 
 ## Article Triage — 26 November 2026 (Pass 3, ~hourly UTC)
