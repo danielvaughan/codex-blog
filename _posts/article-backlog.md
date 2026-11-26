@@ -1,10 +1,41 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-26T18:09:08Z
+last_modified_at: 2026-11-26T21:06:45Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 26 November 2026 (Pass 6, ~17:00–21:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,130 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean; v0.172.0 stable unchanged. No new alpha beyond v0.174.0-alpha.7 (04:36 UTC).
+- ✅ **New issues logged** — #64184–#64217 (17:00–~21:00 UTC) summarised in changelog-watch.md.
+- ✅ **PRs logged** — 10 PRs merged: #64187 (Guardian V3 root-thread shadow config), #64192 (Wayland PRIMARY selection), #64193–#64214 (TUI sprint: grouped tool calls, row shading, prompt editing, reasoning headings, batch writes, side-chat scrollback, file line-range highlighting, Unicode fuzzy search).
+
+**New article opportunities identified this pass:**
+
+### 214 · The TUI Sprint: What Codex 0.174 Is Quietly Building
+
+- **Status:** 🟡 Watch — wait for v0.174.0 stable to confirm all features ship
+- **Sources:** #64187, #64192, #64193, #64195, #64199, #64202, #64204, #64207, #64211, #64214 (all merged Pass 6)
+- **Gap:** 10 PRs in one pass represent the most concentrated TUI work this cycle. Features graduating to 0.174: Wayland PRIMARY clipboard, Apple Terminal row-shading persistence, smooth reasoning headings, batch writes, side-chat scrollback cycling, and file line-range opening/highlighting. Guardian V3 shadow-review configurability from root thread also lands. This article positions 0.174 as the "polish release" — counterpoint to the feature-heavy 0.172/0.173 cycle. Good companion to any "what's new in Codex 0.174" piece.
+
+**Existing high-priority items (cybersecurity FP cluster updated):**
+- 🔴 **#213** — The Seven-Day Safety Wall (cybersecurity FP) — cluster now **13+ reports**; Pass 6 adds #64188, #64191 (firmware), #64217 (Daybreak/app) — urgency confirmed; write before OpenAI responds
+- 🔴 #209 — The Transparency Ratchet (December quota merger window closing)
+- 🟠 #207 — Windows Platform Health Dashboard (critical: #64194 Send Button disabled, #64186 chats stop)
+- 🟠 #212 — EDR Quarantine Defence Kit
+- 🟡 #214 — TUI Sprint / What's Coming in Codex 0.174 (new, watch for stable)
+
+**Notable signals for future articles:**
+- **Goal premature-completion** (#64182, #64212) — two explicit reports now; worth a short article on "When Codex Lies About Being Done"
+- **VS Code infinite retry** (#64196) — severe isolated bug; watch for maintainer response before writing
+- **DNS-blocked on Windows Work mode** (#64201, #64216) — persisting across updates; could strengthen the Windows Platform Health Dashboard article
+
 ---
 
 ## Article Triage — 26 November 2026 (Pass 5, ~15:00–17:00 UTC)
