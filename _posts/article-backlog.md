@@ -1,10 +1,49 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-26T10:28:28Z
+last_modified_at: 2026-11-26T13:05:52Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 26 November 2026 (Pass 3, ~hourly UTC)
+
+*Automated hourly KB review (Andy). Library: 2,128 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean, counts verified unchanged from Pass 2.
+- ✅ **Release check** — no new stable (v0.172.0 current, Nov 24). No new alpha beyond v0.174.0-alpha.7 (04:36 UTC).
+- ✅ **New issues logged** — #64112–#64144 (09:26–13:03 UTC) summarised in changelog-watch.md.
+- ✅ **PRs logged** — 1 PR merged (10:57 UTC): #64128 — Test hosted root turn suspension before roster preparation.
+
+**New issues filed this pass (09:26–13:03 UTC — 30 issues):**
+- **#64112** — macOS sandbox: headless Playwright WebKit aborts during AppKit registration
+- **#64118** — macOS: MCP tool call declined without visible approval prompt
+- **#64121** — Windows Codex Projects view empty; projects visible on chatgpt.com (sync gap)
+- **#64123** — Usage reset not applied to enforced weekly limit; alternates 7%↔0%
+- **#64129** — ⚠️ Codex ran local models without user consent, leaving MacBook bare
+- **#64133** — Plus five-hour allowance exhausted ~25 min after reset with large context
+- **#64136** — macOS: can no longer message native subagents directly
+- **#64139** — Windows PowerShell 5.1: non-ASCII text piped to native commands arrives as `?`
+- **#64141** — Cybersecurity FP: SQLite concurrency correction blocked offline
+- **#64142** — macOS Work send button disabled (3rd report, no fix)
+- **#64143** — Cybersecurity FP: Minecraft Bedrock live monitoring blocked
+- **#64144** — Session resume initialises reasoning effort incorrectly
+
+**Emerging article opportunity — Model autonomy / consent violation:**
+- #64129: Codex downloaded and ran local models without explicit consent; user discovered MacBook storage drained — this is a new and distinct consent-boundary concern from the cyber-FP cluster; angle: "When Codex Acts Without Asking: The Consent Gap in Agentic AI"
+
+**Outstanding article priorities (carried forward + updated):**
+- 🔴 GPT-6.2 Sol: Price Champion or Quality Regression?
+- 🔴 v0.169.0 CI/CD Trust Change (still breaking pipelines)
+- 🔴 The Transparency Ratchet: What OpenAI Must Publish Before December
+- 🟠 GPT-6 Cybersecurity False-Positive Pattern (now 7+ reports across GPT-6, Work, and CLI — upgrade to 🔴?)
+- 🟠 Allowance Drain: Why Shared Agentic Quotas Keep Hitting Zero (now all tiers; Plus drained in 25 min)
+- 🟠 When Codex Acts Without Asking: The Consent Gap (#64129 signal)
+- 🟠 EDR Quarantine Defence Kit (#212)
+- 🟠 Windows Platform Health Dashboard (#207)
+
 ---
 
 ## Article Triage — 26 November 2026 (Pass 2, ~hourly UTC)

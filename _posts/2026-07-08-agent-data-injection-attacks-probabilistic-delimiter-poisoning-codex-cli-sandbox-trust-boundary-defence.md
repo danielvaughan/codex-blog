@@ -1,7 +1,7 @@
 ---
 title: "Agent Data Injection: What Probabilistic Delimiter Poisoning Reveals About the Trust Boundary Gap — and How Codex CLI's Layered Defences Respond"
 date: 2026-07-08T09:00:00+00:00
-last_modified_at: 2026-11-26T10:28:28Z
+last_modified_at: 2026-11-26T13:05:52Z
 tags: ["codex-cli", "security", "agent-data-injection", "indirect-prompt-injection", "probabilistic-delimiter", "sandbox", "trust-boundary", "defence-in-depth"]
 ---
 

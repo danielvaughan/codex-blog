@@ -1,7 +1,7 @@
 ---
 title: "Mind Viruses: Self-Propagating Instructions in Multi-Agent LLM Systems — and Codex CLI's Defences"
 date: 2026-08-27T09:00:00+00:00
-last_modified_at: 2026-11-26T10:28:28Z
+last_modified_at: 2026-11-26T13:05:52Z
 tags: ["codex-cli", "security", "multi-agent", "AGENTS.md", "hooks", "prompt-injection", "v0.150.0", "subagent"]
 ---
 
