@@ -1,7 +1,7 @@
 ---
 title: "Unmix: Reversible AI Decisions and the Git Task Ledger Pattern"
 date: 2026-10-22T08:00:00+00:00
-last_modified_at: 2026-11-26T07:06:58Z
+last_modified_at: 2026-11-26T07:19:04Z
 parent: "Articles"
 nav_order: 1195
 tags:
