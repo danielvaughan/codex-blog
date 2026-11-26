@@ -6,7 +6,7 @@ timestamp: 2026-04-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-19-compiled-policy-enforcement-pcas-codex-hooks"
 tags: ["codex-cli", "security", "hooks", "policy-enforcement", "PCAS", "governance", "enterprise"]
 date: 2026-04-19T09:00:00+00:00
-last_modified_at: 2026-11-26T05:18:14Z
+last_modified_at: 2026-11-26T07:06:58Z
 ---
 # Compiled Policy Enforcement: Why Prompt-Based Safety Fails at 48% and What PCAS Means for Codex Hooks
 

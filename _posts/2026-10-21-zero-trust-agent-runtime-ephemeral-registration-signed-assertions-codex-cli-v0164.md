@@ -1,7 +1,7 @@
 ---
 title: "Zero-Trust Agent Runtime: Ephemeral Registration and Signed Assertions in Codex CLI v0.164.0"
 date: 2026-10-21T09:00:00+00:00
-last_modified_at: 2026-11-26T05:18:14Z
+last_modified_at: 2026-11-26T07:06:58Z
 parent: "Articles"
 nav_order: 1193
 tags:

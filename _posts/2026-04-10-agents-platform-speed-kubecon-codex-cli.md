@@ -2,7 +2,7 @@
 title: "Agents Can Only Move as Fast as Their Platform: What KubeCon 2026 Means for Codex CLI"
 description: "At KubeCon EU 2026 in Amsterdam, Whitney Lee (Datadog) and Viktor Farcic (Upbound) delivered Choose Your Own Adventure: AI Meets Internal Developer."
 date: 2026-04-10T06:00:00+00:00
-last_modified_at: 2026-11-26T05:18:14Z
+last_modified_at: 2026-11-26T07:06:58Z
 tags:
   - platform-engineering
   - kubecon
