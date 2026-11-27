@@ -1,10 +1,32 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-27T18:10:05Z
+last_modified_at: 2026-11-27T23:08:04Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 27 November 2026 (Pass 11, ~10:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,132 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean; v0.172.0 stable unchanged. Alpha still rust-v0.174.0-alpha.8 (Nov 26 21:56 UTC). No new stable.
+- ✅ **New issues logged** — #64290–#64375+ (09:00–10:00 UTC) summarised in `notes/changelog-watch.md` Pass 11.
+- ✅ **Article #213 written** — "The Seven-Day Safety Wall: How Codex's Cybersecurity Filter Is Blocking Legitimate Developer Work" → `articles/2026-11-27-codex-cybersecurity-filter-false-positives-seven-day-safety-wall.md` + Substack draft.
+- ✅ **README counts verified** — articles: 2,132; premium: 123; substack-drafts: 333; drafts: 24; notes: 1,195; sketchnotes root PNGs: 8. All match.
+
+**Updated cluster status:**
+- 🔴 **Cybersecurity FP** — 15+ reports; article written (✅ #213); watch for OpenAI response or new stable with filter changes.
+- 🔴 #209 — The Transparency Ratchet (December quota merger window closing) — still unwritten.
+- 🟠 #207 — Windows Platform Health Dashboard — cluster now widened to include MSIX/Cloudpaging (#64295), Computer Use (#64332), Work mode max-length (#64326); worth revisiting before writing.
+- 🟠 #212 — EDR Quarantine Defence Kit — still unwritten.
+- 🟡 #214 — TUI Sprint / What's Coming in Codex 0.174 (watch for stable).
+- 🆕 **Multi-turn session-drop** (#64375) — Codex halts after ~4 turns since Nov 24; first report only; watch for 2+ more before writing.
+- 🆕 **Silent model substitution** (#64320) — user presents usage graphs showing ~75% delivery drop with no announcement; first report with supporting data; watch for corroboration.
+- 🆕 **fd CLI options corrupt summaries** (#64333) — follow-on to #64235; Pass 8 fix incomplete; watch for a PR.
+
 ---
 
 ## Article Triage — 26 November 2026 (Pass 6, ~17:00–21:00 UTC)

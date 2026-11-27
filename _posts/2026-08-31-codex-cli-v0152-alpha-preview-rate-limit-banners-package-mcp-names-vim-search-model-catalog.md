@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.152 Alpha Preview: Rate-Limit Banners, Package-Style MCP Names, Vim Search, and the Model Catalog Instruction Split"
 date: 2026-08-31T16:00:00+00:00
-last_modified_at: 2026-11-27T18:10:05Z
+last_modified_at: 2026-11-27T23:08:04Z
 tags: ["codex-cli", "v0.152", "alpha", "mcp", "vim", "rate-limits", "tui", "model-catalog", "multi-agent", "guardian"]
 ---
 

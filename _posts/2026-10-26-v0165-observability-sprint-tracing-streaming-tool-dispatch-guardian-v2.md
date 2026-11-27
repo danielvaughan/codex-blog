@@ -1,7 +1,7 @@
 ---
 title: "Inside the Black Box: Codex CLI v0.165.0's Observability Sprint"
 date: 2026-10-26T09:00:00+00:00
-last_modified_at: 2026-11-27T18:10:05Z
+last_modified_at: 2026-11-27T23:08:04Z
 parent: "Articles"
 nav_order: 1205
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Tokenmaxxing: Why Your Coding Agent Burns 69% More Tokens in Rust Than Python — and What Codex CLI Developers Should Do About It"
 date: 2026-07-29T09:00:00+00:00
-last_modified_at: 2026-11-27T18:10:05Z
+last_modified_at: 2026-11-27T23:08:04Z
 tags: ["codex-cli", "token-efficiency", "programming-languages", "context-window", "cost-optimisation", "named-profiles", "agent-behaviour"]
 ---
 

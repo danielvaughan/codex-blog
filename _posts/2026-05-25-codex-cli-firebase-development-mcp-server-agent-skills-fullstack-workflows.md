@@ -5,7 +5,7 @@ timestamp: 2026-05-25T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-25-codex-cli-firebase-development-mcp-server-agent-skills-fullstack-workflows"
 tags: ["codex-cli", "firebase", "mcp", "agent-skills", "firestore", "authentication", "crashlytics", "cloud-functions", "full-stack"]
 date: 2026-05-25T09:00:00+00:00
-last_modified_at: 2026-11-27T18:10:05Z
+last_modified_at: 2026-11-27T23:08:04Z
 ---
 # Codex CLI for Firebase Development: MCP Server, Agent Skills, and Full-Stack Workflows
 
