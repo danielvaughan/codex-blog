@@ -1,7 +1,7 @@
 ---
 title: "The Levels of Agentic Engineering: Why Tool Accumulation Is Not Progress"
 date: 2026-11-19T00:00:00+00:00
-last_modified_at: 2026-11-27T03:11:40Z
+last_modified_at: 2026-11-27T07:13:01Z
 tags:
   - agentic-engineering
   - maturity-model

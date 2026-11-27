@@ -1,7 +1,7 @@
 ---
 title: "Which Model Actually Answered? How Codex Builds Its Model List and Reports a Rerouted Turn"
 date: 2026-11-26T09:00:00+00:00
-last_modified_at: 2026-11-27T03:11:40Z
+last_modified_at: 2026-11-27T07:13:01Z
 tags:
   - codex-cli
   - models
