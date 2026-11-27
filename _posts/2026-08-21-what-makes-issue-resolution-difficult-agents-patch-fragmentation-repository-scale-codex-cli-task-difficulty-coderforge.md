@@ -1,7 +1,7 @@
 ---
 title: "What Makes Issue Resolution Difficult for Agents? Patch Fragmentation, Repository Scale, and What It Means for Your Codex CLI Workflow"
 date: 2026-08-21T09:00:00+00:00
-last_modified_at: 2026-11-27T10:08:10Z
+last_modified_at: 2026-11-27T10:26:30Z
 tags: ["codex-cli", "task-difficulty", "patch-fragmentation", "repository-scale", "CoderForge-Preview", "issue-resolution", "benchmark", "SHAP", "difficulty-prediction", "ESEM-2026"]
 ---
 

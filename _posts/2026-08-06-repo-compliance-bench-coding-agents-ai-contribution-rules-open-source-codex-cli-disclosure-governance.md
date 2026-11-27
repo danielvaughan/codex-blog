@@ -1,7 +1,7 @@
 ---
 title: "RepoComplianceBench: Why Your Coding Agent Ignores Open-Source Contribution Rules — and What Codex CLI Practitioners Can Do About It"
 date: 2026-08-06T09:00:00+00:00
-last_modified_at: 2026-11-27T10:08:10Z
+last_modified_at: 2026-11-27T10:26:30Z
 tags: ["codex-cli", "open-source", "compliance", "AGENTS.md", "contribution-rules", "RepoComplianceBench", "governance", "hooks", "disclosure"]
 ---
 
