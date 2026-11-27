@@ -3,7 +3,7 @@ title: "The Best IDE for Agentic AI Is Not an IDE: Multi-Agent Context Managemen
 parent: "Articles"
 nav_order: 1160
 date: 2026-09-16T08:00:00+00:00
-last_modified_at: 2026-11-26T21:06:45Z
+last_modified_at: 2026-11-27T03:11:40Z
 tags: ["codex-cli", "multi-agent", "orchestration", "context-management", "workflow", "productivity", "tooling", "agentic"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Why a Faster Server Does Not Make Codex Faster: The 2.5% Shell-Execution Finding"
 date: 2026-11-26T08:00:00+00:00
-last_modified_at: 2026-11-26T21:06:45Z
+last_modified_at: 2026-11-27T03:11:40Z
 tags:
   - codex-cli
   - infrastructure
@@ -32,7 +32,7 @@ This article works through what that finding means for infrastructure decisions,
 The Coderlog ran a side-by-side Codex CLI build on two Azure instances:[^1]
 
 - **AMD instance** (standard x86-64, common cloud baseline)
-- **Microsoft Cobalt 200** (ARM-based, Azure's first in-house chip, available from early 2026)
+- **Microsoft Cobalt 200** (ARM-based, Azure's second-generation in-house Arm chip — successor to Cobalt 100 — reaching general availability in November 2026)
 
 The shell-command benchmarks were clear. `make build` on Cobalt ran in 1.9 seconds against 4.9 seconds on AMD. File I/O throughput was 2.1× higher. Compiler invocations were 1.61× faster. These are real, measurable improvements.
 
@@ -84,7 +84,7 @@ If inference latency is 97.5% of session time, then the interventions that actua
 **Reducing per-round-trip cost:**
 
 - Context length matters for inference latency as well as token cost. Long conversations accrue context. Using `/compact` at the right moment, or structuring multi-step workflows to start fresh sessions with summarised context, reduces the tokens the model processes on each call.
-- Model selection is the highest-leverage infrastructure decision available. GPT-6.1 Sol (the current Codex CLI default as of v0.172.0) is significantly faster at inference than its predecessor for comparable task quality. Choosing the right model for the task type — not always the most capable model — is a meaningful lever.
+- Model selection is the highest-leverage infrastructure decision available. GPT-6.2 Sol (the current Codex CLI default as of v0.172.0, promoted to default in v0.171.0) is significantly faster at inference than its predecessor for comparable task quality. Choosing the right model for the task type — not always the most capable model — is a meaningful lever.
 - Regional endpoint selection can affect inference latency. For European workloads, `api.openai.com` routes vary by load. Some teams report 10–20% session time improvement by explicitly routing to a region-pinned endpoint when available.
 
 **The one local lever that does matter:**
@@ -99,7 +99,7 @@ The finding points toward a future change that would shift the equation entirely
 
 Models small enough to run on-device at acceptable quality are improving rapidly. If a model capable of Codex-quality task completion could run on the same machine as the CLI process, inference latency would collapse from network-round-trip timescales (200–800 ms per call in typical conditions) to memory-bandwidth timescales (10–50 ms). The 97.5% slice would shrink, and local CPU/memory improvements would become meaningful again.
 
-This is not available today for the class of tasks Codex handles. GPT-6.1 Sol is not a model that runs on a laptop. But the direction of the field — model distillation, speculative decoding, Apple Silicon inference, Qualcomm NPU acceleration — is toward closing that gap. The Cobalt 200 benchmark is a preview of what becomes important once it does.
+This is not available today for the class of tasks Codex handles. GPT-6.2 Sol is not a model that runs on a laptop. But the direction of the field — model distillation, speculative decoding, Apple Silicon inference, Qualcomm NPU acceleration — is toward closing that gap. The Cobalt 200 benchmark is a preview of what becomes important once it does.
 
 For now, the practical implication is the opposite: cloud inference is the constraint, and the local machine is largely irrelevant to performance.
 

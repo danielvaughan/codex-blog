@@ -3,7 +3,7 @@ title: "The Illusion of Independent Quorums: Epistemic Fault Domains and What Th
 parent: "Articles"
 nav_order: 1155
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-11-26T21:06:45Z
+last_modified_at: 2026-11-27T03:11:40Z
 tags: ["multi-agent", "safety", "Guardian", "quorum", "epistemic-fault-domains", "codex-queue", "approve-for-me", "architecture"]
 ---
 

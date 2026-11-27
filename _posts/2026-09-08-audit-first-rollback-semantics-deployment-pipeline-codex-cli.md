@@ -3,7 +3,7 @@ title: "Audit-First Rollback Semantics: What Deployment Pipeline Research Means 
 parent: "Articles"
 nav_order: 1148
 date: 2026-09-08T08:00:00+00:00
-last_modified_at: 2026-11-26T21:06:45Z
+last_modified_at: 2026-11-27T03:11:40Z
 tags: ["codex-cli", "deployment", "audit", "rollback", "hooks", "ci-cd", "agentic-safety", "posttooluse"]
 ---
 
