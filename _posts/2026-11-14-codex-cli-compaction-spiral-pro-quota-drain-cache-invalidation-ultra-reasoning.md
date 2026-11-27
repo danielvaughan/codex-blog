@@ -1,7 +1,7 @@
 ---
 title: "The Compaction Spiral: How Codex CLI Can Burn Your Entire Pro Quota Before Lunch"
 date: 2026-11-14T08:00:00+00:00
-last_modified_at: 2026-11-27T10:26:30Z
+last_modified_at: 2026-11-27T18:10:05Z
 parent: "Articles"
 nav_order: 1234
 tags:

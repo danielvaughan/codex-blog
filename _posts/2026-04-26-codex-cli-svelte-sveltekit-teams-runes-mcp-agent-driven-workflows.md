@@ -6,7 +6,7 @@ timestamp: 2026-04-26T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-26-codex-cli-svelte-sveltekit-teams-runes-mcp-agent-driven-workflows"
 tags: ["codex-cli", "svelte", "sveltekit", "runes", "mcp", "agents-md", "vitest", "frontend", "component-workflows"]
 date: 2026-04-26T09:00:00+00:00
-last_modified_at: 2026-11-27T10:26:30Z
+last_modified_at: 2026-11-27T18:10:05Z
 ---
 # Codex CLI for Svelte and SvelteKit Teams: Runes, Svelte MCP, and Agent-Driven Component Workflows
 

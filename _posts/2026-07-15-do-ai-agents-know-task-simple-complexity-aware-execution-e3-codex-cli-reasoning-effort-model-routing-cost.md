@@ -1,7 +1,7 @@
 ---
 title: "Do AI Agents Know When a Task Is Simple? What E3's Complexity-Aware Execution Means for Codex CLI Cost Control"
 date: 2026-07-15T09:00:00+00:00
-last_modified_at: 2026-11-27T10:26:30Z
+last_modified_at: 2026-11-27T18:10:05Z
 tags: ["codex-cli", "cost-optimisation", "reasoning-effort", "model-routing", "E3", "complexity-aware", "ACRR", "named-profiles", "token-budget"]
 ---
 

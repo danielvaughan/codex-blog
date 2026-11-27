@@ -1,7 +1,7 @@
 ---
 title: "Fifteen Skills, One Domain: What the Herk Edit Kit Shows About Skill Architecture for Codex and Claude Code"
 date: 2026-11-27T09:00:00+00:00
-last_modified_at: 2026-11-27T10:26:30Z
+last_modified_at: 2026-11-27T18:10:05Z
 tags:
   - codex-cli
   - skills
@@ -12,6 +12,11 @@ tags:
   - hyperframes
   - case-study
 copy_edited: true
+depth: 5
+originality: 4
+accuracy: 5
+substack: 4
+rating: 4.6
 ---
 
 Most advice on writing skills is abstract: keep them small, give each one a job, put verification in. The Herk Edit Kit is a public repository that does all of that in one domain, video editing, which makes it a convenient specimen to read. This article reads the repository at commit `10511e5` (14 October 2026)[^1] and the Codex source at `9ba0cea` (24 November 2026)[^2] to see how the pieces fit, and what you can copy, whatever you are building.
