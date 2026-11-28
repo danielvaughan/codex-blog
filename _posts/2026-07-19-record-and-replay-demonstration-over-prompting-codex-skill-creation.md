@@ -1,7 +1,7 @@
 ---
 title: "Record and Replay: Why Demonstration Is Replacing Prompting for Agent Skill Creation"
 date: 2026-07-19T09:00:00+00:00
-last_modified_at: 2026-11-28T11:36:32Z
+last_modified_at: 2026-11-28T13:07:40Z
 tags: ["codex", "record-and-replay", "skills", "demonstration", "SKILL.md", "automation", "computer-use", "RPA"]
 ---
 

@@ -1,10 +1,34 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-28T11:36:32Z
+last_modified_at: 2026-11-28T13:07:40Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 28 November 2026 (Pass 13, ~13:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,134 articles, 134 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean; v0.172.0 stable unchanged. Alpha now rust-v0.174.0-alpha.9 (Nov 27 — no change since last pass).
+- ✅ **Article #210 written** — "Windows Codex Desktop Is Hiding Your Conversation History — MSIX Rollback Fixes It" → `articles/2026-11-28-windows-codex-desktop-hidden-history-msix-regression.md` + Substack draft. Fresh issue #64435 opened today; clear reproduction; last working MSIX version confirmed; data not lost.
+- ✅ **New issue logged** — #64442: [Windows Codex] Model used after rollout may differ from intended GPT-6 Astra without warning → corroborates #64320 (silent model substitution cluster). Two reports now.
+- ✅ **New issue noted** — #64434: Persistent account-dependent capacity failures on $100 Pro plan across 7 model IDs. Single report with controlled cross-account reproduction. Watch for more.
+- ✅ **README counts updated** — articles: 2,134 (was 2,133), substack-drafts: 335.
+
+**Updated cluster status:**
+- ✅ **#210** — Windows Desktop Hidden History — **written** (`articles/2026-11-28-windows-codex-desktop-hidden-history-msix-regression.md`).
+- 🔴 **Cybersecurity FP** — 15+ reports; article written (#213); watch for OpenAI response or new stable with filter changes.
+- 🟠 #207 — Windows Platform Health Dashboard — cluster now includes #64435 (history hidden); article about history regression (#210) written as a standalone. Full dashboard article still unwritten.
+- 🟠 #212 — EDR Quarantine Defence Kit — still unwritten.
+- 🟡 #214 — TUI Sprint / What's Coming in Codex 0.174 (watch for v0.174.0 stable).
+- 🟡 **Silent model substitution** (#64320, #64442) — now two reports. #64442 (Nov 28): production outage after silent Sol substitution. Still circumstantial (user cannot confirm app changed it vs new thread default). Watch for a third report or an OpenAI comment before writing.
+- 🆕 **Multi-turn session-drop** (#64375) — Codex halts after ~4 turns since Nov 24; still single report; watch for more.
+- 🆕 **Account-scoped capacity throttling** (#64434) — Pro plan user, 7 model IDs returning "Selected model is at capacity"; controlled cross-account reproduction; single report; watch for more.
+- 🆕 **fd CLI options corrupt summaries** (#64333) — follow-on to #64235; Pass 8 fix incomplete; watch for a PR.
+
 ---
 
 ## Article Triage — 28 November 2026 (Pass 12, ~09:00 UTC)

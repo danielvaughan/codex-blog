@@ -1,7 +1,7 @@
 ---
 title: "Paperclip Budget Controls: Why a Hard Stop Enforced on Recorded Spend Is Not a Spending Cap"
 date: 2026-11-25T08:00:00+00:00
-last_modified_at: 2026-11-28T11:36:32Z
+last_modified_at: 2026-11-28T13:07:40Z
 tags:
   - codex-cli
   - paperclip

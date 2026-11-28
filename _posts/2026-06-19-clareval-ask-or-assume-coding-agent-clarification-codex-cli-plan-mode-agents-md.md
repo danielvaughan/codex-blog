@@ -5,7 +5,7 @@ timestamp: 2026-06-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-06-19-clareval-ask-or-assume-coding-agent-clarification-codex-cli-plan-mode-agents-md"
 tags: ["codex-cli", "clarification", "ClarEval", "ambiguity", "plan-mode", "AGENTS.md", "approval-modes", "collaborative-agents"]
 date: 2026-06-19T09:00:00+00:00
-last_modified_at: 2026-11-28T11:36:32Z
+last_modified_at: 2026-11-28T13:07:40Z
 ---
 # When Coding Agents Should Ask Instead of Guess: What ClarEval and the Uncertainty-Aware Multi-Agent Study Mean for Codex CLI
 

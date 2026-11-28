@@ -6,7 +6,7 @@ timestamp: 2026-05-19T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-19-rtk-codex-cli-token-optimisation-shell-output-compression"
 tags: ["codex-cli", "rtk", "token-optimisation", "context-window", "developer-tools", "shell-output", "compression"]
 date: 2026-05-19T09:00:00+00:00
-last_modified_at: 2026-11-28T11:36:32Z
+last_modified_at: 2026-11-28T13:07:40Z
 ---
 # RTK and Codex CLI: Killing Token Waste at the Shell Boundary
 

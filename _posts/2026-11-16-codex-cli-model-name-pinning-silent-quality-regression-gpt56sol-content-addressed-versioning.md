@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI Pins Model Names, Not Versions — and That's a Silent Quality Bomb"
 date: 2026-11-16T18:00:00+00:00
-last_modified_at: 2026-11-28T11:36:32Z
+last_modified_at: 2026-11-28T13:07:40Z
 parent: "Articles"
 nav_order: 2115
 tags:

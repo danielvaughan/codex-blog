@@ -6,7 +6,7 @@ timestamp: 2026-04-29T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-04-29-interaction-smells-codex-cli-multi-turn-prompt-anti-patterns"
 tags: ["codex-cli", "prompting", "best-practices", "research", "multi-turn", "session-quality", "interaction-smells"]
 date: 2026-04-29T09:00:00+00:00
-last_modified_at: 2026-11-28T11:36:32Z
+last_modified_at: 2026-11-28T13:07:40Z
 ---
 # Interaction Smells in Codex CLI Sessions: Recognising and Fixing Multi-Turn Prompt Anti-Patterns
 
