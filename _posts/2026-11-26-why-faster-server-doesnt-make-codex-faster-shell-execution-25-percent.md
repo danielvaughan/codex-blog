@@ -1,7 +1,7 @@
 ---
 title: "Why a Faster Server Does Not Make Codex Faster: The 2.5% Shell-Execution Finding"
 date: 2026-11-26T08:00:00+00:00
-last_modified_at: 2026-11-28T10:07:16Z
+last_modified_at: 2026-11-28T11:36:32Z
 tags:
   - codex-cli
   - infrastructure

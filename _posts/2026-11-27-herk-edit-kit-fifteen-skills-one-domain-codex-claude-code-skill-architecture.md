@@ -1,7 +1,7 @@
 ---
 title: "Fifteen Skills, One Domain: What the Herk Edit Kit Shows About Skill Architecture for Codex and Claude Code"
 date: 2026-11-27T09:00:00+00:00
-last_modified_at: 2026-11-28T10:07:16Z
+last_modified_at: 2026-11-28T11:36:32Z
 tags:
   - codex-cli
   - skills

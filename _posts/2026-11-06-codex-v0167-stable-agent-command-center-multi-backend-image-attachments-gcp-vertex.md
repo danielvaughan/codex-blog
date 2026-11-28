@@ -1,7 +1,7 @@
 ---
 title: "Codex CLI v0.167.0 Stable: Agent Command Center, Multi-Backend Switching, Image Attachments, and GCP Vertex AI Wizard"
 date: 2026-11-06T01:40:00+00:00
-last_modified_at: 2026-11-28T10:07:16Z
+last_modified_at: 2026-11-28T11:36:32Z
 parent: "Articles"
 nav_order: 1219
 tags:

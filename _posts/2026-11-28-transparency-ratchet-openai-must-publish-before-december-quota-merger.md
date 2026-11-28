@@ -1,7 +1,7 @@
 ---
 title: "The Transparency Ratchet: What OpenAI Must Publish Before the December Quota Merger"
 date: 2026-11-28T09:00:00+00:00
-last_modified_at: 2026-11-28T10:07:16Z
+last_modified_at: 2026-11-28T11:36:32Z
 parent: "Articles"
 nav_order: 2133
 tags:
@@ -62,7 +62,7 @@ None of these asks require reversing the decision. They require treating develop
 
 There is a structural reason the correction-cycle token burn makes this disclosure more urgent than a simple allowance question.
 
-The compaction spiral — documented in Issues [#60538](https://github.com/openai/codex/issues/60538) and [#60791](https://github.com/openai/codex/issues/60791) — is a feedback loop in which Codex CLI's context compaction system repeatedly rewrites the conversation history, invalidating the cache prefix, triggering full-price re-ingestion on each turn, and driving context back toward the limit that triggers the next compaction event. One session documented 72 compaction events with cache reuse falling to 15.7 per cent. A developer lost a full weekly Pro allowance — $200 worth — in eight hours.
+The compaction spiral — documented in Issues [#60538](https://github.com/openai/codex/issues/60538) and [#60791](https://github.com/openai/codex/issues/60791) — is a feedback loop in which Codex CLI's context compaction system repeatedly rewrites the conversation history, invalidating the cache prefix, triggering full-price re-ingestion on each turn, and driving context back toward the limit that triggers the next compaction event. One session documented 72 compaction events with cache reuse falling to 15.7 per cent. A developer lost a full weekly Pro allowance — \$200 worth — in eight hours.
 
 The correction-cycle burn is a related but distinct failure mode. Large reasoning models periodically lose coherent context within a session — not hallucinations, but context-window management failures where the model re-derives established information, re-issues completed tool calls, or requests clarification on decisions made ten turns earlier. Each correction cycle generates tokens. Under the current separate-allowance architecture, those tokens come from the Codex bucket, which was sized around agentic task consumption patterns. Under the unified allowance, they come from the same pool as a morning's conversational queries.
 
