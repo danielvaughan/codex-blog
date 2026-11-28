@@ -1,7 +1,7 @@
 ---
 title: "The Transparency Ratchet: What OpenAI Must Publish Before the December Quota Merger"
 date: 2026-11-28T09:00:00+00:00
-last_modified_at: 2026-11-28T03:07:02Z
+last_modified_at: 2026-11-28T03:15:58Z
 parent: "Articles"
 nav_order: 2133
 tags:
@@ -45,7 +45,7 @@ November 28. Three days to December.
 
 The demands from the developer community as of this writing are specific, bounded, and not unreasonable. They are not a demand to reverse the merger. They are a minimum viable disclosure checklist.
 
-**Token consumption rates per model per task type.** The specific ask is a distinction between GPT-6.1 Sol interactive and GPT-6.1 Sol agentic — the same model behaves differently in a conversational session than in a multi-hour refactor task. Developers building their own cost projections cannot do the arithmetic without this input. The data exists in OpenAI's billing infrastructure. The barrier to publishing it is not technical.
+**Token consumption rates per model per task type.** The specific ask is a distinction between GPT-6.2 Sol interactive and GPT-6.2 Sol agentic — the same model behaves differently in a conversational session than in a multi-hour refactor task. Developers building their own cost projections cannot do the arithmetic without this input. The data exists in OpenAI's billing infrastructure. The barrier to publishing it is not technical.
 
 **The unified allowance figure for each subscription tier.** This is the most basic ask. Under the new structure, a Plus subscriber will have a single token-based allowance that covers both ChatGPT and Codex. What is that allowance? No figure has been published. The community cannot evaluate whether the unified allowance represents equivalent capacity, reduced capacity, or improved capacity without a number. All projections are therefore pessimistic by default, because a pessimistic assumption is the only defensible one when the data is withheld.
 
@@ -102,7 +102,7 @@ This is what OpenAI needs to publish before December 1 to change how the Decembe
 | Disclosure | Why It Is Required |
 |---|---|
 | Unified allowance per tier (absolute units) | Developers cannot evaluate the change without a number |
-| Token consumption rate: GPT-6.x Sol interactive vs agentic | Required to project per-workflow impact |
+| Token consumption rate: GPT-6.2 Sol interactive vs agentic | Required to project per-workflow impact |
 | Correction-cycle token burn acknowledgement | Required to explain why agentic allowances cannot be sized like conversational allowances |
 | Cache hit rate by task type | Required to understand real effective cost vs nominal token cost |
 | 90-day post-merger review commitment | Professional standard for significant pricing changes |
