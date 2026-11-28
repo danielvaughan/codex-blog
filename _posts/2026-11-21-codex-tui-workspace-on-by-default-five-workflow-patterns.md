@@ -1,7 +1,7 @@
 ---
 title: "Codex TUI Workspace Is Now On by Default: Five Workflow Patterns It Unlocks"
 date: 2026-11-21T08:00:00+00:00
-last_modified_at: 2026-11-27T23:08:04Z
+last_modified_at: 2026-11-28T03:07:02Z
 tags:
   - codex-cli
   - v0.171.0

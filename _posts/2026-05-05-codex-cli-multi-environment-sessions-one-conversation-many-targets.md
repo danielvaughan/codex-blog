@@ -6,7 +6,7 @@ timestamp: 2026-05-05T00:00:00+00:00
 resource: "https://danielvaughan.github.io/codex-resources/articles/2026-05-05-codex-cli-multi-environment-sessions-one-conversation-many-targets"
 tags: ["codex-cli", "multi-environment", "app-server", "monorepo", "remote-development", "enterprise", "v0.129"]
 date: 2026-05-05T09:00:00+00:00
-last_modified_at: 2026-11-27T23:08:04Z
+last_modified_at: 2026-11-28T03:07:02Z
 ---
 # Codex CLI Multi-Environment Sessions: One Conversation, Many Targets
 

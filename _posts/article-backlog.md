@@ -1,10 +1,31 @@
 ---
 title: "Article Backlog"
 date: 2026-09-10T08:00:00+00:00
-last_modified_at: 2026-11-27T23:08:04Z
+last_modified_at: 2026-11-28T03:07:02Z
 tags:
   - backlog
   - planning
+---
+
+## Article Triage — 28 November 2026 (Pass 12, ~09:00 UTC)
+
+*Automated hourly KB review (Andy). Library: 2,133 articles, 123 premium. Sketchnotes: 1,255.*
+
+**Done this pass:**
+- ✅ **Health check** — repo clean; v0.172.0 stable unchanged. Alpha still rust-v0.174.0-alpha.8 (Nov 26 21:56 UTC). No new stable.
+- ✅ **Article #209 written** — "The Transparency Ratchet: What OpenAI Must Publish Before the December Quota Merger" → `articles/2026-11-28-transparency-ratchet-openai-must-publish-before-december-quota-merger.md` + Substack draft. December is 3 days away; OpenAI forum thread at 14 pages with no staff reply; this is the last viable pre-December window.
+- ✅ **README counts updated** — articles: 2,133 (was 2,132).
+
+**Updated cluster status:**
+- ✅ **#209** — The Transparency Ratchet — **written** (`articles/2026-11-28-transparency-ratchet-openai-must-publish-before-december-quota-merger.md`).
+- 🔴 **Cybersecurity FP** — 15+ reports; article written (#213); watch for OpenAI response or new stable with filter changes.
+- 🟠 #207 — Windows Platform Health Dashboard — cluster widened to include MSIX/Cloudpaging (#64295), Computer Use (#64332), Work mode max-length (#64326); worth revisiting before writing.
+- 🟠 #212 — EDR Quarantine Defence Kit — still unwritten.
+- 🟡 #214 — TUI Sprint / What's Coming in Codex 0.174 (watch for v0.174.0 stable).
+- 🆕 **Multi-turn session-drop** (#64375) — Codex halts after ~4 turns since Nov 24; first report only; watch for 2+ more before writing.
+- 🆕 **Silent model substitution** (#64320) — user presents usage graphs showing ~75% delivery drop with no announcement; first report with supporting data; watch for corroboration.
+- 🆕 **fd CLI options corrupt summaries** (#64333) — follow-on to #64235; Pass 8 fix incomplete; watch for a PR.
+
 ---
 
 ## Article Triage — 27 November 2026 (Pass 11, ~10:00 UTC)
