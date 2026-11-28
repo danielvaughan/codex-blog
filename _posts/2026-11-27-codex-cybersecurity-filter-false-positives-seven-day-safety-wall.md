@@ -1,7 +1,7 @@
 ---
 title: "The Seven-Day Safety Wall: How Codex's Cybersecurity Filter Is Blocking Legitimate Developer Work"
 date: 2026-11-27T10:00:00+00:00
-last_modified_at: 2026-11-28T03:15:58Z
+last_modified_at: 2026-11-28T10:07:16Z
 tags:
   - codex-cli
   - safety
@@ -11,6 +11,7 @@ tags:
   - open-source
   - community
   - case-study
+copy_edited: true
 depth: 5
 originality: 5
 accuracy: 4
@@ -42,7 +43,7 @@ The community evidence covers a range of tasks that share almost nothing except 
 
 **Polyfill maintenance** (`core-js`). The word "polyfill" may be close enough to "exploit" in the filter's embedding space that standard library maintenance prompts are caught. `core-js` ships compatibility patches for browser APIs — `Promise`, `Array.prototype.flat`, `Object.fromEntries`. The filter, apparently, cannot distinguish patching the platform from attacking it.[^6]
 
-**Thermal management firmware.** A developer working on firmware for a thermal controller filed issue #64191 after being blocked with "Modification of Thermal Management Firmware Gets Flagged as 'CyberSecurity Request.'" Firmware work is an obvious false positive: "firmware" and "management" in a hardware context bears no relation to cyberattack tooling.[^7]
+**Thermal management firmware.** A developer working on firmware for a thermal controller filed issue #64191 after being blocked with "Modification of Thermal Management Firmware Gets Flagged as 'CyberSecurity Request.'" Firmware work is an obvious false positive: "firmware" and "management" in a hardware context bear no relation to cyberattack tooling.[^7]
 
 **Minecraft Bedrock monitoring.** A developer building a Bedrock server monitor — monitoring player counts, server health, and event logs — was blocked when describing the monitoring architecture. Server monitoring is a standard operations pattern.[^8]
 

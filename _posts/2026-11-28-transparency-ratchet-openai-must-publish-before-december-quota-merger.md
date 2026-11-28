@@ -1,7 +1,7 @@
 ---
 title: "The Transparency Ratchet: What OpenAI Must Publish Before the December Quota Merger"
 date: 2026-11-28T09:00:00+00:00
-last_modified_at: 2026-11-28T03:15:58Z
+last_modified_at: 2026-11-28T10:07:16Z
 parent: "Articles"
 nav_order: 2133
 tags:
@@ -15,6 +15,7 @@ tags:
   - trust
   - pro-plan
   - governance
+copy_edited: true
 ---
 
 # The Transparency Ratchet: What OpenAI Must Publish Before the December Quota Merger
@@ -49,7 +50,7 @@ The demands from the developer community as of this writing are specific, bounde
 
 **The unified allowance figure for each subscription tier.** This is the most basic ask. Under the new structure, a Plus subscriber will have a single token-based allowance that covers both ChatGPT and Codex. What is that allowance? No figure has been published. The community cannot evaluate whether the unified allowance represents equivalent capacity, reduced capacity, or improved capacity without a number. All projections are therefore pessimistic by default, because a pessimistic assumption is the only defensible one when the data is withheld.
 
-**A real-time consumption dashboard.** Not a percentage indicator. An absolute counter, broken down by model, distinguishing interactive from agentic consumption. The rate-limit megathread — 1,048 replies as of its peak, the most active Codex thread in the community's history — exists in large part because developers have been aggregating consumption data via community posts because the platform does not expose it directly. A session freeze silently burning 30% of a weekly Pro allowance with no output is not a hypothetical; it is a documented incident. Developers cannot manage what they cannot measure.
+**A real-time consumption dashboard.** Not a percentage indicator. An absolute counter, broken down by model, distinguishing interactive from agentic consumption. The rate-limit megathread — 1,048 replies as of its peak, the most active Codex thread in the community's history — exists in large part because developers have been aggregating consumption data via community posts because the platform does not expose it directly. A session freeze silently burning 30 per cent of a weekly Pro allowance with no output is not a hypothetical; it is a documented incident. Developers cannot manage what they cannot measure.
 
 **A post-merger review commitment.** The specific ask is a 60-to-90-day review window with a published mechanism for allowance adjustment based on observed consumption data. This is the professional standard for significant pricing changes in developer tool subscriptions. It converts the merger from a unilateral decision into a monitored transition.
 
@@ -61,7 +62,7 @@ None of these asks require reversing the decision. They require treating develop
 
 There is a structural reason the correction-cycle token burn makes this disclosure more urgent than a simple allowance question.
 
-The compaction spiral — documented in Issues [#60538](https://github.com/openai/codex/issues/60538) and [#60791](https://github.com/openai/codex/issues/60791) — is a feedback loop in which Codex CLI's context compaction system repeatedly rewrites the conversation history, invalidating the cache prefix, triggering full-price re-ingestion on each turn, and driving context back toward the limit that triggers the next compaction event. One session documented 72 compaction events with cache reuse falling to 15.7%. A developer lost a full weekly Pro allowance — $200 worth — in eight hours.
+The compaction spiral — documented in Issues [#60538](https://github.com/openai/codex/issues/60538) and [#60791](https://github.com/openai/codex/issues/60791) — is a feedback loop in which Codex CLI's context compaction system repeatedly rewrites the conversation history, invalidating the cache prefix, triggering full-price re-ingestion on each turn, and driving context back toward the limit that triggers the next compaction event. One session documented 72 compaction events with cache reuse falling to 15.7 per cent. A developer lost a full weekly Pro allowance — $200 worth — in eight hours.
 
 The correction-cycle burn is a related but distinct failure mode. Large reasoning models periodically lose coherent context within a session — not hallucinations, but context-window management failures where the model re-derives established information, re-issues completed tool calls, or requests clarification on decisions made ten turns earlier. Each correction cycle generates tokens. Under the current separate-allowance architecture, those tokens come from the Codex bucket, which was sized around agentic task consumption patterns. Under the unified allowance, they come from the same pool as a morning's conversational queries.
 
